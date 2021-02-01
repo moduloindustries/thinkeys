@@ -2598,4 +2598,22 @@ Wire Wire Line
 Connection ~ 10100 5550
 Wire Wire Line
 	10100 5550 10100 4950
+Text GLabel 1500 1200 0    50   Input ~ 0
+row0
+Text GLabel 1500 1800 0    50   Input ~ 0
+row1
+Text GLabel 1500 2400 0    50   Input ~ 0
+row2
+Text GLabel 1500 3000 0    50   Input ~ 0
+row3
+Text GLabel 1500 3600 0    50   Input ~ 0
+row4
+Text GLabel 1500 4200 0    50   Input ~ 0
+row5
+Text GLabel 1500 4800 0    50   Input ~ 0
+row6
+Text GLabel 1500 5400 0    50   Input ~ 0
+row7
+Text GLabel 1500 6000 0    50   Input ~ 0
+row8
 $EndSCHEMATC
