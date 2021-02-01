@@ -2389,7 +2389,7 @@ Wire Wire Line
 	2100 4950 2100 5550
 Connection ~ 2100 5550
 Wire Wire Line
-	2100 5550 2100 6050
+	2100 5550 2100 6100
 Wire Wire Line
 	3100 750  3100 1350
 Connection ~ 3100 1350
@@ -2415,9 +2415,9 @@ Wire Wire Line
 	3100 4950 3100 5550
 Connection ~ 3100 5550
 Wire Wire Line
-	3100 5550 3100 6050
+	3100 5550 3100 6100
 Wire Wire Line
-	4100 6050 4100 5550
+	4100 6100 4100 5550
 Connection ~ 4100 1350
 Wire Wire Line
 	4100 1350 4100 750 
@@ -2467,9 +2467,9 @@ Wire Wire Line
 	5100 4950 5100 5550
 Connection ~ 5100 5550
 Wire Wire Line
-	5100 5550 5100 6050
+	5100 5550 5100 6100
 Wire Wire Line
-	6100 6050 6100 5550
+	6100 6100 6100 5550
 Connection ~ 6100 1350
 Wire Wire Line
 	6100 1350 6100 750 
@@ -2519,9 +2519,9 @@ Wire Wire Line
 	7100 4950 7100 5550
 Connection ~ 7100 5550
 Wire Wire Line
-	7100 5550 7100 6050
+	7100 5550 7100 6100
 Wire Wire Line
-	8100 6050 8100 5550
+	8100 6100 8100 5550
 Connection ~ 8100 1350
 Wire Wire Line
 	8100 1350 8100 750 
@@ -2571,9 +2571,9 @@ Wire Wire Line
 	9100 4950 9100 5550
 Connection ~ 9100 5550
 Wire Wire Line
-	9100 5550 9100 6050
+	9100 5550 9100 6100
 Wire Wire Line
-	10100 6050 10100 5550
+	10100 6100 10100 5550
 Connection ~ 10100 1350
 Wire Wire Line
 	10100 1350 10100 750 
@@ -2616,4 +2616,22 @@ Text GLabel 1500 5400 0    50   Input ~ 0
 row7
 Text GLabel 1500 6000 0    50   Input ~ 0
 row8
+Text GLabel 2100 6100 0    50   Input ~ 0
+col0
+Text GLabel 3100 6100 0    50   Input ~ 0
+col1
+Text GLabel 4100 6100 0    50   Input ~ 0
+col2
+Text GLabel 5100 6100 0    50   Input ~ 0
+col3
+Text GLabel 6100 6100 0    50   Input ~ 0
+col4
+Text GLabel 7100 6100 0    50   Input ~ 0
+col5
+Text GLabel 8100 6100 0    50   Input ~ 0
+col6
+Text GLabel 9100 6100 0    50   Input ~ 0
+col7
+Text GLabel 10100 6100 0    50   Input ~ 0
+col8
 $EndSCHEMATC
