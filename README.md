@@ -3,12 +3,16 @@ ThinKeys
 A work-in-progress custom mechanical keyboard to replace laptop keyboard.
 
 ![ThinKeys 23](23.png)
+
 Figure 1: ThinKeys 23 reference layout design. Planning to offer other layout
 for those who don't want ortho.
 
 ![ThinKeys 23 Corne edition](23-corne.png)
+
 Figure 2: With ortholinear layout, it is easy to use the same PCB but omit keys
 selectively for different layout. Someone in the chatroom suggested this one.
+
+Using Kailh X switch. [Info](https://www.youtube.com/watch?v=VLaw7yDKOLo)
 
 Compatibility
 -------------
@@ -49,7 +53,7 @@ Join via Discord: coming soon
 
 Pineapples
 ----------
-Inspiration and some design from https://github.com/saoto23/pineapple60
+Inspiration and some design from https://github.com/saoto28/pineapple60
 
 Older xx20/xx30 models have a lot more keyboard space than T460s/T470s, so
 lid closing clearance won't be an issue.

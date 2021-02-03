@@ -4,3 +4,5 @@
 [submodule "ProMicroKiCad"]
 	path = ProMicroKiCad
 	url = https://github.com/Biacco42/ProMicroKiCad
+[submodule "kicad-footprint-kailh-pg1425-x-switch"]
+	url = https://github.com/shikamiya/kicad-footprint-kailh-pg1425-x-switch
