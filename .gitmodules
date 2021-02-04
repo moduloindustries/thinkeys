@@ -6,3 +6,9 @@
 	url = https://github.com/Biacco42/ProMicroKiCad
 [submodule "kicad-footprint-kailh-pg1425-x-switch"]
 	url = https://github.com/shikamiya/kicad-footprint-kailh-pg1425-x-switch
+[submodule "Keebio-Parts.pretty"]
+	path = Keebio-Parts.pretty
+	url = https://github.com/keebio/Keebio-Parts.pretty
+[submodule "keebio-components"]
+	path = keebio-components
+	url = https://github.com/keebio/keebio-components
