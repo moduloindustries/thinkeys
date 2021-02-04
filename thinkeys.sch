@@ -1344,17 +1344,17 @@ Connection ~ 11150 5800
 Wire Wire Line
 	11150 5800 11150 6200
 Text GLabel 7150 1100 0    50   Input ~ 0
-r0
+r6
 Text GLabel 7150 2100 0    50   Input ~ 0
-r1
+r7
 Text GLabel 7150 3100 0    50   Input ~ 0
-r2
+r8
 Text GLabel 7150 4100 0    50   Input ~ 0
-r3
+r9
 Text GLabel 7150 5100 0    50   Input ~ 0
-r4
+r10
 Text GLabel 7150 6100 0    50   Input ~ 0
-r5
+r11
 Text GLabel 7650 6200 0    50   Input ~ 0
 c8
 Text GLabel 8150 6200 0    50   Input ~ 0
