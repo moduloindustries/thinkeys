@@ -2715,23 +2715,23 @@ F 3 "" H 4350 7000 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L keebio:ProMicro U?
+L keebio:ProMicro U3
 U 1 1 6152CC64
 P 1450 7000
-F 0 "U?" H 1450 7837 60  0000 C CNN
+F 0 "U3" H 1450 7837 60  0000 C CNN
 F 1 "ProMicro" H 1450 7731 60  0000 C CNN
-F 2 "" V 2500 4500 60  0001 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro" V 2500 4500 60  0001 C CNN
 F 3 "" V 2500 4500 60  0001 C CNN
 	1    1450 7000
 	1    0    0    -1  
 $EndComp
 $Comp
-L keebio:ProMicro U?
+L keebio:ProMicro U4
 U 1 1 61533FC8
 P 6000 7000
-F 0 "U?" H 6000 7837 60  0000 C CNN
+F 0 "U4" H 6000 7837 60  0000 C CNN
 F 1 "ProMicro" H 6000 7731 60  0000 C CNN
-F 2 "" V 7050 4500 60  0001 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro" V 7050 4500 60  0001 C CNN
 F 3 "" V 7050 4500 60  0001 C CNN
 	1    6000 7000
 	-1   0    0    -1  
