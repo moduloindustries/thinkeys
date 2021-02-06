@@ -1,14 +1,9 @@
-[submodule "MX_Alps_Hybrid"]
-	path = MX_Alps_Hybrid
-	url = https://github.com/ai03-2725/MX_Alps_Hybrid
-[submodule "ProMicroKiCad"]
-	path = ProMicroKiCad
-	url = https://github.com/Biacco42/ProMicroKiCad
-[submodule "kicad-footprint-kailh-pg1425-x-switch"]
-	url = https://github.com/shikamiya/kicad-footprint-kailh-pg1425-x-switch
 [submodule "Keebio-Parts.pretty"]
 	path = Keebio-Parts.pretty
 	url = https://github.com/keebio/Keebio-Parts.pretty
 [submodule "keebio-components"]
 	path = keebio-components
 	url = https://github.com/keebio/keebio-components
+[submodule "kicad-footprint-kailh-pg1425-x-switch"]
+	path = kicad-footprint-kailh-pg1425-x-switch
+	url = https://github.com/shikamiya/kicad-footprint-kailh-pg1425-x-switch

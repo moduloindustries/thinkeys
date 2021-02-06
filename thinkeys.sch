@@ -2560,17 +2560,6 @@ Text GLabel 4800 6200 0    50   Input ~ 0
 c6
 Text GLabel 5300 6200 0    50   Input ~ 0
 c7
-$Comp
-L promicro:ProMicro U4
-U 1 1 610136F0
-P 6000 7200
-F 0 "U4" H 6000 8237 60  0000 C CNN
-F 1 "ProMicro" H 6000 8131 60  0000 C CNN
-F 2 "promicro:ProMicro" H 6100 6150 60  0001 C CNN
-F 3 "" H 6100 6150 60  0000 C CNN
-	1    6000 7200
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	5300 6550 5300 6600
 Wire Wire Line
@@ -2637,17 +2626,6 @@ Wire Wire Line
 	4600 7700 6900 7700
 Wire Wire Line
 	4550 7750 6950 7750
-$Comp
-L promicro:ProMicro U3
-U 1 1 612349AB
-P 1450 7200
-F 0 "U3" H 1450 8237 60  0000 C CNN
-F 1 "ProMicro" H 1450 8131 60  0000 C CNN
-F 2 "promicro:ProMicro" H 1550 6150 60  0001 C CNN
-F 3 "" H 1550 6150 60  0000 C CNN
-	1    1450 7200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2150 6550 2150 6600
 Wire Wire Line
@@ -2734,6 +2712,28 @@ F 1 "TRRS" H 4428 7197 60  0000 L CNN
 F 2 "Keebio-Parts:TRRS-PJ-320A" H 4350 7000 60  0001 C CNN
 F 3 "" H 4350 7000 60  0001 C CNN
 	1    4200 7000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L keebio:ProMicro U?
+U 1 1 6152CC64
+P 1450 7000
+F 0 "U?" H 1450 7837 60  0000 C CNN
+F 1 "ProMicro" H 1450 7731 60  0000 C CNN
+F 2 "" V 2500 4500 60  0001 C CNN
+F 3 "" V 2500 4500 60  0001 C CNN
+	1    1450 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:ProMicro U?
+U 1 1 61533FC8
+P 6000 7000
+F 0 "U?" H 6000 7837 60  0000 C CNN
+F 1 "ProMicro" H 6000 7731 60  0000 C CNN
+F 2 "" V 7050 4500 60  0001 C CNN
+F 3 "" V 7050 4500 60  0001 C CNN
+	1    6000 7000
 	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
