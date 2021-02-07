@@ -36,993 +36,113 @@ F 3 "~" H 10750 950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW30
-U 1 1 60322A71
-P 10950 1800
-F 0 "SW30" H 10950 2085 50  0000 C CNN
-F 1 "SW_Push" H 10950 1994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10950 2000 50  0001 C CNN
-F 3 "~" H 10950 2000 50  0001 C CNN
-	1    10950 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D30
-U 1 1 60322BD5
-P 10750 1950
-F 0 "D30" V 10796 1870 50  0000 R CNN
-F 1 "D" V 10705 1870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 10750 1950 50  0001 C CNN
-F 3 "~" H 10750 1950 50  0001 C CNN
-	1    10750 1950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW45
-U 1 1 60333307
-P 10950 2800
-F 0 "SW45" H 10950 3085 50  0000 C CNN
-F 1 "SW_Push" H 10950 2994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10950 3000 50  0001 C CNN
-F 3 "~" H 10950 3000 50  0001 C CNN
-	1    10950 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D45
-U 1 1 6033357B
-P 10750 2950
-F 0 "D45" V 10796 2870 50  0000 R CNN
-F 1 "D" V 10705 2870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 10750 2950 50  0001 C CNN
-F 3 "~" H 10750 2950 50  0001 C CNN
-	1    10750 2950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW60
-U 1 1 60333611
-P 10950 3800
-F 0 "SW60" H 10950 4085 50  0000 C CNN
-F 1 "SW_Push" H 10950 3994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10950 4000 50  0001 C CNN
-F 3 "~" H 10950 4000 50  0001 C CNN
-	1    10950 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D60
-U 1 1 6033361B
-P 10750 3950
-F 0 "D60" V 10796 3870 50  0000 R CNN
-F 1 "D" V 10705 3870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 10750 3950 50  0001 C CNN
-F 3 "~" H 10750 3950 50  0001 C CNN
-	1    10750 3950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW75
-U 1 1 60340C89
-P 10950 4800
-F 0 "SW75" H 10950 5085 50  0000 C CNN
-F 1 "SW_Push" H 10950 4994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10950 5000 50  0001 C CNN
-F 3 "~" H 10950 5000 50  0001 C CNN
-	1    10950 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D75
-U 1 1 6034111D
-P 10750 4950
-F 0 "D75" V 10796 4870 50  0000 R CNN
-F 1 "D" V 10705 4870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 10750 4950 50  0001 C CNN
-F 3 "~" H 10750 4950 50  0001 C CNN
-	1    10750 4950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW90
-U 1 1 603411B3
-P 10950 5800
-F 0 "SW90" H 10950 6085 50  0000 C CNN
-F 1 "SW_Push" H 10950 5994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10950 6000 50  0001 C CNN
-F 3 "~" H 10950 6000 50  0001 C CNN
-	1    10950 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D90
-U 1 1 603411BD
-P 10750 5950
-F 0 "D90" V 10796 5870 50  0000 R CNN
-F 1 "D" V 10705 5870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 10750 5950 50  0001 C CNN
-F 3 "~" H 10750 5950 50  0001 C CNN
-	1    10750 5950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D83
-U 1 1 60341249
-P 7250 5950
-F 0 "D83" V 7296 5870 50  0000 R CNN
-F 1 "D" V 7205 5870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 7250 5950 50  0001 C CNN
-F 3 "~" H 7250 5950 50  0001 C CNN
-	1    7250 5950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW83
-U 1 1 6034123F
-P 7450 5800
-F 0 "SW83" H 7450 6085 50  0000 C CNN
-F 1 "SW_Push" H 7450 5994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7450 6000 50  0001 C CNN
-F 3 "~" H 7450 6000 50  0001 C CNN
-	1    7450 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D84
-U 1 1 60341235
-P 7750 5950
-F 0 "D84" V 7796 5870 50  0000 R CNN
-F 1 "D" V 7705 5870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 7750 5950 50  0001 C CNN
-F 3 "~" H 7750 5950 50  0001 C CNN
-	1    7750 5950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW84
-U 1 1 6034122B
-P 7950 5800
-F 0 "SW84" H 7950 6085 50  0000 C CNN
-F 1 "SW_Push" H 7950 5994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7950 6000 50  0001 C CNN
-F 3 "~" H 7950 6000 50  0001 C CNN
-	1    7950 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D85
-U 1 1 60341221
-P 8250 5950
-F 0 "D85" V 8296 5870 50  0000 R CNN
-F 1 "D" V 8205 5870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 8250 5950 50  0001 C CNN
-F 3 "~" H 8250 5950 50  0001 C CNN
-	1    8250 5950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW85
-U 1 1 60341217
-P 8450 5800
-F 0 "SW85" H 8450 6085 50  0000 C CNN
-F 1 "SW_Push" H 8450 5994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8450 6000 50  0001 C CNN
-F 3 "~" H 8450 6000 50  0001 C CNN
-	1    8450 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D86
-U 1 1 6034120D
-P 8750 5950
-F 0 "D86" V 8796 5870 50  0000 R CNN
-F 1 "D" V 8705 5870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 8750 5950 50  0001 C CNN
-F 3 "~" H 8750 5950 50  0001 C CNN
-	1    8750 5950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW86
-U 1 1 60341203
-P 8950 5800
-F 0 "SW86" H 8950 6085 50  0000 C CNN
-F 1 "SW_Push" H 8950 5994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8950 6000 50  0001 C CNN
-F 3 "~" H 8950 6000 50  0001 C CNN
-	1    8950 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D87
-U 1 1 603411F9
-P 9250 5950
-F 0 "D87" V 9296 5870 50  0000 R CNN
-F 1 "D" V 9205 5870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 9250 5950 50  0001 C CNN
-F 3 "~" H 9250 5950 50  0001 C CNN
-	1    9250 5950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW87
-U 1 1 603411EF
-P 9450 5800
-F 0 "SW87" H 9450 6085 50  0000 C CNN
-F 1 "SW_Push" H 9450 5994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9450 6000 50  0001 C CNN
-F 3 "~" H 9450 6000 50  0001 C CNN
-	1    9450 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D88
-U 1 1 603411E5
-P 9750 5950
-F 0 "D88" V 9796 5870 50  0000 R CNN
-F 1 "D" V 9705 5870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 9750 5950 50  0001 C CNN
-F 3 "~" H 9750 5950 50  0001 C CNN
-	1    9750 5950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW88
-U 1 1 603411DB
-P 9950 5800
-F 0 "SW88" H 9950 6085 50  0000 C CNN
-F 1 "SW_Push" H 9950 5994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9950 6000 50  0001 C CNN
-F 3 "~" H 9950 6000 50  0001 C CNN
-	1    9950 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D89
-U 1 1 603411D1
-P 10250 5950
-F 0 "D89" V 10296 5870 50  0000 R CNN
-F 1 "D" V 10205 5870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 10250 5950 50  0001 C CNN
-F 3 "~" H 10250 5950 50  0001 C CNN
-	1    10250 5950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW89
-U 1 1 603411C7
-P 10450 5800
-F 0 "SW89" H 10450 6085 50  0000 C CNN
-F 1 "SW_Push" H 10450 5994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10450 6000 50  0001 C CNN
-F 3 "~" H 10450 6000 50  0001 C CNN
-	1    10450 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D68
-U 1 1 603411A9
-P 7250 4950
-F 0 "D68" V 7296 4870 50  0000 R CNN
-F 1 "D" V 7205 4870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 7250 4950 50  0001 C CNN
-F 3 "~" H 7250 4950 50  0001 C CNN
-	1    7250 4950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW68
-U 1 1 6034119F
-P 7450 4800
-F 0 "SW68" H 7450 5085 50  0000 C CNN
-F 1 "SW_Push" H 7450 4994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7450 5000 50  0001 C CNN
-F 3 "~" H 7450 5000 50  0001 C CNN
-	1    7450 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D69
-U 1 1 60341195
-P 7750 4950
-F 0 "D69" V 7796 4870 50  0000 R CNN
-F 1 "D" V 7705 4870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 7750 4950 50  0001 C CNN
-F 3 "~" H 7750 4950 50  0001 C CNN
-	1    7750 4950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW69
-U 1 1 6034118B
-P 7950 4800
-F 0 "SW69" H 7950 5085 50  0000 C CNN
-F 1 "SW_Push" H 7950 4994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7950 5000 50  0001 C CNN
-F 3 "~" H 7950 5000 50  0001 C CNN
-	1    7950 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D70
-U 1 1 60341181
-P 8250 4950
-F 0 "D70" V 8296 4870 50  0000 R CNN
-F 1 "D" V 8205 4870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 8250 4950 50  0001 C CNN
-F 3 "~" H 8250 4950 50  0001 C CNN
-	1    8250 4950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW70
-U 1 1 60341177
-P 8450 4800
-F 0 "SW70" H 8450 5085 50  0000 C CNN
-F 1 "SW_Push" H 8450 4994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8450 5000 50  0001 C CNN
-F 3 "~" H 8450 5000 50  0001 C CNN
-	1    8450 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D71
-U 1 1 6034116D
-P 8750 4950
-F 0 "D71" V 8796 4870 50  0000 R CNN
-F 1 "D" V 8705 4870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 8750 4950 50  0001 C CNN
-F 3 "~" H 8750 4950 50  0001 C CNN
-	1    8750 4950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW71
-U 1 1 60341163
-P 8950 4800
-F 0 "SW71" H 8950 5085 50  0000 C CNN
-F 1 "SW_Push" H 8950 4994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8950 5000 50  0001 C CNN
-F 3 "~" H 8950 5000 50  0001 C CNN
-	1    8950 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D72
-U 1 1 60341159
-P 9250 4950
-F 0 "D72" V 9296 4870 50  0000 R CNN
-F 1 "D" V 9205 4870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 9250 4950 50  0001 C CNN
-F 3 "~" H 9250 4950 50  0001 C CNN
-	1    9250 4950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW72
-U 1 1 6034114F
-P 9450 4800
-F 0 "SW72" H 9450 5085 50  0000 C CNN
-F 1 "SW_Push" H 9450 4994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9450 5000 50  0001 C CNN
-F 3 "~" H 9450 5000 50  0001 C CNN
-	1    9450 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D73
-U 1 1 60341145
-P 9750 4950
-F 0 "D73" V 9796 4870 50  0000 R CNN
-F 1 "D" V 9705 4870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 9750 4950 50  0001 C CNN
-F 3 "~" H 9750 4950 50  0001 C CNN
-	1    9750 4950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW73
-U 1 1 6034113B
-P 9950 4800
-F 0 "SW73" H 9950 5085 50  0000 C CNN
-F 1 "SW_Push" H 9950 4994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9950 5000 50  0001 C CNN
-F 3 "~" H 9950 5000 50  0001 C CNN
-	1    9950 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D74
-U 1 1 60341131
-P 10250 4950
-F 0 "D74" V 10296 4870 50  0000 R CNN
-F 1 "D" V 10205 4870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 10250 4950 50  0001 C CNN
-F 3 "~" H 10250 4950 50  0001 C CNN
-	1    10250 4950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW74
-U 1 1 60341127
-P 10450 4800
-F 0 "SW74" H 10450 5085 50  0000 C CNN
-F 1 "SW_Push" H 10450 4994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10450 5000 50  0001 C CNN
-F 3 "~" H 10450 5000 50  0001 C CNN
-	1    10450 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D53
-U 1 1 603336A7
-P 7250 3950
-F 0 "D53" V 7296 3870 50  0000 R CNN
-F 1 "D" V 7205 3870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 7250 3950 50  0001 C CNN
-F 3 "~" H 7250 3950 50  0001 C CNN
-	1    7250 3950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW53
-U 1 1 6033369D
-P 7450 3800
-F 0 "SW53" H 7450 4085 50  0000 C CNN
-F 1 "SW_Push" H 7450 3994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7450 4000 50  0001 C CNN
-F 3 "~" H 7450 4000 50  0001 C CNN
-	1    7450 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D54
-U 1 1 60333693
-P 7750 3950
-F 0 "D54" V 7796 3870 50  0000 R CNN
-F 1 "D" V 7705 3870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 7750 3950 50  0001 C CNN
-F 3 "~" H 7750 3950 50  0001 C CNN
-	1    7750 3950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW54
-U 1 1 60333689
-P 7950 3800
-F 0 "SW54" H 7950 4085 50  0000 C CNN
-F 1 "SW_Push" H 7950 3994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7950 4000 50  0001 C CNN
-F 3 "~" H 7950 4000 50  0001 C CNN
-	1    7950 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D55
-U 1 1 6033367F
-P 8250 3950
-F 0 "D55" V 8296 3870 50  0000 R CNN
-F 1 "D" V 8205 3870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 8250 3950 50  0001 C CNN
-F 3 "~" H 8250 3950 50  0001 C CNN
-	1    8250 3950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW55
-U 1 1 60333675
-P 8450 3800
-F 0 "SW55" H 8450 4085 50  0000 C CNN
-F 1 "SW_Push" H 8450 3994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8450 4000 50  0001 C CNN
-F 3 "~" H 8450 4000 50  0001 C CNN
-	1    8450 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D56
-U 1 1 6033366B
-P 8750 3950
-F 0 "D56" V 8796 3870 50  0000 R CNN
-F 1 "D" V 8705 3870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 8750 3950 50  0001 C CNN
-F 3 "~" H 8750 3950 50  0001 C CNN
-	1    8750 3950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW56
-U 1 1 60333661
-P 8950 3800
-F 0 "SW56" H 8950 4085 50  0000 C CNN
-F 1 "SW_Push" H 8950 3994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8950 4000 50  0001 C CNN
-F 3 "~" H 8950 4000 50  0001 C CNN
-	1    8950 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D57
-U 1 1 60333657
-P 9250 3950
-F 0 "D57" V 9296 3870 50  0000 R CNN
-F 1 "D" V 9205 3870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 9250 3950 50  0001 C CNN
-F 3 "~" H 9250 3950 50  0001 C CNN
-	1    9250 3950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW57
-U 1 1 6033364D
-P 9450 3800
-F 0 "SW57" H 9450 4085 50  0000 C CNN
-F 1 "SW_Push" H 9450 3994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9450 4000 50  0001 C CNN
-F 3 "~" H 9450 4000 50  0001 C CNN
-	1    9450 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D58
-U 1 1 60333643
-P 9750 3950
-F 0 "D58" V 9796 3870 50  0000 R CNN
-F 1 "D" V 9705 3870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 9750 3950 50  0001 C CNN
-F 3 "~" H 9750 3950 50  0001 C CNN
-	1    9750 3950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW58
-U 1 1 60333639
-P 9950 3800
-F 0 "SW58" H 9950 4085 50  0000 C CNN
-F 1 "SW_Push" H 9950 3994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9950 4000 50  0001 C CNN
-F 3 "~" H 9950 4000 50  0001 C CNN
-	1    9950 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D59
-U 1 1 6033362F
-P 10250 3950
-F 0 "D59" V 10296 3870 50  0000 R CNN
-F 1 "D" V 10205 3870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 10250 3950 50  0001 C CNN
-F 3 "~" H 10250 3950 50  0001 C CNN
-	1    10250 3950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW59
-U 1 1 60333625
-P 10450 3800
-F 0 "SW59" H 10450 4085 50  0000 C CNN
-F 1 "SW_Push" H 10450 3994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10450 4000 50  0001 C CNN
-F 3 "~" H 10450 4000 50  0001 C CNN
-	1    10450 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D38
-U 1 1 60333607
-P 7250 2950
-F 0 "D38" V 7296 2870 50  0000 R CNN
-F 1 "D" V 7205 2870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 7250 2950 50  0001 C CNN
-F 3 "~" H 7250 2950 50  0001 C CNN
-	1    7250 2950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW38
-U 1 1 603335FD
-P 7450 2800
-F 0 "SW38" H 7450 3085 50  0000 C CNN
-F 1 "SW_Push" H 7450 2994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7450 3000 50  0001 C CNN
-F 3 "~" H 7450 3000 50  0001 C CNN
-	1    7450 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D39
-U 1 1 603335F3
-P 7750 2950
-F 0 "D39" V 7796 2870 50  0000 R CNN
-F 1 "D" V 7705 2870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 7750 2950 50  0001 C CNN
-F 3 "~" H 7750 2950 50  0001 C CNN
-	1    7750 2950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW39
-U 1 1 603335E9
-P 7950 2800
-F 0 "SW39" H 7950 3085 50  0000 C CNN
-F 1 "SW_Push" H 7950 2994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7950 3000 50  0001 C CNN
-F 3 "~" H 7950 3000 50  0001 C CNN
-	1    7950 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D40
-U 1 1 603335DF
-P 8250 2950
-F 0 "D40" V 8296 2870 50  0000 R CNN
-F 1 "D" V 8205 2870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 8250 2950 50  0001 C CNN
-F 3 "~" H 8250 2950 50  0001 C CNN
-	1    8250 2950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW40
-U 1 1 603335D5
-P 8450 2800
-F 0 "SW40" H 8450 3085 50  0000 C CNN
-F 1 "SW_Push" H 8450 2994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8450 3000 50  0001 C CNN
-F 3 "~" H 8450 3000 50  0001 C CNN
-	1    8450 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D41
-U 1 1 603335CB
-P 8750 2950
-F 0 "D41" V 8796 2870 50  0000 R CNN
-F 1 "D" V 8705 2870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 8750 2950 50  0001 C CNN
-F 3 "~" H 8750 2950 50  0001 C CNN
-	1    8750 2950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW41
-U 1 1 603335C1
-P 8950 2800
-F 0 "SW41" H 8950 3085 50  0000 C CNN
-F 1 "SW_Push" H 8950 2994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8950 3000 50  0001 C CNN
-F 3 "~" H 8950 3000 50  0001 C CNN
-	1    8950 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D42
-U 1 1 603335B7
-P 9250 2950
-F 0 "D42" V 9296 2870 50  0000 R CNN
-F 1 "D" V 9205 2870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 9250 2950 50  0001 C CNN
-F 3 "~" H 9250 2950 50  0001 C CNN
-	1    9250 2950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW42
-U 1 1 603335AD
-P 9450 2800
-F 0 "SW42" H 9450 3085 50  0000 C CNN
-F 1 "SW_Push" H 9450 2994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9450 3000 50  0001 C CNN
-F 3 "~" H 9450 3000 50  0001 C CNN
-	1    9450 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D43
-U 1 1 603335A3
-P 9750 2950
-F 0 "D43" V 9796 2870 50  0000 R CNN
-F 1 "D" V 9705 2870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 9750 2950 50  0001 C CNN
-F 3 "~" H 9750 2950 50  0001 C CNN
-	1    9750 2950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW43
-U 1 1 60333599
-P 9950 2800
-F 0 "SW43" H 9950 3085 50  0000 C CNN
-F 1 "SW_Push" H 9950 2994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9950 3000 50  0001 C CNN
-F 3 "~" H 9950 3000 50  0001 C CNN
-	1    9950 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D44
-U 1 1 6033358F
-P 10250 2950
-F 0 "D44" V 10296 2870 50  0000 R CNN
-F 1 "D" V 10205 2870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 10250 2950 50  0001 C CNN
-F 3 "~" H 10250 2950 50  0001 C CNN
-	1    10250 2950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW44
-U 1 1 60333585
-P 10450 2800
-F 0 "SW44" H 10450 3085 50  0000 C CNN
-F 1 "SW_Push" H 10450 2994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10450 3000 50  0001 C CNN
-F 3 "~" H 10450 3000 50  0001 C CNN
-	1    10450 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D23
-U 1 1 60322C61
-P 7250 1950
-F 0 "D23" V 7296 1870 50  0000 R CNN
-F 1 "D" V 7205 1870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 7250 1950 50  0001 C CNN
-F 3 "~" H 7250 1950 50  0001 C CNN
-	1    7250 1950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW23
-U 1 1 60322C57
-P 7450 1800
-F 0 "SW23" H 7450 2085 50  0000 C CNN
-F 1 "SW_Push" H 7450 1994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7450 2000 50  0001 C CNN
-F 3 "~" H 7450 2000 50  0001 C CNN
-	1    7450 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D24
-U 1 1 60322C4D
-P 7750 1950
-F 0 "D24" V 7796 1870 50  0000 R CNN
-F 1 "D" V 7705 1870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 7750 1950 50  0001 C CNN
-F 3 "~" H 7750 1950 50  0001 C CNN
-	1    7750 1950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW24
-U 1 1 60322C43
-P 7950 1800
-F 0 "SW24" H 7950 2085 50  0000 C CNN
-F 1 "SW_Push" H 7950 1994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7950 2000 50  0001 C CNN
-F 3 "~" H 7950 2000 50  0001 C CNN
-	1    7950 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D25
-U 1 1 60322C39
-P 8250 1950
-F 0 "D25" V 8296 1870 50  0000 R CNN
-F 1 "D" V 8205 1870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 8250 1950 50  0001 C CNN
-F 3 "~" H 8250 1950 50  0001 C CNN
-	1    8250 1950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW25
-U 1 1 60322C2F
-P 8450 1800
-F 0 "SW25" H 8450 2085 50  0000 C CNN
-F 1 "SW_Push" H 8450 1994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8450 2000 50  0001 C CNN
-F 3 "~" H 8450 2000 50  0001 C CNN
-	1    8450 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D26
-U 1 1 60322C25
-P 8750 1950
-F 0 "D26" V 8796 1870 50  0000 R CNN
-F 1 "D" V 8705 1870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 8750 1950 50  0001 C CNN
-F 3 "~" H 8750 1950 50  0001 C CNN
-	1    8750 1950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW26
-U 1 1 60322C1B
-P 8950 1800
-F 0 "SW26" H 8950 2085 50  0000 C CNN
-F 1 "SW_Push" H 8950 1994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8950 2000 50  0001 C CNN
-F 3 "~" H 8950 2000 50  0001 C CNN
-	1    8950 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D27
-U 1 1 60322C11
-P 9250 1950
-F 0 "D27" V 9296 1870 50  0000 R CNN
-F 1 "D" V 9205 1870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 9250 1950 50  0001 C CNN
-F 3 "~" H 9250 1950 50  0001 C CNN
-	1    9250 1950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW27
-U 1 1 60322C07
-P 9450 1800
-F 0 "SW27" H 9450 2085 50  0000 C CNN
-F 1 "SW_Push" H 9450 1994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9450 2000 50  0001 C CNN
-F 3 "~" H 9450 2000 50  0001 C CNN
-	1    9450 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D28
-U 1 1 60322BFD
-P 9750 1950
-F 0 "D28" V 9796 1870 50  0000 R CNN
-F 1 "D" V 9705 1870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 9750 1950 50  0001 C CNN
-F 3 "~" H 9750 1950 50  0001 C CNN
-	1    9750 1950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW28
-U 1 1 60322BF3
-P 9950 1800
-F 0 "SW28" H 9950 2085 50  0000 C CNN
-F 1 "SW_Push" H 9950 1994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9950 2000 50  0001 C CNN
-F 3 "~" H 9950 2000 50  0001 C CNN
-	1    9950 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D29
-U 1 1 60322BE9
-P 10250 1950
-F 0 "D29" V 10296 1870 50  0000 R CNN
-F 1 "D" V 10205 1870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 10250 1950 50  0001 C CNN
-F 3 "~" H 10250 1950 50  0001 C CNN
-	1    10250 1950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW29
-U 1 1 60322BDF
-P 10450 1800
-F 0 "SW29" H 10450 2085 50  0000 C CNN
-F 1 "SW_Push" H 10450 1994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10450 2000 50  0001 C CNN
-F 3 "~" H 10450 2000 50  0001 C CNN
-	1    10450 1800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D8
 U 1 1 6031EEB3
-P 7250 950
-F 0 "D8" V 7296 870 50  0000 R CNN
-F 1 "D" V 7205 870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 7250 950 50  0001 C CNN
-F 3 "~" H 7250 950 50  0001 C CNN
-	1    7250 950 
+P 7150 950
+F 0 "D8" V 7196 870 50  0000 R CNN
+F 1 "D" V 7105 870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7150 950 50  0001 C CNN
+F 3 "~" H 7150 950 50  0001 C CNN
+	1    7150 950 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Switch:SW_Push SW8
 U 1 1 6031EEA9
-P 7450 800
-F 0 "SW8" H 7450 1085 50  0000 C CNN
-F 1 "SW_Push" H 7450 994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7450 1000 50  0001 C CNN
-F 3 "~" H 7450 1000 50  0001 C CNN
-	1    7450 800 
+P 7350 800
+F 0 "SW8" H 7350 1085 50  0000 C CNN
+F 1 "SW_Push" H 7350 994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7350 1000 50  0001 C CNN
+F 3 "~" H 7350 1000 50  0001 C CNN
+	1    7350 800 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D9
 U 1 1 6031EE9F
-P 7750 950
-F 0 "D9" V 7796 870 50  0000 R CNN
-F 1 "D" V 7705 870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 7750 950 50  0001 C CNN
-F 3 "~" H 7750 950 50  0001 C CNN
-	1    7750 950 
+P 7650 950
+F 0 "D9" V 7696 870 50  0000 R CNN
+F 1 "D" V 7605 870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7650 950 50  0001 C CNN
+F 3 "~" H 7650 950 50  0001 C CNN
+	1    7650 950 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Switch:SW_Push SW9
 U 1 1 6031EE95
-P 7950 800
-F 0 "SW9" H 7950 1085 50  0000 C CNN
-F 1 "SW_Push" H 7950 994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7950 1000 50  0001 C CNN
-F 3 "~" H 7950 1000 50  0001 C CNN
-	1    7950 800 
+P 7850 800
+F 0 "SW9" H 7850 1085 50  0000 C CNN
+F 1 "SW_Push" H 7850 994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7850 1000 50  0001 C CNN
+F 3 "~" H 7850 1000 50  0001 C CNN
+	1    7850 800 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D10
 U 1 1 6031EE8B
-P 8250 950
-F 0 "D10" V 8296 870 50  0000 R CNN
-F 1 "D" V 8205 870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 8250 950 50  0001 C CNN
-F 3 "~" H 8250 950 50  0001 C CNN
-	1    8250 950 
+P 8150 950
+F 0 "D10" V 8196 870 50  0000 R CNN
+F 1 "D" V 8105 870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8150 950 50  0001 C CNN
+F 3 "~" H 8150 950 50  0001 C CNN
+	1    8150 950 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Switch:SW_Push SW10
 U 1 1 6031EE81
-P 8450 800
-F 0 "SW10" H 8450 1085 50  0000 C CNN
-F 1 "SW_Push" H 8450 994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8450 1000 50  0001 C CNN
-F 3 "~" H 8450 1000 50  0001 C CNN
-	1    8450 800 
+P 8350 800
+F 0 "SW10" H 8350 1085 50  0000 C CNN
+F 1 "SW_Push" H 8350 994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8350 1000 50  0001 C CNN
+F 3 "~" H 8350 1000 50  0001 C CNN
+	1    8350 800 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D11
 U 1 1 6031EE77
-P 8750 950
-F 0 "D11" V 8796 870 50  0000 R CNN
-F 1 "D" V 8705 870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 8750 950 50  0001 C CNN
-F 3 "~" H 8750 950 50  0001 C CNN
-	1    8750 950 
+P 8650 950
+F 0 "D11" V 8696 870 50  0000 R CNN
+F 1 "D" V 8605 870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8650 950 50  0001 C CNN
+F 3 "~" H 8650 950 50  0001 C CNN
+	1    8650 950 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Switch:SW_Push SW11
 U 1 1 6031ED9B
-P 8950 800
-F 0 "SW11" H 8950 1085 50  0000 C CNN
-F 1 "SW_Push" H 8950 994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8950 1000 50  0001 C CNN
-F 3 "~" H 8950 1000 50  0001 C CNN
-	1    8950 800 
+P 8850 800
+F 0 "SW11" H 8850 1085 50  0000 C CNN
+F 1 "SW_Push" H 8850 994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8850 1000 50  0001 C CNN
+F 3 "~" H 8850 1000 50  0001 C CNN
+	1    8850 800 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D12
 U 1 1 6031C099
-P 9250 950
-F 0 "D12" V 9296 870 50  0000 R CNN
-F 1 "D" V 9205 870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 9250 950 50  0001 C CNN
-F 3 "~" H 9250 950 50  0001 C CNN
-	1    9250 950 
+P 9150 950
+F 0 "D12" V 9196 870 50  0000 R CNN
+F 1 "D" V 9105 870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9150 950 50  0001 C CNN
+F 3 "~" H 9150 950 50  0001 C CNN
+	1    9150 950 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Switch:SW_Push SW12
 U 1 1 6031C08F
-P 9450 800
-F 0 "SW12" H 9450 1085 50  0000 C CNN
-F 1 "SW_Push" H 9450 994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9450 1000 50  0001 C CNN
-F 3 "~" H 9450 1000 50  0001 C CNN
-	1    9450 800 
+P 9350 800
+F 0 "SW12" H 9350 1085 50  0000 C CNN
+F 1 "SW_Push" H 9350 994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9350 1000 50  0001 C CNN
+F 3 "~" H 9350 1000 50  0001 C CNN
+	1    9350 800 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1070,307 +190,30 @@ F 3 "~" H 10450 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7150 1100 7250 1100
-Connection ~ 7250 1100
+	7050 1100 7150 1100
+Connection ~ 7150 1100
 Wire Wire Line
-	7250 1100 7750 1100
-Connection ~ 7750 1100
+	7150 1100 7650 1100
+Connection ~ 7650 1100
 Wire Wire Line
-	7750 1100 8250 1100
-Connection ~ 8250 1100
+	7650 1100 8150 1100
+Connection ~ 8150 1100
 Wire Wire Line
-	8250 1100 8750 1100
-Connection ~ 8750 1100
+	8150 1100 8650 1100
+Connection ~ 8650 1100
 Wire Wire Line
-	8750 1100 9250 1100
-Connection ~ 9250 1100
-Wire Wire Line
-	9250 1100 9750 1100
-Connection ~ 9750 1100
+	8650 1100 9150 1100
 Wire Wire Line
 	9750 1100 10250 1100
 Connection ~ 10250 1100
 Wire Wire Line
 	10250 1100 10750 1100
 Wire Wire Line
-	10750 2100 10250 2100
-Connection ~ 7250 2100
-Wire Wire Line
-	7250 2100 7150 2100
-Connection ~ 7750 2100
-Wire Wire Line
-	7750 2100 7250 2100
-Connection ~ 8250 2100
-Wire Wire Line
-	8250 2100 7750 2100
-Connection ~ 8750 2100
-Wire Wire Line
-	8750 2100 8250 2100
-Connection ~ 9250 2100
-Wire Wire Line
-	9250 2100 8750 2100
-Connection ~ 9750 2100
-Wire Wire Line
-	9750 2100 9250 2100
-Connection ~ 10250 2100
-Wire Wire Line
-	10250 2100 9750 2100
-Wire Wire Line
-	7150 3100 7250 3100
-Connection ~ 7250 3100
-Wire Wire Line
-	7250 3100 7750 3100
-Connection ~ 7750 3100
-Wire Wire Line
-	7750 3100 8250 3100
-Connection ~ 8250 3100
-Wire Wire Line
-	8250 3100 8750 3100
-Connection ~ 8750 3100
-Wire Wire Line
-	8750 3100 9250 3100
-Connection ~ 9250 3100
-Wire Wire Line
-	9250 3100 9750 3100
-Connection ~ 9750 3100
-Wire Wire Line
-	9750 3100 10250 3100
-Connection ~ 10250 3100
-Wire Wire Line
-	10250 3100 10750 3100
-Wire Wire Line
-	10750 4100 10250 4100
-Connection ~ 7250 4100
-Wire Wire Line
-	7250 4100 7150 4100
-Connection ~ 7750 4100
-Wire Wire Line
-	7750 4100 7250 4100
-Connection ~ 8250 4100
-Wire Wire Line
-	8250 4100 7750 4100
-Connection ~ 8750 4100
-Wire Wire Line
-	8750 4100 8250 4100
-Connection ~ 9250 4100
-Wire Wire Line
-	9250 4100 8750 4100
-Connection ~ 9750 4100
-Wire Wire Line
-	9750 4100 9250 4100
-Connection ~ 10250 4100
-Wire Wire Line
-	10250 4100 9750 4100
-Wire Wire Line
-	7150 5100 7250 5100
-Connection ~ 7250 5100
-Wire Wire Line
-	7250 5100 7750 5100
-Connection ~ 7750 5100
-Wire Wire Line
-	7750 5100 8250 5100
-Connection ~ 8250 5100
-Wire Wire Line
-	8250 5100 8750 5100
-Connection ~ 8750 5100
-Wire Wire Line
-	8750 5100 9250 5100
-Connection ~ 9250 5100
-Wire Wire Line
-	9250 5100 9750 5100
-Connection ~ 9750 5100
-Wire Wire Line
-	9750 5100 10250 5100
-Connection ~ 10250 5100
-Wire Wire Line
-	10250 5100 10750 5100
-Wire Wire Line
-	7250 6100 7150 6100
-Connection ~ 7250 6100
-Wire Wire Line
-	7750 6100 7250 6100
-Connection ~ 7750 6100
-Wire Wire Line
-	8250 6100 7750 6100
-Connection ~ 8250 6100
-Wire Wire Line
-	8750 6100 8250 6100
-Connection ~ 8750 6100
-Wire Wire Line
-	9250 6100 8750 6100
-Connection ~ 9250 6100
-Wire Wire Line
-	9750 6100 9250 6100
-Connection ~ 9750 6100
-Wire Wire Line
-	10750 6100 10250 6100
-Wire Wire Line
-	10250 6100 9750 6100
-Connection ~ 10250 6100
-Wire Wire Line
-	7650 800  7650 1800
-Connection ~ 7650 1800
-Wire Wire Line
-	7650 1800 7650 2800
-Connection ~ 7650 2800
-Wire Wire Line
-	7650 2800 7650 3800
-Connection ~ 7650 3800
-Wire Wire Line
-	7650 3800 7650 4800
-Connection ~ 7650 4800
-Wire Wire Line
-	7650 4800 7650 5800
-Connection ~ 7650 5800
-Wire Wire Line
-	7650 5800 7650 6200
-Wire Wire Line
-	8150 800  8150 1800
-Connection ~ 8150 1800
-Wire Wire Line
-	8150 1800 8150 2800
-Connection ~ 8150 2800
-Wire Wire Line
-	8150 2800 8150 3800
-Connection ~ 8150 3800
-Wire Wire Line
-	8150 3800 8150 4800
-Connection ~ 8150 4800
-Wire Wire Line
-	8150 4800 8150 5800
-Connection ~ 8150 5800
-Wire Wire Line
-	8150 5800 8150 6200
-Wire Wire Line
-	8650 6200 8650 5800
-Connection ~ 8650 1800
-Wire Wire Line
-	8650 1800 8650 800 
-Connection ~ 8650 2800
-Wire Wire Line
-	8650 2800 8650 1800
-Connection ~ 8650 3800
-Wire Wire Line
-	8650 3800 8650 2800
-Connection ~ 8650 4800
-Wire Wire Line
-	8650 4800 8650 3800
-Connection ~ 8650 5800
-Wire Wire Line
-	8650 5800 8650 4800
-Wire Wire Line
-	9150 800  9150 1800
-Connection ~ 9150 1800
-Wire Wire Line
-	9150 1800 9150 2800
-Connection ~ 9150 2800
-Wire Wire Line
-	9150 2800 9150 3800
-Connection ~ 9150 3800
-Wire Wire Line
-	9150 3800 9150 4800
-Connection ~ 9150 4800
-Wire Wire Line
-	9150 4800 9150 5800
-Connection ~ 9150 5800
-Wire Wire Line
-	9150 5800 9150 6200
-Wire Wire Line
-	9650 6200 9650 5800
-Connection ~ 9650 1800
-Wire Wire Line
-	9650 1800 9650 800 
-Connection ~ 9650 2800
-Wire Wire Line
-	9650 2800 9650 1800
-Connection ~ 9650 3800
-Wire Wire Line
-	9650 3800 9650 2800
-Connection ~ 9650 4800
-Wire Wire Line
-	9650 4800 9650 3800
-Connection ~ 9650 5800
-Wire Wire Line
-	9650 5800 9650 4800
-Wire Wire Line
-	10150 800  10150 1800
-Connection ~ 10150 1800
-Wire Wire Line
-	10150 1800 10150 2800
-Connection ~ 10150 2800
-Wire Wire Line
-	10150 2800 10150 3800
-Connection ~ 10150 3800
-Wire Wire Line
-	10150 3800 10150 4800
-Connection ~ 10150 4800
-Wire Wire Line
-	10150 4800 10150 5800
-Connection ~ 10150 5800
-Wire Wire Line
-	10150 5800 10150 6200
-Wire Wire Line
-	10650 6200 10650 5800
-Connection ~ 10650 1800
-Wire Wire Line
-	10650 1800 10650 800 
-Connection ~ 10650 2800
-Wire Wire Line
-	10650 2800 10650 1800
-Connection ~ 10650 3800
-Wire Wire Line
-	10650 3800 10650 2800
-Connection ~ 10650 4800
-Wire Wire Line
-	10650 4800 10650 3800
-Connection ~ 10650 5800
-Wire Wire Line
-	10650 5800 10650 4800
-Wire Wire Line
-	11150 800  11150 1800
-Connection ~ 11150 1800
-Wire Wire Line
-	11150 1800 11150 2800
-Connection ~ 11150 2800
-Wire Wire Line
-	11150 2800 11150 3800
-Connection ~ 11150 3800
-Wire Wire Line
-	11150 3800 11150 4800
-Connection ~ 11150 4800
-Wire Wire Line
-	11150 4800 11150 5800
-Connection ~ 11150 5800
-Wire Wire Line
-	11150 5800 11150 6200
-Text GLabel 7150 1100 0    50   Input ~ 0
+	2300 5800 2300 6200
+Text GLabel 7050 1100 0    50   Input ~ 0
 r6
-Text GLabel 7150 2100 0    50   Input ~ 0
-r7
-Text GLabel 7150 3100 0    50   Input ~ 0
-r8
-Text GLabel 7150 4100 0    50   Input ~ 0
-r9
-Text GLabel 7150 5100 0    50   Input ~ 0
-r10
-Text GLabel 7150 6100 0    50   Input ~ 0
-r11
-Text GLabel 7650 6200 0    50   Input ~ 0
-c8
-Text GLabel 8150 6200 0    50   Input ~ 0
-c9
-Text GLabel 8650 6200 0    50   Input ~ 0
-c10
-Text GLabel 9150 6200 0    50   Input ~ 0
-c11
-Text GLabel 9650 6200 0    50   Input ~ 0
-c12
-Text GLabel 10150 6200 0    50   Input ~ 0
-c13
-Text GLabel 10650 6200 0    50   Input ~ 0
-c14
-Text GLabel 11150 6200 0    50   Input ~ 0
-c15
+Text GLabel 2300 6200 0    50   Input ~ 0
+c0
 $Comp
 L Device:D D76
 U 1 1 601DBF31
@@ -2144,67 +987,67 @@ $EndComp
 $Comp
 L Device:D D1
 U 1 1 601DC1ED
-P 1900 950
-F 0 "D1" V 1946 870 50  0000 R CNN
-F 1 "D" V 1855 870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 1900 950 50  0001 C CNN
-F 3 "~" H 1900 950 50  0001 C CNN
-	1    1900 950 
+P 1800 950
+F 0 "D1" V 1846 870 50  0000 R CNN
+F 1 "D" V 1755 870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 1800 950 50  0001 C CNN
+F 3 "~" H 1800 950 50  0001 C CNN
+	1    1800 950 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Switch:SW_Push SW1
 U 1 1 601DC1F7
-P 2100 800
-F 0 "SW1" H 2100 1085 50  0000 C CNN
-F 1 "SW_Push" H 2100 994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 2100 1000 50  0001 C CNN
-F 3 "~" H 2100 1000 50  0001 C CNN
-	1    2100 800 
+P 2000 800
+F 0 "SW1" H 2000 1085 50  0000 C CNN
+F 1 "SW_Push" H 2000 994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 2000 1000 50  0001 C CNN
+F 3 "~" H 2000 1000 50  0001 C CNN
+	1    2000 800 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D2
 U 1 1 601DC201
-P 2400 950
-F 0 "D2" V 2446 870 50  0000 R CNN
-F 1 "D" V 2355 870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 2400 950 50  0001 C CNN
-F 3 "~" H 2400 950 50  0001 C CNN
-	1    2400 950 
+P 2300 950
+F 0 "D2" V 2346 870 50  0000 R CNN
+F 1 "D" V 2255 870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 2300 950 50  0001 C CNN
+F 3 "~" H 2300 950 50  0001 C CNN
+	1    2300 950 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Switch:SW_Push SW2
 U 1 1 601DC20B
-P 2600 800
-F 0 "SW2" H 2600 1085 50  0000 C CNN
-F 1 "SW_Push" H 2600 994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 2600 1000 50  0001 C CNN
-F 3 "~" H 2600 1000 50  0001 C CNN
-	1    2600 800 
+P 2500 800
+F 0 "SW2" H 2500 1085 50  0000 C CNN
+F 1 "SW_Push" H 2500 994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 2500 1000 50  0001 C CNN
+F 3 "~" H 2500 1000 50  0001 C CNN
+	1    2500 800 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D3
 U 1 1 601DC215
-P 2900 950
-F 0 "D3" V 2946 870 50  0000 R CNN
-F 1 "D" V 2855 870 50  0000 R CNN
-F 2 "pineapple60_2:Diode_TH_SOD123" H 2900 950 50  0001 C CNN
-F 3 "~" H 2900 950 50  0001 C CNN
-	1    2900 950 
+P 2800 950
+F 0 "D3" V 2846 870 50  0000 R CNN
+F 1 "D" V 2755 870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 2800 950 50  0001 C CNN
+F 3 "~" H 2800 950 50  0001 C CNN
+	1    2800 950 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Switch:SW_Push SW3
 U 1 1 601DC21F
-P 3100 800
-F 0 "SW3" H 3100 1085 50  0000 C CNN
-F 1 "SW_Push" H 3100 994 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 3100 1000 50  0001 C CNN
-F 3 "~" H 3100 1000 50  0001 C CNN
-	1    3100 800 
+P 3000 800
+F 0 "SW3" H 3000 1085 50  0000 C CNN
+F 1 "SW_Push" H 3000 994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 3000 1000 50  0001 C CNN
+F 3 "~" H 3000 1000 50  0001 C CNN
+	1    3000 800 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2296,17 +1139,13 @@ F 3 "~" H 5100 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 1100 1900 1100
-Connection ~ 1900 1100
+	1700 1100 1800 1100
+Connection ~ 1800 1100
 Wire Wire Line
-	1900 1100 2400 1100
-Connection ~ 2400 1100
+	1800 1100 2300 1100
+Connection ~ 2300 1100
 Wire Wire Line
-	2400 1100 2900 1100
-Connection ~ 2900 1100
-Wire Wire Line
-	2900 1100 3400 1100
-Connection ~ 3400 1100
+	2300 1100 2800 1100
 Wire Wire Line
 	3400 1100 3900 1100
 Connection ~ 3900 1100
@@ -2416,9 +1255,6 @@ Connection ~ 4400 6100
 Wire Wire Line
 	4900 6100 4400 6100
 Wire Wire Line
-	2300 800  2300 1800
-Connection ~ 2300 1800
-Wire Wire Line
 	2300 1800 2300 2800
 Connection ~ 2300 2800
 Wire Wire Line
@@ -2429,12 +1265,8 @@ Wire Wire Line
 Connection ~ 2300 4800
 Wire Wire Line
 	2300 4800 2300 5800
-Connection ~ 2300 5800
 Wire Wire Line
-	2300 5800 2300 6200
-Wire Wire Line
-	2800 800  2800 1800
-Connection ~ 2800 1800
+	2800 5800 2800 6200
 Wire Wire Line
 	2800 1800 2800 2800
 Connection ~ 2800 2800
@@ -2448,12 +1280,9 @@ Wire Wire Line
 	2800 4800 2800 5800
 Connection ~ 2800 5800
 Wire Wire Line
-	2800 5800 2800 6200
+	3300 5800 3300 6200
 Wire Wire Line
-	3300 6200 3300 5800
-Connection ~ 3300 1800
-Wire Wire Line
-	3300 1800 3300 800 
+	3800 6200 3800 5800
 Connection ~ 3300 2800
 Wire Wire Line
 	3300 2800 3300 1800
@@ -2482,9 +1311,9 @@ Wire Wire Line
 	3800 4800 3800 5800
 Connection ~ 3800 5800
 Wire Wire Line
-	3800 5800 3800 6200
+	4300 5800 4300 6200
 Wire Wire Line
-	4300 6200 4300 5800
+	4800 6200 4800 5800
 Connection ~ 4300 1800
 Wire Wire Line
 	4300 1800 4300 800 
@@ -2516,9 +1345,7 @@ Wire Wire Line
 	4800 4800 4800 5800
 Connection ~ 4800 5800
 Wire Wire Line
-	4800 5800 4800 6200
-Wire Wire Line
-	5300 6200 5300 5800
+	5300 5800 5300 6200
 Connection ~ 5300 1800
 Wire Wire Line
 	5300 1800 5300 800 
@@ -2534,7 +1361,7 @@ Wire Wire Line
 Connection ~ 5300 5800
 Wire Wire Line
 	5300 5800 5300 4800
-Text GLabel 1800 1100 0    50   Input ~ 0
+Text GLabel 1700 1100 0    50   Input ~ 0
 r0
 Text GLabel 1800 2100 0    50   Input ~ 0
 r1
@@ -2546,20 +1373,18 @@ Text GLabel 1800 5100 0    50   Input ~ 0
 r4
 Text GLabel 1800 6100 0    50   Input ~ 0
 r5
-Text GLabel 2300 6200 0    50   Input ~ 0
-c1
 Text GLabel 2800 6200 0    50   Input ~ 0
-c2
+c1
 Text GLabel 3300 6200 0    50   Input ~ 0
-c3
+c2
 Text GLabel 3800 6200 0    50   Input ~ 0
-c4
+c3
 Text GLabel 4300 6200 0    50   Input ~ 0
-c5
+c4
 Text GLabel 4800 6200 0    50   Input ~ 0
-c6
+c5
 Text GLabel 5300 6200 0    50   Input ~ 0
-c7
+c6
 Wire Wire Line
 	5300 6550 5300 6600
 Wire Wire Line
@@ -2614,8 +1439,6 @@ F 3 "~" H 5050 6850 50  0001 C CNN
 	1    5050 6850
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	4550 6600 5300 6600
 Wire Wire Line
 	5050 6700 5300 6700
 Wire Wire Line
@@ -2736,4 +1559,1200 @@ F 3 "" V 7050 4500 60  0001 C CNN
 	1    6000 7000
 	-1   0    0    -1  
 $EndComp
+Connection ~ 2300 5800
+Wire Wire Line
+	2200 800  2200 1200
+Text GLabel 2200 1200 0    50   Input ~ 0
+c0
+Wire Wire Line
+	2700 800  2700 1200
+Wire Wire Line
+	3200 800  3200 1200
+Text GLabel 2700 1200 0    50   Input ~ 0
+c1
+Text GLabel 3200 1200 0    50   Input ~ 0
+c2
+Wire Wire Line
+	10150 1200 10150 800 
+Wire Wire Line
+	10650 800  10650 1200
+Wire Wire Line
+	11150 1200 11150 800 
+Text GLabel 10150 1200 0    50   Input ~ 0
+c12
+Text GLabel 10650 1200 0    50   Input ~ 0
+c13
+Text GLabel 11150 1200 0    50   Input ~ 0
+c14
+Text GLabel 3350 1100 0    50   Input ~ 0
+r0
+Wire Wire Line
+	3400 1100 3350 1100
+Connection ~ 3400 1100
+Text GLabel 9700 1100 0    50   Input ~ 0
+r6
+Wire Wire Line
+	9750 1100 9700 1100
+Connection ~ 9750 1100
+Connection ~ 7550 5800
+Wire Wire Line
+	7550 6200 7550 5800
+Text GLabel 7550 6200 0    50   Input ~ 0
+c7
+Text GLabel 11050 6200 0    50   Input ~ 0
+c14
+Text GLabel 10550 6200 0    50   Input ~ 0
+c13
+Text GLabel 10050 6200 0    50   Input ~ 0
+c12
+Text GLabel 9550 6200 0    50   Input ~ 0
+c11
+Text GLabel 9050 6200 0    50   Input ~ 0
+c10
+Text GLabel 8550 6200 0    50   Input ~ 0
+c9
+Text GLabel 8050 6200 0    50   Input ~ 0
+c8
+Text GLabel 7050 6100 0    50   Input ~ 0
+r11
+Text GLabel 7050 5100 0    50   Input ~ 0
+r10
+Text GLabel 7050 4100 0    50   Input ~ 0
+r9
+Text GLabel 7050 3100 0    50   Input ~ 0
+r8
+Text GLabel 7050 2100 0    50   Input ~ 0
+r7
+Wire Wire Line
+	9550 5800 9550 4800
+Connection ~ 9550 5800
+Wire Wire Line
+	9550 4800 9550 3800
+Connection ~ 9550 4800
+Wire Wire Line
+	9550 3800 9550 2800
+Connection ~ 9550 3800
+Wire Wire Line
+	9550 2800 9550 1800
+Connection ~ 9550 2800
+Wire Wire Line
+	9550 1800 9550 800 
+Connection ~ 9550 1800
+Wire Wire Line
+	9550 5800 9550 6200
+Connection ~ 9050 5800
+Wire Wire Line
+	9050 4800 9050 5800
+Connection ~ 9050 4800
+Wire Wire Line
+	9050 3800 9050 4800
+Connection ~ 9050 3800
+Wire Wire Line
+	9050 2800 9050 3800
+Connection ~ 9050 2800
+Wire Wire Line
+	9050 1800 9050 2800
+Connection ~ 9050 1800
+Wire Wire Line
+	9050 800  9050 1800
+Wire Wire Line
+	8550 5800 8550 4800
+Connection ~ 8550 5800
+Wire Wire Line
+	8550 4800 8550 3800
+Connection ~ 8550 4800
+Wire Wire Line
+	8550 3800 8550 2800
+Connection ~ 8550 3800
+Wire Wire Line
+	8550 2800 8550 1800
+Connection ~ 8550 2800
+Wire Wire Line
+	8550 1800 8550 800 
+Connection ~ 8550 1800
+Wire Wire Line
+	9050 6200 9050 5800
+Wire Wire Line
+	8550 5800 8550 6200
+Connection ~ 8050 5800
+Wire Wire Line
+	8050 4800 8050 5800
+Connection ~ 8050 4800
+Wire Wire Line
+	8050 3800 8050 4800
+Connection ~ 8050 3800
+Wire Wire Line
+	8050 2800 8050 3800
+Connection ~ 8050 2800
+Wire Wire Line
+	8050 1800 8050 2800
+Connection ~ 8050 1800
+Wire Wire Line
+	8050 800  8050 1800
+Wire Wire Line
+	8050 5800 8050 6200
+Wire Wire Line
+	7550 4800 7550 5800
+Connection ~ 7550 4800
+Wire Wire Line
+	7550 3800 7550 4800
+Connection ~ 7550 3800
+Wire Wire Line
+	7550 2800 7550 3800
+Connection ~ 7550 2800
+Wire Wire Line
+	7550 1800 7550 2800
+Connection ~ 7550 1800
+Wire Wire Line
+	7550 800  7550 1800
+Wire Wire Line
+	9650 6100 9150 6100
+Connection ~ 9150 6100
+Wire Wire Line
+	9150 6100 8650 6100
+Connection ~ 8650 6100
+Wire Wire Line
+	8650 6100 8150 6100
+Connection ~ 8150 6100
+Wire Wire Line
+	8150 6100 7650 6100
+Connection ~ 7650 6100
+Wire Wire Line
+	7650 6100 7150 6100
+Connection ~ 7150 6100
+Wire Wire Line
+	7150 6100 7050 6100
+Wire Wire Line
+	9150 5100 9650 5100
+Connection ~ 9150 5100
+Wire Wire Line
+	8650 5100 9150 5100
+Connection ~ 8650 5100
+Wire Wire Line
+	8150 5100 8650 5100
+Connection ~ 8150 5100
+Wire Wire Line
+	7650 5100 8150 5100
+Connection ~ 7650 5100
+Wire Wire Line
+	7150 5100 7650 5100
+Connection ~ 7150 5100
+Wire Wire Line
+	7050 5100 7150 5100
+Wire Wire Line
+	9650 4100 9150 4100
+Wire Wire Line
+	9150 4100 8650 4100
+Connection ~ 9150 4100
+Wire Wire Line
+	8650 4100 8150 4100
+Connection ~ 8650 4100
+Wire Wire Line
+	8150 4100 7650 4100
+Connection ~ 8150 4100
+Wire Wire Line
+	7650 4100 7150 4100
+Connection ~ 7650 4100
+Wire Wire Line
+	7150 4100 7050 4100
+Connection ~ 7150 4100
+Wire Wire Line
+	9150 3100 9650 3100
+Connection ~ 9150 3100
+Wire Wire Line
+	8650 3100 9150 3100
+Connection ~ 8650 3100
+Wire Wire Line
+	8150 3100 8650 3100
+Connection ~ 8150 3100
+Wire Wire Line
+	7650 3100 8150 3100
+Connection ~ 7650 3100
+Wire Wire Line
+	7150 3100 7650 3100
+Connection ~ 7150 3100
+Wire Wire Line
+	7050 3100 7150 3100
+Wire Wire Line
+	9650 2100 9150 2100
+Wire Wire Line
+	9150 2100 8650 2100
+Connection ~ 9150 2100
+Wire Wire Line
+	8650 2100 8150 2100
+Connection ~ 8650 2100
+Wire Wire Line
+	8150 2100 7650 2100
+Connection ~ 8150 2100
+Wire Wire Line
+	7650 2100 7150 2100
+Connection ~ 7650 2100
+Wire Wire Line
+	7150 2100 7050 2100
+Connection ~ 7150 2100
+$Comp
+L Switch:SW_Push SW27
+U 1 1 60322C07
+P 9350 1800
+F 0 "SW27" H 9350 2085 50  0000 C CNN
+F 1 "SW_Push" H 9350 1994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9350 2000 50  0001 C CNN
+F 3 "~" H 9350 2000 50  0001 C CNN
+	1    9350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D27
+U 1 1 60322C11
+P 9150 1950
+F 0 "D27" V 9196 1870 50  0000 R CNN
+F 1 "D" V 9105 1870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9150 1950 50  0001 C CNN
+F 3 "~" H 9150 1950 50  0001 C CNN
+	1    9150 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW26
+U 1 1 60322C1B
+P 8850 1800
+F 0 "SW26" H 8850 2085 50  0000 C CNN
+F 1 "SW_Push" H 8850 1994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8850 2000 50  0001 C CNN
+F 3 "~" H 8850 2000 50  0001 C CNN
+	1    8850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D26
+U 1 1 60322C25
+P 8650 1950
+F 0 "D26" V 8696 1870 50  0000 R CNN
+F 1 "D" V 8605 1870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8650 1950 50  0001 C CNN
+F 3 "~" H 8650 1950 50  0001 C CNN
+	1    8650 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW25
+U 1 1 60322C2F
+P 8350 1800
+F 0 "SW25" H 8350 2085 50  0000 C CNN
+F 1 "SW_Push" H 8350 1994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8350 2000 50  0001 C CNN
+F 3 "~" H 8350 2000 50  0001 C CNN
+	1    8350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 60322C39
+P 8150 1950
+F 0 "D25" V 8196 1870 50  0000 R CNN
+F 1 "D" V 8105 1870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8150 1950 50  0001 C CNN
+F 3 "~" H 8150 1950 50  0001 C CNN
+	1    8150 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW24
+U 1 1 60322C43
+P 7850 1800
+F 0 "SW24" H 7850 2085 50  0000 C CNN
+F 1 "SW_Push" H 7850 1994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7850 2000 50  0001 C CNN
+F 3 "~" H 7850 2000 50  0001 C CNN
+	1    7850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 60322C4D
+P 7650 1950
+F 0 "D24" V 7696 1870 50  0000 R CNN
+F 1 "D" V 7605 1870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7650 1950 50  0001 C CNN
+F 3 "~" H 7650 1950 50  0001 C CNN
+	1    7650 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW23
+U 1 1 60322C57
+P 7350 1800
+F 0 "SW23" H 7350 2085 50  0000 C CNN
+F 1 "SW_Push" H 7350 1994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7350 2000 50  0001 C CNN
+F 3 "~" H 7350 2000 50  0001 C CNN
+	1    7350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 60322C61
+P 7150 1950
+F 0 "D23" V 7196 1870 50  0000 R CNN
+F 1 "D" V 7105 1870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7150 1950 50  0001 C CNN
+F 3 "~" H 7150 1950 50  0001 C CNN
+	1    7150 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW42
+U 1 1 603335AD
+P 9350 2800
+F 0 "SW42" H 9350 3085 50  0000 C CNN
+F 1 "SW_Push" H 9350 2994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9350 3000 50  0001 C CNN
+F 3 "~" H 9350 3000 50  0001 C CNN
+	1    9350 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D42
+U 1 1 603335B7
+P 9150 2950
+F 0 "D42" V 9196 2870 50  0000 R CNN
+F 1 "D" V 9105 2870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9150 2950 50  0001 C CNN
+F 3 "~" H 9150 2950 50  0001 C CNN
+	1    9150 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW41
+U 1 1 603335C1
+P 8850 2800
+F 0 "SW41" H 8850 3085 50  0000 C CNN
+F 1 "SW_Push" H 8850 2994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8850 3000 50  0001 C CNN
+F 3 "~" H 8850 3000 50  0001 C CNN
+	1    8850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D41
+U 1 1 603335CB
+P 8650 2950
+F 0 "D41" V 8696 2870 50  0000 R CNN
+F 1 "D" V 8605 2870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8650 2950 50  0001 C CNN
+F 3 "~" H 8650 2950 50  0001 C CNN
+	1    8650 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW40
+U 1 1 603335D5
+P 8350 2800
+F 0 "SW40" H 8350 3085 50  0000 C CNN
+F 1 "SW_Push" H 8350 2994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8350 3000 50  0001 C CNN
+F 3 "~" H 8350 3000 50  0001 C CNN
+	1    8350 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D40
+U 1 1 603335DF
+P 8150 2950
+F 0 "D40" V 8196 2870 50  0000 R CNN
+F 1 "D" V 8105 2870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8150 2950 50  0001 C CNN
+F 3 "~" H 8150 2950 50  0001 C CNN
+	1    8150 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW39
+U 1 1 603335E9
+P 7850 2800
+F 0 "SW39" H 7850 3085 50  0000 C CNN
+F 1 "SW_Push" H 7850 2994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7850 3000 50  0001 C CNN
+F 3 "~" H 7850 3000 50  0001 C CNN
+	1    7850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D39
+U 1 1 603335F3
+P 7650 2950
+F 0 "D39" V 7696 2870 50  0000 R CNN
+F 1 "D" V 7605 2870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7650 2950 50  0001 C CNN
+F 3 "~" H 7650 2950 50  0001 C CNN
+	1    7650 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW38
+U 1 1 603335FD
+P 7350 2800
+F 0 "SW38" H 7350 3085 50  0000 C CNN
+F 1 "SW_Push" H 7350 2994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7350 3000 50  0001 C CNN
+F 3 "~" H 7350 3000 50  0001 C CNN
+	1    7350 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D38
+U 1 1 60333607
+P 7150 2950
+F 0 "D38" V 7196 2870 50  0000 R CNN
+F 1 "D" V 7105 2870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7150 2950 50  0001 C CNN
+F 3 "~" H 7150 2950 50  0001 C CNN
+	1    7150 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW57
+U 1 1 6033364D
+P 9350 3800
+F 0 "SW57" H 9350 4085 50  0000 C CNN
+F 1 "SW_Push" H 9350 3994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9350 4000 50  0001 C CNN
+F 3 "~" H 9350 4000 50  0001 C CNN
+	1    9350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D57
+U 1 1 60333657
+P 9150 3950
+F 0 "D57" V 9196 3870 50  0000 R CNN
+F 1 "D" V 9105 3870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9150 3950 50  0001 C CNN
+F 3 "~" H 9150 3950 50  0001 C CNN
+	1    9150 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW56
+U 1 1 60333661
+P 8850 3800
+F 0 "SW56" H 8850 4085 50  0000 C CNN
+F 1 "SW_Push" H 8850 3994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8850 4000 50  0001 C CNN
+F 3 "~" H 8850 4000 50  0001 C CNN
+	1    8850 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D56
+U 1 1 6033366B
+P 8650 3950
+F 0 "D56" V 8696 3870 50  0000 R CNN
+F 1 "D" V 8605 3870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8650 3950 50  0001 C CNN
+F 3 "~" H 8650 3950 50  0001 C CNN
+	1    8650 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW55
+U 1 1 60333675
+P 8350 3800
+F 0 "SW55" H 8350 4085 50  0000 C CNN
+F 1 "SW_Push" H 8350 3994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8350 4000 50  0001 C CNN
+F 3 "~" H 8350 4000 50  0001 C CNN
+	1    8350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D55
+U 1 1 6033367F
+P 8150 3950
+F 0 "D55" V 8196 3870 50  0000 R CNN
+F 1 "D" V 8105 3870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8150 3950 50  0001 C CNN
+F 3 "~" H 8150 3950 50  0001 C CNN
+	1    8150 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW54
+U 1 1 60333689
+P 7850 3800
+F 0 "SW54" H 7850 4085 50  0000 C CNN
+F 1 "SW_Push" H 7850 3994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7850 4000 50  0001 C CNN
+F 3 "~" H 7850 4000 50  0001 C CNN
+	1    7850 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D54
+U 1 1 60333693
+P 7650 3950
+F 0 "D54" V 7696 3870 50  0000 R CNN
+F 1 "D" V 7605 3870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7650 3950 50  0001 C CNN
+F 3 "~" H 7650 3950 50  0001 C CNN
+	1    7650 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW53
+U 1 1 6033369D
+P 7350 3800
+F 0 "SW53" H 7350 4085 50  0000 C CNN
+F 1 "SW_Push" H 7350 3994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7350 4000 50  0001 C CNN
+F 3 "~" H 7350 4000 50  0001 C CNN
+	1    7350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D53
+U 1 1 603336A7
+P 7150 3950
+F 0 "D53" V 7196 3870 50  0000 R CNN
+F 1 "D" V 7105 3870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7150 3950 50  0001 C CNN
+F 3 "~" H 7150 3950 50  0001 C CNN
+	1    7150 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW72
+U 1 1 6034114F
+P 9350 4800
+F 0 "SW72" H 9350 5085 50  0000 C CNN
+F 1 "SW_Push" H 9350 4994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9350 5000 50  0001 C CNN
+F 3 "~" H 9350 5000 50  0001 C CNN
+	1    9350 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D72
+U 1 1 60341159
+P 9150 4950
+F 0 "D72" V 9196 4870 50  0000 R CNN
+F 1 "D" V 9105 4870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9150 4950 50  0001 C CNN
+F 3 "~" H 9150 4950 50  0001 C CNN
+	1    9150 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW71
+U 1 1 60341163
+P 8850 4800
+F 0 "SW71" H 8850 5085 50  0000 C CNN
+F 1 "SW_Push" H 8850 4994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8850 5000 50  0001 C CNN
+F 3 "~" H 8850 5000 50  0001 C CNN
+	1    8850 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D71
+U 1 1 6034116D
+P 8650 4950
+F 0 "D71" V 8696 4870 50  0000 R CNN
+F 1 "D" V 8605 4870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8650 4950 50  0001 C CNN
+F 3 "~" H 8650 4950 50  0001 C CNN
+	1    8650 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW70
+U 1 1 60341177
+P 8350 4800
+F 0 "SW70" H 8350 5085 50  0000 C CNN
+F 1 "SW_Push" H 8350 4994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8350 5000 50  0001 C CNN
+F 3 "~" H 8350 5000 50  0001 C CNN
+	1    8350 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D70
+U 1 1 60341181
+P 8150 4950
+F 0 "D70" V 8196 4870 50  0000 R CNN
+F 1 "D" V 8105 4870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8150 4950 50  0001 C CNN
+F 3 "~" H 8150 4950 50  0001 C CNN
+	1    8150 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW69
+U 1 1 6034118B
+P 7850 4800
+F 0 "SW69" H 7850 5085 50  0000 C CNN
+F 1 "SW_Push" H 7850 4994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7850 5000 50  0001 C CNN
+F 3 "~" H 7850 5000 50  0001 C CNN
+	1    7850 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D69
+U 1 1 60341195
+P 7650 4950
+F 0 "D69" V 7696 4870 50  0000 R CNN
+F 1 "D" V 7605 4870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7650 4950 50  0001 C CNN
+F 3 "~" H 7650 4950 50  0001 C CNN
+	1    7650 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW68
+U 1 1 6034119F
+P 7350 4800
+F 0 "SW68" H 7350 5085 50  0000 C CNN
+F 1 "SW_Push" H 7350 4994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7350 5000 50  0001 C CNN
+F 3 "~" H 7350 5000 50  0001 C CNN
+	1    7350 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D68
+U 1 1 603411A9
+P 7150 4950
+F 0 "D68" V 7196 4870 50  0000 R CNN
+F 1 "D" V 7105 4870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7150 4950 50  0001 C CNN
+F 3 "~" H 7150 4950 50  0001 C CNN
+	1    7150 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW87
+U 1 1 603411EF
+P 9350 5800
+F 0 "SW87" H 9350 6085 50  0000 C CNN
+F 1 "SW_Push" H 9350 5994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9350 6000 50  0001 C CNN
+F 3 "~" H 9350 6000 50  0001 C CNN
+	1    9350 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D87
+U 1 1 603411F9
+P 9150 5950
+F 0 "D87" V 9196 5870 50  0000 R CNN
+F 1 "D" V 9105 5870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9150 5950 50  0001 C CNN
+F 3 "~" H 9150 5950 50  0001 C CNN
+	1    9150 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW86
+U 1 1 60341203
+P 8850 5800
+F 0 "SW86" H 8850 6085 50  0000 C CNN
+F 1 "SW_Push" H 8850 5994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8850 6000 50  0001 C CNN
+F 3 "~" H 8850 6000 50  0001 C CNN
+	1    8850 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D86
+U 1 1 6034120D
+P 8650 5950
+F 0 "D86" V 8696 5870 50  0000 R CNN
+F 1 "D" V 8605 5870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8650 5950 50  0001 C CNN
+F 3 "~" H 8650 5950 50  0001 C CNN
+	1    8650 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW85
+U 1 1 60341217
+P 8350 5800
+F 0 "SW85" H 8350 6085 50  0000 C CNN
+F 1 "SW_Push" H 8350 5994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8350 6000 50  0001 C CNN
+F 3 "~" H 8350 6000 50  0001 C CNN
+	1    8350 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D85
+U 1 1 60341221
+P 8150 5950
+F 0 "D85" V 8196 5870 50  0000 R CNN
+F 1 "D" V 8105 5870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8150 5950 50  0001 C CNN
+F 3 "~" H 8150 5950 50  0001 C CNN
+	1    8150 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW84
+U 1 1 6034122B
+P 7850 5800
+F 0 "SW84" H 7850 6085 50  0000 C CNN
+F 1 "SW_Push" H 7850 5994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7850 6000 50  0001 C CNN
+F 3 "~" H 7850 6000 50  0001 C CNN
+	1    7850 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D84
+U 1 1 60341235
+P 7650 5950
+F 0 "D84" V 7696 5870 50  0000 R CNN
+F 1 "D" V 7605 5870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7650 5950 50  0001 C CNN
+F 3 "~" H 7650 5950 50  0001 C CNN
+	1    7650 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW83
+U 1 1 6034123F
+P 7350 5800
+F 0 "SW83" H 7350 6085 50  0000 C CNN
+F 1 "SW_Push" H 7350 5994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7350 6000 50  0001 C CNN
+F 3 "~" H 7350 6000 50  0001 C CNN
+	1    7350 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D83
+U 1 1 60341249
+P 7150 5950
+F 0 "D83" V 7196 5870 50  0000 R CNN
+F 1 "D" V 7105 5870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7150 5950 50  0001 C CNN
+F 3 "~" H 7150 5950 50  0001 C CNN
+	1    7150 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW30
+U 1 1 60322A71
+P 10850 1800
+F 0 "SW30" H 10850 2085 50  0000 C CNN
+F 1 "SW_Push" H 10850 1994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10850 2000 50  0001 C CNN
+F 3 "~" H 10850 2000 50  0001 C CNN
+	1    10850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D30
+U 1 1 60322BD5
+P 10650 1950
+F 0 "D30" V 10696 1870 50  0000 R CNN
+F 1 "D" V 10605 1870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 10650 1950 50  0001 C CNN
+F 3 "~" H 10650 1950 50  0001 C CNN
+	1    10650 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW45
+U 1 1 60333307
+P 10850 2800
+F 0 "SW45" H 10850 3085 50  0000 C CNN
+F 1 "SW_Push" H 10850 2994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10850 3000 50  0001 C CNN
+F 3 "~" H 10850 3000 50  0001 C CNN
+	1    10850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D45
+U 1 1 6033357B
+P 10650 2950
+F 0 "D45" V 10696 2870 50  0000 R CNN
+F 1 "D" V 10605 2870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 10650 2950 50  0001 C CNN
+F 3 "~" H 10650 2950 50  0001 C CNN
+	1    10650 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW60
+U 1 1 60333611
+P 10850 3800
+F 0 "SW60" H 10850 4085 50  0000 C CNN
+F 1 "SW_Push" H 10850 3994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10850 4000 50  0001 C CNN
+F 3 "~" H 10850 4000 50  0001 C CNN
+	1    10850 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D60
+U 1 1 6033361B
+P 10650 3950
+F 0 "D60" V 10696 3870 50  0000 R CNN
+F 1 "D" V 10605 3870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 10650 3950 50  0001 C CNN
+F 3 "~" H 10650 3950 50  0001 C CNN
+	1    10650 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW75
+U 1 1 60340C89
+P 10850 4800
+F 0 "SW75" H 10850 5085 50  0000 C CNN
+F 1 "SW_Push" H 10850 4994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10850 5000 50  0001 C CNN
+F 3 "~" H 10850 5000 50  0001 C CNN
+	1    10850 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D75
+U 1 1 6034111D
+P 10650 4950
+F 0 "D75" V 10696 4870 50  0000 R CNN
+F 1 "D" V 10605 4870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 10650 4950 50  0001 C CNN
+F 3 "~" H 10650 4950 50  0001 C CNN
+	1    10650 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW90
+U 1 1 603411B3
+P 10850 5800
+F 0 "SW90" H 10850 6085 50  0000 C CNN
+F 1 "SW_Push" H 10850 5994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10850 6000 50  0001 C CNN
+F 3 "~" H 10850 6000 50  0001 C CNN
+	1    10850 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D90
+U 1 1 603411BD
+P 10650 5950
+F 0 "D90" V 10696 5870 50  0000 R CNN
+F 1 "D" V 10605 5870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 10650 5950 50  0001 C CNN
+F 3 "~" H 10650 5950 50  0001 C CNN
+	1    10650 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D88
+U 1 1 603411E5
+P 9650 5950
+F 0 "D88" V 9696 5870 50  0000 R CNN
+F 1 "D" V 9605 5870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9650 5950 50  0001 C CNN
+F 3 "~" H 9650 5950 50  0001 C CNN
+	1    9650 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW88
+U 1 1 603411DB
+P 9850 5800
+F 0 "SW88" H 9850 6085 50  0000 C CNN
+F 1 "SW_Push" H 9850 5994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9850 6000 50  0001 C CNN
+F 3 "~" H 9850 6000 50  0001 C CNN
+	1    9850 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D89
+U 1 1 603411D1
+P 10150 5950
+F 0 "D89" V 10196 5870 50  0000 R CNN
+F 1 "D" V 10105 5870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 10150 5950 50  0001 C CNN
+F 3 "~" H 10150 5950 50  0001 C CNN
+	1    10150 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW89
+U 1 1 603411C7
+P 10350 5800
+F 0 "SW89" H 10350 6085 50  0000 C CNN
+F 1 "SW_Push" H 10350 5994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10350 6000 50  0001 C CNN
+F 3 "~" H 10350 6000 50  0001 C CNN
+	1    10350 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D73
+U 1 1 60341145
+P 9650 4950
+F 0 "D73" V 9696 4870 50  0000 R CNN
+F 1 "D" V 9605 4870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9650 4950 50  0001 C CNN
+F 3 "~" H 9650 4950 50  0001 C CNN
+	1    9650 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW73
+U 1 1 6034113B
+P 9850 4800
+F 0 "SW73" H 9850 5085 50  0000 C CNN
+F 1 "SW_Push" H 9850 4994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9850 5000 50  0001 C CNN
+F 3 "~" H 9850 5000 50  0001 C CNN
+	1    9850 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D74
+U 1 1 60341131
+P 10150 4950
+F 0 "D74" V 10196 4870 50  0000 R CNN
+F 1 "D" V 10105 4870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 10150 4950 50  0001 C CNN
+F 3 "~" H 10150 4950 50  0001 C CNN
+	1    10150 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW74
+U 1 1 60341127
+P 10350 4800
+F 0 "SW74" H 10350 5085 50  0000 C CNN
+F 1 "SW_Push" H 10350 4994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10350 5000 50  0001 C CNN
+F 3 "~" H 10350 5000 50  0001 C CNN
+	1    10350 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D58
+U 1 1 60333643
+P 9650 3950
+F 0 "D58" V 9696 3870 50  0000 R CNN
+F 1 "D" V 9605 3870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9650 3950 50  0001 C CNN
+F 3 "~" H 9650 3950 50  0001 C CNN
+	1    9650 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW58
+U 1 1 60333639
+P 9850 3800
+F 0 "SW58" H 9850 4085 50  0000 C CNN
+F 1 "SW_Push" H 9850 3994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9850 4000 50  0001 C CNN
+F 3 "~" H 9850 4000 50  0001 C CNN
+	1    9850 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D59
+U 1 1 6033362F
+P 10150 3950
+F 0 "D59" V 10196 3870 50  0000 R CNN
+F 1 "D" V 10105 3870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 10150 3950 50  0001 C CNN
+F 3 "~" H 10150 3950 50  0001 C CNN
+	1    10150 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW59
+U 1 1 60333625
+P 10350 3800
+F 0 "SW59" H 10350 4085 50  0000 C CNN
+F 1 "SW_Push" H 10350 3994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10350 4000 50  0001 C CNN
+F 3 "~" H 10350 4000 50  0001 C CNN
+	1    10350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D43
+U 1 1 603335A3
+P 9650 2950
+F 0 "D43" V 9696 2870 50  0000 R CNN
+F 1 "D" V 9605 2870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9650 2950 50  0001 C CNN
+F 3 "~" H 9650 2950 50  0001 C CNN
+	1    9650 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW43
+U 1 1 60333599
+P 9850 2800
+F 0 "SW43" H 9850 3085 50  0000 C CNN
+F 1 "SW_Push" H 9850 2994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9850 3000 50  0001 C CNN
+F 3 "~" H 9850 3000 50  0001 C CNN
+	1    9850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D44
+U 1 1 6033358F
+P 10150 2950
+F 0 "D44" V 10196 2870 50  0000 R CNN
+F 1 "D" V 10105 2870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 10150 2950 50  0001 C CNN
+F 3 "~" H 10150 2950 50  0001 C CNN
+	1    10150 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW44
+U 1 1 60333585
+P 10350 2800
+F 0 "SW44" H 10350 3085 50  0000 C CNN
+F 1 "SW_Push" H 10350 2994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10350 3000 50  0001 C CNN
+F 3 "~" H 10350 3000 50  0001 C CNN
+	1    10350 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D28
+U 1 1 60322BFD
+P 9650 1950
+F 0 "D28" V 9696 1870 50  0000 R CNN
+F 1 "D" V 9605 1870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9650 1950 50  0001 C CNN
+F 3 "~" H 9650 1950 50  0001 C CNN
+	1    9650 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW28
+U 1 1 60322BF3
+P 9850 1800
+F 0 "SW28" H 9850 2085 50  0000 C CNN
+F 1 "SW_Push" H 9850 1994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9850 2000 50  0001 C CNN
+F 3 "~" H 9850 2000 50  0001 C CNN
+	1    9850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D29
+U 1 1 60322BE9
+P 10150 1950
+F 0 "D29" V 10196 1870 50  0000 R CNN
+F 1 "D" V 10105 1870 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 10150 1950 50  0001 C CNN
+F 3 "~" H 10150 1950 50  0001 C CNN
+	1    10150 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW29
+U 1 1 60322BDF
+P 10350 1800
+F 0 "SW29" H 10350 2085 50  0000 C CNN
+F 1 "SW_Push" H 10350 1994 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10350 2000 50  0001 C CNN
+F 3 "~" H 10350 2000 50  0001 C CNN
+	1    10350 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 2100 10150 2100
+Connection ~ 10150 2100
+Wire Wire Line
+	10150 2100 9650 2100
+Wire Wire Line
+	9650 3100 10150 3100
+Connection ~ 10150 3100
+Wire Wire Line
+	10150 3100 10650 3100
+Wire Wire Line
+	10650 4100 10150 4100
+Connection ~ 10150 4100
+Wire Wire Line
+	10150 4100 9650 4100
+Wire Wire Line
+	9650 5100 10150 5100
+Connection ~ 10150 5100
+Wire Wire Line
+	10150 5100 10650 5100
+Wire Wire Line
+	10650 6100 10150 6100
+Wire Wire Line
+	10150 6100 9650 6100
+Connection ~ 10150 6100
+Wire Wire Line
+	10050 6200 10050 5800
+Wire Wire Line
+	10050 1800 10050 2800
+Connection ~ 10050 2800
+Wire Wire Line
+	10050 2800 10050 3800
+Connection ~ 10050 3800
+Wire Wire Line
+	10050 3800 10050 4800
+Connection ~ 10050 4800
+Wire Wire Line
+	10050 4800 10050 5800
+Connection ~ 10050 5800
+Wire Wire Line
+	10550 5800 10550 6200
+Wire Wire Line
+	11050 6200 11050 5800
+Connection ~ 10550 2800
+Wire Wire Line
+	10550 2800 10550 1800
+Connection ~ 10550 3800
+Wire Wire Line
+	10550 3800 10550 2800
+Connection ~ 10550 4800
+Wire Wire Line
+	10550 4800 10550 3800
+Connection ~ 10550 5800
+Wire Wire Line
+	10550 5800 10550 4800
+Wire Wire Line
+	11050 1800 11050 2800
+Connection ~ 11050 2800
+Wire Wire Line
+	11050 2800 11050 3800
+Connection ~ 11050 3800
+Wire Wire Line
+	11050 3800 11050 4800
+Connection ~ 11050 4800
+Wire Wire Line
+	11050 4800 11050 5800
+Connection ~ 11050 5800
+Connection ~ 9650 2100
+Connection ~ 9650 3100
+Connection ~ 9650 4100
+Connection ~ 9650 5100
+Connection ~ 9650 6100
+$Comp
+L Connector:Conn_01x01_Male J1
+U 1 1 60669BC4
+P 7350 6500
+F 0 "J1" H 7458 6681 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 7458 6590 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 7350 6500 50  0001 C CNN
+F 3 "~" H 7350 6500 50  0001 C CNN
+	1    7350 6500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 6600 5300 6600
 $EndSCHEMATC
