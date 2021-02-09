@@ -2460,17 +2460,6 @@ Connection ~ 9650 3000
 Connection ~ 9650 3950
 Connection ~ 9650 4900
 Connection ~ 9650 5850
-$Comp
-L Connector:Conn_01x01_Male J3
-U 1 1 60669BC4
-P 7350 6500
-F 0 "J3" H 7458 6681 50  0000 C CNN
-F 1 "PWRSWITCH" H 7458 6590 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 7350 6500 50  0001 C CNN
-F 3 "~" H 7350 6500 50  0001 C CNN
-	1    7350 6500
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4600 6800 4550 6800
 Wire Wire Line
@@ -2518,10 +2507,10 @@ Connection ~ 2650 6700
 Wire Wire Line
 	2650 6700 2900 6700
 $Comp
-L Device:R R3
+L Device:R R4
 U 1 1 61013CDC
 P 4850 7100
-F 0 "R3" H 4920 7146 50  0000 L CNN
+F 0 "R4" H 4920 7146 50  0000 L CNN
 F 1 "4.7k" H 4920 7055 50  0000 L CNN
 F 2 "Keebio-Parts:Resistor-Hybrid" V 4780 7100 50  0001 C CNN
 F 3 "~" H 4850 7100 50  0001 C CNN
@@ -2853,9 +2842,7 @@ $EndComp
 Wire Wire Line
 	5050 6700 4800 6700
 Wire Wire Line
-	7150 6500 6950 6500
-Wire Wire Line
-	6950 6500 6950 6750
+	7150 6450 6950 6450
 Wire Wire Line
 	6950 6750 6700 6750
 Wire Wire Line
@@ -2882,7 +2869,7 @@ U 1 1 617AFBC7
 P 6400 5550
 F 0 "R8" V 6193 5550 50  0000 C CNN
 F 1 "4.7k" V 6284 5550 50  0000 C CNN
-F 2 "" V 6330 5550 50  0001 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" V 6330 5550 50  0001 C CNN
 F 3 "~" H 6400 5550 50  0001 C CNN
 	1    6400 5550
 	0    1    1    0   
@@ -2893,48 +2880,29 @@ U 1 1 617D7611
 P 6400 5250
 F 0 "R6" V 6193 5250 50  0000 C CNN
 F 1 "4.7k" V 6284 5250 50  0000 C CNN
-F 2 "" V 6330 5250 50  0001 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" V 6330 5250 50  0001 C CNN
 F 3 "~" H 6400 5250 50  0001 C CNN
 	1    6400 5250
 	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J2
-U 1 1 60F1451B
-P 6100 4750
-F 0 "J2" V 6317 4746 50  0000 C CNN
-F 1 "Pointing stick" V 6226 4746 50  0000 C CNN
-F 2 "" H 6100 4750 50  0001 C CNN
-F 3 "~" H 6100 4750 50  0001 C CNN
-	1    6100 4750
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	5000 6050 5650 6050
 Wire Wire Line
 	6200 5900 6200 5850
 Connection ~ 6200 5850
-Wire Wire Line
-	6200 5850 6200 4950
 Connection ~ 6100 5250
 Wire Wire Line
 	6100 5250 6100 6000
 Wire Wire Line
-	6100 4950 6100 5250
-Wire Wire Line
 	6550 6100 6550 5900
-Wire Wire Line
-	6550 4950 6300 4950
 Connection ~ 6550 5250
 Wire Wire Line
-	6550 5250 6550 4950
+	6550 5250 6550 5000
 Connection ~ 6550 5550
 Wire Wire Line
 	6550 5550 6550 5250
 Wire Wire Line
 	6250 5250 6100 5250
-Wire Wire Line
-	6000 4950 6000 5550
 Wire Wire Line
 	6250 5550 6000 5550
 Connection ~ 6000 5550
@@ -2946,8 +2914,6 @@ Wire Wire Line
 	5050 6100 6550 6100
 Wire Wire Line
 	6200 5850 5950 5850
-Wire Wire Line
-	5650 4950 5900 4950
 Wire Wire Line
 	6500 5900 6550 5900
 Connection ~ 6550 5900
@@ -2981,7 +2947,7 @@ Wire Wire Line
 	6700 6000 6700 6450
 Connection ~ 5650 5850
 Wire Wire Line
-	5650 5850 5650 4950
+	5650 5850 5650 5000
 Wire Wire Line
 	5650 6050 5650 5850
 $Comp
@@ -2990,16 +2956,16 @@ U 1 1 617A3A3F
 P 5800 5850
 F 0 "R10" V 5593 5850 50  0000 C CNN
 F 1 "100k" V 5684 5850 50  0000 C CNN
-F 2 "" V 5730 5850 50  0001 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" V 5730 5850 50  0001 C CNN
 F 3 "~" H 5800 5850 50  0001 C CNN
 	1    5800 5850
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R4
+L Device:R R2
 U 1 1 61013CD2
 P 5050 6850
-F 0 "R4" H 5120 6896 50  0000 L CNN
+F 0 "R2" H 5120 6896 50  0000 L CNN
 F 1 "4.7k" H 5120 6805 50  0000 L CNN
 F 2 "Keebio-Parts:Resistor-Hybrid" V 4980 6850 50  0001 C CNN
 F 3 "~" H 5050 6850 50  0001 C CNN
@@ -3011,10 +2977,10 @@ Wire Wire Line
 Wire Wire Line
 	2900 6900 2900 7250
 $Comp
-L Device:R R2
+L Device:R R3
 U 1 1 61234FD3
 P 2600 7100
-F 0 "R2" H 2670 7146 50  0000 L CNN
+F 0 "R3" H 2670 7146 50  0000 L CNN
 F 1 "4.7k" H 2670 7055 50  0000 L CNN
 F 2 "Keebio-Parts:Resistor-Hybrid" V 2530 7100 50  0001 C CNN
 F 3 "~" H 2600 7100 50  0001 C CNN
@@ -3070,41 +3036,25 @@ Wire Wire Line
 Wire Wire Line
 	1500 6000 1550 6000
 Wire Wire Line
-	650  5950 650  5050
-Wire Wire Line
-	650  5050 900  5050
-Wire Wire Line
 	1200 5950 950  5950
 Wire Wire Line
 	1250 5650 1000 5650
-Wire Wire Line
-	1000 5050 1000 5650
 Wire Wire Line
 	1250 5350 1100 5350
 Wire Wire Line
 	1550 5650 1550 5350
 Connection ~ 1550 5650
 Wire Wire Line
-	1550 5350 1550 5050
-Connection ~ 1550 5350
-Wire Wire Line
-	1550 5050 1300 5050
-Wire Wire Line
-	1100 5050 1100 5350
-Wire Wire Line
-	1200 5950 1200 5050
-Connection ~ 1200 5950
-Wire Wire Line
 	1200 6000 1200 5950
 $Comp
 L Connector_Generic:Conn_01x05 J1
 U 1 1 61C324D5
-P 1100 4850
-F 0 "J1" V 1317 4846 50  0000 C CNN
-F 1 "Pointing stick" V 1226 4846 50  0000 C CNN
-F 2 "" H 1100 4850 50  0001 C CNN
-F 3 "~" H 1100 4850 50  0001 C CNN
-	1    1100 4850
+P 1100 4900
+F 0 "J1" V 1317 4896 50  0000 C CNN
+F 1 "Pointing stick" V 1226 4896 50  0000 C CNN
+F 2 "" H 1100 4900 50  0001 C CNN
+F 3 "~" H 1100 4900 50  0001 C CNN
+	1    1100 4900
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -3113,7 +3063,7 @@ U 1 1 61C324CB
 P 1400 5350
 F 0 "R5" V 1193 5350 50  0000 C CNN
 F 1 "4.7k" V 1284 5350 50  0000 C CNN
-F 2 "" V 1330 5350 50  0001 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" V 1330 5350 50  0001 C CNN
 F 3 "~" H 1400 5350 50  0001 C CNN
 	1    1400 5350
 	0    1    1    0   
@@ -3124,7 +3074,7 @@ U 1 1 61C324C1
 P 1400 5650
 F 0 "R7" V 1193 5650 50  0000 C CNN
 F 1 "4.7k" V 1284 5650 50  0000 C CNN
-F 2 "" V 1330 5650 50  0001 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" V 1330 5650 50  0001 C CNN
 F 3 "~" H 1400 5650 50  0001 C CNN
 	1    1400 5650
 	0    1    1    0   
@@ -3146,21 +3096,71 @@ U 1 1 61C31A77
 P 800 5950
 F 0 "R9" V 593 5950 50  0000 C CNN
 F 1 "100k" V 684 5950 50  0000 C CNN
-F 2 "" V 730 5950 50  0001 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" V 730 5950 50  0001 C CNN
 F 3 "~" H 800 5950 50  0001 C CNN
 	1    800  5950
 	0    1    1    0   
 $EndComp
 Connection ~ 1550 6000
-Connection ~ 650  5950
 Wire Wire Line
 	650  5950 650  6100
-Connection ~ 1100 5350
 Wire Wire Line
 	1100 5350 1100 6300
-Connection ~ 1000 5650
 Wire Wire Line
 	1000 5650 1000 6250
 Wire Wire Line
 	1550 6050 1550 6000
+Wire Wire Line
+	6200 5850 6200 5000
+Wire Wire Line
+	6000 5000 6000 5550
+Wire Wire Line
+	6100 5000 6100 5250
+$Comp
+L Connector_Generic:Conn_01x05 J2
+U 1 1 60F1451B
+P 6100 4800
+F 0 "J2" V 6317 4796 50  0000 C CNN
+F 1 "Pointing stick" V 6226 4796 50  0000 C CNN
+F 2 "" H 6100 4800 50  0001 C CNN
+F 3 "~" H 6100 4800 50  0001 C CNN
+	1    6100 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 5000 6550 5000
+Wire Wire Line
+	5900 5000 5650 5000
+Wire Wire Line
+	1550 5350 1550 5100
+Wire Wire Line
+	650  5950 650  5100
+Wire Wire Line
+	1200 5950 1200 5100
+Wire Wire Line
+	1000 5100 1000 5650
+Wire Wire Line
+	1100 5100 1100 5350
+Wire Wire Line
+	1300 5100 1550 5100
+Wire Wire Line
+	900  5100 650  5100
+Connection ~ 650  5950
+Connection ~ 1000 5650
+Connection ~ 1100 5350
+Connection ~ 1200 5950
+Connection ~ 1550 5350
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 60669BC4
+P 7350 6450
+F 0 "J3" H 7268 6225 50  0000 C CNN
+F 1 "PWRSWITCH" H 7268 6316 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 7350 6450 50  0001 C CNN
+F 3 "~" H 7350 6450 50  0001 C CNN
+	1    7350 6450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6950 6450 6950 6750
 $EndSCHEMATC
