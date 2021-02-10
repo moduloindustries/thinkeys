@@ -2842,8 +2842,6 @@ $EndComp
 Wire Wire Line
 	5050 6700 4800 6700
 Wire Wire Line
-	7150 6450 6950 6450
-Wire Wire Line
 	6950 6750 6700 6750
 Wire Wire Line
 	4550 6600 5000 6600
@@ -3006,7 +3004,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 6900 4550 7250
 Wire Wire Line
-	4600 6800 4600 7700
+	4600 6800 4600 7300
 Wire Wire Line
 	4800 6700 4800 6950
 Wire Wire Line
@@ -3015,14 +3013,7 @@ Wire Wire Line
 	4850 7250 4550 7250
 Connection ~ 4550 7250
 Wire Wire Line
-	4550 7250 4550 7300
-Wire Wire Line
 	5050 7000 5050 7300
-Wire Wire Line
-	5050 7300 4550 7300
-Connection ~ 4550 7300
-Wire Wire Line
-	4550 7300 4550 7750
 Wire Wire Line
 	700  6550 750  6550
 Wire Wire Line
@@ -3153,14 +3144,32 @@ Connection ~ 1550 5350
 $Comp
 L Connector_Generic:Conn_01x01 J3
 U 1 1 60669BC4
-P 7350 6450
-F 0 "J3" H 7268 6225 50  0000 C CNN
-F 1 "PWRSWITCH" H 7268 6316 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 7350 6450 50  0001 C CNN
-F 3 "~" H 7350 6450 50  0001 C CNN
-	1    7350 6450
+P 7550 6450
+F 0 "J3" H 7630 6400 50  0000 L CNN
+F 1 "PWRSWITCH" H 7630 6491 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 7550 6450 50  0001 C CNN
+F 3 "~" H 7550 6450 50  0001 C CNN
+	1    7550 6450
 	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW91
+U 1 1 602C2F86
+P 7150 6450
+F 0 "SW91" H 7150 6735 50  0000 C CNN
+F 1 "SW_Push" H 7150 6644 50  0000 C CNN
+F 2 "libthinkeys:Kailh_Micro_Switch_6x6" H 7150 6650 50  0001 C CNN
+F 3 "~" H 7150 6650 50  0001 C CNN
+	1    7150 6450
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6950 6450 6950 6750
+Wire Wire Line
+	4550 7250 4550 7750
+Wire Wire Line
+	5050 7300 4600 7300
+Connection ~ 4600 7300
+Wire Wire Line
+	4600 7300 4600 7700
 $EndSCHEMATC
