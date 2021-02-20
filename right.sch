@@ -1,0 +1,3737 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	7000 2050 7000 2350
+Connection ~ 7000 2050
+Wire Wire Line
+	6700 2050 6700 2150
+Connection ~ 6700 2050
+Wire Wire Line
+	7000 2000 7000 2050
+Wire Wire Line
+	6700 1800 6700 2050
+$Comp
+L keebio:TRRS U4
+U 1 1 66F6B00F
+P 7050 1450
+F 0 "U4" V 7020 1978 60  0000 L CNN
+F 1 "TRRS" V 6914 1978 60  0000 L CNN
+F 2 "libthinkeys:TRRS-PJ-320" H 7200 1450 60  0001 C CNN
+F 3 "" H 7200 1450 60  0001 C CNN
+	1    7050 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 66F6B00E
+P 6750 2350
+F 0 "R4" V 6863 2350 50  0000 C CNN
+F 1 "4.7k" V 6954 2350 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" V 6680 2350 50  0001 C CNN
+F 3 "~" H 6750 2350 50  0001 C CNN
+	1    6750 2350
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 6640BB67
+P 6850 2050
+F 0 "R2" V 6963 2050 50  0000 C CNN
+F 1 "4.7k" V 7054 2050 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" V 6780 2050 50  0001 C CNN
+F 3 "~" H 6850 2050 50  0001 C CNN
+	1    6850 2050
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6650 1800 6600 1800
+Wire Wire Line
+	6700 1800 6750 1800
+Text Label 7000 2000 0    50   ~ 0
+VCC
+Wire Wire Line
+	6950 2000 7000 2000
+Wire Wire Line
+	6950 1800 6950 2000
+Wire Wire Line
+	6900 2350 7000 2350
+Text Label 6700 2150 3    50   ~ 0
+SDA
+Wire Wire Line
+	6600 2350 6600 1800
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM5
+U 1 1 66F6AF51
+P 7000 1950
+F 0 "#SYM5" H 7000 2010 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 7010 1900 50  0001 C CNN
+F 2 "" H 7000 1950 50  0001 C CNN
+F 3 "~" H 7000 1950 50  0001 C CNN
+	1    7000 1950
+	0    1    -1   0   
+$EndComp
+Text Label 6600 2350 3    50   ~ 0
+SCL
+Text Label 9500 700  1    50   ~ 0
+c2
+Text Label 9400 700  1    50   ~ 0
+c3
+Text Label 9200 2100 3    50   ~ 0
+c4
+Text Label 9300 2100 3    50   ~ 0
+c5
+Text Label 9800 700  1    50   ~ 0
+c6
+Text Label 9700 700  1    50   ~ 0
+c0
+Text Label 9600 700  1    50   ~ 0
+c1
+Text Label 9900 2100 3    50   ~ 0
+r5
+Text Label 9800 2100 3    50   ~ 0
+r4
+Text Label 9700 2100 3    50   ~ 0
+r3
+Text Label 9600 2100 3    50   ~ 0
+r2
+Text Label 9500 2100 3    50   ~ 0
+r1
+Text Label 9400 2100 3    50   ~ 0
+r0
+Text Label 9100 2100 3    50   ~ 0
+VCC
+Text Label 9300 700  1    50   ~ 0
+SCL
+Text Label 9200 700  1    50   ~ 0
+SDA
+Text Label 8350 2100 2    50   ~ 0
+RGB
+Text Label 8900 700  1    50   ~ 0
+DATA
+Text Label 9900 700  1    50   ~ 0
+c7
+Wire Wire Line
+	6900 5800 6900 6150
+Wire Wire Line
+	6600 6150 6350 6150
+Wire Wire Line
+	6600 6450 6450 6450
+Wire Wire Line
+	6900 6150 6900 6450
+Connection ~ 6900 6150
+$Comp
+L Connector_Generic:Conn_01x05 J2
+U 1 1 66F6B00B
+P 6450 6950
+F 0 "J2" V 6667 6946 50  0000 C CNN
+F 1 "Pointing stick" V 6576 6946 50  0000 C CNN
+F 2 "" H 6450 6950 50  0001 C CNN
+F 3 "~" H 6450 6950 50  0001 C CNN
+	1    6450 6950
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_US R8
+U 1 1 66237CC2
+P 6750 6450
+F 0 "R8" V 6543 6450 50  0000 C CNN
+F 1 "4.7k" V 6634 6450 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" V 6680 6450 50  0001 C CNN
+F 3 "~" H 6750 6450 50  0001 C CNN
+	1    6750 6450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_US R6
+U 1 1 66F6B00C
+P 6750 6150
+F 0 "R6" V 6543 6150 50  0000 C CNN
+F 1 "4.7k" V 6634 6150 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" V 6680 6150 50  0001 C CNN
+F 3 "~" H 6750 6150 50  0001 C CNN
+	1    6750 6150
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6650 6750 6900 6750
+Wire Wire Line
+	6250 6750 6000 6750
+Connection ~ 6900 6450
+$Comp
+L Device:R_US R10
+U 1 1 66F6B00D
+P 6150 6500
+F 0 "R10" V 5943 6500 50  0000 C CNN
+F 1 "100k" V 6034 6500 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" V 6080 6500 50  0001 C CNN
+F 3 "~" H 6150 6500 50  0001 C CNN
+	1    6150 6500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6350 6150 6350 6750
+Wire Wire Line
+	6450 6450 6450 6750
+Wire Wire Line
+	6900 6450 6900 6750
+Wire Wire Line
+	6550 6500 6550 6750
+Wire Wire Line
+	6550 5800 6550 6500
+Connection ~ 6550 6500
+Wire Wire Line
+	6300 6500 6550 6500
+Text Label 6350 5900 1    50   ~ 0
+DATA
+Text Label 6450 5900 1    50   ~ 0
+CLK
+Wire Wire Line
+	6450 6450 6450 5900
+Connection ~ 6450 6450
+Wire Wire Line
+	6350 6150 6350 5900
+Connection ~ 6350 6150
+Text Label 6900 5800 0    50   ~ 0
+VCC
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM6
+U 1 1 66237D00
+P 6900 5750
+F 0 "#SYM6" H 6900 5810 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 6910 5700 50  0001 C CNN
+F 2 "" H 6900 5750 50  0001 C CNN
+F 3 "~" H 6900 5750 50  0001 C CNN
+	1    6900 5750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6000 6500 6000 6750
+$Comp
+L Device:C C92
+U 1 1 66F6AF4E
+P 6700 5800
+F 0 "C92" V 6448 5800 50  0000 C CNN
+F 1 "2.2u" V 6539 5800 50  0000 C CNN
+F 2 "" H 6738 5650 50  0001 C CNN
+F 3 "~" H 6700 5800 50  0001 C CNN
+	1    6700 5800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6850 5800 6900 5800
+Text Label 8350 600  2    50   ~ 0
+CLK
+Wire Wire Line
+	10300 1300 10350 1300
+Wire Wire Line
+	10350 1300 10350 500 
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 60669BC4
+P 11050 800
+F 0 "J3" H 10968 925 50  0000 C CNN
+F 1 "PWRSWITCH" H 10968 1016 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 11050 800 50  0001 C CNN
+F 3 "~" H 11050 800 50  0001 C CNN
+	1    11050 800 
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND2 #PWR054
+U 1 1 66F0D09F
+P 10450 800
+F 0 "#PWR054" H 10450 550 50  0001 C CNN
+F 1 "GND2" H 10455 627 50  0000 C CNN
+F 2 "" H 10450 800 50  0001 C CNN
+F 3 "" H 10450 800 50  0001 C CNN
+	1    10450 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW91
+U 1 1 602C2F86
+P 10650 800
+F 0 "SW91" H 10650 1085 50  0000 C CNN
+F 1 "SW_Push" H 10650 994 50  0000 C CNN
+F 2 "libthinkeys:Kailh_Micro_Switch_6x6" H 10650 1000 50  0001 C CNN
+F 3 "~" H 10650 1000 50  0001 C CNN
+	1    10650 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR0107
+U 1 1 66F0CFC9
+P 6850 1800
+F 0 "#PWR0107" H 6850 1550 50  0001 C CNN
+F 1 "GND2" H 6855 1627 50  0000 C CNN
+F 2 "" H 6850 1800 50  0001 C CNN
+F 3 "" H 6850 1800 50  0001 C CNN
+	1    6850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:Elite-C U2
+U 1 1 66F0D02A
+P 9350 1400
+F 0 "U2" V 9297 2078 60  0000 L CNN
+F 1 "Elite-C" V 9403 2078 60  0000 L CNN
+F 2 "Keebio-Parts:Elite-C" V 10400 -1100 60  0001 C CNN
+F 3 "" V 10400 -1100 60  0001 C CNN
+	1    9350 1400
+	0    -1   1    0   
+$EndComp
+Connection ~ 10650 2950
+Connection ~ 10150 2950
+Connection ~ 9650 2950
+Connection ~ 9150 2950
+Connection ~ 8650 2950
+Wire Wire Line
+	10650 2700 10650 2950
+Wire Wire Line
+	10150 2700 10150 2950
+Wire Wire Line
+	9650 2700 9650 2950
+Wire Wire Line
+	9150 2700 9150 2950
+Connection ~ 8150 2950
+Wire Wire Line
+	8150 2700 8150 2950
+$Comp
+L Device:D D8
+U 1 1 66F6AF21
+P 7250 3100
+F 0 "D8" V 7296 3020 50  0000 R CNN
+F 1 "D" V 7205 3020 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7250 3100 50  0001 C CNN
+F 3 "~" H 7250 3100 50  0001 C CNN
+	1    7250 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7650 2950 7650 3600
+Connection ~ 7650 2950
+Wire Wire Line
+	7650 2700 7650 2950
+Wire Wire Line
+	8650 2700 8650 2950
+Text Label 10650 2700 2    50   ~ 0
+c6
+Text Label 7250 6500 2    50   ~ 0
+r5
+Text Label 7250 5850 2    50   ~ 0
+r4
+Text Label 7250 5200 2    50   ~ 0
+r3
+Text Label 7250 4550 2    50   ~ 0
+r2
+Text Label 7250 3900 2    50   ~ 0
+r1
+Connection ~ 7650 5550
+Wire Wire Line
+	7650 6200 7650 5550
+Connection ~ 8150 5550
+Wire Wire Line
+	8150 5550 8150 6200
+Connection ~ 8650 5550
+Wire Wire Line
+	8650 6200 8650 5550
+Connection ~ 9150 5550
+Wire Wire Line
+	9150 5550 9150 6200
+Connection ~ 9650 5550
+Wire Wire Line
+	9650 6200 9650 5550
+Connection ~ 10150 5550
+Wire Wire Line
+	10150 5550 10150 6200
+Connection ~ 10650 5550
+Wire Wire Line
+	10650 6200 10650 5550
+Wire Wire Line
+	10650 4900 10650 5550
+Connection ~ 10650 4900
+Wire Wire Line
+	10650 4250 10650 4900
+Connection ~ 10650 4250
+Wire Wire Line
+	10650 3600 10650 4250
+Connection ~ 10650 3600
+Wire Wire Line
+	10650 2950 10650 3600
+Wire Wire Line
+	10150 4900 10150 4250
+Connection ~ 10150 4900
+Wire Wire Line
+	10150 4250 10150 3600
+Connection ~ 10150 4250
+Wire Wire Line
+	10150 3600 10150 2950
+Connection ~ 10150 3600
+Wire Wire Line
+	10150 5550 10150 4900
+Wire Wire Line
+	9650 4900 9650 5550
+Connection ~ 9650 4900
+Wire Wire Line
+	9650 4250 9650 4900
+Connection ~ 9650 4250
+Wire Wire Line
+	9650 3600 9650 4250
+Connection ~ 9650 3600
+Wire Wire Line
+	9650 2950 9650 3600
+Wire Wire Line
+	9150 4900 9150 4250
+Connection ~ 9150 4900
+Wire Wire Line
+	9150 4250 9150 3600
+Connection ~ 9150 4250
+Wire Wire Line
+	9150 3600 9150 2950
+Connection ~ 9150 3600
+Wire Wire Line
+	9150 5550 9150 4900
+Wire Wire Line
+	8650 4900 8650 5550
+Connection ~ 8650 4900
+Wire Wire Line
+	8650 4250 8650 4900
+Connection ~ 8650 4250
+Wire Wire Line
+	8650 3600 8650 4250
+Connection ~ 8650 3600
+Wire Wire Line
+	8650 2950 8650 3600
+Wire Wire Line
+	8150 4900 8150 5550
+Connection ~ 8150 4900
+Wire Wire Line
+	8150 4250 8150 4900
+Connection ~ 8150 4250
+Wire Wire Line
+	8150 3600 8150 4250
+Connection ~ 8150 3600
+Wire Wire Line
+	8150 2950 8150 3600
+Wire Wire Line
+	7650 4900 7650 5550
+Connection ~ 7650 4900
+Wire Wire Line
+	7650 4250 7650 4900
+Connection ~ 7650 4250
+Wire Wire Line
+	7650 3600 7650 4250
+Connection ~ 7650 3600
+Connection ~ 8250 3250
+Wire Wire Line
+	8250 3250 8750 3250
+$Comp
+L Switch:SW_Push SW14
+U 1 1 66F6AFD5
+P 10450 2950
+F 0 "SW14" H 10450 3235 50  0000 C CNN
+F 1 "SW_Push" H 10450 3144 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10450 3150 50  0001 C CNN
+F 3 "~" H 10450 3150 50  0001 C CNN
+	1    10450 2950
+	1    0    0    -1  
+$EndComp
+Connection ~ 8750 3250
+Wire Wire Line
+	10250 6500 9750 6500
+Connection ~ 9750 6500
+Wire Wire Line
+	9750 6500 9250 6500
+Connection ~ 9250 6500
+Wire Wire Line
+	9250 6500 8750 6500
+Connection ~ 8750 6500
+Wire Wire Line
+	8750 6500 8250 6500
+Connection ~ 8250 6500
+Wire Wire Line
+	8250 6500 7750 6500
+Connection ~ 7750 6500
+Wire Wire Line
+	7750 6500 7250 6500
+Wire Wire Line
+	9750 5850 10250 5850
+Connection ~ 9750 5850
+Wire Wire Line
+	9250 5850 9750 5850
+Connection ~ 9250 5850
+Wire Wire Line
+	8750 5850 9250 5850
+Connection ~ 8750 5850
+Wire Wire Line
+	8250 5850 8750 5850
+Connection ~ 8250 5850
+Wire Wire Line
+	7750 5850 8250 5850
+Connection ~ 7750 5850
+Wire Wire Line
+	7250 5850 7750 5850
+Wire Wire Line
+	10250 5200 9750 5200
+Wire Wire Line
+	9750 5200 9250 5200
+Connection ~ 9750 5200
+Wire Wire Line
+	9250 5200 8750 5200
+Connection ~ 9250 5200
+Wire Wire Line
+	8750 5200 8250 5200
+Connection ~ 8750 5200
+Wire Wire Line
+	8250 5200 7750 5200
+Connection ~ 8250 5200
+Wire Wire Line
+	7750 5200 7250 5200
+Connection ~ 7750 5200
+Wire Wire Line
+	9750 4550 10250 4550
+Connection ~ 9750 4550
+Wire Wire Line
+	9250 4550 9750 4550
+Connection ~ 9250 4550
+Wire Wire Line
+	8750 4550 9250 4550
+Connection ~ 8750 4550
+Wire Wire Line
+	8250 4550 8750 4550
+Connection ~ 8250 4550
+Wire Wire Line
+	7750 4550 8250 4550
+Connection ~ 7750 4550
+Wire Wire Line
+	7250 4550 7750 4550
+Wire Wire Line
+	10250 3900 9750 3900
+Wire Wire Line
+	9750 3900 9250 3900
+Connection ~ 9750 3900
+Wire Wire Line
+	9250 3900 8750 3900
+Connection ~ 9250 3900
+Wire Wire Line
+	8750 3900 8250 3900
+Connection ~ 8750 3900
+Wire Wire Line
+	8250 3900 7750 3900
+Connection ~ 8250 3900
+Wire Wire Line
+	7750 3900 7250 3900
+Connection ~ 7750 3900
+Wire Wire Line
+	9750 3250 10250 3250
+Connection ~ 9750 3250
+Wire Wire Line
+	9250 3250 9750 3250
+Connection ~ 9250 3250
+Wire Wire Line
+	8750 3250 9250 3250
+Wire Wire Line
+	7750 3250 8250 3250
+Connection ~ 7750 3250
+Wire Wire Line
+	7250 3250 7750 3250
+$Comp
+L Device:D D14
+U 1 1 66F6AFD6
+P 10250 3100
+F 0 "D14" V 10296 3020 50  0000 R CNN
+F 1 "D" V 10205 3020 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 10250 3100 50  0001 C CNN
+F 3 "~" H 10250 3100 50  0001 C CNN
+	1    10250 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW13
+U 1 1 66F6AFD7
+P 9950 2950
+F 0 "SW13" H 9950 3235 50  0000 C CNN
+F 1 "SW_Push" H 9950 3144 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9950 3150 50  0001 C CNN
+F 3 "~" H 9950 3150 50  0001 C CNN
+	1    9950 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 66F6AFD8
+P 9750 3100
+F 0 "D13" V 9796 3020 50  0000 R CNN
+F 1 "D" V 9705 3020 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9750 3100 50  0001 C CNN
+F 3 "~" H 9750 3100 50  0001 C CNN
+	1    9750 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW12
+U 1 1 66F6AFD9
+P 9450 2950
+F 0 "SW12" H 9450 3235 50  0000 C CNN
+F 1 "SW_Push" H 9450 3144 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9450 3150 50  0001 C CNN
+F 3 "~" H 9450 3150 50  0001 C CNN
+	1    9450 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 66F6AF22
+P 9250 3100
+F 0 "D12" V 9296 3020 50  0000 R CNN
+F 1 "D" V 9205 3020 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9250 3100 50  0001 C CNN
+F 3 "~" H 9250 3100 50  0001 C CNN
+	1    9250 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW11
+U 1 1 66F6AF23
+P 8950 2950
+F 0 "SW11" H 8950 3235 50  0000 C CNN
+F 1 "SW_Push" H 8950 3144 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8950 3150 50  0001 C CNN
+F 3 "~" H 8950 3150 50  0001 C CNN
+	1    8950 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 65796803
+P 8750 3100
+F 0 "D11" V 8796 3020 50  0000 R CNN
+F 1 "D" V 8705 3020 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8750 3100 50  0001 C CNN
+F 3 "~" H 8750 3100 50  0001 C CNN
+	1    8750 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW10
+U 1 1 66F6AF25
+P 8450 2950
+F 0 "SW10" H 8450 3235 50  0000 C CNN
+F 1 "SW_Push" H 8450 3144 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8450 3150 50  0001 C CNN
+F 3 "~" H 8450 3150 50  0001 C CNN
+	1    8450 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 66F6AF26
+P 8250 3100
+F 0 "D10" V 8296 3020 50  0000 R CNN
+F 1 "D" V 8205 3020 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8250 3100 50  0001 C CNN
+F 3 "~" H 8250 3100 50  0001 C CNN
+	1    8250 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW9
+U 1 1 66F6AF27
+P 7950 2950
+F 0 "SW9" H 7950 3235 50  0000 C CNN
+F 1 "SW_Push" H 7950 3144 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7950 3150 50  0001 C CNN
+F 3 "~" H 7950 3150 50  0001 C CNN
+	1    7950 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 66F6AFDA
+P 7750 3100
+F 0 "D9" V 7796 3020 50  0000 R CNN
+F 1 "D" V 7705 3020 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7750 3100 50  0001 C CNN
+F 3 "~" H 7750 3100 50  0001 C CNN
+	1    7750 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 66F6AFDB
+P 7450 2950
+F 0 "SW8" H 7450 3235 50  0000 C CNN
+F 1 "SW_Push" H 7450 3144 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7450 3150 50  0001 C CNN
+F 3 "~" H 7450 3150 50  0001 C CNN
+	1    7450 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW29
+U 1 1 66F0CFD8
+P 10450 3600
+F 0 "SW29" H 10450 3885 50  0000 C CNN
+F 1 "SW_Push" H 10450 3794 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10450 3800 50  0001 C CNN
+F 3 "~" H 10450 3800 50  0001 C CNN
+	1    10450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D29
+U 1 1 66F6AFDD
+P 10250 3750
+F 0 "D29" V 10296 3670 50  0000 R CNN
+F 1 "D" V 10205 3670 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 10250 3750 50  0001 C CNN
+F 3 "~" H 10250 3750 50  0001 C CNN
+	1    10250 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW28
+U 1 1 66F6AFDE
+P 9950 3600
+F 0 "SW28" H 9950 3885 50  0000 C CNN
+F 1 "SW_Push" H 9950 3794 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9950 3800 50  0001 C CNN
+F 3 "~" H 9950 3800 50  0001 C CNN
+	1    9950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D28
+U 1 1 66F6AF28
+P 9750 3750
+F 0 "D28" V 9796 3670 50  0000 R CNN
+F 1 "D" V 9705 3670 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9750 3750 50  0001 C CNN
+F 3 "~" H 9750 3750 50  0001 C CNN
+	1    9750 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW27
+U 1 1 66F0CFDC
+P 9450 3600
+F 0 "SW27" H 9450 3885 50  0000 C CNN
+F 1 "SW_Push" H 9450 3794 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9450 3800 50  0001 C CNN
+F 3 "~" H 9450 3800 50  0001 C CNN
+	1    9450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D27
+U 1 1 66F6AF29
+P 9250 3750
+F 0 "D27" V 9296 3670 50  0000 R CNN
+F 1 "D" V 9205 3670 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9250 3750 50  0001 C CNN
+F 3 "~" H 9250 3750 50  0001 C CNN
+	1    9250 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW26
+U 1 1 66F0CFDE
+P 8950 3600
+F 0 "SW26" H 8950 3885 50  0000 C CNN
+F 1 "SW_Push" H 8950 3794 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8950 3800 50  0001 C CNN
+F 3 "~" H 8950 3800 50  0001 C CNN
+	1    8950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D26
+U 1 1 66F0CFDF
+P 8750 3750
+F 0 "D26" V 8796 3670 50  0000 R CNN
+F 1 "D" V 8705 3670 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8750 3750 50  0001 C CNN
+F 3 "~" H 8750 3750 50  0001 C CNN
+	1    8750 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW25
+U 1 1 66F0CFE0
+P 8450 3600
+F 0 "SW25" H 8450 3885 50  0000 C CNN
+F 1 "SW_Push" H 8450 3794 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8450 3800 50  0001 C CNN
+F 3 "~" H 8450 3800 50  0001 C CNN
+	1    8450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 66F6AFE3
+P 8250 3750
+F 0 "D25" V 8296 3670 50  0000 R CNN
+F 1 "D" V 8205 3670 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8250 3750 50  0001 C CNN
+F 3 "~" H 8250 3750 50  0001 C CNN
+	1    8250 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW24
+U 1 1 657968A3
+P 7950 3600
+F 0 "SW24" H 7950 3885 50  0000 C CNN
+F 1 "SW_Push" H 7950 3794 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7950 3800 50  0001 C CNN
+F 3 "~" H 7950 3800 50  0001 C CNN
+	1    7950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 66F6AF2B
+P 7750 3750
+F 0 "D24" V 7796 3670 50  0000 R CNN
+F 1 "D" V 7705 3670 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7750 3750 50  0001 C CNN
+F 3 "~" H 7750 3750 50  0001 C CNN
+	1    7750 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW23
+U 1 1 657968B7
+P 7450 3600
+F 0 "SW23" H 7450 3885 50  0000 C CNN
+F 1 "SW_Push" H 7450 3794 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7450 3800 50  0001 C CNN
+F 3 "~" H 7450 3800 50  0001 C CNN
+	1    7450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 66F6AF2D
+P 7250 3750
+F 0 "D23" V 7296 3670 50  0000 R CNN
+F 1 "D" V 7205 3670 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7250 3750 50  0001 C CNN
+F 3 "~" H 7250 3750 50  0001 C CNN
+	1    7250 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW44
+U 1 1 66F6AFE4
+P 10450 4250
+F 0 "SW44" H 10450 4535 50  0000 C CNN
+F 1 "SW_Push" H 10450 4444 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10450 4450 50  0001 C CNN
+F 3 "~" H 10450 4450 50  0001 C CNN
+	1    10450 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D44
+U 1 1 66F6AF2E
+P 10250 4400
+F 0 "D44" V 10296 4320 50  0000 R CNN
+F 1 "D" V 10205 4320 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 10250 4400 50  0001 C CNN
+F 3 "~" H 10250 4400 50  0001 C CNN
+	1    10250 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW43
+U 1 1 66F6AF2F
+P 9950 4250
+F 0 "SW43" H 9950 4535 50  0000 C CNN
+F 1 "SW_Push" H 9950 4444 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9950 4450 50  0001 C CNN
+F 3 "~" H 9950 4450 50  0001 C CNN
+	1    9950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D43
+U 1 1 657968E9
+P 9750 4400
+F 0 "D43" V 9796 4320 50  0000 R CNN
+F 1 "D" V 9705 4320 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9750 4400 50  0001 C CNN
+F 3 "~" H 9750 4400 50  0001 C CNN
+	1    9750 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW42
+U 1 1 657968F3
+P 9450 4250
+F 0 "SW42" H 9450 4535 50  0000 C CNN
+F 1 "SW_Push" H 9450 4444 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9450 4450 50  0001 C CNN
+F 3 "~" H 9450 4450 50  0001 C CNN
+	1    9450 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D42
+U 1 1 66F6AFE5
+P 9250 4400
+F 0 "D42" V 9296 4320 50  0000 R CNN
+F 1 "D" V 9205 4320 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9250 4400 50  0001 C CNN
+F 3 "~" H 9250 4400 50  0001 C CNN
+	1    9250 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW41
+U 1 1 65796907
+P 8950 4250
+F 0 "SW41" H 8950 4535 50  0000 C CNN
+F 1 "SW_Push" H 8950 4444 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8950 4450 50  0001 C CNN
+F 3 "~" H 8950 4450 50  0001 C CNN
+	1    8950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D41
+U 1 1 65796911
+P 8750 4400
+F 0 "D41" V 8796 4320 50  0000 R CNN
+F 1 "D" V 8705 4320 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8750 4400 50  0001 C CNN
+F 3 "~" H 8750 4400 50  0001 C CNN
+	1    8750 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW40
+U 1 1 6579691B
+P 8450 4250
+F 0 "SW40" H 8450 4535 50  0000 C CNN
+F 1 "SW_Push" H 8450 4444 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8450 4450 50  0001 C CNN
+F 3 "~" H 8450 4450 50  0001 C CNN
+	1    8450 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D40
+U 1 1 66F6AF35
+P 8250 4400
+F 0 "D40" V 8296 4320 50  0000 R CNN
+F 1 "D" V 8205 4320 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8250 4400 50  0001 C CNN
+F 3 "~" H 8250 4400 50  0001 C CNN
+	1    8250 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW39
+U 1 1 66F6AF36
+P 7950 4250
+F 0 "SW39" H 7950 4535 50  0000 C CNN
+F 1 "SW_Push" H 7950 4444 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7950 4450 50  0001 C CNN
+F 3 "~" H 7950 4450 50  0001 C CNN
+	1    7950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D39
+U 1 1 66F6AF37
+P 7750 4400
+F 0 "D39" V 7796 4320 50  0000 R CNN
+F 1 "D" V 7705 4320 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7750 4400 50  0001 C CNN
+F 3 "~" H 7750 4400 50  0001 C CNN
+	1    7750 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW38
+U 1 1 66F6AF38
+P 7450 4250
+F 0 "SW38" H 7450 4535 50  0000 C CNN
+F 1 "SW_Push" H 7450 4444 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7450 4450 50  0001 C CNN
+F 3 "~" H 7450 4450 50  0001 C CNN
+	1    7450 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D38
+U 1 1 66F0CFF3
+P 7250 4400
+F 0 "D38" V 7296 4320 50  0000 R CNN
+F 1 "D" V 7205 4320 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7250 4400 50  0001 C CNN
+F 3 "~" H 7250 4400 50  0001 C CNN
+	1    7250 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW59
+U 1 1 66F0CFF4
+P 10450 4900
+F 0 "SW59" H 10450 5185 50  0000 C CNN
+F 1 "SW_Push" H 10450 5094 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10450 5100 50  0001 C CNN
+F 3 "~" H 10450 5100 50  0001 C CNN
+	1    10450 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D59
+U 1 1 66F6AFE8
+P 10250 5050
+F 0 "D59" V 10296 4970 50  0000 R CNN
+F 1 "D" V 10205 4970 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 10250 5050 50  0001 C CNN
+F 3 "~" H 10250 5050 50  0001 C CNN
+	1    10250 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW58
+U 1 1 66F6AFE9
+P 9950 4900
+F 0 "SW58" H 9950 5185 50  0000 C CNN
+F 1 "SW_Push" H 9950 5094 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9950 5100 50  0001 C CNN
+F 3 "~" H 9950 5100 50  0001 C CNN
+	1    9950 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D58
+U 1 1 66F6AFEA
+P 9750 5050
+F 0 "D58" V 9796 4970 50  0000 R CNN
+F 1 "D" V 9705 4970 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9750 5050 50  0001 C CNN
+F 3 "~" H 9750 5050 50  0001 C CNN
+	1    9750 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW57
+U 1 1 66F6AFEB
+P 9450 4900
+F 0 "SW57" H 9450 5185 50  0000 C CNN
+F 1 "SW_Push" H 9450 5094 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9450 5100 50  0001 C CNN
+F 3 "~" H 9450 5100 50  0001 C CNN
+	1    9450 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D57
+U 1 1 66F6AFEC
+P 9250 5050
+F 0 "D57" V 9296 4970 50  0000 R CNN
+F 1 "D" V 9205 4970 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9250 5050 50  0001 C CNN
+F 3 "~" H 9250 5050 50  0001 C CNN
+	1    9250 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW56
+U 1 1 66F6AFED
+P 8950 4900
+F 0 "SW56" H 8950 5185 50  0000 C CNN
+F 1 "SW_Push" H 8950 5094 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8950 5100 50  0001 C CNN
+F 3 "~" H 8950 5100 50  0001 C CNN
+	1    8950 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D56
+U 1 1 66F6AFEE
+P 8750 5050
+F 0 "D56" V 8796 4970 50  0000 R CNN
+F 1 "D" V 8705 4970 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8750 5050 50  0001 C CNN
+F 3 "~" H 8750 5050 50  0001 C CNN
+	1    8750 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW55
+U 1 1 66F0CFFC
+P 8450 4900
+F 0 "SW55" H 8450 5185 50  0000 C CNN
+F 1 "SW_Push" H 8450 5094 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8450 5100 50  0001 C CNN
+F 3 "~" H 8450 5100 50  0001 C CNN
+	1    8450 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D55
+U 1 1 66F6AFF0
+P 8250 5050
+F 0 "D55" V 8296 4970 50  0000 R CNN
+F 1 "D" V 8205 4970 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8250 5050 50  0001 C CNN
+F 3 "~" H 8250 5050 50  0001 C CNN
+	1    8250 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW54
+U 1 1 66F6AF39
+P 7950 4900
+F 0 "SW54" H 7950 5185 50  0000 C CNN
+F 1 "SW_Push" H 7950 5094 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7950 5100 50  0001 C CNN
+F 3 "~" H 7950 5100 50  0001 C CNN
+	1    7950 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D54
+U 1 1 66F6AF3A
+P 7750 5050
+F 0 "D54" V 7796 4970 50  0000 R CNN
+F 1 "D" V 7705 4970 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7750 5050 50  0001 C CNN
+F 3 "~" H 7750 5050 50  0001 C CNN
+	1    7750 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW53
+U 1 1 657969CF
+P 7450 4900
+F 0 "SW53" H 7450 5185 50  0000 C CNN
+F 1 "SW_Push" H 7450 5094 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7450 5100 50  0001 C CNN
+F 3 "~" H 7450 5100 50  0001 C CNN
+	1    7450 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D53
+U 1 1 66F0D001
+P 7250 5050
+F 0 "D53" V 7296 4970 50  0000 R CNN
+F 1 "D" V 7205 4970 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7250 5050 50  0001 C CNN
+F 3 "~" H 7250 5050 50  0001 C CNN
+	1    7250 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW74
+U 1 1 66F6AFF2
+P 10450 5550
+F 0 "SW74" H 10450 5835 50  0000 C CNN
+F 1 "SW_Push" H 10450 5744 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10450 5750 50  0001 C CNN
+F 3 "~" H 10450 5750 50  0001 C CNN
+	1    10450 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D74
+U 1 1 66F0D003
+P 10250 5700
+F 0 "D74" V 10296 5620 50  0000 R CNN
+F 1 "D" V 10205 5620 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 10250 5700 50  0001 C CNN
+F 3 "~" H 10250 5700 50  0001 C CNN
+	1    10250 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW73
+U 1 1 66F0D004
+P 9950 5550
+F 0 "SW73" H 9950 5835 50  0000 C CNN
+F 1 "SW_Push" H 9950 5744 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9950 5750 50  0001 C CNN
+F 3 "~" H 9950 5750 50  0001 C CNN
+	1    9950 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D73
+U 1 1 66F0D005
+P 9750 5700
+F 0 "D73" V 9796 5620 50  0000 R CNN
+F 1 "D" V 9705 5620 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9750 5700 50  0001 C CNN
+F 3 "~" H 9750 5700 50  0001 C CNN
+	1    9750 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW72
+U 1 1 66F6AFF6
+P 9450 5550
+F 0 "SW72" H 9450 5835 50  0000 C CNN
+F 1 "SW_Push" H 9450 5744 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9450 5750 50  0001 C CNN
+F 3 "~" H 9450 5750 50  0001 C CNN
+	1    9450 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D72
+U 1 1 66F6AFF7
+P 9250 5700
+F 0 "D72" V 9296 5620 50  0000 R CNN
+F 1 "D" V 9205 5620 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9250 5700 50  0001 C CNN
+F 3 "~" H 9250 5700 50  0001 C CNN
+	1    9250 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW71
+U 1 1 66F6AF3C
+P 8950 5550
+F 0 "SW71" H 8950 5835 50  0000 C CNN
+F 1 "SW_Push" H 8950 5744 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8950 5750 50  0001 C CNN
+F 3 "~" H 8950 5750 50  0001 C CNN
+	1    8950 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D71
+U 1 1 66F6AF3D
+P 8750 5700
+F 0 "D71" V 8796 5620 50  0000 R CNN
+F 1 "D" V 8705 5620 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8750 5700 50  0001 C CNN
+F 3 "~" H 8750 5700 50  0001 C CNN
+	1    8750 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW70
+U 1 1 66F6AF3E
+P 8450 5550
+F 0 "SW70" H 8450 5835 50  0000 C CNN
+F 1 "SW_Push" H 8450 5744 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8450 5750 50  0001 C CNN
+F 3 "~" H 8450 5750 50  0001 C CNN
+	1    8450 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D70
+U 1 1 66F6AF3F
+P 8250 5700
+F 0 "D70" V 8296 5620 50  0000 R CNN
+F 1 "D" V 8205 5620 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8250 5700 50  0001 C CNN
+F 3 "~" H 8250 5700 50  0001 C CNN
+	1    8250 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW69
+U 1 1 66F6AFF8
+P 7950 5550
+F 0 "SW69" H 7950 5835 50  0000 C CNN
+F 1 "SW_Push" H 7950 5744 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7950 5750 50  0001 C CNN
+F 3 "~" H 7950 5750 50  0001 C CNN
+	1    7950 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D69
+U 1 1 66F6AF40
+P 7750 5700
+F 0 "D69" V 7796 5620 50  0000 R CNN
+F 1 "D" V 7705 5620 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7750 5700 50  0001 C CNN
+F 3 "~" H 7750 5700 50  0001 C CNN
+	1    7750 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW68
+U 1 1 66F6AF41
+P 7450 5550
+F 0 "SW68" H 7450 5835 50  0000 C CNN
+F 1 "SW_Push" H 7450 5744 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7450 5750 50  0001 C CNN
+F 3 "~" H 7450 5750 50  0001 C CNN
+	1    7450 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D68
+U 1 1 65796A65
+P 7250 5700
+F 0 "D68" V 7296 5620 50  0000 R CNN
+F 1 "D" V 7205 5620 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7250 5700 50  0001 C CNN
+F 3 "~" H 7250 5700 50  0001 C CNN
+	1    7250 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW89
+U 1 1 65796A6F
+P 10450 6200
+F 0 "SW89" H 10450 6485 50  0000 C CNN
+F 1 "SW_Push" H 10450 6394 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10450 6400 50  0001 C CNN
+F 3 "~" H 10450 6400 50  0001 C CNN
+	1    10450 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D89
+U 1 1 66F6AF44
+P 10250 6350
+F 0 "D89" V 10296 6270 50  0000 R CNN
+F 1 "D" V 10205 6270 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 10250 6350 50  0001 C CNN
+F 3 "~" H 10250 6350 50  0001 C CNN
+	1    10250 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW88
+U 1 1 66F6AF45
+P 9950 6200
+F 0 "SW88" H 9950 6485 50  0000 C CNN
+F 1 "SW_Push" H 9950 6394 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9950 6400 50  0001 C CNN
+F 3 "~" H 9950 6400 50  0001 C CNN
+	1    9950 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D88
+U 1 1 66F0D013
+P 9750 6350
+F 0 "D88" V 9796 6270 50  0000 R CNN
+F 1 "D" V 9705 6270 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9750 6350 50  0001 C CNN
+F 3 "~" H 9750 6350 50  0001 C CNN
+	1    9750 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW87
+U 1 1 66F0D014
+P 9450 6200
+F 0 "SW87" H 9450 6485 50  0000 C CNN
+F 1 "SW_Push" H 9450 6394 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 9450 6400 50  0001 C CNN
+F 3 "~" H 9450 6400 50  0001 C CNN
+	1    9450 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D87
+U 1 1 66F6AFFB
+P 9250 6350
+F 0 "D87" V 9296 6270 50  0000 R CNN
+F 1 "D" V 9205 6270 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 9250 6350 50  0001 C CNN
+F 3 "~" H 9250 6350 50  0001 C CNN
+	1    9250 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW86
+U 1 1 66F6AF46
+P 8950 6200
+F 0 "SW86" H 8950 6485 50  0000 C CNN
+F 1 "SW_Push" H 8950 6394 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8950 6400 50  0001 C CNN
+F 3 "~" H 8950 6400 50  0001 C CNN
+	1    8950 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D86
+U 1 1 66F6AF47
+P 8750 6350
+F 0 "D86" V 8796 6270 50  0000 R CNN
+F 1 "D" V 8705 6270 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8750 6350 50  0001 C CNN
+F 3 "~" H 8750 6350 50  0001 C CNN
+	1    8750 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW85
+U 1 1 65796ABF
+P 8450 6200
+F 0 "SW85" H 8450 6485 50  0000 C CNN
+F 1 "SW_Push" H 8450 6394 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8450 6400 50  0001 C CNN
+F 3 "~" H 8450 6400 50  0001 C CNN
+	1    8450 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D85
+U 1 1 66F6AF49
+P 8250 6350
+F 0 "D85" V 8296 6270 50  0000 R CNN
+F 1 "D" V 8205 6270 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 8250 6350 50  0001 C CNN
+F 3 "~" H 8250 6350 50  0001 C CNN
+	1    8250 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW84
+U 1 1 66F6AFFC
+P 7950 6200
+F 0 "SW84" H 7950 6485 50  0000 C CNN
+F 1 "SW_Push" H 7950 6394 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7950 6400 50  0001 C CNN
+F 3 "~" H 7950 6400 50  0001 C CNN
+	1    7950 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D84
+U 1 1 66F6AFFD
+P 7750 6350
+F 0 "D84" V 7796 6270 50  0000 R CNN
+F 1 "D" V 7705 6270 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7750 6350 50  0001 C CNN
+F 3 "~" H 7750 6350 50  0001 C CNN
+	1    7750 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW83
+U 1 1 66F0D01C
+P 7450 6200
+F 0 "SW83" H 7450 6485 50  0000 C CNN
+F 1 "SW_Push" H 7450 6394 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7450 6400 50  0001 C CNN
+F 3 "~" H 7450 6400 50  0001 C CNN
+	1    7450 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D83
+U 1 1 66F0D01D
+P 7250 6350
+F 0 "D83" V 7296 6270 50  0000 R CNN
+F 1 "D" V 7205 6270 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 7250 6350 50  0001 C CNN
+F 3 "~" H 7250 6350 50  0001 C CNN
+	1    7250 6350
+	0    -1   -1   0   
+$EndComp
+Text Label 7650 2700 2    50   ~ 0
+c0
+Text Label 8150 2700 2    50   ~ 0
+c1
+Text Label 8650 2700 2    50   ~ 0
+c2
+Text Label 9150 2700 2    50   ~ 0
+c3
+Text Label 9650 2700 2    50   ~ 0
+c4
+Text Label 10150 2700 2    50   ~ 0
+c5
+Text Label 7250 3250 2    50   ~ 0
+r0
+Connection ~ 11150 5550
+Wire Wire Line
+	11150 6200 11150 5550
+Wire Wire Line
+	11150 4900 11150 5550
+Connection ~ 11150 4900
+Wire Wire Line
+	11150 4250 11150 4900
+Connection ~ 11150 4250
+Wire Wire Line
+	11150 3600 11150 4250
+$Comp
+L Device:D D15
+U 1 1 66F0D01E
+P 10750 3100
+F 0 "D15" V 10796 3020 50  0000 R CNN
+F 1 "D" V 10705 3020 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 10750 3100 50  0001 C CNN
+F 3 "~" H 10750 3100 50  0001 C CNN
+	1    10750 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW30
+U 1 1 66F6AF4A
+P 10950 3600
+F 0 "SW30" H 10950 3885 50  0000 C CNN
+F 1 "SW_Push" H 10950 3794 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10950 3800 50  0001 C CNN
+F 3 "~" H 10950 3800 50  0001 C CNN
+	1    10950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D30
+U 1 1 65796B1D
+P 10750 3750
+F 0 "D30" V 10796 3670 50  0000 R CNN
+F 1 "D" V 10705 3670 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 10750 3750 50  0001 C CNN
+F 3 "~" H 10750 3750 50  0001 C CNN
+	1    10750 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW45
+U 1 1 65796B27
+P 10950 4250
+F 0 "SW45" H 10950 4535 50  0000 C CNN
+F 1 "SW_Push" H 10950 4444 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10950 4450 50  0001 C CNN
+F 3 "~" H 10950 4450 50  0001 C CNN
+	1    10950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D45
+U 1 1 66F6B001
+P 10750 4400
+F 0 "D45" V 10796 4320 50  0000 R CNN
+F 1 "D" V 10705 4320 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 10750 4400 50  0001 C CNN
+F 3 "~" H 10750 4400 50  0001 C CNN
+	1    10750 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW60
+U 1 1 66F0D023
+P 10950 4900
+F 0 "SW60" H 10950 5185 50  0000 C CNN
+F 1 "SW_Push" H 10950 5094 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10950 5100 50  0001 C CNN
+F 3 "~" H 10950 5100 50  0001 C CNN
+	1    10950 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D60
+U 1 1 66F0D024
+P 10750 5050
+F 0 "D60" V 10796 4970 50  0000 R CNN
+F 1 "D" V 10705 4970 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 10750 5050 50  0001 C CNN
+F 3 "~" H 10750 5050 50  0001 C CNN
+	1    10750 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW75
+U 1 1 66F6B004
+P 10950 5550
+F 0 "SW75" H 10950 5835 50  0000 C CNN
+F 1 "SW_Push" H 10950 5744 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10950 5750 50  0001 C CNN
+F 3 "~" H 10950 5750 50  0001 C CNN
+	1    10950 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D75
+U 1 1 66F6B005
+P 10750 5700
+F 0 "D75" V 10796 5620 50  0000 R CNN
+F 1 "D" V 10705 5620 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 10750 5700 50  0001 C CNN
+F 3 "~" H 10750 5700 50  0001 C CNN
+	1    10750 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW90
+U 1 1 66F6B006
+P 10950 6200
+F 0 "SW90" H 10950 6485 50  0000 C CNN
+F 1 "SW_Push" H 10950 6394 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10950 6400 50  0001 C CNN
+F 3 "~" H 10950 6400 50  0001 C CNN
+	1    10950 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D90
+U 1 1 66F6B007
+P 10750 6350
+F 0 "D90" V 10796 6270 50  0000 R CNN
+F 1 "D" V 10705 6270 50  0000 R CNN
+F 2 "pineapple60_2:Diode_TH_SOD123" H 10750 6350 50  0001 C CNN
+F 3 "~" H 10750 6350 50  0001 C CNN
+	1    10750 6350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10250 3250 10750 3250
+Connection ~ 10250 3250
+Wire Wire Line
+	10750 3900 10250 3900
+Connection ~ 10250 3900
+Wire Wire Line
+	10250 4550 10750 4550
+Connection ~ 10250 4550
+Wire Wire Line
+	10750 5200 10250 5200
+Connection ~ 10250 5200
+Wire Wire Line
+	10250 5850 10750 5850
+Connection ~ 10250 5850
+Wire Wire Line
+	10750 6500 10250 6500
+Connection ~ 10250 6500
+Connection ~ 11150 3600
+$Comp
+L Switch:SW_Push SW15
+U 1 1 66F6B008
+P 10950 2950
+F 0 "SW15" H 10950 3235 50  0000 C CNN
+F 1 "SW_Push" H 10950 3144 50  0000 C CNN
+F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 10950 3150 50  0001 C CNN
+F 3 "~" H 10950 3150 50  0001 C CNN
+	1    10950 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11150 2950 11150 3600
+Text Label 11150 2700 2    50   ~ 0
+c7
+Wire Wire Line
+	11150 2700 11150 2950
+Connection ~ 11150 2950
+$Comp
+L LED:SK6812MINI L9
+U 1 1 66ACC8EF
+P 1850 1250
+F 0 "L9" H 1850 861 50  0000 C CNN
+F 1 "SK6812MINI" H 1850 770 50  0000 C CNN
+F 2 "" H 1900 950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1950 875 50  0001 L TNN
+	1    1850 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 1250 5750 1800
+Wire Wire Line
+	600  1800 600  2450
+Wire Wire Line
+	5750 2450 5750 3000
+Wire Wire Line
+	5750 3650 5750 4200
+Wire Wire Line
+	5750 4850 5750 5400
+Wire Wire Line
+	5750 6050 5750 6600
+Wire Wire Line
+	5800 6650 5800 5450
+Connection ~ 5800 3050
+Wire Wire Line
+	5800 3050 5800 1850
+Connection ~ 5800 4250
+Wire Wire Line
+	5800 4250 5800 3050
+Connection ~ 5800 5450
+Wire Wire Line
+	5800 5450 5800 4250
+Wire Wire Line
+	5800 1850 5800 650 
+Connection ~ 5800 1850
+Wire Wire Line
+	5750 7250 5750 7550
+Text Label 5800 650  0    50   ~ 0
+VCC
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM4
+U 1 1 66ACD948
+P 5800 600
+F 0 "#SYM4" H 5800 660 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 5810 550 50  0001 C CNN
+F 2 "" H 5800 600 50  0001 C CNN
+F 3 "~" H 5800 600 50  0001 C CNN
+	1    5800 600 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1850 1550 2450 1550
+$Comp
+L LED:SK6812MINI L10
+U 1 1 66F6B010
+P 2450 1250
+F 0 "L10" H 2450 861 50  0000 C CNN
+F 1 "SK6812MINI" H 2450 770 50  0000 C CNN
+F 2 "" H 2500 950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2550 875 50  0001 L TNN
+	1    2450 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 2450 1550
+Wire Wire Line
+	2450 1550 3050 1550
+$Comp
+L LED:SK6812MINI L11
+U 1 1 66F6B011
+P 3050 1250
+F 0 "L11" H 3050 861 50  0000 C CNN
+F 1 "SK6812MINI" H 3050 770 50  0000 C CNN
+F 2 "" H 3100 950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3150 875 50  0001 L TNN
+	1    3050 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 3050 1550
+Wire Wire Line
+	3050 1550 3650 1550
+$Comp
+L LED:SK6812MINI L12
+U 1 1 66F6B012
+P 3650 1250
+F 0 "L12" H 3650 861 50  0000 C CNN
+F 1 "SK6812MINI" H 3650 770 50  0000 C CNN
+F 2 "" H 3700 950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3750 875 50  0001 L TNN
+	1    3650 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 3650 1550
+Wire Wire Line
+	3650 1550 4250 1550
+$Comp
+L LED:SK6812MINI L13
+U 1 1 66F6AFA1
+P 4250 1250
+F 0 "L13" H 4250 861 50  0000 C CNN
+F 1 "SK6812MINI" H 4250 770 50  0000 C CNN
+F 2 "" H 4300 950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4350 875 50  0001 L TNN
+	1    4250 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4250 1550
+Wire Wire Line
+	4250 1550 4850 1550
+$Comp
+L LED:SK6812MINI L14
+U 1 1 66F6B013
+P 4850 1250
+F 0 "L14" H 4850 861 50  0000 C CNN
+F 1 "SK6812MINI" H 4850 770 50  0000 C CNN
+F 2 "" H 4900 950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4950 875 50  0001 L TNN
+	1    4850 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4850 1550
+Wire Wire Line
+	4850 1550 5450 1550
+$Comp
+L LED:SK6812MINI L15
+U 1 1 66F0D03E
+P 5450 1250
+F 0 "L15" H 5450 861 50  0000 C CNN
+F 1 "SK6812MINI" H 5450 770 50  0000 C CNN
+F 2 "" H 5500 950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5550 875 50  0001 L TNN
+	1    5450 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L24
+U 1 1 66F0D03F
+P 1850 2450
+F 0 "L24" H 1850 2061 50  0000 C CNN
+F 1 "SK6812MINI" H 1850 1970 50  0000 C CNN
+F 2 "" H 1900 2150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1950 2075 50  0001 L TNN
+	1    1850 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L25
+U 1 1 66F0D040
+P 2450 2450
+F 0 "L25" H 2450 2061 50  0000 C CNN
+F 1 "SK6812MINI" H 2450 1970 50  0000 C CNN
+F 2 "" H 2500 2150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2550 2075 50  0001 L TNN
+	1    2450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L26
+U 1 1 66F6AFA2
+P 3050 2450
+F 0 "L26" H 3050 2061 50  0000 C CNN
+F 1 "SK6812MINI" H 3050 1970 50  0000 C CNN
+F 2 "" H 3100 2150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3150 2075 50  0001 L TNN
+	1    3050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L27
+U 1 1 66F6AFA3
+P 3650 2450
+F 0 "L27" H 3650 2061 50  0000 C CNN
+F 1 "SK6812MINI" H 3650 1970 50  0000 C CNN
+F 2 "" H 3700 2150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3750 2075 50  0001 L TNN
+	1    3650 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L28
+U 1 1 66F6AFA4
+P 4250 2450
+F 0 "L28" H 4250 2061 50  0000 C CNN
+F 1 "SK6812MINI" H 4250 1970 50  0000 C CNN
+F 2 "" H 4300 2150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4350 2075 50  0001 L TNN
+	1    4250 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L29
+U 1 1 66F6AFA5
+P 4850 2450
+F 0 "L29" H 4850 2061 50  0000 C CNN
+F 1 "SK6812MINI" H 4850 1970 50  0000 C CNN
+F 2 "" H 4900 2150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4950 2075 50  0001 L TNN
+	1    4850 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L30
+U 1 1 66F6AFA6
+P 5450 2450
+F 0 "L30" H 5450 2061 50  0000 C CNN
+F 1 "SK6812MINI" H 5450 1970 50  0000 C CNN
+F 2 "" H 5500 2150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5550 2075 50  0001 L TNN
+	1    5450 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2750 2450 2750
+Connection ~ 2450 2750
+Wire Wire Line
+	2450 2750 3050 2750
+Connection ~ 3050 2750
+Wire Wire Line
+	3050 2750 3650 2750
+Connection ~ 3650 2750
+Wire Wire Line
+	3650 2750 4250 2750
+Connection ~ 4250 2750
+Wire Wire Line
+	4250 2750 4850 2750
+Connection ~ 4850 2750
+Wire Wire Line
+	4850 2750 5450 2750
+$Comp
+L LED:SK6812MINI L39
+U 1 1 66F6AFA7
+P 1850 3650
+F 0 "L39" H 1850 3261 50  0000 C CNN
+F 1 "SK6812MINI" H 1850 3170 50  0000 C CNN
+F 2 "" H 1900 3350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1950 3275 50  0001 L TNN
+	1    1850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L40
+U 1 1 66F6B017
+P 2450 3650
+F 0 "L40" H 2450 3261 50  0000 C CNN
+F 1 "SK6812MINI" H 2450 3170 50  0000 C CNN
+F 2 "" H 2500 3350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2550 3275 50  0001 L TNN
+	1    2450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L41
+U 1 1 66F0D048
+P 3050 3650
+F 0 "L41" H 3050 3261 50  0000 C CNN
+F 1 "SK6812MINI" H 3050 3170 50  0000 C CNN
+F 2 "" H 3100 3350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3150 3275 50  0001 L TNN
+	1    3050 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L42
+U 1 1 66F6B019
+P 3650 3650
+F 0 "L42" H 3650 3261 50  0000 C CNN
+F 1 "SK6812MINI" H 3650 3170 50  0000 C CNN
+F 2 "" H 3700 3350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3750 3275 50  0001 L TNN
+	1    3650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L43
+U 1 1 66F6AFA8
+P 4250 3650
+F 0 "L43" H 4250 3261 50  0000 C CNN
+F 1 "SK6812MINI" H 4250 3170 50  0000 C CNN
+F 2 "" H 4300 3350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4350 3275 50  0001 L TNN
+	1    4250 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L44
+U 1 1 66F6AFA9
+P 4850 3650
+F 0 "L44" H 4850 3261 50  0000 C CNN
+F 1 "SK6812MINI" H 4850 3170 50  0000 C CNN
+F 2 "" H 4900 3350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4950 3275 50  0001 L TNN
+	1    4850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L45
+U 1 1 66F6B01A
+P 5450 3650
+F 0 "L45" H 5450 3261 50  0000 C CNN
+F 1 "SK6812MINI" H 5450 3170 50  0000 C CNN
+F 2 "" H 5500 3350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5550 3275 50  0001 L TNN
+	1    5450 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3950 2450 3950
+Connection ~ 2450 3950
+Wire Wire Line
+	2450 3950 3050 3950
+Connection ~ 3050 3950
+Wire Wire Line
+	3050 3950 3650 3950
+Connection ~ 3650 3950
+Wire Wire Line
+	3650 3950 4250 3950
+Connection ~ 4250 3950
+Wire Wire Line
+	4250 3950 4850 3950
+Connection ~ 4850 3950
+Wire Wire Line
+	4850 3950 5450 3950
+$Comp
+L LED:SK6812MINI L54
+U 1 1 66F6B01B
+P 1850 4850
+F 0 "L54" H 1850 4461 50  0000 C CNN
+F 1 "SK6812MINI" H 1850 4370 50  0000 C CNN
+F 2 "" H 1900 4550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1950 4475 50  0001 L TNN
+	1    1850 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L55
+U 1 1 66F0D04E
+P 2450 4850
+F 0 "L55" H 2450 4461 50  0000 C CNN
+F 1 "SK6812MINI" H 2450 4370 50  0000 C CNN
+F 2 "" H 2500 4550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2550 4475 50  0001 L TNN
+	1    2450 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L56
+U 1 1 66F6AFAA
+P 3050 4850
+F 0 "L56" H 3050 4461 50  0000 C CNN
+F 1 "SK6812MINI" H 3050 4370 50  0000 C CNN
+F 2 "" H 3100 4550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3150 4475 50  0001 L TNN
+	1    3050 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L57
+U 1 1 66F0D050
+P 3650 4850
+F 0 "L57" H 3650 4461 50  0000 C CNN
+F 1 "SK6812MINI" H 3650 4370 50  0000 C CNN
+F 2 "" H 3700 4550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3750 4475 50  0001 L TNN
+	1    3650 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L58
+U 1 1 66F6B01E
+P 4250 4850
+F 0 "L58" H 4250 4461 50  0000 C CNN
+F 1 "SK6812MINI" H 4250 4370 50  0000 C CNN
+F 2 "" H 4300 4550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4350 4475 50  0001 L TNN
+	1    4250 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L59
+U 1 1 66F6AFAB
+P 4850 4850
+F 0 "L59" H 4850 4461 50  0000 C CNN
+F 1 "SK6812MINI" H 4850 4370 50  0000 C CNN
+F 2 "" H 4900 4550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4950 4475 50  0001 L TNN
+	1    4850 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L60
+U 1 1 66F0D053
+P 5450 4850
+F 0 "L60" H 5450 4461 50  0000 C CNN
+F 1 "SK6812MINI" H 5450 4370 50  0000 C CNN
+F 2 "" H 5500 4550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5550 4475 50  0001 L TNN
+	1    5450 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 5150 2450 5150
+Connection ~ 2450 5150
+Wire Wire Line
+	2450 5150 3050 5150
+Connection ~ 3050 5150
+Wire Wire Line
+	3050 5150 3650 5150
+Connection ~ 3650 5150
+Wire Wire Line
+	3650 5150 4250 5150
+Connection ~ 4250 5150
+Wire Wire Line
+	4250 5150 4850 5150
+Connection ~ 4850 5150
+Wire Wire Line
+	4850 5150 5450 5150
+$Comp
+L LED:SK6812MINI L69
+U 1 1 66F0D054
+P 1850 6050
+F 0 "L69" H 1850 5661 50  0000 C CNN
+F 1 "SK6812MINI" H 1850 5570 50  0000 C CNN
+F 2 "" H 1900 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1950 5675 50  0001 L TNN
+	1    1850 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L70
+U 1 1 66F0D055
+P 2450 6050
+F 0 "L70" H 2450 5661 50  0000 C CNN
+F 1 "SK6812MINI" H 2450 5570 50  0000 C CNN
+F 2 "" H 2500 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2550 5675 50  0001 L TNN
+	1    2450 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L71
+U 1 1 66F6AFAC
+P 3050 6050
+F 0 "L71" H 3050 5661 50  0000 C CNN
+F 1 "SK6812MINI" H 3050 5570 50  0000 C CNN
+F 2 "" H 3100 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3150 5675 50  0001 L TNN
+	1    3050 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L72
+U 1 1 66ACDAAA
+P 3650 6050
+F 0 "L72" H 3650 5661 50  0000 C CNN
+F 1 "SK6812MINI" H 3650 5570 50  0000 C CNN
+F 2 "" H 3700 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3750 5675 50  0001 L TNN
+	1    3650 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L73
+U 1 1 66ACDAB4
+P 4250 6050
+F 0 "L73" H 4250 5661 50  0000 C CNN
+F 1 "SK6812MINI" H 4250 5570 50  0000 C CNN
+F 2 "" H 4300 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4350 5675 50  0001 L TNN
+	1    4250 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L74
+U 1 1 66F0D059
+P 4850 6050
+F 0 "L74" H 4850 5661 50  0000 C CNN
+F 1 "SK6812MINI" H 4850 5570 50  0000 C CNN
+F 2 "" H 4900 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4950 5675 50  0001 L TNN
+	1    4850 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L75
+U 1 1 66F6AFAF
+P 5450 6050
+F 0 "L75" H 5450 5661 50  0000 C CNN
+F 1 "SK6812MINI" H 5450 5570 50  0000 C CNN
+F 2 "" H 5500 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5550 5675 50  0001 L TNN
+	1    5450 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 6350 2450 6350
+Connection ~ 2450 6350
+Wire Wire Line
+	2450 6350 3050 6350
+Connection ~ 3050 6350
+Wire Wire Line
+	3050 6350 3650 6350
+Connection ~ 3650 6350
+Wire Wire Line
+	3650 6350 4250 6350
+Connection ~ 4250 6350
+Wire Wire Line
+	4250 6350 4850 6350
+Connection ~ 4850 6350
+Wire Wire Line
+	4850 6350 5450 6350
+$Comp
+L LED:SK6812MINI L84
+U 1 1 66F6AFB0
+P 1850 7250
+F 0 "L84" H 1850 6861 50  0000 C CNN
+F 1 "SK6812MINI" H 1850 6770 50  0000 C CNN
+F 2 "" H 1900 6950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1950 6875 50  0001 L TNN
+	1    1850 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L85
+U 1 1 66F6AFB1
+P 2450 7250
+F 0 "L85" H 2450 6861 50  0000 C CNN
+F 1 "SK6812MINI" H 2450 6770 50  0000 C CNN
+F 2 "" H 2500 6950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2550 6875 50  0001 L TNN
+	1    2450 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L86
+U 1 1 66F6AFB2
+P 3050 7250
+F 0 "L86" H 3050 6861 50  0000 C CNN
+F 1 "SK6812MINI" H 3050 6770 50  0000 C CNN
+F 2 "" H 3100 6950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3150 6875 50  0001 L TNN
+	1    3050 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L87
+U 1 1 66F6AFB3
+P 3650 7250
+F 0 "L87" H 3650 6861 50  0000 C CNN
+F 1 "SK6812MINI" H 3650 6770 50  0000 C CNN
+F 2 "" H 3700 6950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3750 6875 50  0001 L TNN
+	1    3650 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L88
+U 1 1 66F6B023
+P 4250 7250
+F 0 "L88" H 4250 6861 50  0000 C CNN
+F 1 "SK6812MINI" H 4250 6770 50  0000 C CNN
+F 2 "" H 4300 6950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4350 6875 50  0001 L TNN
+	1    4250 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L89
+U 1 1 66F6B024
+P 4850 7250
+F 0 "L89" H 4850 6861 50  0000 C CNN
+F 1 "SK6812MINI" H 4850 6770 50  0000 C CNN
+F 2 "" H 4900 6950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4950 6875 50  0001 L TNN
+	1    4850 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI L90
+U 1 1 66F0D061
+P 5450 7250
+F 0 "L90" H 5450 6861 50  0000 C CNN
+F 1 "SK6812MINI" H 5450 6770 50  0000 C CNN
+F 2 "" H 5500 6950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5550 6875 50  0001 L TNN
+	1    5450 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 7550 2450 7550
+Connection ~ 2450 7550
+Wire Wire Line
+	2450 7550 3050 7550
+Connection ~ 3050 7550
+Wire Wire Line
+	3050 7550 3650 7550
+Connection ~ 3650 7550
+Wire Wire Line
+	3650 7550 4250 7550
+Connection ~ 4250 7550
+Wire Wire Line
+	4250 7550 4850 7550
+Connection ~ 4850 7550
+Wire Wire Line
+	4850 7550 5450 7550
+Connection ~ 5450 7550
+Wire Wire Line
+	5450 7550 5750 7550
+Text Label 1550 1250 2    50   ~ 0
+RGB
+$Comp
+L LED:SK6812MINI L8
+U 1 1 66F0D062
+P 1250 1250
+F 0 "L8" H 1250 861 50  0000 C CNN
+F 1 "SK6812MINI" H 1250 770 50  0000 C CNN
+F 2 "" H 1300 950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1350 875 50  0001 L TNN
+	1    1250 1250
+	1    0    0    -1  
+$EndComp
+Text Label 950  1250 2    50   ~ 0
+RGB
+$Comp
+L LED:SK6812MINI L23
+U 1 1 66F0D063
+P 1250 2450
+F 0 "L23" H 1250 2061 50  0000 C CNN
+F 1 "SK6812MINI" H 1250 1970 50  0000 C CNN
+F 2 "" H 1300 2150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1350 2075 50  0001 L TNN
+	1    1250 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2750 1850 2750
+Connection ~ 1250 2750
+Connection ~ 1850 2750
+$Comp
+L LED:SK6812MINI L38
+U 1 1 66F6AFB4
+P 1250 3650
+F 0 "L38" H 1250 3261 50  0000 C CNN
+F 1 "SK6812MINI" H 1250 3170 50  0000 C CNN
+F 2 "" H 1300 3350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1350 3275 50  0001 L TNN
+	1    1250 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 3950 1850 3950
+Connection ~ 1250 3950
+Connection ~ 1850 3950
+$Comp
+L LED:SK6812MINI L53
+U 1 1 66ACDB56
+P 1250 4850
+F 0 "L53" H 1250 4461 50  0000 C CNN
+F 1 "SK6812MINI" H 1250 4370 50  0000 C CNN
+F 2 "" H 1300 4550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1350 4475 50  0001 L TNN
+	1    1250 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 5150 1850 5150
+Connection ~ 1250 5150
+Connection ~ 1850 5150
+$Comp
+L LED:SK6812MINI L68
+U 1 1 66ACDB63
+P 1250 6050
+F 0 "L68" H 1250 5661 50  0000 C CNN
+F 1 "SK6812MINI" H 1250 5570 50  0000 C CNN
+F 2 "" H 1300 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1350 5675 50  0001 L TNN
+	1    1250 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 6350 1850 6350
+Connection ~ 1250 6350
+Connection ~ 1850 6350
+$Comp
+L LED:SK6812MINI L83
+U 1 1 66F0D067
+P 1250 7250
+F 0 "L83" H 1250 6861 50  0000 C CNN
+F 1 "SK6812MINI" H 1250 6770 50  0000 C CNN
+F 2 "" H 1300 6950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1350 6875 50  0001 L TNN
+	1    1250 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 7550 1850 7550
+Connection ~ 1250 7550
+Connection ~ 1850 7550
+$Comp
+L power:GND2 #PWR015
+U 1 1 66F6B029
+P 550 7650
+F 0 "#PWR015" H 550 7400 50  0001 C CNN
+F 1 "GND2" H 472 7613 50  0000 R CNN
+F 2 "" H 550 7650 50  0001 C CNN
+F 3 "" H 550 7650 50  0001 C CNN
+	1    550  7650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1550 1850 1550
+Connection ~ 1250 1550
+Connection ~ 1850 1550
+Wire Wire Line
+	1250 650  1850 650 
+$Comp
+L Device:C C8
+U 1 1 66ACDB8B
+P 1050 750
+F 0 "C8" V 1210 750 50  0000 C CNN
+F 1 "100nF" V 1301 750 50  0000 C CNN
+F 2 "" H 1088 600 50  0001 C CNN
+F 3 "~" H 1050 750 50  0001 C CNN
+	1    1050 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND2 #PWR03
+U 1 1 66F6B02A
+P 900 850
+F 0 "#PWR03" H 900 600 50  0001 C CNN
+F 1 "GND2" H 822 813 50  0000 R CNN
+F 2 "" H 900 850 50  0001 C CNN
+F 3 "" H 900 850 50  0001 C CNN
+	1    900  850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 750  5100 850 
+Wire Wire Line
+	5100 850  4500 850 
+Wire Wire Line
+	900  850  900  750 
+Wire Wire Line
+	4500 750  4500 850 
+Wire Wire Line
+	4500 850  3900 850 
+Wire Wire Line
+	3900 750  3900 850 
+Wire Wire Line
+	3900 850  3300 850 
+Wire Wire Line
+	3300 750  3300 850 
+Wire Wire Line
+	3300 850  2700 850 
+Wire Wire Line
+	2700 750  2700 850 
+Wire Wire Line
+	2700 850  2100 850 
+Wire Wire Line
+	2100 750  2100 850 
+Wire Wire Line
+	2100 850  1500 850 
+Wire Wire Line
+	1500 750  1500 850 
+Wire Wire Line
+	1500 850  900  850 
+Connection ~ 900  850 
+$Comp
+L Device:C C9
+U 1 1 66F6B02B
+P 1650 750
+F 0 "C9" V 1810 750 50  0000 C CNN
+F 1 "100nF" V 1901 750 50  0000 C CNN
+F 2 "" H 1688 600 50  0001 C CNN
+F 3 "~" H 1650 750 50  0001 C CNN
+	1    1650 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 66F0D06C
+P 2250 750
+F 0 "C10" V 2410 750 50  0000 C CNN
+F 1 "100nF" V 2501 750 50  0000 C CNN
+F 2 "" H 2288 600 50  0001 C CNN
+F 3 "~" H 2250 750 50  0001 C CNN
+	1    2250 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 66F0D06D
+P 2850 750
+F 0 "C11" V 3010 750 50  0000 C CNN
+F 1 "100nF" V 3101 750 50  0000 C CNN
+F 2 "" H 2888 600 50  0001 C CNN
+F 3 "~" H 2850 750 50  0001 C CNN
+	1    2850 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 66ACDBCD
+P 3450 750
+F 0 "C12" V 3610 750 50  0000 C CNN
+F 1 "100nF" V 3701 750 50  0000 C CNN
+F 2 "" H 3488 600 50  0001 C CNN
+F 3 "~" H 3450 750 50  0001 C CNN
+	1    3450 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C13
+U 1 1 66F6AFB9
+P 4050 750
+F 0 "C13" V 4210 750 50  0000 C CNN
+F 1 "100nF" V 4301 750 50  0000 C CNN
+F 2 "" H 4088 600 50  0001 C CNN
+F 3 "~" H 4050 750 50  0001 C CNN
+	1    4050 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 66F6B02E
+P 4650 750
+F 0 "C14" V 4810 750 50  0000 C CNN
+F 1 "100nF" V 4901 750 50  0000 C CNN
+F 2 "" H 4688 600 50  0001 C CNN
+F 3 "~" H 4650 750 50  0001 C CNN
+	1    4650 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C15
+U 1 1 66F6AFBA
+P 5250 750
+F 0 "C15" V 5410 750 50  0000 C CNN
+F 1 "100nF" V 5501 750 50  0000 C CNN
+F 2 "" H 5288 600 50  0001 C CNN
+F 3 "~" H 5250 750 50  0001 C CNN
+	1    5250 750 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 650  1250 750 
+Connection ~ 1500 850 
+Wire Wire Line
+	1850 650  1850 750 
+Connection ~ 2100 850 
+Wire Wire Line
+	2450 650  2450 750 
+Connection ~ 2700 850 
+Wire Wire Line
+	3050 650  3050 750 
+Connection ~ 3300 850 
+Wire Wire Line
+	3650 650  3650 750 
+Connection ~ 3900 850 
+Wire Wire Line
+	4250 650  4250 750 
+Connection ~ 4500 850 
+Wire Wire Line
+	4850 650  4850 750 
+Wire Wire Line
+	5450 650  5450 750 
+Wire Wire Line
+	5450 750  5400 750 
+Connection ~ 5450 750 
+Wire Wire Line
+	5450 750  5450 950 
+Wire Wire Line
+	4850 750  4800 750 
+Connection ~ 4850 750 
+Wire Wire Line
+	4850 750  4850 950 
+Wire Wire Line
+	4250 750  4200 750 
+Connection ~ 4250 750 
+Wire Wire Line
+	4250 750  4250 950 
+Wire Wire Line
+	3650 750  3600 750 
+Connection ~ 3650 750 
+Wire Wire Line
+	3650 750  3650 950 
+Wire Wire Line
+	3050 750  3000 750 
+Connection ~ 3050 750 
+Wire Wire Line
+	3050 750  3050 950 
+Wire Wire Line
+	2450 750  2400 750 
+Connection ~ 2450 750 
+Wire Wire Line
+	2450 750  2450 950 
+Wire Wire Line
+	1850 750  1800 750 
+Connection ~ 1850 750 
+Wire Wire Line
+	1850 750  1850 950 
+Wire Wire Line
+	1200 750  1250 750 
+Connection ~ 1250 750 
+Wire Wire Line
+	1250 750  1250 950 
+Connection ~ 1850 650 
+Wire Wire Line
+	1850 650  2450 650 
+Connection ~ 2450 650 
+Wire Wire Line
+	2450 650  3050 650 
+Connection ~ 3050 650 
+Wire Wire Line
+	3050 650  3650 650 
+Connection ~ 3650 650 
+Wire Wire Line
+	3650 650  4250 650 
+Connection ~ 4250 650 
+Wire Wire Line
+	4250 650  4850 650 
+Connection ~ 4850 650 
+Wire Wire Line
+	4850 650  5450 650 
+Connection ~ 5450 650 
+Wire Wire Line
+	5450 650  5800 650 
+Wire Wire Line
+	1250 1850 1850 1850
+$Comp
+L Device:C C23
+U 1 1 66F6AFBB
+P 1050 1950
+F 0 "C23" V 1210 1950 50  0000 C CNN
+F 1 "100nF" V 1301 1950 50  0000 C CNN
+F 2 "" H 1088 1800 50  0001 C CNN
+F 3 "~" H 1050 1950 50  0001 C CNN
+	1    1050 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND2 #PWR05
+U 1 1 66F6AFBC
+P 900 2050
+F 0 "#PWR05" H 900 1800 50  0001 C CNN
+F 1 "GND2" H 822 2013 50  0000 R CNN
+F 2 "" H 900 2050 50  0001 C CNN
+F 3 "" H 900 2050 50  0001 C CNN
+	1    900  2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1950 5100 2050
+Wire Wire Line
+	5100 2050 4500 2050
+Wire Wire Line
+	900  2050 900  1950
+Wire Wire Line
+	4500 1950 4500 2050
+Wire Wire Line
+	4500 2050 3900 2050
+Wire Wire Line
+	3900 1950 3900 2050
+Wire Wire Line
+	3900 2050 3300 2050
+Wire Wire Line
+	3300 1950 3300 2050
+Wire Wire Line
+	3300 2050 2700 2050
+Wire Wire Line
+	2700 1950 2700 2050
+Wire Wire Line
+	2700 2050 2100 2050
+Wire Wire Line
+	2100 1950 2100 2050
+Wire Wire Line
+	2100 2050 1500 2050
+Wire Wire Line
+	1500 1950 1500 2050
+Wire Wire Line
+	1500 2050 900  2050
+Connection ~ 900  2050
+$Comp
+L Device:C C24
+U 1 1 66ACDC4E
+P 1650 1950
+F 0 "C24" V 1810 1950 50  0000 C CNN
+F 1 "100nF" V 1901 1950 50  0000 C CNN
+F 2 "" H 1688 1800 50  0001 C CNN
+F 3 "~" H 1650 1950 50  0001 C CNN
+	1    1650 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C25
+U 1 1 66ACDC58
+P 2250 1950
+F 0 "C25" V 2410 1950 50  0000 C CNN
+F 1 "100nF" V 2501 1950 50  0000 C CNN
+F 2 "" H 2288 1800 50  0001 C CNN
+F 3 "~" H 2250 1950 50  0001 C CNN
+	1    2250 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C26
+U 1 1 66ACDC62
+P 2850 1950
+F 0 "C26" V 3010 1950 50  0000 C CNN
+F 1 "100nF" V 3101 1950 50  0000 C CNN
+F 2 "" H 2888 1800 50  0001 C CNN
+F 3 "~" H 2850 1950 50  0001 C CNN
+	1    2850 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C27
+U 1 1 66ACDC6C
+P 3450 1950
+F 0 "C27" V 3610 1950 50  0000 C CNN
+F 1 "100nF" V 3701 1950 50  0000 C CNN
+F 2 "" H 3488 1800 50  0001 C CNN
+F 3 "~" H 3450 1950 50  0001 C CNN
+	1    3450 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C28
+U 1 1 66F6AFC1
+P 4050 1950
+F 0 "C28" V 4210 1950 50  0000 C CNN
+F 1 "100nF" V 4301 1950 50  0000 C CNN
+F 2 "" H 4088 1800 50  0001 C CNN
+F 3 "~" H 4050 1950 50  0001 C CNN
+	1    4050 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C29
+U 1 1 66F6AFC2
+P 4650 1950
+F 0 "C29" V 4810 1950 50  0000 C CNN
+F 1 "100nF" V 4901 1950 50  0000 C CNN
+F 2 "" H 4688 1800 50  0001 C CNN
+F 3 "~" H 4650 1950 50  0001 C CNN
+	1    4650 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C30
+U 1 1 66ACDC8A
+P 5250 1950
+F 0 "C30" V 5410 1950 50  0000 C CNN
+F 1 "100nF" V 5501 1950 50  0000 C CNN
+F 2 "" H 5288 1800 50  0001 C CNN
+F 3 "~" H 5250 1950 50  0001 C CNN
+	1    5250 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 1850 1250 1950
+Connection ~ 1500 2050
+Wire Wire Line
+	1850 1850 1850 1950
+Connection ~ 2100 2050
+Wire Wire Line
+	2450 1850 2450 1950
+Connection ~ 2700 2050
+Wire Wire Line
+	3050 1850 3050 1950
+Connection ~ 3300 2050
+Wire Wire Line
+	3650 1850 3650 1950
+Connection ~ 3900 2050
+Wire Wire Line
+	4250 1850 4250 1950
+Connection ~ 4500 2050
+Wire Wire Line
+	4850 1850 4850 1950
+Wire Wire Line
+	5450 1850 5450 1950
+Wire Wire Line
+	5450 1950 5400 1950
+Connection ~ 5450 1950
+Wire Wire Line
+	5450 1950 5450 2150
+Wire Wire Line
+	4850 1950 4800 1950
+Connection ~ 4850 1950
+Wire Wire Line
+	4850 1950 4850 2150
+Wire Wire Line
+	4250 1950 4200 1950
+Connection ~ 4250 1950
+Wire Wire Line
+	4250 1950 4250 2150
+Wire Wire Line
+	3650 1950 3600 1950
+Connection ~ 3650 1950
+Wire Wire Line
+	3650 1950 3650 2150
+Wire Wire Line
+	3050 1950 3000 1950
+Connection ~ 3050 1950
+Wire Wire Line
+	3050 1950 3050 2150
+Wire Wire Line
+	2450 1950 2400 1950
+Connection ~ 2450 1950
+Wire Wire Line
+	2450 1950 2450 2150
+Wire Wire Line
+	1850 1950 1800 1950
+Connection ~ 1850 1950
+Wire Wire Line
+	1850 1950 1850 2150
+Wire Wire Line
+	1200 1950 1250 1950
+Connection ~ 1250 1950
+Wire Wire Line
+	1250 1950 1250 2150
+Connection ~ 1850 1850
+Wire Wire Line
+	1850 1850 2450 1850
+Connection ~ 2450 1850
+Wire Wire Line
+	2450 1850 3050 1850
+Connection ~ 3050 1850
+Wire Wire Line
+	3050 1850 3650 1850
+Connection ~ 3650 1850
+Wire Wire Line
+	3650 1850 4250 1850
+Connection ~ 4250 1850
+Wire Wire Line
+	4250 1850 4850 1850
+Connection ~ 4850 1850
+Wire Wire Line
+	4850 1850 5450 1850
+Connection ~ 5450 1850
+Wire Wire Line
+	5450 1850 5800 1850
+Wire Wire Line
+	1250 4250 1850 4250
+Wire Wire Line
+	1250 5450 1850 5450
+Wire Wire Line
+	1250 6650 1850 6650
+Wire Wire Line
+	550  1550 550  2750
+Wire Wire Line
+	600  6600 600  7250
+$Comp
+L Device:C C83
+U 1 1 66F6B02F
+P 1050 6750
+F 0 "C83" V 1210 6750 50  0000 C CNN
+F 1 "100nF" V 1301 6750 50  0000 C CNN
+F 2 "" H 1088 6600 50  0001 C CNN
+F 3 "~" H 1050 6750 50  0001 C CNN
+	1    1050 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND2 #PWR013
+U 1 1 66F6B030
+P 900 6850
+F 0 "#PWR013" H 900 6600 50  0001 C CNN
+F 1 "GND2" H 822 6813 50  0000 R CNN
+F 2 "" H 900 6850 50  0001 C CNN
+F 3 "" H 900 6850 50  0001 C CNN
+	1    900  6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 6750 5100 6850
+Wire Wire Line
+	5100 6850 4500 6850
+Wire Wire Line
+	900  6850 900  6750
+Wire Wire Line
+	4500 6750 4500 6850
+Wire Wire Line
+	4500 6850 3900 6850
+Wire Wire Line
+	3900 6750 3900 6850
+Wire Wire Line
+	3900 6850 3300 6850
+Wire Wire Line
+	3300 6750 3300 6850
+Wire Wire Line
+	3300 6850 2700 6850
+Wire Wire Line
+	2700 6750 2700 6850
+Wire Wire Line
+	2700 6850 2100 6850
+Wire Wire Line
+	2100 6750 2100 6850
+Wire Wire Line
+	2100 6850 1500 6850
+Wire Wire Line
+	1500 6750 1500 6850
+Wire Wire Line
+	1500 6850 900  6850
+Connection ~ 900  6850
+$Comp
+L Device:C C84
+U 1 1 66F6B031
+P 1650 6750
+F 0 "C84" V 1810 6750 50  0000 C CNN
+F 1 "100nF" V 1901 6750 50  0000 C CNN
+F 2 "" H 1688 6600 50  0001 C CNN
+F 3 "~" H 1650 6750 50  0001 C CNN
+	1    1650 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C85
+U 1 1 66ACDCFB
+P 2250 6750
+F 0 "C85" V 2410 6750 50  0000 C CNN
+F 1 "100nF" V 2501 6750 50  0000 C CNN
+F 2 "" H 2288 6600 50  0001 C CNN
+F 3 "~" H 2250 6750 50  0001 C CNN
+	1    2250 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C86
+U 1 1 66F6AFC5
+P 2850 6750
+F 0 "C86" V 3010 6750 50  0000 C CNN
+F 1 "100nF" V 3101 6750 50  0000 C CNN
+F 2 "" H 2888 6600 50  0001 C CNN
+F 3 "~" H 2850 6750 50  0001 C CNN
+	1    2850 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C87
+U 1 1 66F6AFC6
+P 3450 6750
+F 0 "C87" V 3610 6750 50  0000 C CNN
+F 1 "100nF" V 3701 6750 50  0000 C CNN
+F 2 "" H 3488 6600 50  0001 C CNN
+F 3 "~" H 3450 6750 50  0001 C CNN
+	1    3450 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C88
+U 1 1 66F6B032
+P 4050 6750
+F 0 "C88" V 4210 6750 50  0000 C CNN
+F 1 "100nF" V 4301 6750 50  0000 C CNN
+F 2 "" H 4088 6600 50  0001 C CNN
+F 3 "~" H 4050 6750 50  0001 C CNN
+	1    4050 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C89
+U 1 1 66F0D082
+P 4650 6750
+F 0 "C89" V 4810 6750 50  0000 C CNN
+F 1 "100nF" V 4901 6750 50  0000 C CNN
+F 2 "" H 4688 6600 50  0001 C CNN
+F 3 "~" H 4650 6750 50  0001 C CNN
+	1    4650 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C90
+U 1 1 66F0D083
+P 5250 6750
+F 0 "C90" V 5410 6750 50  0000 C CNN
+F 1 "100nF" V 5501 6750 50  0000 C CNN
+F 2 "" H 5288 6600 50  0001 C CNN
+F 3 "~" H 5250 6750 50  0001 C CNN
+	1    5250 6750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 6650 1250 6750
+Connection ~ 1500 6850
+Wire Wire Line
+	1850 6650 1850 6750
+Connection ~ 2100 6850
+Wire Wire Line
+	2450 6650 2450 6750
+Connection ~ 2700 6850
+Wire Wire Line
+	3050 6650 3050 6750
+Connection ~ 3300 6850
+Wire Wire Line
+	3650 6650 3650 6750
+Connection ~ 3900 6850
+Wire Wire Line
+	4250 6650 4250 6750
+Connection ~ 4500 6850
+Wire Wire Line
+	4850 6650 4850 6750
+Wire Wire Line
+	5450 6650 5450 6750
+Wire Wire Line
+	5450 6750 5400 6750
+Connection ~ 5450 6750
+Wire Wire Line
+	5450 6750 5450 6950
+Wire Wire Line
+	4850 6750 4800 6750
+Connection ~ 4850 6750
+Wire Wire Line
+	4850 6750 4850 6950
+Wire Wire Line
+	4250 6750 4200 6750
+Connection ~ 4250 6750
+Wire Wire Line
+	4250 6750 4250 6950
+Wire Wire Line
+	3650 6750 3600 6750
+Connection ~ 3650 6750
+Wire Wire Line
+	3650 6750 3650 6950
+Wire Wire Line
+	3050 6750 3000 6750
+Connection ~ 3050 6750
+Wire Wire Line
+	3050 6750 3050 6950
+Wire Wire Line
+	2450 6750 2400 6750
+Connection ~ 2450 6750
+Wire Wire Line
+	2450 6750 2450 6950
+Wire Wire Line
+	1850 6750 1800 6750
+Connection ~ 1850 6750
+Wire Wire Line
+	1850 6750 1850 6950
+Wire Wire Line
+	1200 6750 1250 6750
+Connection ~ 1250 6750
+Wire Wire Line
+	1250 6750 1250 6950
+Connection ~ 1850 6650
+Wire Wire Line
+	1850 6650 2450 6650
+Connection ~ 2450 6650
+Wire Wire Line
+	2450 6650 3050 6650
+Connection ~ 3050 6650
+Wire Wire Line
+	3050 6650 3650 6650
+Connection ~ 3650 6650
+Wire Wire Line
+	3650 6650 4250 6650
+Connection ~ 4250 6650
+Wire Wire Line
+	4250 6650 4850 6650
+Connection ~ 4850 6650
+Wire Wire Line
+	4850 6650 5450 6650
+Connection ~ 5450 6650
+Wire Wire Line
+	5450 6650 5800 6650
+Wire Wire Line
+	550  6350 550  7550
+Wire Wire Line
+	600  4200 600  4850
+$Comp
+L Device:C C53
+U 1 1 66F0D084
+P 1050 4350
+F 0 "C53" V 1210 4350 50  0000 C CNN
+F 1 "100nF" V 1301 4350 50  0000 C CNN
+F 2 "" H 1088 4200 50  0001 C CNN
+F 3 "~" H 1050 4350 50  0001 C CNN
+	1    1050 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND2 #PWR09
+U 1 1 66F0D085
+P 900 4450
+F 0 "#PWR09" H 900 4200 50  0001 C CNN
+F 1 "GND2" H 822 4413 50  0000 R CNN
+F 2 "" H 900 4450 50  0001 C CNN
+F 3 "" H 900 4450 50  0001 C CNN
+	1    900  4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4350 5100 4450
+Wire Wire Line
+	5100 4450 4500 4450
+Wire Wire Line
+	900  4450 900  4350
+Wire Wire Line
+	4500 4350 4500 4450
+Wire Wire Line
+	4500 4450 3900 4450
+Wire Wire Line
+	3900 4350 3900 4450
+Wire Wire Line
+	3900 4450 3300 4450
+Wire Wire Line
+	3300 4350 3300 4450
+Wire Wire Line
+	3300 4450 2700 4450
+Wire Wire Line
+	2700 4350 2700 4450
+Wire Wire Line
+	2700 4450 2100 4450
+Wire Wire Line
+	2100 4350 2100 4450
+Wire Wire Line
+	2100 4450 1500 4450
+Wire Wire Line
+	1500 4350 1500 4450
+Wire Wire Line
+	1500 4450 900  4450
+Connection ~ 900  4450
+$Comp
+L Device:C C54
+U 1 1 66F0D086
+P 1650 4350
+F 0 "C54" V 1810 4350 50  0000 C CNN
+F 1 "100nF" V 1901 4350 50  0000 C CNN
+F 2 "" H 1688 4200 50  0001 C CNN
+F 3 "~" H 1650 4350 50  0001 C CNN
+	1    1650 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C55
+U 1 1 66F0D087
+P 2250 4350
+F 0 "C55" V 2410 4350 50  0000 C CNN
+F 1 "100nF" V 2501 4350 50  0000 C CNN
+F 2 "" H 2288 4200 50  0001 C CNN
+F 3 "~" H 2250 4350 50  0001 C CNN
+	1    2250 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C56
+U 1 1 66F0D088
+P 2850 4350
+F 0 "C56" V 3010 4350 50  0000 C CNN
+F 1 "100nF" V 3101 4350 50  0000 C CNN
+F 2 "" H 2888 4200 50  0001 C CNN
+F 3 "~" H 2850 4350 50  0001 C CNN
+	1    2850 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C57
+U 1 1 66ACDDAF
+P 3450 4350
+F 0 "C57" V 3610 4350 50  0000 C CNN
+F 1 "100nF" V 3701 4350 50  0000 C CNN
+F 2 "" H 3488 4200 50  0001 C CNN
+F 3 "~" H 3450 4350 50  0001 C CNN
+	1    3450 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C58
+U 1 1 66ACDDB9
+P 4050 4350
+F 0 "C58" V 4210 4350 50  0000 C CNN
+F 1 "100nF" V 4301 4350 50  0000 C CNN
+F 2 "" H 4088 4200 50  0001 C CNN
+F 3 "~" H 4050 4350 50  0001 C CNN
+	1    4050 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C59
+U 1 1 66ACDDC3
+P 4650 4350
+F 0 "C59" V 4810 4350 50  0000 C CNN
+F 1 "100nF" V 4901 4350 50  0000 C CNN
+F 2 "" H 4688 4200 50  0001 C CNN
+F 3 "~" H 4650 4350 50  0001 C CNN
+	1    4650 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C60
+U 1 1 66F6AFCA
+P 5250 4350
+F 0 "C60" V 5410 4350 50  0000 C CNN
+F 1 "100nF" V 5501 4350 50  0000 C CNN
+F 2 "" H 5288 4200 50  0001 C CNN
+F 3 "~" H 5250 4350 50  0001 C CNN
+	1    5250 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 4250 1250 4350
+Connection ~ 1500 4450
+Wire Wire Line
+	1850 4250 1850 4350
+Connection ~ 2100 4450
+Wire Wire Line
+	2450 4250 2450 4350
+Connection ~ 2700 4450
+Wire Wire Line
+	3050 4250 3050 4350
+Connection ~ 3300 4450
+Wire Wire Line
+	3650 4250 3650 4350
+Connection ~ 3900 4450
+Wire Wire Line
+	4250 4250 4250 4350
+Connection ~ 4500 4450
+Wire Wire Line
+	4850 4250 4850 4350
+Wire Wire Line
+	5450 4250 5450 4350
+Wire Wire Line
+	5450 4350 5400 4350
+Connection ~ 5450 4350
+Wire Wire Line
+	5450 4350 5450 4550
+Wire Wire Line
+	4850 4350 4800 4350
+Connection ~ 4850 4350
+Wire Wire Line
+	4850 4350 4850 4550
+Wire Wire Line
+	4250 4350 4200 4350
+Connection ~ 4250 4350
+Wire Wire Line
+	4250 4350 4250 4550
+Wire Wire Line
+	3650 4350 3600 4350
+Connection ~ 3650 4350
+Wire Wire Line
+	3650 4350 3650 4550
+Wire Wire Line
+	3050 4350 3000 4350
+Connection ~ 3050 4350
+Wire Wire Line
+	3050 4350 3050 4550
+Wire Wire Line
+	2450 4350 2400 4350
+Connection ~ 2450 4350
+Wire Wire Line
+	2450 4350 2450 4550
+Wire Wire Line
+	1850 4350 1800 4350
+Connection ~ 1850 4350
+Wire Wire Line
+	1850 4350 1850 4550
+Wire Wire Line
+	1200 4350 1250 4350
+Connection ~ 1250 4350
+Wire Wire Line
+	1250 4350 1250 4550
+Wire Wire Line
+	550  3950 550  5150
+Connection ~ 1850 4250
+Wire Wire Line
+	1850 4250 2450 4250
+Connection ~ 2450 4250
+Wire Wire Line
+	2450 4250 3050 4250
+Connection ~ 3050 4250
+Wire Wire Line
+	3050 4250 3650 4250
+Connection ~ 3650 4250
+Wire Wire Line
+	3650 4250 4250 4250
+Connection ~ 4250 4250
+Wire Wire Line
+	4250 4250 4850 4250
+Connection ~ 4850 4250
+Wire Wire Line
+	4850 4250 5450 4250
+Connection ~ 5450 4250
+Wire Wire Line
+	5450 4250 5800 4250
+Wire Wire Line
+	550  7550 1250 7550
+Connection ~ 550  7550
+Wire Wire Line
+	600  7250 950  7250
+Wire Wire Line
+	600  6600 5750 6600
+Wire Wire Line
+	550  6350 1250 6350
+Wire Wire Line
+	550  3950 1250 3950
+Wire Wire Line
+	600  4200 5750 4200
+Wire Wire Line
+	600  4850 950  4850
+Wire Wire Line
+	550  5150 1250 5150
+Wire Wire Line
+	550  1550 1250 1550
+Wire Wire Line
+	600  1800 5750 1800
+Wire Wire Line
+	600  2450 950  2450
+Wire Wire Line
+	550  2750 1250 2750
+Wire Wire Line
+	1250 3050 1850 3050
+Wire Wire Line
+	600  3000 600  3650
+$Comp
+L Device:C C38
+U 1 1 66F6AFCB
+P 1050 3150
+F 0 "C38" V 1210 3150 50  0000 C CNN
+F 1 "100nF" V 1301 3150 50  0000 C CNN
+F 2 "" H 1088 3000 50  0001 C CNN
+F 3 "~" H 1050 3150 50  0001 C CNN
+	1    1050 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND2 #PWR07
+U 1 1 66F6AFCC
+P 900 3250
+F 0 "#PWR07" H 900 3000 50  0001 C CNN
+F 1 "GND2" H 822 3213 50  0000 R CNN
+F 2 "" H 900 3250 50  0001 C CNN
+F 3 "" H 900 3250 50  0001 C CNN
+	1    900  3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3150 5100 3250
+Wire Wire Line
+	5100 3250 4500 3250
+Wire Wire Line
+	900  3250 900  3150
+Wire Wire Line
+	4500 3150 4500 3250
+Wire Wire Line
+	4500 3250 3900 3250
+Wire Wire Line
+	3900 3150 3900 3250
+Wire Wire Line
+	3900 3250 3300 3250
+Wire Wire Line
+	3300 3150 3300 3250
+Wire Wire Line
+	3300 3250 2700 3250
+Wire Wire Line
+	2700 3150 2700 3250
+Wire Wire Line
+	2700 3250 2100 3250
+Wire Wire Line
+	2100 3150 2100 3250
+Wire Wire Line
+	2100 3250 1500 3250
+Wire Wire Line
+	1500 3150 1500 3250
+Wire Wire Line
+	1500 3250 900  3250
+Connection ~ 900  3250
+$Comp
+L Device:C C39
+U 1 1 66F6B03A
+P 1650 3150
+F 0 "C39" V 1810 3150 50  0000 C CNN
+F 1 "100nF" V 1901 3150 50  0000 C CNN
+F 2 "" H 1688 3000 50  0001 C CNN
+F 3 "~" H 1650 3150 50  0001 C CNN
+	1    1650 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C40
+U 1 1 66ACDE49
+P 2250 3150
+F 0 "C40" V 2410 3150 50  0000 C CNN
+F 1 "100nF" V 2501 3150 50  0000 C CNN
+F 2 "" H 2288 3000 50  0001 C CNN
+F 3 "~" H 2250 3150 50  0001 C CNN
+	1    2250 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C41
+U 1 1 66F6B03B
+P 2850 3150
+F 0 "C41" V 3010 3150 50  0000 C CNN
+F 1 "100nF" V 3101 3150 50  0000 C CNN
+F 2 "" H 2888 3000 50  0001 C CNN
+F 3 "~" H 2850 3150 50  0001 C CNN
+	1    2850 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C42
+U 1 1 66F6B03C
+P 3450 3150
+F 0 "C42" V 3610 3150 50  0000 C CNN
+F 1 "100nF" V 3701 3150 50  0000 C CNN
+F 2 "" H 3488 3000 50  0001 C CNN
+F 3 "~" H 3450 3150 50  0001 C CNN
+	1    3450 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C43
+U 1 1 66F6B03D
+P 4050 3150
+F 0 "C43" V 4210 3150 50  0000 C CNN
+F 1 "100nF" V 4301 3150 50  0000 C CNN
+F 2 "" H 4088 3000 50  0001 C CNN
+F 3 "~" H 4050 3150 50  0001 C CNN
+	1    4050 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C44
+U 1 1 66F6B03E
+P 4650 3150
+F 0 "C44" V 4810 3150 50  0000 C CNN
+F 1 "100nF" V 4901 3150 50  0000 C CNN
+F 2 "" H 4688 3000 50  0001 C CNN
+F 3 "~" H 4650 3150 50  0001 C CNN
+	1    4650 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C45
+U 1 1 66F6AFCE
+P 5250 3150
+F 0 "C45" V 5410 3150 50  0000 C CNN
+F 1 "100nF" V 5501 3150 50  0000 C CNN
+F 2 "" H 5288 3000 50  0001 C CNN
+F 3 "~" H 5250 3150 50  0001 C CNN
+	1    5250 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 3050 1250 3150
+Connection ~ 1500 3250
+Wire Wire Line
+	1850 3050 1850 3150
+Connection ~ 2100 3250
+Wire Wire Line
+	2450 3050 2450 3150
+Connection ~ 2700 3250
+Wire Wire Line
+	3050 3050 3050 3150
+Connection ~ 3300 3250
+Wire Wire Line
+	3650 3050 3650 3150
+Connection ~ 3900 3250
+Wire Wire Line
+	4250 3050 4250 3150
+Connection ~ 4500 3250
+Wire Wire Line
+	4850 3050 4850 3150
+Wire Wire Line
+	5450 3050 5450 3150
+Wire Wire Line
+	5450 3150 5400 3150
+Connection ~ 5450 3150
+Wire Wire Line
+	5450 3150 5450 3350
+Wire Wire Line
+	4850 3150 4800 3150
+Connection ~ 4850 3150
+Wire Wire Line
+	4850 3150 4850 3350
+Wire Wire Line
+	4250 3150 4200 3150
+Connection ~ 4250 3150
+Wire Wire Line
+	4250 3150 4250 3350
+Wire Wire Line
+	3650 3150 3600 3150
+Connection ~ 3650 3150
+Wire Wire Line
+	3650 3150 3650 3350
+Wire Wire Line
+	3050 3150 3000 3150
+Connection ~ 3050 3150
+Wire Wire Line
+	3050 3150 3050 3350
+Wire Wire Line
+	2450 3150 2400 3150
+Connection ~ 2450 3150
+Wire Wire Line
+	2450 3150 2450 3350
+Wire Wire Line
+	1850 3150 1800 3150
+Connection ~ 1850 3150
+Wire Wire Line
+	1850 3150 1850 3350
+Wire Wire Line
+	1200 3150 1250 3150
+Connection ~ 1250 3150
+Wire Wire Line
+	1250 3150 1250 3350
+Wire Wire Line
+	550  2750 550  3950
+Connection ~ 550  2750
+Connection ~ 550  3950
+Connection ~ 1850 3050
+Wire Wire Line
+	1850 3050 2450 3050
+Connection ~ 2450 3050
+Wire Wire Line
+	2450 3050 3050 3050
+Connection ~ 3050 3050
+Wire Wire Line
+	3050 3050 3650 3050
+Connection ~ 3650 3050
+Wire Wire Line
+	3650 3050 4250 3050
+Connection ~ 4250 3050
+Wire Wire Line
+	4250 3050 4850 3050
+Connection ~ 4850 3050
+Wire Wire Line
+	4850 3050 5450 3050
+Connection ~ 5450 3050
+Wire Wire Line
+	5450 3050 5800 3050
+Wire Wire Line
+	600  5400 600  6050
+$Comp
+L Device:C C68
+U 1 1 66ACDEBD
+P 1050 5550
+F 0 "C68" V 1210 5550 50  0000 C CNN
+F 1 "100nF" V 1301 5550 50  0000 C CNN
+F 2 "" H 1088 5400 50  0001 C CNN
+F 3 "~" H 1050 5550 50  0001 C CNN
+	1    1050 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND2 #PWR011
+U 1 1 66F6AFD0
+P 900 5650
+F 0 "#PWR011" H 900 5400 50  0001 C CNN
+F 1 "GND2" H 822 5613 50  0000 R CNN
+F 2 "" H 900 5650 50  0001 C CNN
+F 3 "" H 900 5650 50  0001 C CNN
+	1    900  5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 5550 5100 5650
+Wire Wire Line
+	5100 5650 4500 5650
+Wire Wire Line
+	900  5650 900  5550
+Wire Wire Line
+	4500 5550 4500 5650
+Wire Wire Line
+	4500 5650 3900 5650
+Wire Wire Line
+	3900 5550 3900 5650
+Wire Wire Line
+	3900 5650 3300 5650
+Wire Wire Line
+	3300 5550 3300 5650
+Wire Wire Line
+	3300 5650 2700 5650
+Wire Wire Line
+	2700 5550 2700 5650
+Wire Wire Line
+	2700 5650 2100 5650
+Wire Wire Line
+	2100 5550 2100 5650
+Wire Wire Line
+	2100 5650 1500 5650
+Wire Wire Line
+	1500 5550 1500 5650
+Wire Wire Line
+	1500 5650 900  5650
+Connection ~ 900  5650
+$Comp
+L Device:C C69
+U 1 1 66F6AFD1
+P 1650 5550
+F 0 "C69" V 1810 5550 50  0000 C CNN
+F 1 "100nF" V 1901 5550 50  0000 C CNN
+F 2 "" H 1688 5400 50  0001 C CNN
+F 3 "~" H 1650 5550 50  0001 C CNN
+	1    1650 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C70
+U 1 1 66F6B03F
+P 2250 5550
+F 0 "C70" V 2410 5550 50  0000 C CNN
+F 1 "100nF" V 2501 5550 50  0000 C CNN
+F 2 "" H 2288 5400 50  0001 C CNN
+F 3 "~" H 2250 5550 50  0001 C CNN
+	1    2250 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C71
+U 1 1 66F0D09A
+P 2850 5550
+F 0 "C71" V 3010 5550 50  0000 C CNN
+F 1 "100nF" V 3101 5550 50  0000 C CNN
+F 2 "" H 2888 5400 50  0001 C CNN
+F 3 "~" H 2850 5550 50  0001 C CNN
+	1    2850 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C72
+U 1 1 66F0D09B
+P 3450 5550
+F 0 "C72" V 3610 5550 50  0000 C CNN
+F 1 "100nF" V 3701 5550 50  0000 C CNN
+F 2 "" H 3488 5400 50  0001 C CNN
+F 3 "~" H 3450 5550 50  0001 C CNN
+	1    3450 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C73
+U 1 1 66F6AFD2
+P 4050 5550
+F 0 "C73" V 4210 5550 50  0000 C CNN
+F 1 "100nF" V 4301 5550 50  0000 C CNN
+F 2 "" H 4088 5400 50  0001 C CNN
+F 3 "~" H 4050 5550 50  0001 C CNN
+	1    4050 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C74
+U 1 1 66F6AFD3
+P 4650 5550
+F 0 "C74" V 4810 5550 50  0000 C CNN
+F 1 "100nF" V 4901 5550 50  0000 C CNN
+F 2 "" H 4688 5400 50  0001 C CNN
+F 3 "~" H 4650 5550 50  0001 C CNN
+	1    4650 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C75
+U 1 1 66F0D09E
+P 5250 5550
+F 0 "C75" V 5410 5550 50  0000 C CNN
+F 1 "100nF" V 5501 5550 50  0000 C CNN
+F 2 "" H 5288 5400 50  0001 C CNN
+F 3 "~" H 5250 5550 50  0001 C CNN
+	1    5250 5550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 5450 1250 5550
+Connection ~ 1500 5650
+Wire Wire Line
+	1850 5450 1850 5550
+Connection ~ 2100 5650
+Wire Wire Line
+	2450 5450 2450 5550
+Connection ~ 2700 5650
+Wire Wire Line
+	3050 5450 3050 5550
+Connection ~ 3300 5650
+Wire Wire Line
+	3650 5450 3650 5550
+Connection ~ 3900 5650
+Wire Wire Line
+	4250 5450 4250 5550
+Connection ~ 4500 5650
+Wire Wire Line
+	4850 5450 4850 5550
+Wire Wire Line
+	5450 5450 5450 5550
+Wire Wire Line
+	5450 5550 5400 5550
+Connection ~ 5450 5550
+Wire Wire Line
+	5450 5550 5450 5750
+Wire Wire Line
+	4850 5550 4800 5550
+Connection ~ 4850 5550
+Wire Wire Line
+	4850 5550 4850 5750
+Wire Wire Line
+	4250 5550 4200 5550
+Connection ~ 4250 5550
+Wire Wire Line
+	4250 5550 4250 5750
+Wire Wire Line
+	3650 5550 3600 5550
+Connection ~ 3650 5550
+Wire Wire Line
+	3650 5550 3650 5750
+Wire Wire Line
+	3050 5550 3000 5550
+Connection ~ 3050 5550
+Wire Wire Line
+	3050 5550 3050 5750
+Wire Wire Line
+	2450 5550 2400 5550
+Connection ~ 2450 5550
+Wire Wire Line
+	2450 5550 2450 5750
+Wire Wire Line
+	1850 5550 1800 5550
+Connection ~ 1850 5550
+Wire Wire Line
+	1850 5550 1850 5750
+Wire Wire Line
+	1200 5550 1250 5550
+Connection ~ 1250 5550
+Wire Wire Line
+	1250 5550 1250 5750
+Wire Wire Line
+	550  5150 550  6350
+Connection ~ 550  5150
+Connection ~ 550  6350
+Connection ~ 1850 5450
+Wire Wire Line
+	1850 5450 2450 5450
+Connection ~ 2450 5450
+Wire Wire Line
+	2450 5450 3050 5450
+Connection ~ 3050 5450
+Wire Wire Line
+	3050 5450 3650 5450
+Connection ~ 3650 5450
+Wire Wire Line
+	3650 5450 4250 5450
+Connection ~ 4250 5450
+Wire Wire Line
+	4250 5450 4850 5450
+Connection ~ 4850 5450
+Wire Wire Line
+	4850 5450 5450 5450
+Connection ~ 5450 5450
+Wire Wire Line
+	5450 5450 5800 5450
+Wire Wire Line
+	600  3000 5750 3000
+Wire Wire Line
+	600  3650 950  3650
+Wire Wire Line
+	600  5400 5750 5400
+Wire Wire Line
+	600  6050 950  6050
+Wire Wire Line
+	550  7550 550  7650
+$Comp
+L power:GND2 #PWR0102
+U 1 1 672BCD2D
+P 6000 6750
+F 0 "#PWR0102" H 6000 6500 50  0001 C CNN
+F 1 "GND2" H 6005 6577 50  0000 C CNN
+F 2 "" H 6000 6750 50  0001 C CNN
+F 3 "" H 6000 6750 50  0001 C CNN
+	1    6000 6750
+	1    0    0    -1  
+$EndComp
+Connection ~ 6000 6750
+$Comp
+L Switch:SW_SPDT JP2
+U 1 1 66F6B00A
+P 8550 600
+F 0 "JP2" H 8550 885 50  0000 C CNN
+F 1 "SW_SPDT" H 8550 794 50  0000 C CNN
+F 2 "" H 8550 600 50  0001 C CNN
+F 3 "~" H 8550 600 50  0001 C CNN
+	1    8550 600 
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8750 500  10350 500 
+Wire Wire Line
+	8800 700  8750 700 
+$Comp
+L Switch:SW_SPST JP3
+U 1 1 6057D3BE
+P 8550 2100
+F 0 "JP3" H 8550 2335 50  0000 C CNN
+F 1 "SW_SPST" H 8550 2244 50  0000 C CNN
+F 2 "" H 8550 2100 50  0001 C CNN
+F 3 "~" H 8550 2100 50  0001 C CNN
+	1    8550 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 2100 8750 2100
+NoConn ~ 9000 2100
+$EndSCHEMATC
