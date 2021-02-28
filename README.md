@@ -22,7 +22,10 @@ Layout can be mapped as desired with QMK.
 
 Planning to offer other layout in the future for those who don't want ortho.
 
-Using Kailh X switch. [Info](https://www.youtube.com/watch?v=VLaw7yDKOLo)
+Videos
+------
+- Using Kailh X switch: [Info](https://www.youtube.com/watch?v=VLaw7yDKOLo)
+- [Introduction to the ThinKeys Project](https://www.youtube.com/watch?v=Vvx_2N7dB2o)
 
 Compatibility
 -------------
@@ -34,19 +37,17 @@ beyond.
 
 Goals
 -----
-- [ ] TrackPoint
-- [ ] Split for external/desktop use (connect via TRRS)
-- [ ] Ortholinear
-- [ ] RGB LED Backlight (ThinkLight likely infeasible)
-- [ ] USB Connection (Internal via ThinkMods BDC/SmartCard, or external for
-      desktop use)
-- [ ] Power Button
-- [ ] Socketed Pro Micro (or compatible)
+- [X] TrackPoint
+- [X] Split for external/desktop use (connect via TRRS)
+- [X] Ortholinear
+- [X] RGB LED Backlight (ThinkLight infeasible)
+- [X] USB Connection (Internal via [ThinkMods](https://thinkmods.store/)
+      Bluetooth/SmartCard adapters, or external for desktop use)
+- [X] Power Button
+- [X] Socketable Pro Micro (or compatible)
 
 Chat
 ----
-ThinKeys project has a chatroom.
-
 Join via Matrix: https://matrix.to/#/!igsJfJkAlUganwyDzE:librem.one?via=librem.one
 
 Join via Discord: https://discord.gg/MA2DBqRyEK
