@@ -4096,53 +4096,16 @@ Wire Wire Line
 	9600 2200 9800 2200
 Wire Wire Line
 	9600 1900 9800 1900
-Connection ~ 11050 5750
 Wire Wire Line
-	11050 5750 11050 6050
-Wire Wire Line
-	10600 5750 10600 6050
-Connection ~ 10600 5750
-Wire Wire Line
-	10600 5750 10600 5200
-Wire Wire Line
-	10750 5750 10600 5750
+	10750 5450 10600 5450
 $Comp
-L Device:R_US R7
+L Device:R_US R5
 U 1 1 60D24804
-P 10900 5750
-AR Path="/67E4E0EB/60D24804" Ref="R7"  Part="1" 
+P 10900 5450
+AR Path="/67E4E0EB/60D24804" Ref="R5"  Part="1" 
 AR Path="/67E4ECE8/60D24804" Ref="R?"  Part="1" 
 AR Path="/67E4ED54/60D24804" Ref="R?"  Part="1" 
 AR Path="/67E4ED7B/60D24804" Ref="R?"  Part="1" 
-F 0 "R7" V 10693 5750 50  0000 C CNN
-F 1 "4.7k" V 10784 5750 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 10830 5750 50  0001 C CNN
-F 3 "~" H 10900 5750 50  0001 C CNN
-	1    10900 5750
-	0    1    -1   0   
-$EndComp
-Text Label 7300 2250 0    50   ~ 0
-CLK
-Wire Wire Line
-	11050 5100 11050 5450
-Wire Wire Line
-	11050 5450 11050 5750
-Connection ~ 11050 5450
-Wire Wire Line
-	10500 5450 10500 6050
-Wire Wire Line
-	10500 5450 10500 5200
-Connection ~ 10500 5450
-Wire Wire Line
-	10750 5450 10500 5450
-$Comp
-L Device:R_US R5
-U 1 1 60D247FA
-P 10900 5450
-AR Path="/67E4E0EB/60D247FA" Ref="R5"  Part="1" 
-AR Path="/67E4ECE8/60D247FA" Ref="R?"  Part="1" 
-AR Path="/67E4ED54/60D247FA" Ref="R?"  Part="1" 
-AR Path="/67E4ED7B/60D247FA" Ref="R?"  Part="1" 
 F 0 "R5" V 10693 5450 50  0000 C CNN
 F 1 "4.7k" V 10784 5450 50  0000 C CNN
 F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 10830 5450 50  0001 C CNN
@@ -4150,4 +4113,45 @@ F 3 "~" H 10900 5450 50  0001 C CNN
 	1    10900 5450
 	0    1    -1   0   
 $EndComp
+Text Label 7300 2250 0    50   ~ 0
+CLK
+Wire Wire Line
+	10750 5750 10500 5750
+$Comp
+L Device:R_US R7
+U 1 1 60D247FA
+P 10900 5750
+AR Path="/67E4E0EB/60D247FA" Ref="R7"  Part="1" 
+AR Path="/67E4ECE8/60D247FA" Ref="R?"  Part="1" 
+AR Path="/67E4ED54/60D247FA" Ref="R?"  Part="1" 
+AR Path="/67E4ED7B/60D247FA" Ref="R?"  Part="1" 
+F 0 "R7" V 10693 5750 50  0000 C CNN
+F 1 "4.7k" V 10784 5750 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 10830 5750 50  0001 C CNN
+F 3 "~" H 10900 5750 50  0001 C CNN
+	1    10900 5750
+	0    1    -1   0   
+$EndComp
+NoConn ~ 9800 1400
+NoConn ~ 9800 1500
+NoConn ~ 9800 2000
+NoConn ~ 9800 2100
+Wire Wire Line
+	10600 5200 10600 5450
+Connection ~ 10500 5750
+Wire Wire Line
+	10500 5750 10500 6050
+Connection ~ 11050 5750
+Wire Wire Line
+	11050 5750 11050 6050
+Wire Wire Line
+	11050 5100 11050 5450
+Wire Wire Line
+	10500 5200 10500 5750
+Connection ~ 10600 5450
+Wire Wire Line
+	10600 5450 10600 6050
+Connection ~ 11050 5450
+Wire Wire Line
+	11050 5450 11050 5750
 $EndSCHEMATC
