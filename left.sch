@@ -268,148 +268,6 @@ Text Label 8350 2700 2    50   ~ 0
 c5
 Text Label 5450 3250 2    50   ~ 0
 r0
-Connection ~ 1250 1550
-$Comp
-L LED:SK6812MINI L1
-U 1 1 66F6AEDA
-P 1250 1250
-AR Path="/67E4E0EB/66F6AEDA" Ref="L1"  Part="1" 
-AR Path="/67E4ECE8/66F6AEDA" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AEDA" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEDA" Ref="L?"  Part="1" 
-F 0 "L1" H 1250 861 50  0000 C CNN
-F 1 "SK6812MINI" H 1250 770 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1300 950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1350 875 50  0001 L TNN
-	1    1250 1250
-	1    0    0    -1  
-$EndComp
-Text Label 5200 650  0    50   ~ 0
-VCC
-$Comp
-L Graphic:SYM_Arrow_Tiny #SYM1
-U 1 1 66F6AEBD
-P 5200 600
-AR Path="/67E4E0EB/66F6AEBD" Ref="#SYM1"  Part="1" 
-AR Path="/67E4ECE8/66F6AEBD" Ref="#SYM?"  Part="1" 
-AR Path="/67E4ED54/66F6AEBD" Ref="#SYM?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEBD" Ref="#SYM?"  Part="1" 
-F 0 "#SYM1" H 5200 660 50  0001 C CNN
-F 1 "SYM_Arrow_Tiny" H 5210 550 50  0001 C CNN
-F 2 "" H 5200 600 50  0001 C CNN
-F 3 "~" H 5200 600 50  0001 C CNN
-	1    5200 600 
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1250 1550 1850 1550
-$Comp
-L LED:SK6812MINI L2
-U 1 1 66F6AECD
-P 1850 1250
-AR Path="/67E4E0EB/66F6AECD" Ref="L2"  Part="1" 
-AR Path="/67E4ECE8/66F6AECD" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AECD" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AECD" Ref="L?"  Part="1" 
-F 0 "L2" H 1850 861 50  0000 C CNN
-F 1 "SK6812MINI" H 1850 770 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1900 950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1950 875 50  0001 L TNN
-	1    1850 1250
-	1    0    0    -1  
-$EndComp
-Connection ~ 1850 1550
-Wire Wire Line
-	1850 1550 2450 1550
-$Comp
-L LED:SK6812MINI L3
-U 1 1 637B99DD
-P 2450 1250
-AR Path="/67E4E0EB/637B99DD" Ref="L3"  Part="1" 
-AR Path="/67E4ECE8/637B99DD" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/637B99DD" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/637B99DD" Ref="L?"  Part="1" 
-F 0 "L3" H 2450 861 50  0000 C CNN
-F 1 "SK6812MINI" H 2450 770 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2500 950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2550 875 50  0001 L TNN
-	1    2450 1250
-	1    0    0    -1  
-$EndComp
-Connection ~ 2450 1550
-Wire Wire Line
-	2450 1550 3050 1550
-$Comp
-L LED:SK6812MINI L4
-U 1 1 66F6AEBE
-P 3050 1250
-AR Path="/67E4E0EB/66F6AEBE" Ref="L4"  Part="1" 
-AR Path="/67E4ECE8/66F6AEBE" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AEBE" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEBE" Ref="L?"  Part="1" 
-F 0 "L4" H 3050 861 50  0000 C CNN
-F 1 "SK6812MINI" H 3050 770 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3100 950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3150 875 50  0001 L TNN
-	1    3050 1250
-	1    0    0    -1  
-$EndComp
-Connection ~ 3050 1550
-Wire Wire Line
-	3050 1550 3650 1550
-$Comp
-L LED:SK6812MINI L5
-U 1 1 66F6AECF
-P 3650 1250
-AR Path="/67E4E0EB/66F6AECF" Ref="L5"  Part="1" 
-AR Path="/67E4ECE8/66F6AECF" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AECF" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AECF" Ref="L?"  Part="1" 
-F 0 "L5" H 3650 861 50  0000 C CNN
-F 1 "SK6812MINI" H 3650 770 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3700 950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3750 875 50  0001 L TNN
-	1    3650 1250
-	1    0    0    -1  
-$EndComp
-Connection ~ 3650 1550
-Wire Wire Line
-	3650 1550 4250 1550
-$Comp
-L LED:SK6812MINI L6
-U 1 1 66F6AED0
-P 4250 1250
-AR Path="/67E4E0EB/66F6AED0" Ref="L6"  Part="1" 
-AR Path="/67E4ECE8/66F6AED0" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AED0" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AED0" Ref="L?"  Part="1" 
-F 0 "L6" H 4250 861 50  0000 C CNN
-F 1 "SK6812MINI" H 4250 770 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4300 950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4350 875 50  0001 L TNN
-	1    4250 1250
-	1    0    0    -1  
-$EndComp
-Connection ~ 4250 1550
-Wire Wire Line
-	4250 1550 4850 1550
-$Comp
-L LED:SK6812MINI L7
-U 1 1 637BFA1F
-P 4850 1250
-AR Path="/67E4E0EB/637BFA1F" Ref="L7"  Part="1" 
-AR Path="/67E4ECE8/637BFA1F" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/637BFA1F" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/637BFA1F" Ref="L?"  Part="1" 
-F 0 "L7" H 4850 861 50  0000 C CNN
-F 1 "SK6812MINI" H 4850 770 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4900 950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4950 875 50  0001 L TNN
-	1    4850 1250
-	1    0    0    -1  
-$EndComp
-Text Label 950  1250 2    50   ~ 0
-RGB
 Wire Wire Line
 	10500 2100 10500 2350
 Connection ~ 10500 2100
@@ -662,225 +520,6 @@ F 3 "~" H 7100 2250 50  0001 C CNN
 	1    7100 2250
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1250 650  1850 650 
-$Comp
-L Device:C C1
-U 1 1 63C22407
-P 1050 750
-AR Path="/67E4E0EB/63C22407" Ref="C1"  Part="1" 
-AR Path="/67E4ECE8/63C22407" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/63C22407" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/63C22407" Ref="C?"  Part="1" 
-F 0 "C1" V 1210 750 50  0000 C CNN
-F 1 "100nF" V 1301 750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1088 600 50  0001 C CNN
-F 3 "~" H 1050 750 50  0001 C CNN
-	1    1050 750 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	900  850  900  750 
-Wire Wire Line
-	1250 650  1250 750 
-Wire Wire Line
-	1200 750  1250 750 
-$Comp
-L Device:C C2
-U 1 1 66F6AED3
-P 1650 750
-AR Path="/67E4E0EB/66F6AED3" Ref="C2"  Part="1" 
-AR Path="/67E4ECE8/66F6AED3" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AED3" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AED3" Ref="C?"  Part="1" 
-F 0 "C2" V 1810 750 50  0000 C CNN
-F 1 "100nF" V 1901 750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1688 600 50  0001 C CNN
-F 3 "~" H 1650 750 50  0001 C CNN
-	1    1650 750 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1800 750  1850 750 
-Connection ~ 900  850 
-$Comp
-L power:GND1 #PWR0101
-U 1 1 63C227AC
-P 900 850
-F 0 "#PWR0101" H 900 600 50  0001 C CNN
-F 1 "GND1" H 822 813 50  0000 R CNN
-F 2 "" H 900 850 50  0001 C CNN
-F 3 "" H 900 850 50  0001 C CNN
-	1    900  850 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 750  1500 850 
-Wire Wire Line
-	900  850  1500 850 
-Wire Wire Line
-	1500 850  2100 850 
-Connection ~ 1500 850 
-Connection ~ 1250 750 
-Wire Wire Line
-	1250 750  1250 950 
-$Comp
-L Device:C C3
-U 1 1 63C227BC
-P 2250 750
-AR Path="/67E4E0EB/63C227BC" Ref="C3"  Part="1" 
-AR Path="/67E4ECE8/63C227BC" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/63C227BC" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/63C227BC" Ref="C?"  Part="1" 
-F 0 "C3" V 2410 750 50  0000 C CNN
-F 1 "100nF" V 2501 750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2288 600 50  0001 C CNN
-F 3 "~" H 2250 750 50  0001 C CNN
-	1    2250 750 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2400 750  2450 750 
-Wire Wire Line
-	2100 850  2700 850 
-Wire Wire Line
-	2100 750  2100 850 
-Connection ~ 2100 850 
-Wire Wire Line
-	1850 650  1850 750 
-Connection ~ 1850 750 
-Wire Wire Line
-	1850 750  1850 950 
-Wire Wire Line
-	2450 650  2450 750 
-Connection ~ 2450 750 
-Wire Wire Line
-	2450 750  2450 950 
-$Comp
-L Device:C C4
-U 1 1 63C227D0
-P 2850 750
-AR Path="/67E4E0EB/63C227D0" Ref="C4"  Part="1" 
-AR Path="/67E4ECE8/63C227D0" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/63C227D0" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/63C227D0" Ref="C?"  Part="1" 
-F 0 "C4" V 3010 750 50  0000 C CNN
-F 1 "100nF" V 3101 750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2888 600 50  0001 C CNN
-F 3 "~" H 2850 750 50  0001 C CNN
-	1    2850 750 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3000 750  3050 750 
-Wire Wire Line
-	2700 850  3300 850 
-Wire Wire Line
-	2700 750  2700 850 
-Wire Wire Line
-	3050 650  3050 750 
-Connection ~ 3050 750 
-Wire Wire Line
-	3050 750  3050 950 
-Connection ~ 2700 850 
-$Comp
-L Device:C C5
-U 1 1 63C227E1
-P 3450 750
-AR Path="/67E4E0EB/63C227E1" Ref="C5"  Part="1" 
-AR Path="/67E4ECE8/63C227E1" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/63C227E1" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/63C227E1" Ref="C?"  Part="1" 
-F 0 "C5" V 3610 750 50  0000 C CNN
-F 1 "100nF" V 3701 750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3488 600 50  0001 C CNN
-F 3 "~" H 3450 750 50  0001 C CNN
-	1    3450 750 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3600 750  3650 750 
-Wire Wire Line
-	3300 850  3900 850 
-Wire Wire Line
-	3300 750  3300 850 
-Wire Wire Line
-	3650 650  3650 750 
-Connection ~ 3650 750 
-Wire Wire Line
-	3650 750  3650 950 
-Connection ~ 3300 850 
-$Comp
-L Device:C C6
-U 1 1 66F6AED8
-P 4050 750
-AR Path="/67E4E0EB/66F6AED8" Ref="C6"  Part="1" 
-AR Path="/67E4ECE8/66F6AED8" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AED8" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AED8" Ref="C?"  Part="1" 
-F 0 "C6" V 4210 750 50  0000 C CNN
-F 1 "100nF" V 4301 750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4088 600 50  0001 C CNN
-F 3 "~" H 4050 750 50  0001 C CNN
-	1    4050 750 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4200 750  4250 750 
-Wire Wire Line
-	3900 850  4500 850 
-Wire Wire Line
-	3900 750  3900 850 
-Wire Wire Line
-	4250 650  4250 750 
-Connection ~ 4250 750 
-Wire Wire Line
-	4250 750  4250 950 
-Connection ~ 3900 850 
-$Comp
-L Device:C C7
-U 1 1 63C22803
-P 4650 750
-AR Path="/67E4E0EB/63C22803" Ref="C7"  Part="1" 
-AR Path="/67E4ECE8/63C22803" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/63C22803" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/63C22803" Ref="C?"  Part="1" 
-F 0 "C7" V 4810 750 50  0000 C CNN
-F 1 "100nF" V 4901 750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4688 600 50  0001 C CNN
-F 3 "~" H 4650 750 50  0001 C CNN
-	1    4650 750 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4800 750  4850 750 
-Wire Wire Line
-	4500 750  4500 850 
-Wire Wire Line
-	4850 650  4850 750 
-Connection ~ 4850 750 
-Wire Wire Line
-	4850 750  4850 950 
-Connection ~ 1850 650 
-Wire Wire Line
-	1850 650  2450 650 
-Connection ~ 2450 650 
-Wire Wire Line
-	2450 650  3050 650 
-Connection ~ 3050 650 
-Wire Wire Line
-	3050 650  3650 650 
-Connection ~ 3650 650 
-Wire Wire Line
-	3650 650  4250 650 
-Connection ~ 4250 650 
-Wire Wire Line
-	4250 650  4850 650 
-Connection ~ 4850 650 
-Wire Wire Line
-	4850 650  5200 650 
-Wire Wire Line
-	550  1550 1250 1550
 Wire Wire Line
 	5850 2950 5850 3600
 Text Label 5450 6500 2    50   ~ 0
@@ -2131,1807 +1770,6 @@ Connection ~ 7350 2950
 Connection ~ 7850 2950
 Connection ~ 8350 2950
 Connection ~ 8850 2950
-Wire Wire Line
-	5150 1250 5150 1800
-Wire Wire Line
-	600  1800 600  2450
-Wire Wire Line
-	5150 2450 5150 3000
-Wire Wire Line
-	600  3000 600  3650
-Wire Wire Line
-	5150 3650 5150 4200
-Wire Wire Line
-	600  4200 600  4850
-Wire Wire Line
-	5150 4850 5150 5400
-Wire Wire Line
-	600  5400 600  6050
-Wire Wire Line
-	5150 6050 5150 6600
-Wire Wire Line
-	600  6600 600  7250
-Wire Wire Line
-	550  1550 550  2750
-Connection ~ 550  5150
-Wire Wire Line
-	550  5150 550  6350
-Connection ~ 550  6350
-Wire Wire Line
-	550  6350 550  7550
-Connection ~ 550  3950
-Wire Wire Line
-	550  3950 550  5150
-Connection ~ 550  2750
-Wire Wire Line
-	550  2750 550  3950
-Wire Wire Line
-	5200 6650 5200 5450
-Connection ~ 5200 3050
-Wire Wire Line
-	5200 3050 5200 1850
-Connection ~ 5200 4250
-Wire Wire Line
-	5200 4250 5200 3050
-Connection ~ 5200 5450
-Wire Wire Line
-	5200 5450 5200 4250
-$Comp
-L power:GND1 #PWR014
-U 1 1 66F6AF53
-P 550 7650
-AR Path="/67E4E0EB/66F6AF53" Ref="#PWR014"  Part="1" 
-AR Path="/67E4ECE8/66F6AF53" Ref="#PWR?"  Part="1" 
-AR Path="/67E4ED54/66F6AF53" Ref="#PWR?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF53" Ref="#PWR?"  Part="1" 
-F 0 "#PWR014" H 550 7400 50  0001 C CNN
-F 1 "GND1" H 638 7613 50  0000 L CNN
-F 2 "" H 550 7650 50  0001 C CNN
-F 3 "" H 550 7650 50  0001 C CNN
-	1    550  7650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	550  7650 550  7550
-Connection ~ 550  7550
-Wire Wire Line
-	5200 1850 5200 650 
-Connection ~ 5200 1850
-Wire Wire Line
-	5150 7250 5150 7550
-$Comp
-L LED:SK6812MINI L16
-U 1 1 66F6AF54
-P 1250 2450
-AR Path="/67E4E0EB/66F6AF54" Ref="L16"  Part="1" 
-AR Path="/67E4ECE8/66F6AF54" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AF54" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF54" Ref="L?"  Part="1" 
-F 0 "L16" H 1250 2061 50  0000 C CNN
-F 1 "SK6812MINI" H 1250 1970 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1300 2150 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1350 2075 50  0001 L TNN
-	1    1250 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L17
-U 1 1 66F6AF55
-P 1850 2450
-AR Path="/67E4E0EB/66F6AF55" Ref="L17"  Part="1" 
-AR Path="/67E4ECE8/66F6AF55" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AF55" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF55" Ref="L?"  Part="1" 
-F 0 "L17" H 1850 2061 50  0000 C CNN
-F 1 "SK6812MINI" H 1850 1970 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1900 2150 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1950 2075 50  0001 L TNN
-	1    1850 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L18
-U 1 1 6648DFDE
-P 2450 2450
-AR Path="/67E4E0EB/6648DFDE" Ref="L18"  Part="1" 
-AR Path="/67E4ECE8/6648DFDE" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/6648DFDE" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/6648DFDE" Ref="L?"  Part="1" 
-F 0 "L18" H 2450 2061 50  0000 C CNN
-F 1 "SK6812MINI" H 2450 1970 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2500 2150 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2550 2075 50  0001 L TNN
-	1    2450 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L19
-U 1 1 66F6AF57
-P 3050 2450
-AR Path="/67E4E0EB/66F6AF57" Ref="L19"  Part="1" 
-AR Path="/67E4ECE8/66F6AF57" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AF57" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF57" Ref="L?"  Part="1" 
-F 0 "L19" H 3050 2061 50  0000 C CNN
-F 1 "SK6812MINI" H 3050 1970 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3100 2150 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3150 2075 50  0001 L TNN
-	1    3050 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L20
-U 1 1 66F6AF58
-P 3650 2450
-AR Path="/67E4E0EB/66F6AF58" Ref="L20"  Part="1" 
-AR Path="/67E4ECE8/66F6AF58" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AF58" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF58" Ref="L?"  Part="1" 
-F 0 "L20" H 3650 2061 50  0000 C CNN
-F 1 "SK6812MINI" H 3650 1970 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3700 2150 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3750 2075 50  0001 L TNN
-	1    3650 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L21
-U 1 1 6648DFFC
-P 4250 2450
-AR Path="/67E4E0EB/6648DFFC" Ref="L21"  Part="1" 
-AR Path="/67E4ECE8/6648DFFC" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/6648DFFC" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/6648DFFC" Ref="L?"  Part="1" 
-F 0 "L21" H 4250 2061 50  0000 C CNN
-F 1 "SK6812MINI" H 4250 1970 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4300 2150 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4350 2075 50  0001 L TNN
-	1    4250 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L22
-U 1 1 66F6AF5A
-P 4850 2450
-AR Path="/67E4E0EB/66F6AF5A" Ref="L22"  Part="1" 
-AR Path="/67E4ECE8/66F6AF5A" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AF5A" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF5A" Ref="L?"  Part="1" 
-F 0 "L22" H 4850 2061 50  0000 C CNN
-F 1 "SK6812MINI" H 4850 1970 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4900 2150 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4950 2075 50  0001 L TNN
-	1    4850 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 2750 1850 2750
-Connection ~ 1850 2750
-Wire Wire Line
-	1850 2750 2450 2750
-Connection ~ 2450 2750
-Wire Wire Line
-	2450 2750 3050 2750
-Connection ~ 3050 2750
-Wire Wire Line
-	3050 2750 3650 2750
-Connection ~ 3650 2750
-Wire Wire Line
-	3650 2750 4250 2750
-Connection ~ 4250 2750
-Wire Wire Line
-	4250 2750 4850 2750
-$Comp
-L LED:SK6812MINI L46
-U 1 1 6648E01B
-P 1250 4850
-AR Path="/67E4E0EB/6648E01B" Ref="L46"  Part="1" 
-AR Path="/67E4ECE8/6648E01B" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/6648E01B" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/6648E01B" Ref="L?"  Part="1" 
-F 0 "L46" H 1250 4461 50  0000 C CNN
-F 1 "SK6812MINI" H 1250 4370 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1300 4550 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1350 4475 50  0001 L TNN
-	1    1250 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L47
-U 1 1 66F6AF5C
-P 1850 4850
-AR Path="/67E4E0EB/66F6AF5C" Ref="L47"  Part="1" 
-AR Path="/67E4ECE8/66F6AF5C" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AF5C" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF5C" Ref="L?"  Part="1" 
-F 0 "L47" H 1850 4461 50  0000 C CNN
-F 1 "SK6812MINI" H 1850 4370 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1900 4550 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1950 4475 50  0001 L TNN
-	1    1850 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L48
-U 1 1 66F6AF5D
-P 2450 4850
-AR Path="/67E4E0EB/66F6AF5D" Ref="L48"  Part="1" 
-AR Path="/67E4ECE8/66F6AF5D" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AF5D" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF5D" Ref="L?"  Part="1" 
-F 0 "L48" H 2450 4461 50  0000 C CNN
-F 1 "SK6812MINI" H 2450 4370 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2500 4550 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2550 4475 50  0001 L TNN
-	1    2450 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L49
-U 1 1 66F6AF5E
-P 3050 4850
-AR Path="/67E4E0EB/66F6AF5E" Ref="L49"  Part="1" 
-AR Path="/67E4ECE8/66F6AF5E" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AF5E" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF5E" Ref="L?"  Part="1" 
-F 0 "L49" H 3050 4461 50  0000 C CNN
-F 1 "SK6812MINI" H 3050 4370 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3100 4550 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3150 4475 50  0001 L TNN
-	1    3050 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L50
-U 1 1 6648E043
-P 3650 4850
-AR Path="/67E4E0EB/6648E043" Ref="L50"  Part="1" 
-AR Path="/67E4ECE8/6648E043" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/6648E043" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/6648E043" Ref="L?"  Part="1" 
-F 0 "L50" H 3650 4461 50  0000 C CNN
-F 1 "SK6812MINI" H 3650 4370 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3700 4550 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3750 4475 50  0001 L TNN
-	1    3650 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L51
-U 1 1 66F6AF60
-P 4250 4850
-AR Path="/67E4E0EB/66F6AF60" Ref="L51"  Part="1" 
-AR Path="/67E4ECE8/66F6AF60" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AF60" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF60" Ref="L?"  Part="1" 
-F 0 "L51" H 4250 4461 50  0000 C CNN
-F 1 "SK6812MINI" H 4250 4370 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4300 4550 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4350 4475 50  0001 L TNN
-	1    4250 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L52
-U 1 1 6648E057
-P 4850 4850
-AR Path="/67E4E0EB/6648E057" Ref="L52"  Part="1" 
-AR Path="/67E4ECE8/6648E057" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/6648E057" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/6648E057" Ref="L?"  Part="1" 
-F 0 "L52" H 4850 4461 50  0000 C CNN
-F 1 "SK6812MINI" H 4850 4370 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4900 4550 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4950 4475 50  0001 L TNN
-	1    4850 4850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 5150 1850 5150
-Connection ~ 1850 5150
-Wire Wire Line
-	1850 5150 2450 5150
-Connection ~ 2450 5150
-Wire Wire Line
-	2450 5150 3050 5150
-Connection ~ 3050 5150
-Wire Wire Line
-	3050 5150 3650 5150
-Connection ~ 3650 5150
-Wire Wire Line
-	3650 5150 4250 5150
-Connection ~ 4250 5150
-Wire Wire Line
-	4250 5150 4850 5150
-$Comp
-L LED:SK6812MINI L61
-U 1 1 66F6AF62
-P 1250 6050
-AR Path="/67E4E0EB/66F6AF62" Ref="L61"  Part="1" 
-AR Path="/67E4ECE8/66F6AF62" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AF62" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF62" Ref="L?"  Part="1" 
-F 0 "L61" H 1250 5661 50  0000 C CNN
-F 1 "SK6812MINI" H 1250 5570 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1300 5750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1350 5675 50  0001 L TNN
-	1    1250 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L62
-U 1 1 6648E076
-P 1850 6050
-AR Path="/67E4E0EB/6648E076" Ref="L62"  Part="1" 
-AR Path="/67E4ECE8/6648E076" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/6648E076" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/6648E076" Ref="L?"  Part="1" 
-F 0 "L62" H 1850 5661 50  0000 C CNN
-F 1 "SK6812MINI" H 1850 5570 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1900 5750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1950 5675 50  0001 L TNN
-	1    1850 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L63
-U 1 1 6648E080
-P 2450 6050
-AR Path="/67E4E0EB/6648E080" Ref="L63"  Part="1" 
-AR Path="/67E4ECE8/6648E080" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/6648E080" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/6648E080" Ref="L?"  Part="1" 
-F 0 "L63" H 2450 5661 50  0000 C CNN
-F 1 "SK6812MINI" H 2450 5570 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2500 5750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2550 5675 50  0001 L TNN
-	1    2450 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L64
-U 1 1 6648E08A
-P 3050 6050
-AR Path="/67E4E0EB/6648E08A" Ref="L64"  Part="1" 
-AR Path="/67E4ECE8/6648E08A" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/6648E08A" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/6648E08A" Ref="L?"  Part="1" 
-F 0 "L64" H 3050 5661 50  0000 C CNN
-F 1 "SK6812MINI" H 3050 5570 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3100 5750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3150 5675 50  0001 L TNN
-	1    3050 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L65
-U 1 1 6648E094
-P 3650 6050
-AR Path="/67E4E0EB/6648E094" Ref="L65"  Part="1" 
-AR Path="/67E4ECE8/6648E094" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/6648E094" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/6648E094" Ref="L?"  Part="1" 
-F 0 "L65" H 3650 5661 50  0000 C CNN
-F 1 "SK6812MINI" H 3650 5570 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3700 5750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3750 5675 50  0001 L TNN
-	1    3650 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L66
-U 1 1 66F6AF67
-P 4250 6050
-AR Path="/67E4E0EB/66F6AF67" Ref="L66"  Part="1" 
-AR Path="/67E4ECE8/66F6AF67" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AF67" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF67" Ref="L?"  Part="1" 
-F 0 "L66" H 4250 5661 50  0000 C CNN
-F 1 "SK6812MINI" H 4250 5570 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4300 5750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4350 5675 50  0001 L TNN
-	1    4250 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L67
-U 1 1 66F6AF68
-P 4850 6050
-AR Path="/67E4E0EB/66F6AF68" Ref="L67"  Part="1" 
-AR Path="/67E4ECE8/66F6AF68" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AF68" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF68" Ref="L?"  Part="1" 
-F 0 "L67" H 4850 5661 50  0000 C CNN
-F 1 "SK6812MINI" H 4850 5570 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4900 5750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4950 5675 50  0001 L TNN
-	1    4850 6050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 6350 1850 6350
-Connection ~ 1850 6350
-Wire Wire Line
-	1850 6350 2450 6350
-Connection ~ 2450 6350
-Wire Wire Line
-	2450 6350 3050 6350
-Connection ~ 3050 6350
-Wire Wire Line
-	3050 6350 3650 6350
-Connection ~ 3650 6350
-Wire Wire Line
-	3650 6350 4250 6350
-Connection ~ 4250 6350
-Wire Wire Line
-	4250 6350 4850 6350
-$Comp
-L LED:SK6812MINI L77
-U 1 1 66F6AF69
-P 1850 7250
-AR Path="/67E4E0EB/66F6AF69" Ref="L77"  Part="1" 
-AR Path="/67E4ECE8/66F6AF69" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AF69" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF69" Ref="L?"  Part="1" 
-F 0 "L77" H 1850 6861 50  0000 C CNN
-F 1 "SK6812MINI" H 1850 6770 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1900 6950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1950 6875 50  0001 L TNN
-	1    1850 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L78
-U 1 1 66F6AF6A
-P 2450 7250
-AR Path="/67E4E0EB/66F6AF6A" Ref="L78"  Part="1" 
-AR Path="/67E4ECE8/66F6AF6A" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AF6A" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF6A" Ref="L?"  Part="1" 
-F 0 "L78" H 2450 6861 50  0000 C CNN
-F 1 "SK6812MINI" H 2450 6770 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2500 6950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2550 6875 50  0001 L TNN
-	1    2450 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L79
-U 1 1 6648E0D1
-P 3050 7250
-AR Path="/67E4E0EB/6648E0D1" Ref="L79"  Part="1" 
-AR Path="/67E4ECE8/6648E0D1" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/6648E0D1" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/6648E0D1" Ref="L?"  Part="1" 
-F 0 "L79" H 3050 6861 50  0000 C CNN
-F 1 "SK6812MINI" H 3050 6770 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3100 6950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3150 6875 50  0001 L TNN
-	1    3050 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L80
-U 1 1 66F6AF6C
-P 3650 7250
-AR Path="/67E4E0EB/66F6AF6C" Ref="L80"  Part="1" 
-AR Path="/67E4ECE8/66F6AF6C" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AF6C" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF6C" Ref="L?"  Part="1" 
-F 0 "L80" H 3650 6861 50  0000 C CNN
-F 1 "SK6812MINI" H 3650 6770 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3700 6950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3750 6875 50  0001 L TNN
-	1    3650 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L81
-U 1 1 66F6AF6D
-P 4250 7250
-AR Path="/67E4E0EB/66F6AF6D" Ref="L81"  Part="1" 
-AR Path="/67E4ECE8/66F6AF6D" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AF6D" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF6D" Ref="L?"  Part="1" 
-F 0 "L81" H 4250 6861 50  0000 C CNN
-F 1 "SK6812MINI" H 4250 6770 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4300 6950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4350 6875 50  0001 L TNN
-	1    4250 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI L82
-U 1 1 6648E0EF
-P 4850 7250
-AR Path="/67E4E0EB/6648E0EF" Ref="L82"  Part="1" 
-AR Path="/67E4ECE8/6648E0EF" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/6648E0EF" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/6648E0EF" Ref="L?"  Part="1" 
-F 0 "L82" H 4850 6861 50  0000 C CNN
-F 1 "SK6812MINI" H 4850 6770 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4900 6950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4950 6875 50  0001 L TNN
-	1    4850 7250
-	1    0    0    -1  
-$EndComp
-Connection ~ 1850 7550
-Wire Wire Line
-	1850 7550 2450 7550
-Connection ~ 2450 7550
-Wire Wire Line
-	2450 7550 3050 7550
-Connection ~ 3050 7550
-Wire Wire Line
-	3050 7550 3650 7550
-Connection ~ 3650 7550
-Wire Wire Line
-	3650 7550 4250 7550
-Connection ~ 4250 7550
-Wire Wire Line
-	4250 7550 4850 7550
-Connection ~ 4850 7550
-Wire Wire Line
-	4850 7550 5150 7550
-Wire Wire Line
-	1250 7550 1850 7550
-$Comp
-L LED:SK6812MINI L76
-U 1 1 66F6AF6F
-P 1250 7250
-AR Path="/67E4E0EB/66F6AF6F" Ref="L76"  Part="1" 
-AR Path="/67E4ECE8/66F6AF6F" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AF6F" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF6F" Ref="L?"  Part="1" 
-F 0 "L76" H 1250 6861 50  0000 C CNN
-F 1 "SK6812MINI" H 1250 6770 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1300 6950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1350 6875 50  0001 L TNN
-	1    1250 7250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 1850 1850 1850
-$Comp
-L LED:SK6812MINI L37
-U 1 1 66F6AF70
-P 4850 3650
-AR Path="/67E4E0EB/66F6AF70" Ref="L37"  Part="1" 
-AR Path="/67E4ECE8/66F6AF70" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AF70" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF70" Ref="L?"  Part="1" 
-F 0 "L37" H 4850 3261 50  0000 C CNN
-F 1 "SK6812MINI" H 4850 3170 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4900 3350 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4950 3275 50  0001 L TNN
-	1    4850 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 3950 4850 3950
-Connection ~ 4250 3950
-$Comp
-L LED:SK6812MINI L36
-U 1 1 66F6AF71
-P 4250 3650
-AR Path="/67E4E0EB/66F6AF71" Ref="L36"  Part="1" 
-AR Path="/67E4ECE8/66F6AF71" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AF71" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF71" Ref="L?"  Part="1" 
-F 0 "L36" H 4250 3261 50  0000 C CNN
-F 1 "SK6812MINI" H 4250 3170 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4300 3350 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4350 3275 50  0001 L TNN
-	1    4250 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 3950 4250 3950
-Connection ~ 3650 3950
-$Comp
-L LED:SK6812MINI L35
-U 1 1 66F6AF72
-P 3650 3650
-AR Path="/67E4E0EB/66F6AF72" Ref="L35"  Part="1" 
-AR Path="/67E4ECE8/66F6AF72" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AF72" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF72" Ref="L?"  Part="1" 
-F 0 "L35" H 3650 3261 50  0000 C CNN
-F 1 "SK6812MINI" H 3650 3170 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3700 3350 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3750 3275 50  0001 L TNN
-	1    3650 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3050 3950 3650 3950
-Connection ~ 3050 3950
-$Comp
-L LED:SK6812MINI L34
-U 1 1 6648E135
-P 3050 3650
-AR Path="/67E4E0EB/6648E135" Ref="L34"  Part="1" 
-AR Path="/67E4ECE8/6648E135" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/6648E135" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/6648E135" Ref="L?"  Part="1" 
-F 0 "L34" H 3050 3261 50  0000 C CNN
-F 1 "SK6812MINI" H 3050 3170 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3100 3350 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3150 3275 50  0001 L TNN
-	1    3050 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 3950 3050 3950
-Connection ~ 2450 3950
-$Comp
-L LED:SK6812MINI L33
-U 1 1 6648E141
-P 2450 3650
-AR Path="/67E4E0EB/6648E141" Ref="L33"  Part="1" 
-AR Path="/67E4ECE8/6648E141" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/6648E141" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/6648E141" Ref="L?"  Part="1" 
-F 0 "L33" H 2450 3261 50  0000 C CNN
-F 1 "SK6812MINI" H 2450 3170 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2500 3350 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2550 3275 50  0001 L TNN
-	1    2450 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1850 3950 2450 3950
-Connection ~ 1850 3950
-$Comp
-L LED:SK6812MINI L32
-U 1 1 66F6AF75
-P 1850 3650
-AR Path="/67E4E0EB/66F6AF75" Ref="L32"  Part="1" 
-AR Path="/67E4ECE8/66F6AF75" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AF75" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF75" Ref="L?"  Part="1" 
-F 0 "L32" H 1850 3261 50  0000 C CNN
-F 1 "SK6812MINI" H 1850 3170 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1900 3350 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1950 3275 50  0001 L TNN
-	1    1850 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 3950 1850 3950
-$Comp
-L LED:SK6812MINI L31
-U 1 1 66F6AF76
-P 1250 3650
-AR Path="/67E4E0EB/66F6AF76" Ref="L31"  Part="1" 
-AR Path="/67E4ECE8/66F6AF76" Ref="L?"  Part="1" 
-AR Path="/67E4ED54/66F6AF76" Ref="L?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF76" Ref="L?"  Part="1" 
-F 0 "L31" H 1250 3261 50  0000 C CNN
-F 1 "SK6812MINI" H 1250 3170 50  0000 C CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1300 3350 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1350 3275 50  0001 L TNN
-	1    1250 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 3050 1850 3050
-Wire Wire Line
-	1250 4250 1850 4250
-Wire Wire Line
-	1250 5450 1850 5450
-Wire Wire Line
-	600  1800 5150 1800
-Wire Wire Line
-	600  3000 5150 3000
-Wire Wire Line
-	550  2750 1250 2750
-Connection ~ 1250 2750
-Wire Wire Line
-	550  3950 1250 3950
-Connection ~ 1250 3950
-Wire Wire Line
-	550  5150 1250 5150
-Connection ~ 1250 5150
-Wire Wire Line
-	550  6350 1250 6350
-Connection ~ 1250 6350
-Wire Wire Line
-	600  4200 5150 4200
-Wire Wire Line
-	600  5400 5150 5400
-Wire Wire Line
-	600  6600 5150 6600
-$Comp
-L Device:C C16
-U 1 1 66F6AF77
-P 1050 1950
-AR Path="/67E4E0EB/66F6AF77" Ref="C16"  Part="1" 
-AR Path="/67E4ECE8/66F6AF77" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF77" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF77" Ref="C?"  Part="1" 
-F 0 "C16" V 1210 1950 50  0000 C CNN
-F 1 "100nF" V 1301 1950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1088 1800 50  0001 C CNN
-F 3 "~" H 1050 1950 50  0001 C CNN
-	1    1050 1950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	900  2050 900  1950
-Wire Wire Line
-	1250 1850 1250 1950
-Wire Wire Line
-	1200 1950 1250 1950
-$Comp
-L Device:C C17
-U 1 1 66F6AF78
-P 1650 1950
-AR Path="/67E4E0EB/66F6AF78" Ref="C17"  Part="1" 
-AR Path="/67E4ECE8/66F6AF78" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF78" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF78" Ref="C?"  Part="1" 
-F 0 "C17" V 1810 1950 50  0000 C CNN
-F 1 "100nF" V 1901 1950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1688 1800 50  0001 C CNN
-F 3 "~" H 1650 1950 50  0001 C CNN
-	1    1650 1950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1800 1950 1850 1950
-Connection ~ 900  2050
-$Comp
-L power:GND1 #PWR04
-U 1 1 66F6AF79
-P 900 2050
-F 0 "#PWR04" H 900 1800 50  0001 C CNN
-F 1 "GND1" H 822 2013 50  0000 R CNN
-F 2 "" H 900 2050 50  0001 C CNN
-F 3 "" H 900 2050 50  0001 C CNN
-	1    900  2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 1950 1500 2050
-Wire Wire Line
-	900  2050 1500 2050
-Wire Wire Line
-	1500 2050 2100 2050
-Connection ~ 1500 2050
-Connection ~ 1250 1950
-Wire Wire Line
-	1250 1950 1250 2150
-$Comp
-L Device:C C18
-U 1 1 66F6AF7A
-P 2250 1950
-AR Path="/67E4E0EB/66F6AF7A" Ref="C18"  Part="1" 
-AR Path="/67E4ECE8/66F6AF7A" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF7A" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF7A" Ref="C?"  Part="1" 
-F 0 "C18" V 2410 1950 50  0000 C CNN
-F 1 "100nF" V 2501 1950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2288 1800 50  0001 C CNN
-F 3 "~" H 2250 1950 50  0001 C CNN
-	1    2250 1950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2400 1950 2450 1950
-Wire Wire Line
-	2100 2050 2700 2050
-Wire Wire Line
-	2100 1950 2100 2050
-Connection ~ 2100 2050
-Wire Wire Line
-	1850 1850 1850 1950
-Connection ~ 1850 1950
-Wire Wire Line
-	1850 1950 1850 2150
-Wire Wire Line
-	2450 1850 2450 1950
-Connection ~ 2450 1950
-Wire Wire Line
-	2450 1950 2450 2150
-$Comp
-L Device:C C19
-U 1 1 66F6AF7B
-P 2850 1950
-AR Path="/67E4E0EB/66F6AF7B" Ref="C19"  Part="1" 
-AR Path="/67E4ECE8/66F6AF7B" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF7B" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF7B" Ref="C?"  Part="1" 
-F 0 "C19" V 3010 1950 50  0000 C CNN
-F 1 "100nF" V 3101 1950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2888 1800 50  0001 C CNN
-F 3 "~" H 2850 1950 50  0001 C CNN
-	1    2850 1950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3000 1950 3050 1950
-Wire Wire Line
-	2700 2050 3300 2050
-Wire Wire Line
-	2700 1950 2700 2050
-Wire Wire Line
-	3050 1850 3050 1950
-Connection ~ 3050 1950
-Wire Wire Line
-	3050 1950 3050 2150
-Connection ~ 2700 2050
-$Comp
-L Device:C C20
-U 1 1 66F6AF7C
-P 3450 1950
-AR Path="/67E4E0EB/66F6AF7C" Ref="C20"  Part="1" 
-AR Path="/67E4ECE8/66F6AF7C" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF7C" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF7C" Ref="C?"  Part="1" 
-F 0 "C20" V 3610 1950 50  0000 C CNN
-F 1 "100nF" V 3701 1950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3488 1800 50  0001 C CNN
-F 3 "~" H 3450 1950 50  0001 C CNN
-	1    3450 1950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3600 1950 3650 1950
-Wire Wire Line
-	3300 2050 3900 2050
-Wire Wire Line
-	3300 1950 3300 2050
-Wire Wire Line
-	3650 1850 3650 1950
-Connection ~ 3650 1950
-Wire Wire Line
-	3650 1950 3650 2150
-Connection ~ 3300 2050
-$Comp
-L Device:C C21
-U 1 1 6648E1D1
-P 4050 1950
-AR Path="/67E4E0EB/6648E1D1" Ref="C21"  Part="1" 
-AR Path="/67E4ECE8/6648E1D1" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/6648E1D1" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/6648E1D1" Ref="C?"  Part="1" 
-F 0 "C21" V 4210 1950 50  0000 C CNN
-F 1 "100nF" V 4301 1950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4088 1800 50  0001 C CNN
-F 3 "~" H 4050 1950 50  0001 C CNN
-	1    4050 1950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4200 1950 4250 1950
-Wire Wire Line
-	3900 2050 4500 2050
-Wire Wire Line
-	3900 1950 3900 2050
-Wire Wire Line
-	4250 1850 4250 1950
-Connection ~ 4250 1950
-Wire Wire Line
-	4250 1950 4250 2150
-Connection ~ 3900 2050
-$Comp
-L Device:C C22
-U 1 1 66F6AF7E
-P 4650 1950
-AR Path="/67E4E0EB/66F6AF7E" Ref="C22"  Part="1" 
-AR Path="/67E4ECE8/66F6AF7E" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF7E" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF7E" Ref="C?"  Part="1" 
-F 0 "C22" V 4810 1950 50  0000 C CNN
-F 1 "100nF" V 4901 1950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4688 1800 50  0001 C CNN
-F 3 "~" H 4650 1950 50  0001 C CNN
-	1    4650 1950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4800 1950 4850 1950
-Wire Wire Line
-	4500 1950 4500 2050
-Wire Wire Line
-	4850 1850 4850 1950
-Connection ~ 4850 1950
-Wire Wire Line
-	4850 1950 4850 2150
-Connection ~ 1850 1850
-Wire Wire Line
-	1850 1850 2450 1850
-Connection ~ 2450 1850
-Wire Wire Line
-	2450 1850 3050 1850
-Connection ~ 3050 1850
-Wire Wire Line
-	3050 1850 3650 1850
-Connection ~ 3650 1850
-Wire Wire Line
-	3650 1850 4250 1850
-Connection ~ 4250 1850
-Wire Wire Line
-	4250 1850 4850 1850
-Connection ~ 4850 1850
-Wire Wire Line
-	4850 1850 5200 1850
-$Comp
-L Device:C C31
-U 1 1 66F6AF7F
-P 1050 3150
-AR Path="/67E4E0EB/66F6AF7F" Ref="C31"  Part="1" 
-AR Path="/67E4ECE8/66F6AF7F" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF7F" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF7F" Ref="C?"  Part="1" 
-F 0 "C31" V 1210 3150 50  0000 C CNN
-F 1 "100nF" V 1301 3150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1088 3000 50  0001 C CNN
-F 3 "~" H 1050 3150 50  0001 C CNN
-	1    1050 3150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	900  3250 900  3150
-Wire Wire Line
-	1250 3050 1250 3150
-Wire Wire Line
-	1200 3150 1250 3150
-$Comp
-L Device:C C32
-U 1 1 6648E20A
-P 1650 3150
-AR Path="/67E4E0EB/6648E20A" Ref="C32"  Part="1" 
-AR Path="/67E4ECE8/6648E20A" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/6648E20A" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/6648E20A" Ref="C?"  Part="1" 
-F 0 "C32" V 1810 3150 50  0000 C CNN
-F 1 "100nF" V 1901 3150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1688 3000 50  0001 C CNN
-F 3 "~" H 1650 3150 50  0001 C CNN
-	1    1650 3150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1800 3150 1850 3150
-Connection ~ 900  3250
-$Comp
-L power:GND1 #PWR06
-U 1 1 6648E216
-P 900 3250
-F 0 "#PWR06" H 900 3000 50  0001 C CNN
-F 1 "GND1" H 822 3213 50  0000 R CNN
-F 2 "" H 900 3250 50  0001 C CNN
-F 3 "" H 900 3250 50  0001 C CNN
-	1    900  3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 3150 1500 3250
-Wire Wire Line
-	900  3250 1500 3250
-Wire Wire Line
-	1500 3250 2100 3250
-Connection ~ 1500 3250
-Connection ~ 1250 3150
-Wire Wire Line
-	1250 3150 1250 3350
-$Comp
-L Device:C C33
-U 1 1 66F6AF82
-P 2250 3150
-AR Path="/67E4E0EB/66F6AF82" Ref="C33"  Part="1" 
-AR Path="/67E4ECE8/66F6AF82" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF82" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF82" Ref="C?"  Part="1" 
-F 0 "C33" V 2410 3150 50  0000 C CNN
-F 1 "100nF" V 2501 3150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2288 3000 50  0001 C CNN
-F 3 "~" H 2250 3150 50  0001 C CNN
-	1    2250 3150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2400 3150 2450 3150
-Wire Wire Line
-	2100 3250 2700 3250
-Wire Wire Line
-	2100 3150 2100 3250
-Connection ~ 2100 3250
-Wire Wire Line
-	1850 3050 1850 3150
-Connection ~ 1850 3150
-Wire Wire Line
-	1850 3150 1850 3350
-Wire Wire Line
-	2450 3050 2450 3150
-Connection ~ 2450 3150
-Wire Wire Line
-	2450 3150 2450 3350
-$Comp
-L Device:C C34
-U 1 1 66F6AF83
-P 2850 3150
-AR Path="/67E4E0EB/66F6AF83" Ref="C34"  Part="1" 
-AR Path="/67E4ECE8/66F6AF83" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF83" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF83" Ref="C?"  Part="1" 
-F 0 "C34" V 3010 3150 50  0000 C CNN
-F 1 "100nF" V 3101 3150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2888 3000 50  0001 C CNN
-F 3 "~" H 2850 3150 50  0001 C CNN
-	1    2850 3150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3000 3150 3050 3150
-Wire Wire Line
-	2700 3250 3300 3250
-Wire Wire Line
-	2700 3150 2700 3250
-Wire Wire Line
-	3050 3050 3050 3150
-Connection ~ 3050 3150
-Wire Wire Line
-	3050 3150 3050 3350
-Connection ~ 2700 3250
-$Comp
-L Device:C C35
-U 1 1 6648E24B
-P 3450 3150
-AR Path="/67E4E0EB/6648E24B" Ref="C35"  Part="1" 
-AR Path="/67E4ECE8/6648E24B" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/6648E24B" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/6648E24B" Ref="C?"  Part="1" 
-F 0 "C35" V 3610 3150 50  0000 C CNN
-F 1 "100nF" V 3701 3150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3488 3000 50  0001 C CNN
-F 3 "~" H 3450 3150 50  0001 C CNN
-	1    3450 3150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3600 3150 3650 3150
-Wire Wire Line
-	3300 3250 3900 3250
-Wire Wire Line
-	3300 3150 3300 3250
-Wire Wire Line
-	3650 3050 3650 3150
-Connection ~ 3650 3150
-Wire Wire Line
-	3650 3150 3650 3350
-Connection ~ 3300 3250
-$Comp
-L Device:C C36
-U 1 1 6648E25C
-P 4050 3150
-AR Path="/67E4E0EB/6648E25C" Ref="C36"  Part="1" 
-AR Path="/67E4ECE8/6648E25C" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/6648E25C" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/6648E25C" Ref="C?"  Part="1" 
-F 0 "C36" V 4210 3150 50  0000 C CNN
-F 1 "100nF" V 4301 3150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4088 3000 50  0001 C CNN
-F 3 "~" H 4050 3150 50  0001 C CNN
-	1    4050 3150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4200 3150 4250 3150
-Wire Wire Line
-	3900 3250 4500 3250
-Wire Wire Line
-	3900 3150 3900 3250
-Wire Wire Line
-	4250 3050 4250 3150
-Connection ~ 4250 3150
-Wire Wire Line
-	4250 3150 4250 3350
-Connection ~ 3900 3250
-$Comp
-L Device:C C37
-U 1 1 6648E26D
-P 4650 3150
-AR Path="/67E4E0EB/6648E26D" Ref="C37"  Part="1" 
-AR Path="/67E4ECE8/6648E26D" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/6648E26D" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/6648E26D" Ref="C?"  Part="1" 
-F 0 "C37" V 4810 3150 50  0000 C CNN
-F 1 "100nF" V 4901 3150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4688 3000 50  0001 C CNN
-F 3 "~" H 4650 3150 50  0001 C CNN
-	1    4650 3150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4800 3150 4850 3150
-Wire Wire Line
-	4500 3150 4500 3250
-Wire Wire Line
-	4850 3050 4850 3150
-Connection ~ 4850 3150
-Wire Wire Line
-	4850 3150 4850 3350
-Connection ~ 1850 3050
-Wire Wire Line
-	1850 3050 2450 3050
-Connection ~ 2450 3050
-Wire Wire Line
-	2450 3050 3050 3050
-Connection ~ 3050 3050
-Wire Wire Line
-	3050 3050 3650 3050
-Connection ~ 3650 3050
-Wire Wire Line
-	3650 3050 4250 3050
-Connection ~ 4250 3050
-Wire Wire Line
-	4250 3050 4850 3050
-Connection ~ 4850 3050
-Wire Wire Line
-	4850 3050 5200 3050
-$Comp
-L Device:C C46
-U 1 1 6648E288
-P 1050 4350
-AR Path="/67E4E0EB/6648E288" Ref="C46"  Part="1" 
-AR Path="/67E4ECE8/6648E288" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/6648E288" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/6648E288" Ref="C?"  Part="1" 
-F 0 "C46" V 1210 4350 50  0000 C CNN
-F 1 "100nF" V 1301 4350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1088 4200 50  0001 C CNN
-F 3 "~" H 1050 4350 50  0001 C CNN
-	1    1050 4350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	900  4450 900  4350
-Wire Wire Line
-	1250 4250 1250 4350
-Wire Wire Line
-	1200 4350 1250 4350
-$Comp
-L Device:C C47
-U 1 1 6648E295
-P 1650 4350
-AR Path="/67E4E0EB/6648E295" Ref="C47"  Part="1" 
-AR Path="/67E4ECE8/6648E295" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/6648E295" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/6648E295" Ref="C?"  Part="1" 
-F 0 "C47" V 1810 4350 50  0000 C CNN
-F 1 "100nF" V 1901 4350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1688 4200 50  0001 C CNN
-F 3 "~" H 1650 4350 50  0001 C CNN
-	1    1650 4350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1800 4350 1850 4350
-Connection ~ 900  4450
-$Comp
-L power:GND1 #PWR08
-U 1 1 66F6AF89
-P 900 4450
-F 0 "#PWR08" H 900 4200 50  0001 C CNN
-F 1 "GND1" H 822 4413 50  0000 R CNN
-F 2 "" H 900 4450 50  0001 C CNN
-F 3 "" H 900 4450 50  0001 C CNN
-	1    900  4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 4350 1500 4450
-Wire Wire Line
-	900  4450 1500 4450
-Wire Wire Line
-	1500 4450 2100 4450
-Connection ~ 1500 4450
-Connection ~ 1250 4350
-Wire Wire Line
-	1250 4350 1250 4550
-$Comp
-L Device:C C48
-U 1 1 66F6AF8A
-P 2250 4350
-AR Path="/67E4E0EB/66F6AF8A" Ref="C48"  Part="1" 
-AR Path="/67E4ECE8/66F6AF8A" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF8A" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF8A" Ref="C?"  Part="1" 
-F 0 "C48" V 2410 4350 50  0000 C CNN
-F 1 "100nF" V 2501 4350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2288 4200 50  0001 C CNN
-F 3 "~" H 2250 4350 50  0001 C CNN
-	1    2250 4350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2400 4350 2450 4350
-Wire Wire Line
-	2100 4450 2700 4450
-Wire Wire Line
-	2100 4350 2100 4450
-Connection ~ 2100 4450
-Wire Wire Line
-	1850 4250 1850 4350
-Connection ~ 1850 4350
-Wire Wire Line
-	1850 4350 1850 4550
-Wire Wire Line
-	2450 4250 2450 4350
-Connection ~ 2450 4350
-Wire Wire Line
-	2450 4350 2450 4550
-$Comp
-L Device:C C49
-U 1 1 66F6AF8B
-P 2850 4350
-AR Path="/67E4E0EB/66F6AF8B" Ref="C49"  Part="1" 
-AR Path="/67E4ECE8/66F6AF8B" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF8B" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF8B" Ref="C?"  Part="1" 
-F 0 "C49" V 3010 4350 50  0000 C CNN
-F 1 "100nF" V 3101 4350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2888 4200 50  0001 C CNN
-F 3 "~" H 2850 4350 50  0001 C CNN
-	1    2850 4350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3000 4350 3050 4350
-Wire Wire Line
-	2700 4450 3300 4450
-Wire Wire Line
-	2700 4350 2700 4450
-Wire Wire Line
-	3050 4250 3050 4350
-Connection ~ 3050 4350
-Wire Wire Line
-	3050 4350 3050 4550
-Connection ~ 2700 4450
-$Comp
-L Device:C C50
-U 1 1 66F6AF8C
-P 3450 4350
-AR Path="/67E4E0EB/66F6AF8C" Ref="C50"  Part="1" 
-AR Path="/67E4ECE8/66F6AF8C" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF8C" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF8C" Ref="C?"  Part="1" 
-F 0 "C50" V 3610 4350 50  0000 C CNN
-F 1 "100nF" V 3701 4350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3488 4200 50  0001 C CNN
-F 3 "~" H 3450 4350 50  0001 C CNN
-	1    3450 4350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3600 4350 3650 4350
-Wire Wire Line
-	3300 4450 3900 4450
-Wire Wire Line
-	3300 4350 3300 4450
-Wire Wire Line
-	3650 4250 3650 4350
-Connection ~ 3650 4350
-Wire Wire Line
-	3650 4350 3650 4550
-Connection ~ 3300 4450
-$Comp
-L Device:C C51
-U 1 1 66F6AF8D
-P 4050 4350
-AR Path="/67E4E0EB/66F6AF8D" Ref="C51"  Part="1" 
-AR Path="/67E4ECE8/66F6AF8D" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF8D" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF8D" Ref="C?"  Part="1" 
-F 0 "C51" V 4210 4350 50  0000 C CNN
-F 1 "100nF" V 4301 4350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4088 4200 50  0001 C CNN
-F 3 "~" H 4050 4350 50  0001 C CNN
-	1    4050 4350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4200 4350 4250 4350
-Wire Wire Line
-	3900 4450 4500 4450
-Wire Wire Line
-	3900 4350 3900 4450
-Wire Wire Line
-	4250 4250 4250 4350
-Connection ~ 4250 4350
-Wire Wire Line
-	4250 4350 4250 4550
-Connection ~ 3900 4450
-$Comp
-L Device:C C52
-U 1 1 6648E2F8
-P 4650 4350
-AR Path="/67E4E0EB/6648E2F8" Ref="C52"  Part="1" 
-AR Path="/67E4ECE8/6648E2F8" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/6648E2F8" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/6648E2F8" Ref="C?"  Part="1" 
-F 0 "C52" V 4810 4350 50  0000 C CNN
-F 1 "100nF" V 4901 4350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4688 4200 50  0001 C CNN
-F 3 "~" H 4650 4350 50  0001 C CNN
-	1    4650 4350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4800 4350 4850 4350
-Wire Wire Line
-	4500 4350 4500 4450
-Wire Wire Line
-	4850 4250 4850 4350
-Connection ~ 4850 4350
-Wire Wire Line
-	4850 4350 4850 4550
-Connection ~ 1850 4250
-Wire Wire Line
-	1850 4250 2450 4250
-Connection ~ 2450 4250
-Wire Wire Line
-	2450 4250 3050 4250
-Connection ~ 3050 4250
-Wire Wire Line
-	3050 4250 3650 4250
-Connection ~ 3650 4250
-Wire Wire Line
-	3650 4250 4250 4250
-Connection ~ 4250 4250
-Wire Wire Line
-	4250 4250 4850 4250
-Connection ~ 4850 4250
-Wire Wire Line
-	4850 4250 5200 4250
-$Comp
-L Device:C C61
-U 1 1 6648E313
-P 1050 5550
-AR Path="/67E4E0EB/6648E313" Ref="C61"  Part="1" 
-AR Path="/67E4ECE8/6648E313" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/6648E313" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/6648E313" Ref="C?"  Part="1" 
-F 0 "C61" V 1210 5550 50  0000 C CNN
-F 1 "100nF" V 1301 5550 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1088 5400 50  0001 C CNN
-F 3 "~" H 1050 5550 50  0001 C CNN
-	1    1050 5550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	900  5650 900  5550
-Wire Wire Line
-	1250 5450 1250 5550
-Wire Wire Line
-	1200 5550 1250 5550
-$Comp
-L Device:C C62
-U 1 1 66F6AF90
-P 1650 5550
-AR Path="/67E4E0EB/66F6AF90" Ref="C62"  Part="1" 
-AR Path="/67E4ECE8/66F6AF90" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF90" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF90" Ref="C?"  Part="1" 
-F 0 "C62" V 1810 5550 50  0000 C CNN
-F 1 "100nF" V 1901 5550 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1688 5400 50  0001 C CNN
-F 3 "~" H 1650 5550 50  0001 C CNN
-	1    1650 5550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1800 5550 1850 5550
-Connection ~ 900  5650
-$Comp
-L power:GND1 #PWR010
-U 1 1 66F6AF91
-P 900 5650
-F 0 "#PWR010" H 900 5400 50  0001 C CNN
-F 1 "GND1" H 822 5613 50  0000 R CNN
-F 2 "" H 900 5650 50  0001 C CNN
-F 3 "" H 900 5650 50  0001 C CNN
-	1    900  5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 5550 1500 5650
-Wire Wire Line
-	900  5650 1500 5650
-Wire Wire Line
-	1500 5650 2100 5650
-Connection ~ 1500 5650
-Connection ~ 1250 5550
-Wire Wire Line
-	1250 5550 1250 5750
-$Comp
-L Device:C C63
-U 1 1 66F6AF92
-P 2250 5550
-AR Path="/67E4E0EB/66F6AF92" Ref="C63"  Part="1" 
-AR Path="/67E4ECE8/66F6AF92" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF92" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF92" Ref="C?"  Part="1" 
-F 0 "C63" V 2410 5550 50  0000 C CNN
-F 1 "100nF" V 2501 5550 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2288 5400 50  0001 C CNN
-F 3 "~" H 2250 5550 50  0001 C CNN
-	1    2250 5550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2400 5550 2450 5550
-Wire Wire Line
-	2100 5650 2700 5650
-Wire Wire Line
-	2100 5550 2100 5650
-Connection ~ 2100 5650
-Wire Wire Line
-	1850 5450 1850 5550
-Connection ~ 1850 5550
-Wire Wire Line
-	1850 5550 1850 5750
-Wire Wire Line
-	2450 5450 2450 5550
-Connection ~ 2450 5550
-Wire Wire Line
-	2450 5550 2450 5750
-$Comp
-L Device:C C64
-U 1 1 66F6AF93
-P 2850 5550
-AR Path="/67E4E0EB/66F6AF93" Ref="C64"  Part="1" 
-AR Path="/67E4ECE8/66F6AF93" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF93" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF93" Ref="C?"  Part="1" 
-F 0 "C64" V 3010 5550 50  0000 C CNN
-F 1 "100nF" V 3101 5550 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2888 5400 50  0001 C CNN
-F 3 "~" H 2850 5550 50  0001 C CNN
-	1    2850 5550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3000 5550 3050 5550
-Wire Wire Line
-	2700 5650 3300 5650
-Wire Wire Line
-	2700 5550 2700 5650
-Wire Wire Line
-	3050 5450 3050 5550
-Connection ~ 3050 5550
-Wire Wire Line
-	3050 5550 3050 5750
-Connection ~ 2700 5650
-$Comp
-L Device:C C65
-U 1 1 66F6AF94
-P 3450 5550
-AR Path="/67E4E0EB/66F6AF94" Ref="C65"  Part="1" 
-AR Path="/67E4ECE8/66F6AF94" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF94" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF94" Ref="C?"  Part="1" 
-F 0 "C65" V 3610 5550 50  0000 C CNN
-F 1 "100nF" V 3701 5550 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3488 5400 50  0001 C CNN
-F 3 "~" H 3450 5550 50  0001 C CNN
-	1    3450 5550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3600 5550 3650 5550
-Wire Wire Line
-	3300 5650 3900 5650
-Wire Wire Line
-	3300 5550 3300 5650
-Wire Wire Line
-	3650 5450 3650 5550
-Connection ~ 3650 5550
-Wire Wire Line
-	3650 5550 3650 5750
-Connection ~ 3300 5650
-$Comp
-L Device:C C66
-U 1 1 66F6AF95
-P 4050 5550
-AR Path="/67E4E0EB/66F6AF95" Ref="C66"  Part="1" 
-AR Path="/67E4ECE8/66F6AF95" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF95" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF95" Ref="C?"  Part="1" 
-F 0 "C66" V 4210 5550 50  0000 C CNN
-F 1 "100nF" V 4301 5550 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4088 5400 50  0001 C CNN
-F 3 "~" H 4050 5550 50  0001 C CNN
-	1    4050 5550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4200 5550 4250 5550
-Wire Wire Line
-	3900 5650 4500 5650
-Wire Wire Line
-	3900 5550 3900 5650
-Wire Wire Line
-	4250 5450 4250 5550
-Connection ~ 4250 5550
-Wire Wire Line
-	4250 5550 4250 5750
-Connection ~ 3900 5650
-$Comp
-L Device:C C67
-U 1 1 66F6AF96
-P 4650 5550
-AR Path="/67E4E0EB/66F6AF96" Ref="C67"  Part="1" 
-AR Path="/67E4ECE8/66F6AF96" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF96" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF96" Ref="C?"  Part="1" 
-F 0 "C67" V 4810 5550 50  0000 C CNN
-F 1 "100nF" V 4901 5550 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4688 5400 50  0001 C CNN
-F 3 "~" H 4650 5550 50  0001 C CNN
-	1    4650 5550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4800 5550 4850 5550
-Wire Wire Line
-	4500 5550 4500 5650
-Wire Wire Line
-	4850 5450 4850 5550
-Connection ~ 4850 5550
-Wire Wire Line
-	4850 5550 4850 5750
-Connection ~ 1850 5450
-Wire Wire Line
-	1850 5450 2450 5450
-Connection ~ 2450 5450
-Wire Wire Line
-	2450 5450 3050 5450
-Connection ~ 3050 5450
-Wire Wire Line
-	3050 5450 3650 5450
-Connection ~ 3650 5450
-Wire Wire Line
-	3650 5450 4250 5450
-Connection ~ 4250 5450
-Wire Wire Line
-	4250 5450 4850 5450
-Connection ~ 4850 5450
-Wire Wire Line
-	4850 5450 5200 5450
-Wire Wire Line
-	1250 6650 1850 6650
-$Comp
-L Device:C C76
-U 1 1 6648E39F
-P 1050 6750
-AR Path="/67E4E0EB/6648E39F" Ref="C76"  Part="1" 
-AR Path="/67E4ECE8/6648E39F" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/6648E39F" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/6648E39F" Ref="C?"  Part="1" 
-F 0 "C76" V 1210 6750 50  0000 C CNN
-F 1 "100nF" V 1301 6750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1088 6600 50  0001 C CNN
-F 3 "~" H 1050 6750 50  0001 C CNN
-	1    1050 6750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	900  6850 900  6750
-Wire Wire Line
-	1250 6650 1250 6750
-Wire Wire Line
-	1200 6750 1250 6750
-$Comp
-L Device:C C77
-U 1 1 66F6AF98
-P 1650 6750
-AR Path="/67E4E0EB/66F6AF98" Ref="C77"  Part="1" 
-AR Path="/67E4ECE8/66F6AF98" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF98" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF98" Ref="C?"  Part="1" 
-F 0 "C77" V 1810 6750 50  0000 C CNN
-F 1 "100nF" V 1901 6750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1688 6600 50  0001 C CNN
-F 3 "~" H 1650 6750 50  0001 C CNN
-	1    1650 6750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1800 6750 1850 6750
-Connection ~ 900  6850
-$Comp
-L power:GND1 #PWR012
-U 1 1 66F6AF99
-P 900 6850
-F 0 "#PWR012" H 900 6600 50  0001 C CNN
-F 1 "GND1" H 822 6813 50  0000 R CNN
-F 2 "" H 900 6850 50  0001 C CNN
-F 3 "" H 900 6850 50  0001 C CNN
-	1    900  6850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 6750 1500 6850
-Wire Wire Line
-	900  6850 1500 6850
-Wire Wire Line
-	1500 6850 2100 6850
-Connection ~ 1500 6850
-Connection ~ 1250 6750
-Wire Wire Line
-	1250 6750 1250 6950
-$Comp
-L Device:C C78
-U 1 1 6648E3C8
-P 2250 6750
-AR Path="/67E4E0EB/6648E3C8" Ref="C78"  Part="1" 
-AR Path="/67E4ECE8/6648E3C8" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/6648E3C8" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/6648E3C8" Ref="C?"  Part="1" 
-F 0 "C78" V 2410 6750 50  0000 C CNN
-F 1 "100nF" V 2501 6750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2288 6600 50  0001 C CNN
-F 3 "~" H 2250 6750 50  0001 C CNN
-	1    2250 6750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2400 6750 2450 6750
-Wire Wire Line
-	2100 6850 2700 6850
-Wire Wire Line
-	2100 6750 2100 6850
-Connection ~ 2100 6850
-Wire Wire Line
-	1850 6650 1850 6750
-Connection ~ 1850 6750
-Wire Wire Line
-	1850 6750 1850 6950
-Wire Wire Line
-	2450 6650 2450 6750
-Connection ~ 2450 6750
-Wire Wire Line
-	2450 6750 2450 6950
-$Comp
-L Device:C C79
-U 1 1 66F6AF9B
-P 2850 6750
-AR Path="/67E4E0EB/66F6AF9B" Ref="C79"  Part="1" 
-AR Path="/67E4ECE8/66F6AF9B" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF9B" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF9B" Ref="C?"  Part="1" 
-F 0 "C79" V 3010 6750 50  0000 C CNN
-F 1 "100nF" V 3101 6750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2888 6600 50  0001 C CNN
-F 3 "~" H 2850 6750 50  0001 C CNN
-	1    2850 6750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3000 6750 3050 6750
-Wire Wire Line
-	2700 6850 3300 6850
-Wire Wire Line
-	2700 6750 2700 6850
-Wire Wire Line
-	3050 6650 3050 6750
-Connection ~ 3050 6750
-Wire Wire Line
-	3050 6750 3050 6950
-Connection ~ 2700 6850
-$Comp
-L Device:C C80
-U 1 1 66F6AF9C
-P 3450 6750
-AR Path="/67E4E0EB/66F6AF9C" Ref="C80"  Part="1" 
-AR Path="/67E4ECE8/66F6AF9C" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF9C" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF9C" Ref="C?"  Part="1" 
-F 0 "C80" V 3610 6750 50  0000 C CNN
-F 1 "100nF" V 3701 6750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3488 6600 50  0001 C CNN
-F 3 "~" H 3450 6750 50  0001 C CNN
-	1    3450 6750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3600 6750 3650 6750
-Wire Wire Line
-	3300 6850 3900 6850
-Wire Wire Line
-	3300 6750 3300 6850
-Wire Wire Line
-	3650 6650 3650 6750
-Connection ~ 3650 6750
-Wire Wire Line
-	3650 6750 3650 6950
-Connection ~ 3300 6850
-$Comp
-L Device:C C81
-U 1 1 66F6AF9D
-P 4050 6750
-AR Path="/67E4E0EB/66F6AF9D" Ref="C81"  Part="1" 
-AR Path="/67E4ECE8/66F6AF9D" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF9D" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF9D" Ref="C?"  Part="1" 
-F 0 "C81" V 4210 6750 50  0000 C CNN
-F 1 "100nF" V 4301 6750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4088 6600 50  0001 C CNN
-F 3 "~" H 4050 6750 50  0001 C CNN
-	1    4050 6750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4200 6750 4250 6750
-Wire Wire Line
-	3900 6850 4500 6850
-Wire Wire Line
-	3900 6750 3900 6850
-Wire Wire Line
-	4250 6650 4250 6750
-Connection ~ 4250 6750
-Wire Wire Line
-	4250 6750 4250 6950
-Connection ~ 3900 6850
-$Comp
-L Device:C C82
-U 1 1 66F6AF9E
-P 4650 6750
-AR Path="/67E4E0EB/66F6AF9E" Ref="C82"  Part="1" 
-AR Path="/67E4ECE8/66F6AF9E" Ref="C?"  Part="1" 
-AR Path="/67E4ED54/66F6AF9E" Ref="C?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF9E" Ref="C?"  Part="1" 
-F 0 "C82" V 4810 6750 50  0000 C CNN
-F 1 "100nF" V 4901 6750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4688 6600 50  0001 C CNN
-F 3 "~" H 4650 6750 50  0001 C CNN
-	1    4650 6750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4800 6750 4850 6750
-Wire Wire Line
-	4500 6750 4500 6850
-Wire Wire Line
-	4850 6650 4850 6750
-Connection ~ 4850 6750
-Wire Wire Line
-	4850 6750 4850 6950
-Connection ~ 1850 6650
-Wire Wire Line
-	1850 6650 2450 6650
-Connection ~ 2450 6650
-Wire Wire Line
-	2450 6650 3050 6650
-Connection ~ 3050 6650
-Wire Wire Line
-	3050 6650 3650 6650
-Connection ~ 3650 6650
-Wire Wire Line
-	3650 6650 4250 6650
-Connection ~ 4250 6650
-Wire Wire Line
-	4250 6650 4850 6650
-Connection ~ 4850 6650
-Wire Wire Line
-	4850 6650 5200 6650
-Wire Wire Line
-	550  7550 1250 7550
-Connection ~ 1250 7550
-Wire Wire Line
-	600  7250 950  7250
-Wire Wire Line
-	600  6050 950  6050
-Wire Wire Line
-	600  4850 950  4850
-Wire Wire Line
-	600  3650 950  3650
-Wire Wire Line
-	600  2450 950  2450
 NoConn ~ 6700 700 
 NoConn ~ 6900 700 
 $Comp
@@ -4154,4 +1992,1172 @@ F 3 "" H 9900 1750 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	7950 3250 8450 3250
+$Comp
+L power:GND1 #PWR0101
+U 1 1 63E66028
+P 2400 3500
+F 0 "#PWR0101" H 2400 3250 50  0001 C CNN
+F 1 "GND1" H 2405 3327 50  0000 C CNN
+F 2 "" H 2400 3500 50  0001 C CNN
+F 3 "" H 2400 3500 50  0001 C CNN
+	1    2400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L31
+U 1 1 64D5311F
+P 850 1650
+F 0 "L31" H 850 1650 51  0000 C CNN
+F 1 "SK6812MINI" H 850 1600 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 850 1650 60  0001 C CNN
+F 3 "" H 850 1650 60  0001 C CNN
+	1    850  1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L16
+U 1 1 64B825B7
+P 850 1250
+F 0 "L16" H 850 1250 51  0000 C CNN
+F 1 "SK6812MINI" H 850 1200 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 850 1250 60  0001 C CNN
+F 3 "" H 850 1250 60  0001 C CNN
+	1    850  1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1050 1350 1050 1450
+Wire Wire Line
+	1050 1450 650  1450
+Wire Wire Line
+	650  1450 650  1550
+$Comp
+L kbd:SK6812MINI L46
+U 1 1 64E84796
+P 850 2050
+F 0 "L46" H 850 2050 51  0000 C CNN
+F 1 "SK6812MINI" H 850 2000 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 850 2050 60  0001 C CNN
+F 3 "" H 850 2050 60  0001 C CNN
+	1    850  2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1050 1750 1050 1850
+Wire Wire Line
+	1050 1850 650  1850
+Wire Wire Line
+	650  1850 650  1950
+$Comp
+L kbd:SK6812MINI L61
+U 1 1 64EB9BCD
+P 850 2450
+F 0 "L61" H 850 2450 51  0000 C CNN
+F 1 "SK6812MINI" H 850 2400 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 850 2450 60  0001 C CNN
+F 3 "" H 850 2450 60  0001 C CNN
+	1    850  2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1050 2150 1050 2250
+Wire Wire Line
+	1050 2250 650  2250
+Wire Wire Line
+	650  2250 650  2350
+$Comp
+L kbd:SK6812MINI L76
+U 1 1 64EF009A
+P 850 2850
+F 0 "L76" H 850 2850 51  0000 C CNN
+F 1 "SK6812MINI" H 850 2800 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 850 2850 60  0001 C CNN
+F 3 "" H 850 2850 60  0001 C CNN
+	1    850  2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1050 2550 1050 2650
+Wire Wire Line
+	1050 2650 650  2650
+Wire Wire Line
+	650  2650 650  2750
+Wire Wire Line
+	650  1350 600  1350
+Wire Wire Line
+	600  1350 600  1750
+Wire Wire Line
+	600  2950 650  2950
+Wire Wire Line
+	650  2550 600  2550
+Connection ~ 600  2550
+Wire Wire Line
+	600  2550 600  2950
+Wire Wire Line
+	650  2150 600  2150
+Connection ~ 600  2150
+Wire Wire Line
+	600  2150 600  2550
+Wire Wire Line
+	650  1750 600  1750
+Connection ~ 600  1750
+Wire Wire Line
+	600  1750 600  2150
+Wire Wire Line
+	1050 1150 1100 1150
+Wire Wire Line
+	1100 1150 1100 1550
+Wire Wire Line
+	1100 2750 1050 2750
+Wire Wire Line
+	1050 2350 1100 2350
+Connection ~ 1100 2350
+Wire Wire Line
+	1100 2350 1100 2750
+Wire Wire Line
+	1050 1950 1100 1950
+Connection ~ 1100 1950
+Wire Wire Line
+	1100 1950 1100 2350
+Wire Wire Line
+	1050 1550 1100 1550
+Connection ~ 1100 1550
+Wire Wire Line
+	1100 1550 1100 1950
+$Comp
+L kbd:SK6812MINI L62
+U 1 1 650F1507
+P 1450 2450
+F 0 "L62" H 1450 2450 51  0000 C CNN
+F 1 "SK6812MINI" H 1450 2400 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 1450 2450 60  0001 C CNN
+F 3 "" H 1450 2450 60  0001 C CNN
+	1    1450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L77
+U 1 1 650F15E1
+P 1450 2850
+F 0 "L77" H 1450 2850 51  0000 C CNN
+F 1 "SK6812MINI" H 1450 2800 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 1450 2850 60  0001 C CNN
+F 3 "" H 1450 2850 60  0001 C CNN
+	1    1450 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2750 1250 2650
+Wire Wire Line
+	1250 2650 1650 2650
+Wire Wire Line
+	1650 2650 1650 2550
+$Comp
+L kbd:SK6812MINI L47
+U 1 1 650F15EE
+P 1450 2050
+F 0 "L47" H 1450 2050 51  0000 C CNN
+F 1 "SK6812MINI" H 1450 2000 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 1450 2050 60  0001 C CNN
+F 3 "" H 1450 2050 60  0001 C CNN
+	1    1450 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2350 1250 2250
+Wire Wire Line
+	1250 2250 1650 2250
+Wire Wire Line
+	1650 2250 1650 2150
+$Comp
+L kbd:SK6812MINI L32
+U 1 1 650F15FB
+P 1450 1650
+F 0 "L32" H 1450 1650 51  0000 C CNN
+F 1 "SK6812MINI" H 1450 1600 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 1450 1650 60  0001 C CNN
+F 3 "" H 1450 1650 60  0001 C CNN
+	1    1450 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1950 1250 1850
+Wire Wire Line
+	1250 1850 1650 1850
+Wire Wire Line
+	1650 1850 1650 1750
+$Comp
+L kbd:SK6812MINI L17
+U 1 1 650F1608
+P 1450 1250
+F 0 "L17" H 1450 1250 51  0000 C CNN
+F 1 "SK6812MINI" H 1450 1200 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 1450 1250 60  0001 C CNN
+F 3 "" H 1450 1250 60  0001 C CNN
+	1    1450 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1550 1250 1450
+Wire Wire Line
+	1250 1450 1650 1450
+Wire Wire Line
+	1650 1450 1650 1350
+Wire Wire Line
+	1650 2750 1700 2750
+Wire Wire Line
+	1700 2750 1700 2350
+Wire Wire Line
+	1700 1150 1650 1150
+Wire Wire Line
+	1650 1550 1700 1550
+Connection ~ 1700 1550
+Wire Wire Line
+	1700 1550 1700 1150
+Wire Wire Line
+	1650 1950 1700 1950
+Connection ~ 1700 1950
+Wire Wire Line
+	1700 1950 1700 1550
+Wire Wire Line
+	1650 2350 1700 2350
+Connection ~ 1700 2350
+Wire Wire Line
+	1700 2350 1700 1950
+Wire Wire Line
+	1250 2950 1200 2950
+Wire Wire Line
+	1200 2950 1200 2550
+Wire Wire Line
+	1200 1350 1250 1350
+Wire Wire Line
+	1250 1750 1200 1750
+Connection ~ 1200 1750
+Wire Wire Line
+	1200 1750 1200 1350
+Wire Wire Line
+	1250 2150 1200 2150
+Connection ~ 1200 2150
+Wire Wire Line
+	1200 2150 1200 1750
+Wire Wire Line
+	1250 2550 1200 2550
+Connection ~ 1200 2550
+Wire Wire Line
+	1200 2550 1200 2150
+$Comp
+L kbd:SK6812MINI L33
+U 1 1 652A4AC5
+P 2050 1650
+F 0 "L33" H 2050 1650 51  0000 C CNN
+F 1 "SK6812MINI" H 2050 1600 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 2050 1650 60  0001 C CNN
+F 3 "" H 2050 1650 60  0001 C CNN
+	1    2050 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L18
+U 1 1 652A4BCF
+P 2050 1250
+F 0 "L18" H 2050 1250 51  0000 C CNN
+F 1 "SK6812MINI" H 2050 1200 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 2050 1250 60  0001 C CNN
+F 3 "" H 2050 1250 60  0001 C CNN
+	1    2050 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 1350 2250 1450
+Wire Wire Line
+	2250 1450 1850 1450
+Wire Wire Line
+	1850 1450 1850 1550
+$Comp
+L kbd:SK6812MINI L48
+U 1 1 652A4BDC
+P 2050 2050
+F 0 "L48" H 2050 2050 51  0000 C CNN
+F 1 "SK6812MINI" H 2050 2000 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 2050 2050 60  0001 C CNN
+F 3 "" H 2050 2050 60  0001 C CNN
+	1    2050 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 1750 2250 1850
+Wire Wire Line
+	2250 1850 1850 1850
+Wire Wire Line
+	1850 1850 1850 1950
+$Comp
+L kbd:SK6812MINI L63
+U 1 1 652A4BE9
+P 2050 2450
+F 0 "L63" H 2050 2450 51  0000 C CNN
+F 1 "SK6812MINI" H 2050 2400 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 2050 2450 60  0001 C CNN
+F 3 "" H 2050 2450 60  0001 C CNN
+	1    2050 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 2150 2250 2250
+Wire Wire Line
+	2250 2250 1850 2250
+Wire Wire Line
+	1850 2250 1850 2350
+$Comp
+L kbd:SK6812MINI L78
+U 1 1 652A4BF6
+P 2050 2850
+F 0 "L78" H 2050 2850 51  0000 C CNN
+F 1 "SK6812MINI" H 2050 2800 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 2050 2850 60  0001 C CNN
+F 3 "" H 2050 2850 60  0001 C CNN
+	1    2050 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 2550 2250 2650
+Wire Wire Line
+	2250 2650 1850 2650
+Wire Wire Line
+	1850 2650 1850 2750
+Wire Wire Line
+	1850 1350 1800 1350
+Wire Wire Line
+	1800 1350 1800 1750
+Wire Wire Line
+	1800 2950 1850 2950
+Wire Wire Line
+	1850 2550 1800 2550
+Connection ~ 1800 2550
+Wire Wire Line
+	1800 2550 1800 2950
+Wire Wire Line
+	1850 2150 1800 2150
+Connection ~ 1800 2150
+Wire Wire Line
+	1800 2150 1800 2550
+Wire Wire Line
+	1850 1750 1800 1750
+Connection ~ 1800 1750
+Wire Wire Line
+	1800 1750 1800 2150
+Wire Wire Line
+	2250 1150 2300 1150
+Wire Wire Line
+	2300 1150 2300 1550
+Wire Wire Line
+	2300 2750 2250 2750
+Wire Wire Line
+	2250 2350 2300 2350
+Connection ~ 2300 2350
+Wire Wire Line
+	2300 2350 2300 2750
+Wire Wire Line
+	2250 1950 2300 1950
+Connection ~ 2300 1950
+Wire Wire Line
+	2300 1950 2300 2350
+Wire Wire Line
+	2250 1550 2300 1550
+Connection ~ 2300 1550
+Wire Wire Line
+	2300 1550 2300 1950
+$Comp
+L kbd:SK6812MINI L64
+U 1 1 653AC059
+P 2650 2450
+F 0 "L64" H 2650 2450 51  0000 C CNN
+F 1 "SK6812MINI" H 2650 2400 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 2650 2450 60  0001 C CNN
+F 3 "" H 2650 2450 60  0001 C CNN
+	1    2650 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L79
+U 1 1 653AC183
+P 2650 2850
+F 0 "L79" H 2650 2850 51  0000 C CNN
+F 1 "SK6812MINI" H 2650 2800 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 2650 2850 60  0001 C CNN
+F 3 "" H 2650 2850 60  0001 C CNN
+	1    2650 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2750 2450 2650
+Wire Wire Line
+	2450 2650 2850 2650
+Wire Wire Line
+	2850 2650 2850 2550
+$Comp
+L kbd:SK6812MINI L49
+U 1 1 653AC190
+P 2650 2050
+F 0 "L49" H 2650 2050 51  0000 C CNN
+F 1 "SK6812MINI" H 2650 2000 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 2650 2050 60  0001 C CNN
+F 3 "" H 2650 2050 60  0001 C CNN
+	1    2650 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2350 2450 2250
+Wire Wire Line
+	2450 2250 2850 2250
+Wire Wire Line
+	2850 2250 2850 2150
+$Comp
+L kbd:SK6812MINI L34
+U 1 1 653AC19D
+P 2650 1650
+F 0 "L34" H 2650 1650 51  0000 C CNN
+F 1 "SK6812MINI" H 2650 1600 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 2650 1650 60  0001 C CNN
+F 3 "" H 2650 1650 60  0001 C CNN
+	1    2650 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1950 2450 1850
+Wire Wire Line
+	2450 1850 2850 1850
+Wire Wire Line
+	2850 1850 2850 1750
+$Comp
+L kbd:SK6812MINI L19
+U 1 1 653AC1AA
+P 2650 1250
+F 0 "L19" H 2650 1250 51  0000 C CNN
+F 1 "SK6812MINI" H 2650 1200 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 2650 1250 60  0001 C CNN
+F 3 "" H 2650 1250 60  0001 C CNN
+	1    2650 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1550 2450 1450
+Wire Wire Line
+	2450 1450 2850 1450
+Wire Wire Line
+	2850 1450 2850 1350
+Wire Wire Line
+	2850 2750 2900 2750
+Wire Wire Line
+	2900 2750 2900 2350
+Wire Wire Line
+	2900 1150 2850 1150
+Wire Wire Line
+	2850 1550 2900 1550
+Connection ~ 2900 1550
+Wire Wire Line
+	2900 1550 2900 1150
+Wire Wire Line
+	2850 1950 2900 1950
+Connection ~ 2900 1950
+Wire Wire Line
+	2900 1950 2900 1550
+Wire Wire Line
+	2850 2350 2900 2350
+Connection ~ 2900 2350
+Wire Wire Line
+	2900 2350 2900 1950
+Wire Wire Line
+	2450 2950 2400 2950
+Wire Wire Line
+	2400 2950 2400 2550
+Wire Wire Line
+	2400 1350 2450 1350
+Wire Wire Line
+	2450 1750 2400 1750
+Connection ~ 2400 1750
+Wire Wire Line
+	2400 1750 2400 1350
+Wire Wire Line
+	2450 2150 2400 2150
+Connection ~ 2400 2150
+Wire Wire Line
+	2400 2150 2400 1750
+Wire Wire Line
+	2450 2550 2400 2550
+Connection ~ 2400 2550
+Wire Wire Line
+	2400 2550 2400 2150
+$Comp
+L kbd:SK6812MINI L37
+U 1 1 655142A3
+P 4450 1650
+F 0 "L37" H 4450 1650 51  0000 C CNN
+F 1 "SK6812MINI" H 4450 1600 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 4450 1650 60  0001 C CNN
+F 3 "" H 4450 1650 60  0001 C CNN
+	1    4450 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L22
+U 1 1 65514515
+P 4450 1250
+F 0 "L22" H 4450 1250 51  0000 C CNN
+F 1 "SK6812MINI" H 4450 1200 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 4450 1250 60  0001 C CNN
+F 3 "" H 4450 1250 60  0001 C CNN
+	1    4450 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 1350 4650 1450
+Wire Wire Line
+	4650 1450 4250 1450
+Wire Wire Line
+	4250 1450 4250 1550
+$Comp
+L kbd:SK6812MINI L52
+U 1 1 65514522
+P 4450 2050
+F 0 "L52" H 4450 2050 51  0000 C CNN
+F 1 "SK6812MINI" H 4450 2000 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 4450 2050 60  0001 C CNN
+F 3 "" H 4450 2050 60  0001 C CNN
+	1    4450 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 1750 4650 1850
+Wire Wire Line
+	4650 1850 4250 1850
+Wire Wire Line
+	4250 1850 4250 1950
+$Comp
+L kbd:SK6812MINI L67
+U 1 1 6551452F
+P 4450 2450
+F 0 "L67" H 4450 2450 51  0000 C CNN
+F 1 "SK6812MINI" H 4450 2400 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 4450 2450 60  0001 C CNN
+F 3 "" H 4450 2450 60  0001 C CNN
+	1    4450 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 2150 4650 2250
+Wire Wire Line
+	4650 2250 4250 2250
+Wire Wire Line
+	4250 2250 4250 2350
+$Comp
+L kbd:SK6812MINI L82
+U 1 1 6551453C
+P 4450 2850
+F 0 "L82" H 4450 2850 51  0000 C CNN
+F 1 "SK6812MINI" H 4450 2800 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 4450 2850 60  0001 C CNN
+F 3 "" H 4450 2850 60  0001 C CNN
+	1    4450 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 2550 4650 2650
+Wire Wire Line
+	4650 2650 4250 2650
+Wire Wire Line
+	4250 2650 4250 2750
+Wire Wire Line
+	4250 1350 4200 1350
+Wire Wire Line
+	4200 1350 4200 1750
+Wire Wire Line
+	4200 2950 4250 2950
+Wire Wire Line
+	4250 2550 4200 2550
+Connection ~ 4200 2550
+Wire Wire Line
+	4200 2550 4200 2950
+Wire Wire Line
+	4250 2150 4200 2150
+Connection ~ 4200 2150
+Wire Wire Line
+	4200 2150 4200 2550
+Wire Wire Line
+	4250 1750 4200 1750
+Connection ~ 4200 1750
+Wire Wire Line
+	4200 1750 4200 2150
+Wire Wire Line
+	4650 1150 4700 1150
+Wire Wire Line
+	4700 1150 4700 1550
+Wire Wire Line
+	4700 2750 4650 2750
+Wire Wire Line
+	4650 2350 4700 2350
+Connection ~ 4700 2350
+Wire Wire Line
+	4700 2350 4700 2750
+Wire Wire Line
+	4650 1950 4700 1950
+Connection ~ 4700 1950
+Wire Wire Line
+	4700 1950 4700 2350
+Wire Wire Line
+	4650 1550 4700 1550
+Connection ~ 4700 1550
+Wire Wire Line
+	4700 1550 4700 1950
+$Comp
+L kbd:SK6812MINI L66
+U 1 1 65514561
+P 3850 2450
+F 0 "L66" H 3850 2450 51  0000 C CNN
+F 1 "SK6812MINI" H 3850 2400 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 3850 2450 60  0001 C CNN
+F 3 "" H 3850 2450 60  0001 C CNN
+	1    3850 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L81
+U 1 1 6551456B
+P 3850 2850
+F 0 "L81" H 3850 2850 51  0000 C CNN
+F 1 "SK6812MINI" H 3850 2800 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 3850 2850 60  0001 C CNN
+F 3 "" H 3850 2850 60  0001 C CNN
+	1    3850 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2750 3650 2650
+Wire Wire Line
+	3650 2650 4050 2650
+Wire Wire Line
+	4050 2650 4050 2550
+$Comp
+L kbd:SK6812MINI L51
+U 1 1 65514578
+P 3850 2050
+F 0 "L51" H 3850 2050 51  0000 C CNN
+F 1 "SK6812MINI" H 3850 2000 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 3850 2050 60  0001 C CNN
+F 3 "" H 3850 2050 60  0001 C CNN
+	1    3850 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2350 3650 2250
+Wire Wire Line
+	3650 2250 4050 2250
+Wire Wire Line
+	4050 2250 4050 2150
+$Comp
+L kbd:SK6812MINI L36
+U 1 1 65514585
+P 3850 1650
+F 0 "L36" H 3850 1650 51  0000 C CNN
+F 1 "SK6812MINI" H 3850 1600 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 3850 1650 60  0001 C CNN
+F 3 "" H 3850 1650 60  0001 C CNN
+	1    3850 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 1950 3650 1850
+Wire Wire Line
+	3650 1850 4050 1850
+Wire Wire Line
+	4050 1850 4050 1750
+$Comp
+L kbd:SK6812MINI L21
+U 1 1 65514592
+P 3850 1250
+F 0 "L21" H 3850 1250 51  0000 C CNN
+F 1 "SK6812MINI" H 3850 1200 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 3850 1250 60  0001 C CNN
+F 3 "" H 3850 1250 60  0001 C CNN
+	1    3850 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 1550 3650 1450
+Wire Wire Line
+	3650 1450 4050 1450
+Wire Wire Line
+	4050 1450 4050 1350
+Wire Wire Line
+	4050 2750 4100 2750
+Wire Wire Line
+	4100 2750 4100 2350
+Wire Wire Line
+	4100 1150 4050 1150
+Wire Wire Line
+	4050 1550 4100 1550
+Connection ~ 4100 1550
+Wire Wire Line
+	4100 1550 4100 1150
+Wire Wire Line
+	4050 1950 4100 1950
+Connection ~ 4100 1950
+Wire Wire Line
+	4100 1950 4100 1550
+Wire Wire Line
+	4050 2350 4100 2350
+Connection ~ 4100 2350
+Wire Wire Line
+	4100 2350 4100 1950
+Wire Wire Line
+	3650 2950 3600 2950
+Wire Wire Line
+	3600 2950 3600 2550
+Wire Wire Line
+	3600 1350 3650 1350
+Wire Wire Line
+	3650 1750 3600 1750
+Connection ~ 3600 1750
+Wire Wire Line
+	3600 1750 3600 1350
+Wire Wire Line
+	3650 2150 3600 2150
+Connection ~ 3600 2150
+Wire Wire Line
+	3600 2150 3600 1750
+Wire Wire Line
+	3650 2550 3600 2550
+Connection ~ 3600 2550
+Wire Wire Line
+	3600 2550 3600 2150
+$Comp
+L kbd:SK6812MINI L35
+U 1 1 655145B7
+P 3250 1650
+F 0 "L35" H 3250 1650 51  0000 C CNN
+F 1 "SK6812MINI" H 3250 1600 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 3250 1650 60  0001 C CNN
+F 3 "" H 3250 1650 60  0001 C CNN
+	1    3250 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L20
+U 1 1 655145C1
+P 3250 1250
+F 0 "L20" H 3250 1250 51  0000 C CNN
+F 1 "SK6812MINI" H 3250 1200 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 3250 1250 60  0001 C CNN
+F 3 "" H 3250 1250 60  0001 C CNN
+	1    3250 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3450 1350 3450 1450
+Wire Wire Line
+	3450 1450 3050 1450
+Wire Wire Line
+	3050 1450 3050 1550
+$Comp
+L kbd:SK6812MINI L50
+U 1 1 655145CE
+P 3250 2050
+F 0 "L50" H 3250 2050 51  0000 C CNN
+F 1 "SK6812MINI" H 3250 2000 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 3250 2050 60  0001 C CNN
+F 3 "" H 3250 2050 60  0001 C CNN
+	1    3250 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3450 1750 3450 1850
+Wire Wire Line
+	3450 1850 3050 1850
+Wire Wire Line
+	3050 1850 3050 1950
+$Comp
+L kbd:SK6812MINI L65
+U 1 1 655145DB
+P 3250 2450
+F 0 "L65" H 3250 2450 51  0000 C CNN
+F 1 "SK6812MINI" H 3250 2400 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 3250 2450 60  0001 C CNN
+F 3 "" H 3250 2450 60  0001 C CNN
+	1    3250 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3450 2150 3450 2250
+Wire Wire Line
+	3450 2250 3050 2250
+Wire Wire Line
+	3050 2250 3050 2350
+$Comp
+L kbd:SK6812MINI L80
+U 1 1 655145E8
+P 3250 2850
+F 0 "L80" H 3250 2850 51  0000 C CNN
+F 1 "SK6812MINI" H 3250 2800 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 3250 2850 60  0001 C CNN
+F 3 "" H 3250 2850 60  0001 C CNN
+	1    3250 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3450 2550 3450 2650
+Wire Wire Line
+	3450 2650 3050 2650
+Wire Wire Line
+	3050 2650 3050 2750
+Wire Wire Line
+	3050 1350 3000 1350
+Wire Wire Line
+	3000 1350 3000 1750
+Wire Wire Line
+	3000 2950 3050 2950
+Wire Wire Line
+	3050 2550 3000 2550
+Connection ~ 3000 2550
+Wire Wire Line
+	3000 2550 3000 2950
+Wire Wire Line
+	3050 2150 3000 2150
+Connection ~ 3000 2150
+Wire Wire Line
+	3000 2150 3000 2550
+Wire Wire Line
+	3050 1750 3000 1750
+Connection ~ 3000 1750
+Wire Wire Line
+	3000 1750 3000 2150
+Wire Wire Line
+	3450 1150 3500 1150
+Wire Wire Line
+	3500 1150 3500 1550
+Wire Wire Line
+	3500 2750 3450 2750
+Wire Wire Line
+	3450 2350 3500 2350
+Connection ~ 3500 2350
+Wire Wire Line
+	3500 2350 3500 2750
+Wire Wire Line
+	3450 1950 3500 1950
+Connection ~ 3500 1950
+Wire Wire Line
+	3500 1950 3500 2350
+Wire Wire Line
+	3450 1550 3500 1550
+Connection ~ 3500 1550
+Wire Wire Line
+	3500 1550 3500 1950
+Wire Wire Line
+	1050 2950 1050 3050
+Wire Wire Line
+	1050 3050 1650 3050
+Wire Wire Line
+	1650 3050 1650 2950
+Wire Wire Line
+	2250 2950 2250 3050
+Wire Wire Line
+	2250 3050 2850 3050
+Wire Wire Line
+	2850 3050 2850 2950
+$Comp
+L kbd:SK6812MINI L4
+U 1 1 65947D77
+P 4450 3250
+F 0 "L4" H 4450 3250 51  0000 C CNN
+F 1 "SK6812MINI" H 4450 3200 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 4450 3250 60  0001 C CNN
+F 3 "" H 4450 3250 60  0001 C CNN
+	1    4450 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 2950 4650 3050
+Wire Wire Line
+	4650 3050 4250 3050
+Wire Wire Line
+	4250 3050 4250 3150
+Wire Wire Line
+	4200 3350 4250 3350
+Wire Wire Line
+	4200 2950 4200 3350
+Wire Wire Line
+	4700 3150 4650 3150
+Wire Wire Line
+	4700 2750 4700 3150
+$Comp
+L kbd:SK6812MINI L3
+U 1 1 65948232
+P 3850 3250
+F 0 "L3" H 3850 3250 51  0000 C CNN
+F 1 "SK6812MINI" H 3850 3200 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 3850 3250 60  0001 C CNN
+F 3 "" H 3850 3250 60  0001 C CNN
+	1    3850 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3150 3650 3050
+Wire Wire Line
+	3650 3050 4050 3050
+Wire Wire Line
+	4050 3050 4050 2950
+Wire Wire Line
+	4050 3150 4100 3150
+Wire Wire Line
+	4100 3150 4100 2750
+Wire Wire Line
+	3650 3350 3600 3350
+Wire Wire Line
+	3600 3350 3600 2950
+$Comp
+L kbd:SK6812MINI L2
+U 1 1 65948243
+P 3250 3250
+F 0 "L2" H 3250 3250 51  0000 C CNN
+F 1 "SK6812MINI" H 3250 3200 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 3250 3250 60  0001 C CNN
+F 3 "" H 3250 3250 60  0001 C CNN
+	1    3250 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3450 2950 3450 3050
+Wire Wire Line
+	3450 3050 3050 3050
+Wire Wire Line
+	3050 3050 3050 3150
+Wire Wire Line
+	3000 3350 3050 3350
+Wire Wire Line
+	3000 2950 3000 3350
+Wire Wire Line
+	3500 3150 3450 3150
+Wire Wire Line
+	3500 2750 3500 3150
+Connection ~ 3000 2950
+Connection ~ 3500 2750
+Connection ~ 3600 2950
+Connection ~ 4100 2750
+Connection ~ 4200 2950
+Connection ~ 4700 2750
+Wire Wire Line
+	3450 3350 3450 3450
+Wire Wire Line
+	3450 3450 4050 3450
+Wire Wire Line
+	4050 3450 4050 3350
+NoConn ~ 4650 3350
+Wire Wire Line
+	4200 3350 4200 3500
+Wire Wire Line
+	4200 3500 3000 3500
+Wire Wire Line
+	600  3500 600  2950
+Connection ~ 4200 3350
+Connection ~ 600  2950
+Wire Wire Line
+	1800 2950 1800 3500
+Connection ~ 1800 2950
+Connection ~ 1800 3500
+Wire Wire Line
+	1800 3500 1700 3500
+Wire Wire Line
+	3000 3350 3000 3500
+Connection ~ 3000 3350
+Connection ~ 3000 3500
+Wire Wire Line
+	3000 3500 2900 3500
+Connection ~ 2400 3500
+Wire Wire Line
+	2400 3500 1800 3500
+Text Label 650  750  2    50   ~ 0
+RGB
+$Comp
+L kbd:SK6812MINI L1
+U 1 1 65ABC663
+P 850 850
+F 0 "L1" H 850 850 51  0000 C CNN
+F 1 "SK6812MINI" H 850 800 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 850 850 60  0001 C CNN
+F 3 "" H 850 850 60  0001 C CNN
+	1    850  850 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1050 950  1050 1050
+Wire Wire Line
+	1050 1050 650  1050
+Wire Wire Line
+	650  1050 650  1150
+Wire Wire Line
+	650  950  600  950 
+Wire Wire Line
+	600  950  600  1350
+Wire Wire Line
+	1050 750  1100 750 
+Wire Wire Line
+	1100 750  1100 1150
+Connection ~ 600  1350
+Connection ~ 1100 1150
+$Comp
+L kbd:SK6812MINI L7
+U 1 1 65AFE63E
+P 4450 850
+F 0 "L7" H 4450 850 51  0000 C CNN
+F 1 "SK6812MINI" H 4450 800 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 4450 850 60  0001 C CNN
+F 3 "" H 4450 850 60  0001 C CNN
+	1    4450 850 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 950  4650 1050
+Wire Wire Line
+	4650 1050 4250 1050
+Wire Wire Line
+	4250 1050 4250 1150
+Wire Wire Line
+	4250 950  4200 950 
+Wire Wire Line
+	4200 950  4200 1350
+Wire Wire Line
+	4650 750  4700 750 
+Wire Wire Line
+	4700 750  4700 1150
+$Comp
+L kbd:SK6812MINI L6
+U 1 1 65AFED25
+P 3850 850
+F 0 "L6" H 3850 850 51  0000 C CNN
+F 1 "SK6812MINI" H 3850 800 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 3850 850 60  0001 C CNN
+F 3 "" H 3850 850 60  0001 C CNN
+	1    3850 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 1150 3650 1050
+Wire Wire Line
+	3650 1050 4050 1050
+Wire Wire Line
+	4050 1050 4050 950 
+Wire Wire Line
+	4100 750  4050 750 
+Wire Wire Line
+	4100 1150 4100 750 
+Wire Wire Line
+	3600 950  3650 950 
+Wire Wire Line
+	3600 1350 3600 950 
+$Comp
+L kbd:SK6812MINI L5
+U 1 1 65AFED36
+P 3250 850
+F 0 "L5" H 3250 850 51  0000 C CNN
+F 1 "SK6812MINI" H 3250 800 16  0000 C CNN
+F 2 "libthinkeys:SK6812MINI" H 3250 850 60  0001 C CNN
+F 3 "" H 3250 850 60  0001 C CNN
+	1    3250 850 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3450 950  3450 1050
+Wire Wire Line
+	3450 1050 3050 1050
+Wire Wire Line
+	3050 1050 3050 1150
+Wire Wire Line
+	3050 950  3000 950 
+Wire Wire Line
+	3000 950  3000 1350
+Wire Wire Line
+	3450 750  3500 750 
+Wire Wire Line
+	3500 750  3500 1150
+Connection ~ 3000 1350
+Connection ~ 3500 1150
+Connection ~ 3600 1350
+Connection ~ 4100 1150
+Connection ~ 4200 1350
+Connection ~ 4700 1150
+Wire Wire Line
+	1250 1150 1250 1050
+Wire Wire Line
+	1250 1050 1850 1050
+Wire Wire Line
+	1850 1050 1850 1150
+Wire Wire Line
+	2450 1150 2450 750 
+Wire Wire Line
+	2450 750  3050 750 
+Wire Wire Line
+	3650 750  3650 650 
+Wire Wire Line
+	3650 650  4250 650 
+Wire Wire Line
+	4250 650  4250 750 
+Wire Wire Line
+	4700 750  4700 600 
+Wire Wire Line
+	4700 600  3500 600 
+Wire Wire Line
+	1100 600  1100 750 
+Connection ~ 4700 750 
+Connection ~ 1100 750 
+Wire Wire Line
+	2300 1150 2300 600 
+Connection ~ 2300 1150
+Connection ~ 2300 600 
+Wire Wire Line
+	2300 600  1200 600 
+Wire Wire Line
+	3500 750  3500 600 
+Connection ~ 3500 750 
+Connection ~ 3500 600 
+Wire Wire Line
+	3500 600  2400 600 
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM1
+U 1 1 65C79477
+P 2900 550
+AR Path="/67E4E0EB/65C79477" Ref="#SYM1"  Part="1" 
+AR Path="/67E4ECE8/65C79477" Ref="#SYM?"  Part="1" 
+AR Path="/67E4ED54/65C79477" Ref="#SYM?"  Part="1" 
+AR Path="/67E4ED7B/65C79477" Ref="#SYM?"  Part="1" 
+F 0 "#SYM1" H 2900 610 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 2910 500 50  0001 C CNN
+F 2 "" H 2900 550 50  0001 C CNN
+F 3 "~" H 2900 550 50  0001 C CNN
+	1    2900 550 
+	0    -1   -1   0   
+$EndComp
+Text Label 2900 600  2    50   ~ 0
+VCC
+Wire Wire Line
+	1700 2750 1700 3500
+Connection ~ 1700 2750
+Connection ~ 1700 3500
+Wire Wire Line
+	1700 3500 600  3500
+Wire Wire Line
+	2400 1350 2400 600 
+Connection ~ 2400 1350
+Connection ~ 2400 600 
+Wire Wire Line
+	2400 600  2300 600 
+Wire Wire Line
+	1200 1350 1200 600 
+Connection ~ 1200 1350
+Connection ~ 1200 600 
+Wire Wire Line
+	1200 600  1100 600 
+Wire Wire Line
+	2900 2750 2900 3500
+Connection ~ 2900 2750
+Connection ~ 2900 3500
+Wire Wire Line
+	2900 3500 2400 3500
 $EndSCHEMATC
