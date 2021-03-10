@@ -1770,7 +1770,6 @@ Connection ~ 7350 2950
 Connection ~ 7850 2950
 Connection ~ 8350 2950
 Connection ~ 8850 2950
-NoConn ~ 6700 700 
 NoConn ~ 6900 700 
 $Comp
 L power:GND1 #PWR0108
@@ -3160,4 +3159,34 @@ Connection ~ 2900 2750
 Connection ~ 2900 3500
 Wire Wire Line
 	2900 3500 2400 3500
+$Comp
+L power:GND1 #PWR0113
+U 1 1 604556B2
+P 7700 800
+AR Path="/67E4E0EB/604556B2" Ref="#PWR0113"  Part="1" 
+AR Path="/67E4ECE8/604556B2" Ref="#PWR?"  Part="1" 
+AR Path="/67E4ED54/604556B2" Ref="#PWR?"  Part="1" 
+AR Path="/67E4ED7B/604556B2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0113" H 7700 550 50  0001 C CNN
+F 1 "GND1" H 7622 763 50  0000 R CNN
+F 2 "" H 7700 800 50  0001 C CNN
+F 3 "" H 7700 800 50  0001 C CNN
+	1    7700 800 
+	-1   0    0    -1  
+$EndComp
+Text Label 7100 800  2    50   ~ 0
+RST
+Text Label 6700 700  1    50   ~ 0
+RST
+$Comp
+L kbd:SW_PUSH SW91
+U 1 1 60761CC7
+P 7400 800
+F 0 "SW91" H 7400 1055 50  0000 C CNN
+F 1 "SW_PUSH" H 7400 964 50  0000 C CNN
+F 2 "" H 7400 800 50  0000 C CNN
+F 3 "" H 7400 800 50  0000 C CNN
+	1    7400 800 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
