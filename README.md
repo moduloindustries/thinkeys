@@ -32,7 +32,7 @@ Compatibility
 The first model will be for X-series, T-series, and W-series xx20/xx30 Lenovo
 ThinkPads.
 
-Later model support planned for X240-X270, T431s-T450s/T440(p)-T460(p) and
+Later model support planned for X230s-X270, T431s-T450s/T440(p)-T460(p) and
 beyond.
 
 Goals
