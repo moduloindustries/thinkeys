@@ -13,3 +13,6 @@
 [submodule "Type-C.pretty"]
 	path = Type-C.pretty
 	url = https://github.com/ai03-2725/Type-C.pretty
+[submodule "KiCad-SSD1306-128x64"]
+	path = KiCad-SSD1306-128x64
+	url = https://github.com/pforrmi/KiCad-SSD1306-128x64
