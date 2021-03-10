@@ -33,7 +33,7 @@ AR Path="/67E4ED54/66F6AEAD" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/66F6AEAD" Ref="D?"  Part="1" 
 F 0 "D1" V 5496 3020 50  0000 R CNN
 F 1 "D" V 5405 3020 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 5450 3100 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 5450 3100 50  0001 C CNN
 F 3 "~" H 5450 3100 50  0001 C CNN
 	1    5450 3100
 	0    -1   -1   0   
@@ -57,7 +57,7 @@ AR Path="/67E4ED54/601DC26F" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/601DC26F" Ref="SW?"  Part="1" 
 F 0 "SW7" H 8650 3235 50  0000 C CNN
 F 1 "SW_Push" H 8650 3144 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8650 3150 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8650 3150 50  0001 C CNN
 F 3 "~" H 8650 3150 50  0001 C CNN
 	1    8650 2950
 	1    0    0    -1  
@@ -84,7 +84,7 @@ AR Path="/67E4ED54/601DC265" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/601DC265" Ref="D?"  Part="1" 
 F 0 "D7" V 8496 3020 50  0000 R CNN
 F 1 "D" V 8405 3020 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 8450 3100 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 8450 3100 50  0001 C CNN
 F 3 "~" H 8450 3100 50  0001 C CNN
 	1    8450 3100
 	0    -1   -1   0   
@@ -99,7 +99,7 @@ AR Path="/67E4ED54/601DC25B" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/601DC25B" Ref="SW?"  Part="1" 
 F 0 "SW6" H 8150 3235 50  0000 C CNN
 F 1 "SW_Push" H 8150 3144 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8150 3150 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8150 3150 50  0001 C CNN
 F 3 "~" H 8150 3150 50  0001 C CNN
 	1    8150 2950
 	1    0    0    -1  
@@ -114,7 +114,7 @@ AR Path="/67E4ED54/601DC251" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/601DC251" Ref="D?"  Part="1" 
 F 0 "D6" V 7996 3020 50  0000 R CNN
 F 1 "D" V 7905 3020 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 7950 3100 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 7950 3100 50  0001 C CNN
 F 3 "~" H 7950 3100 50  0001 C CNN
 	1    7950 3100
 	0    -1   -1   0   
@@ -129,7 +129,7 @@ AR Path="/67E4ED54/66F6AEB6" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/66F6AEB6" Ref="SW?"  Part="1" 
 F 0 "SW5" H 7650 3235 50  0000 C CNN
 F 1 "SW_Push" H 7650 3144 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7650 3150 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7650 3150 50  0001 C CNN
 F 3 "~" H 7650 3150 50  0001 C CNN
 	1    7650 2950
 	1    0    0    -1  
@@ -144,7 +144,7 @@ AR Path="/67E4ED54/601DC23D" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/601DC23D" Ref="D?"  Part="1" 
 F 0 "D5" V 7496 3020 50  0000 R CNN
 F 1 "D" V 7405 3020 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 7450 3100 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 7450 3100 50  0001 C CNN
 F 3 "~" H 7450 3100 50  0001 C CNN
 	1    7450 3100
 	0    -1   -1   0   
@@ -159,7 +159,7 @@ AR Path="/67E4ED54/66F6AEB4" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/66F6AEB4" Ref="SW?"  Part="1" 
 F 0 "SW4" H 7150 3235 50  0000 C CNN
 F 1 "SW_Push" H 7150 3144 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7150 3150 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7150 3150 50  0001 C CNN
 F 3 "~" H 7150 3150 50  0001 C CNN
 	1    7150 2950
 	1    0    0    -1  
@@ -174,7 +174,7 @@ AR Path="/67E4ED54/66F6AEB3" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/66F6AEB3" Ref="D?"  Part="1" 
 F 0 "D4" V 6996 3020 50  0000 R CNN
 F 1 "D" V 6905 3020 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 6950 3100 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 6950 3100 50  0001 C CNN
 F 3 "~" H 6950 3100 50  0001 C CNN
 	1    6950 3100
 	0    -1   -1   0   
@@ -189,7 +189,7 @@ AR Path="/67E4ED54/66F6AEB2" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/66F6AEB2" Ref="SW?"  Part="1" 
 F 0 "SW3" H 6650 3235 50  0000 C CNN
 F 1 "SW_Push" H 6650 3144 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 6650 3150 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6650 3150 50  0001 C CNN
 F 3 "~" H 6650 3150 50  0001 C CNN
 	1    6650 2950
 	1    0    0    -1  
@@ -204,7 +204,7 @@ AR Path="/67E4ED54/66F6AEB1" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/66F6AEB1" Ref="D?"  Part="1" 
 F 0 "D3" V 6496 3020 50  0000 R CNN
 F 1 "D" V 6405 3020 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 6450 3100 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 6450 3100 50  0001 C CNN
 F 3 "~" H 6450 3100 50  0001 C CNN
 	1    6450 3100
 	0    -1   -1   0   
@@ -219,7 +219,7 @@ AR Path="/67E4ED54/66F6AEB0" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/66F6AEB0" Ref="SW?"  Part="1" 
 F 0 "SW2" H 6150 3235 50  0000 C CNN
 F 1 "SW_Push" H 6150 3144 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 6150 3150 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6150 3150 50  0001 C CNN
 F 3 "~" H 6150 3150 50  0001 C CNN
 	1    6150 2950
 	1    0    0    -1  
@@ -234,7 +234,7 @@ AR Path="/67E4ED54/66F6AEAF" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/66F6AEAF" Ref="D?"  Part="1" 
 F 0 "D2" V 5996 3020 50  0000 R CNN
 F 1 "D" V 5905 3020 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 5950 3100 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 5950 3100 50  0001 C CNN
 F 3 "~" H 5950 3100 50  0001 C CNN
 	1    5950 3100
 	0    -1   -1   0   
@@ -249,7 +249,7 @@ AR Path="/67E4ED54/66F6AEAE" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/66F6AEAE" Ref="SW?"  Part="1" 
 F 0 "SW1" H 5650 3235 50  0000 C CNN
 F 1 "SW_Push" H 5650 3144 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 5650 3150 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5650 3150 50  0001 C CNN
 F 3 "~" H 5650 3150 50  0001 C CNN
 	1    5650 2950
 	1    0    0    -1  
@@ -283,7 +283,7 @@ AR Path="/67E4ED54/60D24789" Ref="U?"  Part="1"
 AR Path="/67E4ED7B/60D24789" Ref="U?"  Part="1" 
 F 0 "U3" V 10420 2028 60  0000 L CNN
 F 1 "TRRS" V 10314 2028 60  0000 L CNN
-F 2 "libthinkeys:TRRS-PJ-320" H 10600 1500 60  0001 C CNN
+F 2 "libmodulo:TRRS-PJ-320" H 10600 1500 60  0001 C CNN
 F 3 "" H 10600 1500 60  0001 C CNN
 	1    10450 1500
 	0    1    -1   0   
@@ -723,7 +723,7 @@ AR Path="/67E4ED54/66F6AEDB" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/66F6AEDB" Ref="SW?"  Part="1" 
 F 0 "SW22" H 8650 3885 50  0000 C CNN
 F 1 "SW_Push" H 8650 3794 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8650 3800 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8650 3800 50  0001 C CNN
 F 3 "~" H 8650 3800 50  0001 C CNN
 	1    8650 3600
 	1    0    0    -1  
@@ -738,7 +738,7 @@ AR Path="/67E4ED54/6566F8F2" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/6566F8F2" Ref="D?"  Part="1" 
 F 0 "D22" V 8496 3670 50  0000 R CNN
 F 1 "D" V 8405 3670 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 8450 3750 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 8450 3750 50  0001 C CNN
 F 3 "~" H 8450 3750 50  0001 C CNN
 	1    8450 3750
 	0    -1   -1   0   
@@ -753,7 +753,7 @@ AR Path="/67E4ED54/66F6AEDD" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/66F6AEDD" Ref="SW?"  Part="1" 
 F 0 "SW21" H 8150 3885 50  0000 C CNN
 F 1 "SW_Push" H 8150 3794 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8150 3800 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8150 3800 50  0001 C CNN
 F 3 "~" H 8150 3800 50  0001 C CNN
 	1    8150 3600
 	1    0    0    -1  
@@ -768,7 +768,7 @@ AR Path="/67E4ED54/66F6AEDE" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/66F6AEDE" Ref="D?"  Part="1" 
 F 0 "D21" V 7996 3670 50  0000 R CNN
 F 1 "D" V 7905 3670 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 7950 3750 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 7950 3750 50  0001 C CNN
 F 3 "~" H 7950 3750 50  0001 C CNN
 	1    7950 3750
 	0    -1   -1   0   
@@ -783,7 +783,7 @@ AR Path="/67E4ED54/66F6AEDF" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/66F6AEDF" Ref="SW?"  Part="1" 
 F 0 "SW20" H 7650 3885 50  0000 C CNN
 F 1 "SW_Push" H 7650 3794 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7650 3800 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7650 3800 50  0001 C CNN
 F 3 "~" H 7650 3800 50  0001 C CNN
 	1    7650 3600
 	1    0    0    -1  
@@ -798,7 +798,7 @@ AR Path="/67E4ED54/66F6AEE0" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/66F6AEE0" Ref="D?"  Part="1" 
 F 0 "D20" V 7496 3670 50  0000 R CNN
 F 1 "D" V 7405 3670 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 7450 3750 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 7450 3750 50  0001 C CNN
 F 3 "~" H 7450 3750 50  0001 C CNN
 	1    7450 3750
 	0    -1   -1   0   
@@ -813,7 +813,7 @@ AR Path="/67E4ED54/66F6AEE1" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/66F6AEE1" Ref="SW?"  Part="1" 
 F 0 "SW19" H 7150 3885 50  0000 C CNN
 F 1 "SW_Push" H 7150 3794 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7150 3800 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7150 3800 50  0001 C CNN
 F 3 "~" H 7150 3800 50  0001 C CNN
 	1    7150 3600
 	1    0    0    -1  
@@ -828,7 +828,7 @@ AR Path="/67E4ED54/66F6AEE2" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/66F6AEE2" Ref="D?"  Part="1" 
 F 0 "D19" V 6996 3670 50  0000 R CNN
 F 1 "D" V 6905 3670 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 6950 3750 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 6950 3750 50  0001 C CNN
 F 3 "~" H 6950 3750 50  0001 C CNN
 	1    6950 3750
 	0    -1   -1   0   
@@ -843,7 +843,7 @@ AR Path="/67E4ED54/6566F938" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/6566F938" Ref="SW?"  Part="1" 
 F 0 "SW18" H 6650 3885 50  0000 C CNN
 F 1 "SW_Push" H 6650 3794 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 6650 3800 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6650 3800 50  0001 C CNN
 F 3 "~" H 6650 3800 50  0001 C CNN
 	1    6650 3600
 	1    0    0    -1  
@@ -858,7 +858,7 @@ AR Path="/67E4ED54/6566F942" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/6566F942" Ref="D?"  Part="1" 
 F 0 "D18" V 6496 3670 50  0000 R CNN
 F 1 "D" V 6405 3670 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 6450 3750 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 6450 3750 50  0001 C CNN
 F 3 "~" H 6450 3750 50  0001 C CNN
 	1    6450 3750
 	0    -1   -1   0   
@@ -873,7 +873,7 @@ AR Path="/67E4ED54/6566F94C" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/6566F94C" Ref="SW?"  Part="1" 
 F 0 "SW17" H 6150 3885 50  0000 C CNN
 F 1 "SW_Push" H 6150 3794 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 6150 3800 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6150 3800 50  0001 C CNN
 F 3 "~" H 6150 3800 50  0001 C CNN
 	1    6150 3600
 	1    0    0    -1  
@@ -888,7 +888,7 @@ AR Path="/67E4ED54/66F6AEE6" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/66F6AEE6" Ref="D?"  Part="1" 
 F 0 "D17" V 5996 3670 50  0000 R CNN
 F 1 "D" V 5905 3670 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 5950 3750 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 5950 3750 50  0001 C CNN
 F 3 "~" H 5950 3750 50  0001 C CNN
 	1    5950 3750
 	0    -1   -1   0   
@@ -903,7 +903,7 @@ AR Path="/67E4ED54/66F6AEE7" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/66F6AEE7" Ref="SW?"  Part="1" 
 F 0 "SW16" H 5650 3885 50  0000 C CNN
 F 1 "SW_Push" H 5650 3794 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 5650 3800 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5650 3800 50  0001 C CNN
 F 3 "~" H 5650 3800 50  0001 C CNN
 	1    5650 3600
 	1    0    0    -1  
@@ -918,7 +918,7 @@ AR Path="/67E4ED54/66F6AEE8" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/66F6AEE8" Ref="D?"  Part="1" 
 F 0 "D16" V 5496 3670 50  0000 R CNN
 F 1 "D" V 5405 3670 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 5450 3750 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 5450 3750 50  0001 C CNN
 F 3 "~" H 5450 3750 50  0001 C CNN
 	1    5450 3750
 	0    -1   -1   0   
@@ -933,7 +933,7 @@ AR Path="/67E4ED54/6566F974" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/6566F974" Ref="SW?"  Part="1" 
 F 0 "SW37" H 8650 4535 50  0000 C CNN
 F 1 "SW_Push" H 8650 4444 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8650 4450 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8650 4450 50  0001 C CNN
 F 3 "~" H 8650 4450 50  0001 C CNN
 	1    8650 4250
 	1    0    0    -1  
@@ -948,7 +948,7 @@ AR Path="/67E4ED54/6566F97E" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/6566F97E" Ref="D?"  Part="1" 
 F 0 "D37" V 8496 4320 50  0000 R CNN
 F 1 "D" V 8405 4320 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 8450 4400 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 8450 4400 50  0001 C CNN
 F 3 "~" H 8450 4400 50  0001 C CNN
 	1    8450 4400
 	0    -1   -1   0   
@@ -963,7 +963,7 @@ AR Path="/67E4ED54/6566F988" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/6566F988" Ref="SW?"  Part="1" 
 F 0 "SW36" H 8150 4535 50  0000 C CNN
 F 1 "SW_Push" H 8150 4444 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8150 4450 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8150 4450 50  0001 C CNN
 F 3 "~" H 8150 4450 50  0001 C CNN
 	1    8150 4250
 	1    0    0    -1  
@@ -978,7 +978,7 @@ AR Path="/67E4ED54/6566F992" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/6566F992" Ref="D?"  Part="1" 
 F 0 "D36" V 7996 4320 50  0000 R CNN
 F 1 "D" V 7905 4320 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 7950 4400 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 7950 4400 50  0001 C CNN
 F 3 "~" H 7950 4400 50  0001 C CNN
 	1    7950 4400
 	0    -1   -1   0   
@@ -993,7 +993,7 @@ AR Path="/67E4ED54/6566F99C" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/6566F99C" Ref="SW?"  Part="1" 
 F 0 "SW35" H 7650 4535 50  0000 C CNN
 F 1 "SW_Push" H 7650 4444 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7650 4450 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7650 4450 50  0001 C CNN
 F 3 "~" H 7650 4450 50  0001 C CNN
 	1    7650 4250
 	1    0    0    -1  
@@ -1008,7 +1008,7 @@ AR Path="/67E4ED54/6566F9A6" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/6566F9A6" Ref="D?"  Part="1" 
 F 0 "D35" V 7496 4320 50  0000 R CNN
 F 1 "D" V 7405 4320 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 7450 4400 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 7450 4400 50  0001 C CNN
 F 3 "~" H 7450 4400 50  0001 C CNN
 	1    7450 4400
 	0    -1   -1   0   
@@ -1023,7 +1023,7 @@ AR Path="/67E4ED54/66F6AEEF" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/66F6AEEF" Ref="SW?"  Part="1" 
 F 0 "SW34" H 7150 4535 50  0000 C CNN
 F 1 "SW_Push" H 7150 4444 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7150 4450 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7150 4450 50  0001 C CNN
 F 3 "~" H 7150 4450 50  0001 C CNN
 	1    7150 4250
 	1    0    0    -1  
@@ -1038,7 +1038,7 @@ AR Path="/67E4ED54/66F6AEF0" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/66F6AEF0" Ref="D?"  Part="1" 
 F 0 "D34" V 6996 4320 50  0000 R CNN
 F 1 "D" V 6905 4320 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 6950 4400 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 6950 4400 50  0001 C CNN
 F 3 "~" H 6950 4400 50  0001 C CNN
 	1    6950 4400
 	0    -1   -1   0   
@@ -1053,7 +1053,7 @@ AR Path="/67E4ED54/66F6AEF1" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/66F6AEF1" Ref="SW?"  Part="1" 
 F 0 "SW33" H 6650 4535 50  0000 C CNN
 F 1 "SW_Push" H 6650 4444 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 6650 4450 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6650 4450 50  0001 C CNN
 F 3 "~" H 6650 4450 50  0001 C CNN
 	1    6650 4250
 	1    0    0    -1  
@@ -1068,7 +1068,7 @@ AR Path="/67E4ED54/6566F9CE" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/6566F9CE" Ref="D?"  Part="1" 
 F 0 "D33" V 6496 4320 50  0000 R CNN
 F 1 "D" V 6405 4320 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 6450 4400 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 6450 4400 50  0001 C CNN
 F 3 "~" H 6450 4400 50  0001 C CNN
 	1    6450 4400
 	0    -1   -1   0   
@@ -1083,7 +1083,7 @@ AR Path="/67E4ED54/66F6AEF3" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/66F6AEF3" Ref="SW?"  Part="1" 
 F 0 "SW32" H 6150 4535 50  0000 C CNN
 F 1 "SW_Push" H 6150 4444 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 6150 4450 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6150 4450 50  0001 C CNN
 F 3 "~" H 6150 4450 50  0001 C CNN
 	1    6150 4250
 	1    0    0    -1  
@@ -1098,7 +1098,7 @@ AR Path="/67E4ED54/6566F9E2" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/6566F9E2" Ref="D?"  Part="1" 
 F 0 "D32" V 5996 4320 50  0000 R CNN
 F 1 "D" V 5905 4320 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 5950 4400 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 5950 4400 50  0001 C CNN
 F 3 "~" H 5950 4400 50  0001 C CNN
 	1    5950 4400
 	0    -1   -1   0   
@@ -1113,7 +1113,7 @@ AR Path="/67E4ED54/6566F9EC" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/6566F9EC" Ref="SW?"  Part="1" 
 F 0 "SW31" H 5650 4535 50  0000 C CNN
 F 1 "SW_Push" H 5650 4444 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 5650 4450 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5650 4450 50  0001 C CNN
 F 3 "~" H 5650 4450 50  0001 C CNN
 	1    5650 4250
 	1    0    0    -1  
@@ -1128,7 +1128,7 @@ AR Path="/67E4ED54/6566F9F6" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/6566F9F6" Ref="D?"  Part="1" 
 F 0 "D31" V 5496 4320 50  0000 R CNN
 F 1 "D" V 5405 4320 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 5450 4400 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 5450 4400 50  0001 C CNN
 F 3 "~" H 5450 4400 50  0001 C CNN
 	1    5450 4400
 	0    -1   -1   0   
@@ -1143,7 +1143,7 @@ AR Path="/67E4ED54/6566FA00" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/6566FA00" Ref="SW?"  Part="1" 
 F 0 "SW52" H 8650 5185 50  0000 C CNN
 F 1 "SW_Push" H 8650 5094 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8650 5100 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8650 5100 50  0001 C CNN
 F 3 "~" H 8650 5100 50  0001 C CNN
 	1    8650 4900
 	1    0    0    -1  
@@ -1158,7 +1158,7 @@ AR Path="/67E4ED54/6566FA0A" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/6566FA0A" Ref="D?"  Part="1" 
 F 0 "D52" V 8496 4970 50  0000 R CNN
 F 1 "D" V 8405 4970 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 8450 5050 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 8450 5050 50  0001 C CNN
 F 3 "~" H 8450 5050 50  0001 C CNN
 	1    8450 5050
 	0    -1   -1   0   
@@ -1173,7 +1173,7 @@ AR Path="/67E4ED54/66F6AEF9" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/66F6AEF9" Ref="SW?"  Part="1" 
 F 0 "SW51" H 8150 5185 50  0000 C CNN
 F 1 "SW_Push" H 8150 5094 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8150 5100 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8150 5100 50  0001 C CNN
 F 3 "~" H 8150 5100 50  0001 C CNN
 	1    8150 4900
 	1    0    0    -1  
@@ -1188,7 +1188,7 @@ AR Path="/67E4ED54/6566FA1E" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/6566FA1E" Ref="D?"  Part="1" 
 F 0 "D51" V 7996 4970 50  0000 R CNN
 F 1 "D" V 7905 4970 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 7950 5050 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 7950 5050 50  0001 C CNN
 F 3 "~" H 7950 5050 50  0001 C CNN
 	1    7950 5050
 	0    -1   -1   0   
@@ -1203,7 +1203,7 @@ AR Path="/67E4ED54/66F6AEFB" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/66F6AEFB" Ref="SW?"  Part="1" 
 F 0 "SW50" H 7650 5185 50  0000 C CNN
 F 1 "SW_Push" H 7650 5094 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7650 5100 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7650 5100 50  0001 C CNN
 F 3 "~" H 7650 5100 50  0001 C CNN
 	1    7650 4900
 	1    0    0    -1  
@@ -1218,7 +1218,7 @@ AR Path="/67E4ED54/66F6AEFC" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/66F6AEFC" Ref="D?"  Part="1" 
 F 0 "D50" V 7496 4970 50  0000 R CNN
 F 1 "D" V 7405 4970 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 7450 5050 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 7450 5050 50  0001 C CNN
 F 3 "~" H 7450 5050 50  0001 C CNN
 	1    7450 5050
 	0    -1   -1   0   
@@ -1233,7 +1233,7 @@ AR Path="/67E4ED54/66F6AEFD" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/66F6AEFD" Ref="SW?"  Part="1" 
 F 0 "SW49" H 7150 5185 50  0000 C CNN
 F 1 "SW_Push" H 7150 5094 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7150 5100 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7150 5100 50  0001 C CNN
 F 3 "~" H 7150 5100 50  0001 C CNN
 	1    7150 4900
 	1    0    0    -1  
@@ -1248,7 +1248,7 @@ AR Path="/67E4ED54/66F6AEFE" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/66F6AEFE" Ref="D?"  Part="1" 
 F 0 "D49" V 6996 4970 50  0000 R CNN
 F 1 "D" V 6905 4970 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 6950 5050 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 6950 5050 50  0001 C CNN
 F 3 "~" H 6950 5050 50  0001 C CNN
 	1    6950 5050
 	0    -1   -1   0   
@@ -1263,7 +1263,7 @@ AR Path="/67E4ED54/66F6AEFF" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/66F6AEFF" Ref="SW?"  Part="1" 
 F 0 "SW48" H 6650 5185 50  0000 C CNN
 F 1 "SW_Push" H 6650 5094 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 6650 5100 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6650 5100 50  0001 C CNN
 F 3 "~" H 6650 5100 50  0001 C CNN
 	1    6650 4900
 	1    0    0    -1  
@@ -1278,7 +1278,7 @@ AR Path="/67E4ED54/66F6AF00" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/66F6AF00" Ref="D?"  Part="1" 
 F 0 "D48" V 6496 4970 50  0000 R CNN
 F 1 "D" V 6405 4970 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 6450 5050 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 6450 5050 50  0001 C CNN
 F 3 "~" H 6450 5050 50  0001 C CNN
 	1    6450 5050
 	0    -1   -1   0   
@@ -1293,7 +1293,7 @@ AR Path="/67E4ED54/6566FA64" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/6566FA64" Ref="SW?"  Part="1" 
 F 0 "SW47" H 6150 5185 50  0000 C CNN
 F 1 "SW_Push" H 6150 5094 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 6150 5100 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6150 5100 50  0001 C CNN
 F 3 "~" H 6150 5100 50  0001 C CNN
 	1    6150 4900
 	1    0    0    -1  
@@ -1308,7 +1308,7 @@ AR Path="/67E4ED54/6566FA6E" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/6566FA6E" Ref="D?"  Part="1" 
 F 0 "D47" V 5996 4970 50  0000 R CNN
 F 1 "D" V 5905 4970 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 5950 5050 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 5950 5050 50  0001 C CNN
 F 3 "~" H 5950 5050 50  0001 C CNN
 	1    5950 5050
 	0    -1   -1   0   
@@ -1323,7 +1323,7 @@ AR Path="/67E4ED54/6566FA78" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/6566FA78" Ref="SW?"  Part="1" 
 F 0 "SW46" H 5650 5185 50  0000 C CNN
 F 1 "SW_Push" H 5650 5094 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 5650 5100 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5650 5100 50  0001 C CNN
 F 3 "~" H 5650 5100 50  0001 C CNN
 	1    5650 4900
 	1    0    0    -1  
@@ -1338,7 +1338,7 @@ AR Path="/67E4ED54/6566FA82" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/6566FA82" Ref="D?"  Part="1" 
 F 0 "D46" V 5496 4970 50  0000 R CNN
 F 1 "D" V 5405 4970 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 5450 5050 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 5450 5050 50  0001 C CNN
 F 3 "~" H 5450 5050 50  0001 C CNN
 	1    5450 5050
 	0    -1   -1   0   
@@ -1353,7 +1353,7 @@ AR Path="/67E4ED54/6566FA8C" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/6566FA8C" Ref="SW?"  Part="1" 
 F 0 "SW67" H 8650 5835 50  0000 C CNN
 F 1 "SW_Push" H 8650 5744 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8650 5750 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8650 5750 50  0001 C CNN
 F 3 "~" H 8650 5750 50  0001 C CNN
 	1    8650 5550
 	1    0    0    -1  
@@ -1368,7 +1368,7 @@ AR Path="/67E4ED54/6566FA96" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/6566FA96" Ref="D?"  Part="1" 
 F 0 "D67" V 8496 5620 50  0000 R CNN
 F 1 "D" V 8405 5620 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 8450 5700 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 8450 5700 50  0001 C CNN
 F 3 "~" H 8450 5700 50  0001 C CNN
 	1    8450 5700
 	0    -1   -1   0   
@@ -1383,7 +1383,7 @@ AR Path="/67E4ED54/6566FAA0" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/6566FAA0" Ref="SW?"  Part="1" 
 F 0 "SW66" H 8150 5835 50  0000 C CNN
 F 1 "SW_Push" H 8150 5744 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8150 5750 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8150 5750 50  0001 C CNN
 F 3 "~" H 8150 5750 50  0001 C CNN
 	1    8150 5550
 	1    0    0    -1  
@@ -1398,7 +1398,7 @@ AR Path="/67E4ED54/66F6AF08" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/66F6AF08" Ref="D?"  Part="1" 
 F 0 "D66" V 7996 5620 50  0000 R CNN
 F 1 "D" V 7905 5620 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 7950 5700 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 7950 5700 50  0001 C CNN
 F 3 "~" H 7950 5700 50  0001 C CNN
 	1    7950 5700
 	0    -1   -1   0   
@@ -1413,7 +1413,7 @@ AR Path="/67E4ED54/6566FAB4" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/6566FAB4" Ref="SW?"  Part="1" 
 F 0 "SW65" H 7650 5835 50  0000 C CNN
 F 1 "SW_Push" H 7650 5744 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7650 5750 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7650 5750 50  0001 C CNN
 F 3 "~" H 7650 5750 50  0001 C CNN
 	1    7650 5550
 	1    0    0    -1  
@@ -1428,7 +1428,7 @@ AR Path="/67E4ED54/6566FABE" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/6566FABE" Ref="D?"  Part="1" 
 F 0 "D65" V 7496 5620 50  0000 R CNN
 F 1 "D" V 7405 5620 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 7450 5700 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 7450 5700 50  0001 C CNN
 F 3 "~" H 7450 5700 50  0001 C CNN
 	1    7450 5700
 	0    -1   -1   0   
@@ -1443,7 +1443,7 @@ AR Path="/67E4ED54/6566FAC8" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/6566FAC8" Ref="SW?"  Part="1" 
 F 0 "SW64" H 7150 5835 50  0000 C CNN
 F 1 "SW_Push" H 7150 5744 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7150 5750 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7150 5750 50  0001 C CNN
 F 3 "~" H 7150 5750 50  0001 C CNN
 	1    7150 5550
 	1    0    0    -1  
@@ -1458,7 +1458,7 @@ AR Path="/67E4ED54/6566FAD2" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/6566FAD2" Ref="D?"  Part="1" 
 F 0 "D64" V 6996 5620 50  0000 R CNN
 F 1 "D" V 6905 5620 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 6950 5700 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 6950 5700 50  0001 C CNN
 F 3 "~" H 6950 5700 50  0001 C CNN
 	1    6950 5700
 	0    -1   -1   0   
@@ -1473,7 +1473,7 @@ AR Path="/67E4ED54/6566FADC" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/6566FADC" Ref="SW?"  Part="1" 
 F 0 "SW63" H 6650 5835 50  0000 C CNN
 F 1 "SW_Push" H 6650 5744 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 6650 5750 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6650 5750 50  0001 C CNN
 F 3 "~" H 6650 5750 50  0001 C CNN
 	1    6650 5550
 	1    0    0    -1  
@@ -1488,7 +1488,7 @@ AR Path="/67E4ED54/6566FAE6" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/6566FAE6" Ref="D?"  Part="1" 
 F 0 "D63" V 6496 5620 50  0000 R CNN
 F 1 "D" V 6405 5620 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 6450 5700 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 6450 5700 50  0001 C CNN
 F 3 "~" H 6450 5700 50  0001 C CNN
 	1    6450 5700
 	0    -1   -1   0   
@@ -1503,7 +1503,7 @@ AR Path="/67E4ED54/6566FAF0" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/6566FAF0" Ref="SW?"  Part="1" 
 F 0 "SW62" H 6150 5835 50  0000 C CNN
 F 1 "SW_Push" H 6150 5744 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 6150 5750 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6150 5750 50  0001 C CNN
 F 3 "~" H 6150 5750 50  0001 C CNN
 	1    6150 5550
 	1    0    0    -1  
@@ -1518,7 +1518,7 @@ AR Path="/67E4ED54/66F6AF10" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/66F6AF10" Ref="D?"  Part="1" 
 F 0 "D62" V 5996 5620 50  0000 R CNN
 F 1 "D" V 5905 5620 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 5950 5700 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 5950 5700 50  0001 C CNN
 F 3 "~" H 5950 5700 50  0001 C CNN
 	1    5950 5700
 	0    -1   -1   0   
@@ -1533,7 +1533,7 @@ AR Path="/67E4ED54/66F6AF11" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/66F6AF11" Ref="SW?"  Part="1" 
 F 0 "SW61" H 5650 5835 50  0000 C CNN
 F 1 "SW_Push" H 5650 5744 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 5650 5750 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5650 5750 50  0001 C CNN
 F 3 "~" H 5650 5750 50  0001 C CNN
 	1    5650 5550
 	1    0    0    -1  
@@ -1548,7 +1548,7 @@ AR Path="/67E4ED54/6566FB0E" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/6566FB0E" Ref="D?"  Part="1" 
 F 0 "D61" V 5496 5620 50  0000 R CNN
 F 1 "D" V 5405 5620 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 5450 5700 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 5450 5700 50  0001 C CNN
 F 3 "~" H 5450 5700 50  0001 C CNN
 	1    5450 5700
 	0    -1   -1   0   
@@ -1563,7 +1563,7 @@ AR Path="/67E4ED54/6566FB18" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/6566FB18" Ref="SW?"  Part="1" 
 F 0 "SW82" H 8650 6485 50  0000 C CNN
 F 1 "SW_Push" H 8650 6394 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8650 6400 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8650 6400 50  0001 C CNN
 F 3 "~" H 8650 6400 50  0001 C CNN
 	1    8650 6200
 	1    0    0    -1  
@@ -1578,7 +1578,7 @@ AR Path="/67E4ED54/6566FB22" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/6566FB22" Ref="D?"  Part="1" 
 F 0 "D82" V 8496 6270 50  0000 R CNN
 F 1 "D" V 8405 6270 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 8450 6350 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 8450 6350 50  0001 C CNN
 F 3 "~" H 8450 6350 50  0001 C CNN
 	1    8450 6350
 	0    -1   -1   0   
@@ -1593,7 +1593,7 @@ AR Path="/67E4ED54/6566FB2C" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/6566FB2C" Ref="SW?"  Part="1" 
 F 0 "SW81" H 8150 6485 50  0000 C CNN
 F 1 "SW_Push" H 8150 6394 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 8150 6400 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8150 6400 50  0001 C CNN
 F 3 "~" H 8150 6400 50  0001 C CNN
 	1    8150 6200
 	1    0    0    -1  
@@ -1608,7 +1608,7 @@ AR Path="/67E4ED54/6566FB36" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/6566FB36" Ref="D?"  Part="1" 
 F 0 "D81" V 7996 6270 50  0000 R CNN
 F 1 "D" V 7905 6270 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 7950 6350 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 7950 6350 50  0001 C CNN
 F 3 "~" H 7950 6350 50  0001 C CNN
 	1    7950 6350
 	0    -1   -1   0   
@@ -1623,7 +1623,7 @@ AR Path="/67E4ED54/6566FB40" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/6566FB40" Ref="SW?"  Part="1" 
 F 0 "SW80" H 7650 6485 50  0000 C CNN
 F 1 "SW_Push" H 7650 6394 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7650 6400 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7650 6400 50  0001 C CNN
 F 3 "~" H 7650 6400 50  0001 C CNN
 	1    7650 6200
 	1    0    0    -1  
@@ -1638,7 +1638,7 @@ AR Path="/67E4ED54/6566FB4A" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/6566FB4A" Ref="D?"  Part="1" 
 F 0 "D80" V 7496 6270 50  0000 R CNN
 F 1 "D" V 7405 6270 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 7450 6350 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 7450 6350 50  0001 C CNN
 F 3 "~" H 7450 6350 50  0001 C CNN
 	1    7450 6350
 	0    -1   -1   0   
@@ -1653,7 +1653,7 @@ AR Path="/67E4ED54/6566FB54" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/6566FB54" Ref="SW?"  Part="1" 
 F 0 "SW79" H 7150 6485 50  0000 C CNN
 F 1 "SW_Push" H 7150 6394 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 7150 6400 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7150 6400 50  0001 C CNN
 F 3 "~" H 7150 6400 50  0001 C CNN
 	1    7150 6200
 	1    0    0    -1  
@@ -1668,7 +1668,7 @@ AR Path="/67E4ED54/66F6AF1A" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/66F6AF1A" Ref="D?"  Part="1" 
 F 0 "D79" V 6996 6270 50  0000 R CNN
 F 1 "D" V 6905 6270 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 6950 6350 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 6950 6350 50  0001 C CNN
 F 3 "~" H 6950 6350 50  0001 C CNN
 	1    6950 6350
 	0    -1   -1   0   
@@ -1683,7 +1683,7 @@ AR Path="/67E4ED54/66F6AF1B" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/66F6AF1B" Ref="SW?"  Part="1" 
 F 0 "SW78" H 6650 6485 50  0000 C CNN
 F 1 "SW_Push" H 6650 6394 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 6650 6400 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6650 6400 50  0001 C CNN
 F 3 "~" H 6650 6400 50  0001 C CNN
 	1    6650 6200
 	1    0    0    -1  
@@ -1698,7 +1698,7 @@ AR Path="/67E4ED54/66F6AF1C" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/66F6AF1C" Ref="D?"  Part="1" 
 F 0 "D78" V 6496 6270 50  0000 R CNN
 F 1 "D" V 6405 6270 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 6450 6350 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 6450 6350 50  0001 C CNN
 F 3 "~" H 6450 6350 50  0001 C CNN
 	1    6450 6350
 	0    -1   -1   0   
@@ -1713,7 +1713,7 @@ AR Path="/67E4ED54/6566FB7C" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/6566FB7C" Ref="SW?"  Part="1" 
 F 0 "SW77" H 6150 6485 50  0000 C CNN
 F 1 "SW_Push" H 6150 6394 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 6150 6400 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6150 6400 50  0001 C CNN
 F 3 "~" H 6150 6400 50  0001 C CNN
 	1    6150 6200
 	1    0    0    -1  
@@ -1728,7 +1728,7 @@ AR Path="/67E4ED54/66F6AF1E" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/66F6AF1E" Ref="D?"  Part="1" 
 F 0 "D77" V 5996 6270 50  0000 R CNN
 F 1 "D" V 5905 6270 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 5950 6350 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 5950 6350 50  0001 C CNN
 F 3 "~" H 5950 6350 50  0001 C CNN
 	1    5950 6350
 	0    -1   -1   0   
@@ -1743,7 +1743,7 @@ AR Path="/67E4ED54/66F6AF1F" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/66F6AF1F" Ref="SW?"  Part="1" 
 F 0 "SW76" H 5650 6485 50  0000 C CNN
 F 1 "SW_Push" H 5650 6394 50  0000 C CNN
-F 2 "pineapple60_2:MX-ALPS-Choc-X-straight-oneside" H 5650 6400 50  0001 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5650 6400 50  0001 C CNN
 F 3 "~" H 5650 6400 50  0001 C CNN
 	1    5650 6200
 	1    0    0    -1  
@@ -1758,7 +1758,7 @@ AR Path="/67E4ED54/66F6AF20" Ref="D?"  Part="1"
 AR Path="/67E4ED7B/66F6AF20" Ref="D?"  Part="1" 
 F 0 "D76" V 5496 6270 50  0000 R CNN
 F 1 "D" V 5405 6270 50  0000 R CNN
-F 2 "libthinkeys:D_SOD123" H 5450 6350 50  0001 C CNN
+F 2 "libmodulo:D_SOD123" H 5450 6350 50  0001 C CNN
 F 3 "~" H 5450 6350 50  0001 C CNN
 	1    5450 6350
 	0    -1   -1   0   
@@ -1984,7 +1984,7 @@ U 1 1 603E780E
 P 9900 1750
 F 0 "USB1" H 9750 2400 60  0000 C CNN
 F 1 "USB_C" V 9500 1700 60  0000 C CNN
-F 2 "libthinkeys:HRO-TYPE-C-31-M-12-Assembly" H 9900 1750 60  0001 C CNN
+F 2 "libmodulo:HRO-TYPE-C-31-M-12" H 9900 1750 60  0001 C CNN
 F 3 "" H 9900 1750 60  0001 C CNN
 	1    9900 1750
 	-1   0    0    -1  
@@ -2008,7 +2008,7 @@ U 1 1 64D5311F
 P 850 1650
 F 0 "L31" H 850 1650 51  0000 C CNN
 F 1 "SK6812MINI" H 850 1600 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 850 1650 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 850 1650 60  0001 C CNN
 F 3 "" H 850 1650 60  0001 C CNN
 	1    850  1650
 	-1   0    0    1   
@@ -2019,7 +2019,7 @@ U 1 1 64B825B7
 P 850 1250
 F 0 "L16" H 850 1250 51  0000 C CNN
 F 1 "SK6812MINI" H 850 1200 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 850 1250 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 850 1250 60  0001 C CNN
 F 3 "" H 850 1250 60  0001 C CNN
 	1    850  1250
 	-1   0    0    1   
@@ -2036,7 +2036,7 @@ U 1 1 64E84796
 P 850 2050
 F 0 "L46" H 850 2050 51  0000 C CNN
 F 1 "SK6812MINI" H 850 2000 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 850 2050 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 850 2050 60  0001 C CNN
 F 3 "" H 850 2050 60  0001 C CNN
 	1    850  2050
 	-1   0    0    1   
@@ -2053,7 +2053,7 @@ U 1 1 64EB9BCD
 P 850 2450
 F 0 "L61" H 850 2450 51  0000 C CNN
 F 1 "SK6812MINI" H 850 2400 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 850 2450 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 850 2450 60  0001 C CNN
 F 3 "" H 850 2450 60  0001 C CNN
 	1    850  2450
 	-1   0    0    1   
@@ -2070,7 +2070,7 @@ U 1 1 64EF009A
 P 850 2850
 F 0 "L76" H 850 2850 51  0000 C CNN
 F 1 "SK6812MINI" H 850 2800 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 850 2850 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 850 2850 60  0001 C CNN
 F 3 "" H 850 2850 60  0001 C CNN
 	1    850  2850
 	-1   0    0    1   
@@ -2129,7 +2129,7 @@ U 1 1 650F1507
 P 1450 2450
 F 0 "L62" H 1450 2450 51  0000 C CNN
 F 1 "SK6812MINI" H 1450 2400 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 1450 2450 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 1450 2450 60  0001 C CNN
 F 3 "" H 1450 2450 60  0001 C CNN
 	1    1450 2450
 	1    0    0    -1  
@@ -2140,7 +2140,7 @@ U 1 1 650F15E1
 P 1450 2850
 F 0 "L77" H 1450 2850 51  0000 C CNN
 F 1 "SK6812MINI" H 1450 2800 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 1450 2850 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 1450 2850 60  0001 C CNN
 F 3 "" H 1450 2850 60  0001 C CNN
 	1    1450 2850
 	1    0    0    -1  
@@ -2157,7 +2157,7 @@ U 1 1 650F15EE
 P 1450 2050
 F 0 "L47" H 1450 2050 51  0000 C CNN
 F 1 "SK6812MINI" H 1450 2000 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 1450 2050 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 1450 2050 60  0001 C CNN
 F 3 "" H 1450 2050 60  0001 C CNN
 	1    1450 2050
 	1    0    0    -1  
@@ -2174,7 +2174,7 @@ U 1 1 650F15FB
 P 1450 1650
 F 0 "L32" H 1450 1650 51  0000 C CNN
 F 1 "SK6812MINI" H 1450 1600 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 1450 1650 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 1450 1650 60  0001 C CNN
 F 3 "" H 1450 1650 60  0001 C CNN
 	1    1450 1650
 	1    0    0    -1  
@@ -2191,7 +2191,7 @@ U 1 1 650F1608
 P 1450 1250
 F 0 "L17" H 1450 1250 51  0000 C CNN
 F 1 "SK6812MINI" H 1450 1200 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 1450 1250 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 1450 1250 60  0001 C CNN
 F 3 "" H 1450 1250 60  0001 C CNN
 	1    1450 1250
 	1    0    0    -1  
@@ -2250,7 +2250,7 @@ U 1 1 652A4AC5
 P 2050 1650
 F 0 "L33" H 2050 1650 51  0000 C CNN
 F 1 "SK6812MINI" H 2050 1600 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 2050 1650 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 2050 1650 60  0001 C CNN
 F 3 "" H 2050 1650 60  0001 C CNN
 	1    2050 1650
 	-1   0    0    1   
@@ -2261,7 +2261,7 @@ U 1 1 652A4BCF
 P 2050 1250
 F 0 "L18" H 2050 1250 51  0000 C CNN
 F 1 "SK6812MINI" H 2050 1200 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 2050 1250 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 2050 1250 60  0001 C CNN
 F 3 "" H 2050 1250 60  0001 C CNN
 	1    2050 1250
 	-1   0    0    1   
@@ -2278,7 +2278,7 @@ U 1 1 652A4BDC
 P 2050 2050
 F 0 "L48" H 2050 2050 51  0000 C CNN
 F 1 "SK6812MINI" H 2050 2000 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 2050 2050 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 2050 2050 60  0001 C CNN
 F 3 "" H 2050 2050 60  0001 C CNN
 	1    2050 2050
 	-1   0    0    1   
@@ -2295,7 +2295,7 @@ U 1 1 652A4BE9
 P 2050 2450
 F 0 "L63" H 2050 2450 51  0000 C CNN
 F 1 "SK6812MINI" H 2050 2400 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 2050 2450 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 2050 2450 60  0001 C CNN
 F 3 "" H 2050 2450 60  0001 C CNN
 	1    2050 2450
 	-1   0    0    1   
@@ -2312,7 +2312,7 @@ U 1 1 652A4BF6
 P 2050 2850
 F 0 "L78" H 2050 2850 51  0000 C CNN
 F 1 "SK6812MINI" H 2050 2800 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 2050 2850 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 2050 2850 60  0001 C CNN
 F 3 "" H 2050 2850 60  0001 C CNN
 	1    2050 2850
 	-1   0    0    1   
@@ -2371,7 +2371,7 @@ U 1 1 653AC059
 P 2650 2450
 F 0 "L64" H 2650 2450 51  0000 C CNN
 F 1 "SK6812MINI" H 2650 2400 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 2650 2450 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 2650 2450 60  0001 C CNN
 F 3 "" H 2650 2450 60  0001 C CNN
 	1    2650 2450
 	1    0    0    -1  
@@ -2382,7 +2382,7 @@ U 1 1 653AC183
 P 2650 2850
 F 0 "L79" H 2650 2850 51  0000 C CNN
 F 1 "SK6812MINI" H 2650 2800 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 2650 2850 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 2650 2850 60  0001 C CNN
 F 3 "" H 2650 2850 60  0001 C CNN
 	1    2650 2850
 	1    0    0    -1  
@@ -2399,7 +2399,7 @@ U 1 1 653AC190
 P 2650 2050
 F 0 "L49" H 2650 2050 51  0000 C CNN
 F 1 "SK6812MINI" H 2650 2000 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 2650 2050 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 2650 2050 60  0001 C CNN
 F 3 "" H 2650 2050 60  0001 C CNN
 	1    2650 2050
 	1    0    0    -1  
@@ -2416,7 +2416,7 @@ U 1 1 653AC19D
 P 2650 1650
 F 0 "L34" H 2650 1650 51  0000 C CNN
 F 1 "SK6812MINI" H 2650 1600 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 2650 1650 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 2650 1650 60  0001 C CNN
 F 3 "" H 2650 1650 60  0001 C CNN
 	1    2650 1650
 	1    0    0    -1  
@@ -2433,7 +2433,7 @@ U 1 1 653AC1AA
 P 2650 1250
 F 0 "L19" H 2650 1250 51  0000 C CNN
 F 1 "SK6812MINI" H 2650 1200 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 2650 1250 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 2650 1250 60  0001 C CNN
 F 3 "" H 2650 1250 60  0001 C CNN
 	1    2650 1250
 	1    0    0    -1  
@@ -2492,7 +2492,7 @@ U 1 1 655142A3
 P 4450 1650
 F 0 "L37" H 4450 1650 51  0000 C CNN
 F 1 "SK6812MINI" H 4450 1600 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 4450 1650 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 4450 1650 60  0001 C CNN
 F 3 "" H 4450 1650 60  0001 C CNN
 	1    4450 1650
 	-1   0    0    1   
@@ -2503,7 +2503,7 @@ U 1 1 65514515
 P 4450 1250
 F 0 "L22" H 4450 1250 51  0000 C CNN
 F 1 "SK6812MINI" H 4450 1200 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 4450 1250 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 4450 1250 60  0001 C CNN
 F 3 "" H 4450 1250 60  0001 C CNN
 	1    4450 1250
 	-1   0    0    1   
@@ -2520,7 +2520,7 @@ U 1 1 65514522
 P 4450 2050
 F 0 "L52" H 4450 2050 51  0000 C CNN
 F 1 "SK6812MINI" H 4450 2000 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 4450 2050 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 4450 2050 60  0001 C CNN
 F 3 "" H 4450 2050 60  0001 C CNN
 	1    4450 2050
 	-1   0    0    1   
@@ -2537,7 +2537,7 @@ U 1 1 6551452F
 P 4450 2450
 F 0 "L67" H 4450 2450 51  0000 C CNN
 F 1 "SK6812MINI" H 4450 2400 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 4450 2450 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 4450 2450 60  0001 C CNN
 F 3 "" H 4450 2450 60  0001 C CNN
 	1    4450 2450
 	-1   0    0    1   
@@ -2554,7 +2554,7 @@ U 1 1 6551453C
 P 4450 2850
 F 0 "L82" H 4450 2850 51  0000 C CNN
 F 1 "SK6812MINI" H 4450 2800 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 4450 2850 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 4450 2850 60  0001 C CNN
 F 3 "" H 4450 2850 60  0001 C CNN
 	1    4450 2850
 	-1   0    0    1   
@@ -2613,7 +2613,7 @@ U 1 1 65514561
 P 3850 2450
 F 0 "L66" H 3850 2450 51  0000 C CNN
 F 1 "SK6812MINI" H 3850 2400 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 3850 2450 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 3850 2450 60  0001 C CNN
 F 3 "" H 3850 2450 60  0001 C CNN
 	1    3850 2450
 	1    0    0    -1  
@@ -2624,7 +2624,7 @@ U 1 1 6551456B
 P 3850 2850
 F 0 "L81" H 3850 2850 51  0000 C CNN
 F 1 "SK6812MINI" H 3850 2800 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 3850 2850 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 3850 2850 60  0001 C CNN
 F 3 "" H 3850 2850 60  0001 C CNN
 	1    3850 2850
 	1    0    0    -1  
@@ -2641,7 +2641,7 @@ U 1 1 65514578
 P 3850 2050
 F 0 "L51" H 3850 2050 51  0000 C CNN
 F 1 "SK6812MINI" H 3850 2000 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 3850 2050 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 3850 2050 60  0001 C CNN
 F 3 "" H 3850 2050 60  0001 C CNN
 	1    3850 2050
 	1    0    0    -1  
@@ -2658,7 +2658,7 @@ U 1 1 65514585
 P 3850 1650
 F 0 "L36" H 3850 1650 51  0000 C CNN
 F 1 "SK6812MINI" H 3850 1600 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 3850 1650 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 3850 1650 60  0001 C CNN
 F 3 "" H 3850 1650 60  0001 C CNN
 	1    3850 1650
 	1    0    0    -1  
@@ -2675,7 +2675,7 @@ U 1 1 65514592
 P 3850 1250
 F 0 "L21" H 3850 1250 51  0000 C CNN
 F 1 "SK6812MINI" H 3850 1200 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 3850 1250 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 3850 1250 60  0001 C CNN
 F 3 "" H 3850 1250 60  0001 C CNN
 	1    3850 1250
 	1    0    0    -1  
@@ -2734,7 +2734,7 @@ U 1 1 655145B7
 P 3250 1650
 F 0 "L35" H 3250 1650 51  0000 C CNN
 F 1 "SK6812MINI" H 3250 1600 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 3250 1650 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 3250 1650 60  0001 C CNN
 F 3 "" H 3250 1650 60  0001 C CNN
 	1    3250 1650
 	-1   0    0    1   
@@ -2745,7 +2745,7 @@ U 1 1 655145C1
 P 3250 1250
 F 0 "L20" H 3250 1250 51  0000 C CNN
 F 1 "SK6812MINI" H 3250 1200 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 3250 1250 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 3250 1250 60  0001 C CNN
 F 3 "" H 3250 1250 60  0001 C CNN
 	1    3250 1250
 	-1   0    0    1   
@@ -2762,7 +2762,7 @@ U 1 1 655145CE
 P 3250 2050
 F 0 "L50" H 3250 2050 51  0000 C CNN
 F 1 "SK6812MINI" H 3250 2000 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 3250 2050 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 3250 2050 60  0001 C CNN
 F 3 "" H 3250 2050 60  0001 C CNN
 	1    3250 2050
 	-1   0    0    1   
@@ -2779,7 +2779,7 @@ U 1 1 655145DB
 P 3250 2450
 F 0 "L65" H 3250 2450 51  0000 C CNN
 F 1 "SK6812MINI" H 3250 2400 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 3250 2450 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 3250 2450 60  0001 C CNN
 F 3 "" H 3250 2450 60  0001 C CNN
 	1    3250 2450
 	-1   0    0    1   
@@ -2796,7 +2796,7 @@ U 1 1 655145E8
 P 3250 2850
 F 0 "L80" H 3250 2850 51  0000 C CNN
 F 1 "SK6812MINI" H 3250 2800 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 3250 2850 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 3250 2850 60  0001 C CNN
 F 3 "" H 3250 2850 60  0001 C CNN
 	1    3250 2850
 	-1   0    0    1   
@@ -2867,7 +2867,7 @@ U 1 1 65947D77
 P 4450 3250
 F 0 "L4" H 4450 3250 51  0000 C CNN
 F 1 "SK6812MINI" H 4450 3200 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 4450 3250 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 4450 3250 60  0001 C CNN
 F 3 "" H 4450 3250 60  0001 C CNN
 	1    4450 3250
 	-1   0    0    1   
@@ -2892,7 +2892,7 @@ U 1 1 65948232
 P 3850 3250
 F 0 "L3" H 3850 3250 51  0000 C CNN
 F 1 "SK6812MINI" H 3850 3200 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 3850 3250 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 3850 3250 60  0001 C CNN
 F 3 "" H 3850 3250 60  0001 C CNN
 	1    3850 3250
 	1    0    0    -1  
@@ -2917,7 +2917,7 @@ U 1 1 65948243
 P 3250 3250
 F 0 "L2" H 3250 3250 51  0000 C CNN
 F 1 "SK6812MINI" H 3250 3200 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 3250 3250 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 3250 3250 60  0001 C CNN
 F 3 "" H 3250 3250 60  0001 C CNN
 	1    3250 3250
 	-1   0    0    1   
@@ -2980,7 +2980,7 @@ U 1 1 65ABC663
 P 850 850
 F 0 "L1" H 850 850 51  0000 C CNN
 F 1 "SK6812MINI" H 850 800 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 850 850 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 850 850 60  0001 C CNN
 F 3 "" H 850 850 60  0001 C CNN
 	1    850  850 
 	-1   0    0    1   
@@ -3007,7 +3007,7 @@ U 1 1 65AFE63E
 P 4450 850
 F 0 "L7" H 4450 850 51  0000 C CNN
 F 1 "SK6812MINI" H 4450 800 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 4450 850 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 4450 850 60  0001 C CNN
 F 3 "" H 4450 850 60  0001 C CNN
 	1    4450 850 
 	-1   0    0    1   
@@ -3032,7 +3032,7 @@ U 1 1 65AFED25
 P 3850 850
 F 0 "L6" H 3850 850 51  0000 C CNN
 F 1 "SK6812MINI" H 3850 800 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 3850 850 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 3850 850 60  0001 C CNN
 F 3 "" H 3850 850 60  0001 C CNN
 	1    3850 850 
 	1    0    0    -1  
@@ -3057,7 +3057,7 @@ U 1 1 65AFED36
 P 3250 850
 F 0 "L5" H 3250 850 51  0000 C CNN
 F 1 "SK6812MINI" H 3250 800 16  0000 C CNN
-F 2 "libthinkeys:SK6812MINI" H 3250 850 60  0001 C CNN
+F 2 "libmodulo:SK6812MINI" H 3250 850 60  0001 C CNN
 F 3 "" H 3250 850 60  0001 C CNN
 	1    3250 850 
 	-1   0    0    1   
@@ -3184,7 +3184,7 @@ U 1 1 60761CC7
 P 7400 800
 F 0 "SW91" H 7400 1055 50  0000 C CNN
 F 1 "SW_PUSH" H 7400 964 50  0000 C CNN
-F 2 "" H 7400 800 50  0000 C CNN
+F 2 "libmodulo:Kailh_Micro_Switch_6x6" H 7400 800 50  0001 C CNN
 F 3 "" H 7400 800 50  0000 C CNN
 	1    7400 800 
 	1    0    0    -1  

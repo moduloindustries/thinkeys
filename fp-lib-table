@@ -1,6 +1,5 @@
 (fp_lib_table
-  (lib (name pineapple60_2)(type KiCad)(uri ${KIPRJMOD}/pineapple60_2.pretty)(options "")(descr ""))
   (lib (name Keebio-Parts)(type KiCad)(uri ${KIPRJMOD}/Keebio-Parts.pretty)(options "")(descr ""))
-  (lib (name libthinkeys)(type KiCad)(uri ${KIPRJMOD}/libthinkeys.pretty)(options "")(descr ""))
   (lib (name SSD1306)(type KiCad)(uri ${KIPRJMOD}/KiCad-SSD1306-128x64/library/SSD1306.pretty)(options "")(descr ""))
+  (lib (name libmodulo)(type KiCad)(uri ${KIPRJMOD}/libmodulo/libmodulo.pretty)(options "")(descr ""))
 )

@@ -16,3 +16,6 @@
 [submodule "KiCad-SSD1306-128x64"]
 	path = KiCad-SSD1306-128x64
 	url = https://github.com/pforrmi/KiCad-SSD1306-128x64
+[submodule "libmodulo"]
+	path = libmodulo
+	url = https://github.com/moduloindustries/libmodulo
