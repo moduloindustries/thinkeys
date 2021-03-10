@@ -13,78 +13,28 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	7000 2050 7000 2350
-Connection ~ 7000 2050
-Wire Wire Line
-	6700 2050 6700 2150
-Connection ~ 6700 2050
-Wire Wire Line
-	7000 2000 7000 2050
-Wire Wire Line
-	6700 1800 6700 2050
-$Comp
-L keebio:TRRS U4
-U 1 1 66F6B00F
-P 7050 1450
-F 0 "U4" V 7020 1978 60  0000 L CNN
-F 1 "TRRS" V 6914 1978 60  0000 L CNN
-F 2 "libmodulo:TRRS-PJ-320" H 7200 1450 60  0001 C CNN
-F 3 "" H 7200 1450 60  0001 C CNN
-	1    7050 1450
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:R_US R4
 U 1 1 66F6B00E
-P 6750 2350
-F 0 "R4" V 6863 2350 50  0000 C CNN
-F 1 "4.7k" V 6954 2350 50  0000 C CNN
-F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 6680 2350 50  0001 C CNN
-F 3 "~" H 6750 2350 50  0001 C CNN
-	1    6750 2350
-	0    -1   1    0   
+P 7800 1450
+F 0 "R4" V 7913 1450 50  0000 C CNN
+F 1 "4.7k" V 8004 1450 50  0000 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 7730 1450 50  0001 C CNN
+F 3 "~" H 7800 1450 50  0001 C CNN
+	1    7800 1450
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R2
 U 1 1 6640BB67
-P 6850 2050
-F 0 "R2" V 6963 2050 50  0000 C CNN
-F 1 "4.7k" V 7054 2050 50  0000 C CNN
-F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 6780 2050 50  0001 C CNN
-F 3 "~" H 6850 2050 50  0001 C CNN
-	1    6850 2050
-	0    -1   1    0   
+P 7800 2050
+F 0 "R2" V 7913 2050 50  0000 C CNN
+F 1 "4.7k" V 8004 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 7730 2050 50  0001 C CNN
+F 3 "~" H 7800 2050 50  0001 C CNN
+	1    7800 2050
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6650 1800 6600 1800
-Wire Wire Line
-	6700 1800 6750 1800
-Text Label 7000 2000 0    50   ~ 0
-VCC
-Wire Wire Line
-	6950 2000 7000 2000
-Wire Wire Line
-	6950 1800 6950 2000
-Wire Wire Line
-	6900 2350 7000 2350
-Text Label 6700 2150 3    50   ~ 0
-SDA
-Wire Wire Line
-	6600 2350 6600 1800
-$Comp
-L Graphic:SYM_Arrow_Tiny #SYM5
-U 1 1 66F6AF51
-P 7000 1950
-F 0 "#SYM5" H 7000 2010 50  0001 C CNN
-F 1 "SYM_Arrow_Tiny" H 7010 1900 50  0001 C CNN
-F 2 "" H 7000 1950 50  0001 C CNN
-F 3 "~" H 7000 1950 50  0001 C CNN
-	1    7000 1950
-	0    1    -1   0   
-$EndComp
-Text Label 6600 2350 3    50   ~ 0
-SCL
 Text Label 9500 750  1    50   ~ 0
 c2
 Text Label 9400 750  1    50   ~ 0
@@ -267,17 +217,6 @@ F 1 "SW_Push" H 10650 994 50  0000 C CNN
 F 2 "libmodulo:Kailh_Micro_Switch_6x6" H 10650 1000 50  0001 C CNN
 F 3 "~" H 10650 1000 50  0001 C CNN
 	1    10650 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND2 #PWR0107
-U 1 1 66F0CFC9
-P 6800 1800
-F 0 "#PWR0107" H 6800 1550 50  0001 C CNN
-F 1 "GND2" H 6805 1627 50  0000 C CNN
-F 2 "" H 6800 1800 50  0001 C CNN
-F 3 "" H 6800 1800 50  0001 C CNN
-	1    6800 1800
 	1    0    0    -1  
 $EndComp
 Connection ~ 10650 2950
@@ -1691,8 +1630,6 @@ F 3 "" H 8900 2250 50  0001 C CNN
 	1    8900 2250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6850 1800 6800 1800
 $Comp
 L keebio:Elite-C U2
 U 1 1 66F0D02A
@@ -1807,13 +1744,13 @@ Wire Wire Line
 Wire Wire Line
 	7850 1800 7700 1800
 Wire Wire Line
-	7700 1600 7850 1600
+	7700 1600 7800 1600
 Wire Wire Line
-	7700 1300 7850 1300
+	7700 1300 7800 1300
 Wire Wire Line
-	7700 2200 7900 2200
+	7700 2200 7800 2200
 Wire Wire Line
-	7700 1900 7900 1900
+	7700 1900 7800 1900
 NoConn ~ 7700 1400
 NoConn ~ 7700 1500
 NoConn ~ 7700 2000
@@ -3274,4 +3211,16 @@ F 3 "" H 10750 1700 50  0000 C CNN
 	1    10750 1700
 	1    0    0    -1  
 $EndComp
+Connection ~ 7800 1900
+Wire Wire Line
+	7800 1900 7900 1900
+Connection ~ 7800 2200
+Wire Wire Line
+	7800 2200 7900 2200
+Connection ~ 7800 1300
+Wire Wire Line
+	7800 1300 7850 1300
+Connection ~ 7800 1600
+Wire Wire Line
+	7800 1600 7850 1600
 $EndSCHEMATC

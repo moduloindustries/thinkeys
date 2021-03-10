@@ -268,93 +268,35 @@ Text Label 8350 2700 2    50   ~ 0
 c5
 Text Label 5450 3250 2    50   ~ 0
 r0
-Wire Wire Line
-	10500 2100 10500 2350
-Connection ~ 10500 2100
-Wire Wire Line
-	10500 2050 10500 2100
-$Comp
-L keebio:TRRS U3
-U 1 1 60D24789
-P 10450 1500
-AR Path="/67E4E0EB/60D24789" Ref="U3"  Part="1" 
-AR Path="/67E4ECE8/60D24789" Ref="U?"  Part="1" 
-AR Path="/67E4ED54/60D24789" Ref="U?"  Part="1" 
-AR Path="/67E4ED7B/60D24789" Ref="U?"  Part="1" 
-F 0 "U3" V 10420 2028 60  0000 L CNN
-F 1 "TRRS" V 10314 2028 60  0000 L CNN
-F 2 "libmodulo:TRRS-PJ-320" H 10600 1500 60  0001 C CNN
-F 3 "" H 10600 1500 60  0001 C CNN
-	1    10450 1500
-	0    1    -1   0   
-$EndComp
 $Comp
 L Device:R_US R3
 U 1 1 60D24793
-P 10850 2350
+P 9700 1450
 AR Path="/67E4E0EB/60D24793" Ref="R3"  Part="1" 
 AR Path="/67E4ECE8/60D24793" Ref="R?"  Part="1" 
 AR Path="/67E4ED54/60D24793" Ref="R?"  Part="1" 
 AR Path="/67E4ED7B/60D24793" Ref="R?"  Part="1" 
-F 0 "R3" V 10963 2350 50  0000 C CNN
-F 1 "4.7k" V 11054 2350 50  0000 C CNN
-F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 10780 2350 50  0001 C CNN
-F 3 "~" H 10850 2350 50  0001 C CNN
-	1    10850 2350
-	0    1    1    0   
+F 0 "R3" V 9813 1450 50  0000 C CNN
+F 1 "4.7k" V 9904 1450 50  0000 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 9630 1450 50  0001 C CNN
+F 3 "~" H 9700 1450 50  0001 C CNN
+	1    9700 1450
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R_US R1
 U 1 1 60D2479D
-P 10650 2100
+P 9700 2050
 AR Path="/67E4E0EB/60D2479D" Ref="R1"  Part="1" 
 AR Path="/67E4ECE8/60D2479D" Ref="R?"  Part="1" 
 AR Path="/67E4ED54/60D2479D" Ref="R?"  Part="1" 
 AR Path="/67E4ED7B/60D2479D" Ref="R?"  Part="1" 
-F 0 "R1" V 10763 2100 50  0000 C CNN
-F 1 "4.7k" V 10854 2100 50  0000 C CNN
-F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 10580 2100 50  0001 C CNN
-F 3 "~" H 10650 2100 50  0001 C CNN
-	1    10650 2100
-	0    1    1    0   
-$EndComp
-Text Label 10500 2050 2    50   ~ 0
-VCC
-Wire Wire Line
-	10550 2050 10500 2050
-Wire Wire Line
-	10550 1850 10550 2050
-Text Label 10800 2100 0    50   ~ 0
-SDA
-$Comp
-L Graphic:SYM_Arrow_Tiny #SYM2
-U 1 1 60D247AB
-P 10500 2000
-AR Path="/67E4E0EB/60D247AB" Ref="#SYM2"  Part="1" 
-AR Path="/67E4ECE8/60D247AB" Ref="#SYM?"  Part="1" 
-AR Path="/67E4ED54/60D247AB" Ref="#SYM?"  Part="1" 
-AR Path="/67E4ED7B/60D247AB" Ref="#SYM?"  Part="1" 
-F 0 "#SYM2" H 10500 2060 50  0001 C CNN
-F 1 "SYM_Arrow_Tiny" H 10510 1950 50  0001 C CNN
-F 2 "" H 10500 2000 50  0001 C CNN
-F 3 "~" H 10500 2000 50  0001 C CNN
-	1    10500 2000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND1 #PWR01
-U 1 1 66F6AEC3
-P 10650 1850
-AR Path="/67E4E0EB/66F6AEC3" Ref="#PWR01"  Part="1" 
-AR Path="/67E4ECE8/66F6AEC3" Ref="#PWR?"  Part="1" 
-AR Path="/67E4ED54/66F6AEC3" Ref="#PWR?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEC3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR01" H 10650 1600 50  0001 C CNN
-F 1 "GND1" H 10655 1677 50  0000 C CNN
-F 2 "" H 10650 1850 50  0001 C CNN
-F 3 "" H 10650 1850 50  0001 C CNN
-	1    10650 1850
-	1    0    0    -1  
+F 0 "R1" V 9813 2050 50  0000 C CNN
+F 1 "4.7k" V 9904 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 9630 2050 50  0001 C CNN
+F 3 "~" H 9700 2050 50  0001 C CNN
+	1    9700 2050
+	-1   0    0    -1  
 $EndComp
 Text Label 11050 5100 0    50   ~ 0
 VCC
@@ -453,18 +395,6 @@ F 3 "~" H 10600 6250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11000 5100 11050 5100
-Text Label 11000 2350 1    50   ~ 0
-SCL
-Wire Wire Line
-	10750 1850 10800 1850
-Wire Wire Line
-	10800 1850 10800 2100
-Wire Wire Line
-	10850 1850 11000 1850
-Wire Wire Line
-	11000 1850 11000 2350
-Wire Wire Line
-	10700 2350 10500 2350
 Text Label 6000 700  1    50   ~ 0
 c2
 Text Label 6100 700  1    50   ~ 0
@@ -1913,13 +1843,13 @@ Wire Wire Line
 Wire Wire Line
 	9650 1800 9800 1800
 Wire Wire Line
-	9650 1600 9800 1600
+	9650 1600 9700 1600
 Wire Wire Line
-	9650 1300 9800 1300
+	9650 1300 9700 1300
 Wire Wire Line
-	9600 2200 9800 2200
+	9600 2200 9700 2200
 Wire Wire Line
-	9600 1900 9800 1900
+	9600 1900 9700 1900
 Text Label 7300 2250 0    50   ~ 0
 CLK
 NoConn ~ 9800 1400
@@ -3189,4 +3119,16 @@ F 3 "" H 7400 800 50  0000 C CNN
 	1    7400 800 
 	1    0    0    -1  
 $EndComp
+Connection ~ 9700 1900
+Wire Wire Line
+	9700 1900 9800 1900
+Connection ~ 9700 2200
+Wire Wire Line
+	9700 2200 9800 2200
+Connection ~ 9700 1600
+Wire Wire Line
+	9700 1600 9800 1600
+Connection ~ 9700 1300
+Wire Wire Line
+	9700 1300 9800 1300
 $EndSCHEMATC
