@@ -13,312 +13,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	8850 2700 8850 2950
-Wire Wire Line
-	8350 2700 8350 2950
-Wire Wire Line
-	7850 2700 7850 2950
-Wire Wire Line
-	7350 2700 7350 2950
-Wire Wire Line
-	6350 2700 6350 2950
-$Comp
-L Device:D D1
-U 1 1 66F6AEAD
-P 5450 3100
-AR Path="/67E4E0EB/66F6AEAD" Ref="D1"  Part="1" 
-AR Path="/67E4ECE8/66F6AEAD" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/66F6AEAD" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEAD" Ref="D?"  Part="1" 
-F 0 "D1" V 5496 3020 50  0000 R CNN
-F 1 "D" V 5405 3020 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 5450 3100 50  0001 C CNN
-F 3 "~" H 5450 3100 50  0001 C CNN
-	1    5450 3100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5850 2700 5850 2950
-Wire Wire Line
-	6850 2700 6850 2950
-Text Label 8850 2700 2    50   ~ 0
-c6
-Connection ~ 6450 3250
-Wire Wire Line
-	6450 3250 6950 3250
-$Comp
-L Switch:SW_Push SW7
-U 1 1 601DC26F
-P 8650 2950
-AR Path="/67E4E0EB/601DC26F" Ref="SW7"  Part="1" 
-AR Path="/67E4ECE8/601DC26F" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/601DC26F" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/601DC26F" Ref="SW?"  Part="1" 
-F 0 "SW7" H 8650 3235 50  0000 C CNN
-F 1 "SW_Push" H 8650 3144 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8650 3150 50  0001 C CNN
-F 3 "~" H 8650 3150 50  0001 C CNN
-	1    8650 2950
-	1    0    0    -1  
-$EndComp
-Connection ~ 6950 3250
-Connection ~ 7950 3250
-Wire Wire Line
-	7450 3250 7950 3250
-Connection ~ 7450 3250
-Wire Wire Line
-	6950 3250 7450 3250
-Wire Wire Line
-	5950 3250 6450 3250
-Connection ~ 5950 3250
-Wire Wire Line
-	5450 3250 5950 3250
-$Comp
-L Device:D D7
-U 1 1 601DC265
-P 8450 3100
-AR Path="/67E4E0EB/601DC265" Ref="D7"  Part="1" 
-AR Path="/67E4ECE8/601DC265" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/601DC265" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/601DC265" Ref="D?"  Part="1" 
-F 0 "D7" V 8496 3020 50  0000 R CNN
-F 1 "D" V 8405 3020 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 8450 3100 50  0001 C CNN
-F 3 "~" H 8450 3100 50  0001 C CNN
-	1    8450 3100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW6
-U 1 1 601DC25B
-P 8150 2950
-AR Path="/67E4E0EB/601DC25B" Ref="SW6"  Part="1" 
-AR Path="/67E4ECE8/601DC25B" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/601DC25B" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/601DC25B" Ref="SW?"  Part="1" 
-F 0 "SW6" H 8150 3235 50  0000 C CNN
-F 1 "SW_Push" H 8150 3144 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8150 3150 50  0001 C CNN
-F 3 "~" H 8150 3150 50  0001 C CNN
-	1    8150 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D6
-U 1 1 601DC251
-P 7950 3100
-AR Path="/67E4E0EB/601DC251" Ref="D6"  Part="1" 
-AR Path="/67E4ECE8/601DC251" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/601DC251" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/601DC251" Ref="D?"  Part="1" 
-F 0 "D6" V 7996 3020 50  0000 R CNN
-F 1 "D" V 7905 3020 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 7950 3100 50  0001 C CNN
-F 3 "~" H 7950 3100 50  0001 C CNN
-	1    7950 3100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW5
-U 1 1 66F6AEB6
-P 7650 2950
-AR Path="/67E4E0EB/66F6AEB6" Ref="SW5"  Part="1" 
-AR Path="/67E4ECE8/66F6AEB6" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/66F6AEB6" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEB6" Ref="SW?"  Part="1" 
-F 0 "SW5" H 7650 3235 50  0000 C CNN
-F 1 "SW_Push" H 7650 3144 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7650 3150 50  0001 C CNN
-F 3 "~" H 7650 3150 50  0001 C CNN
-	1    7650 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D5
-U 1 1 601DC23D
-P 7450 3100
-AR Path="/67E4E0EB/601DC23D" Ref="D5"  Part="1" 
-AR Path="/67E4ECE8/601DC23D" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/601DC23D" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/601DC23D" Ref="D?"  Part="1" 
-F 0 "D5" V 7496 3020 50  0000 R CNN
-F 1 "D" V 7405 3020 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 7450 3100 50  0001 C CNN
-F 3 "~" H 7450 3100 50  0001 C CNN
-	1    7450 3100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW4
-U 1 1 66F6AEB4
-P 7150 2950
-AR Path="/67E4E0EB/66F6AEB4" Ref="SW4"  Part="1" 
-AR Path="/67E4ECE8/66F6AEB4" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/66F6AEB4" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEB4" Ref="SW?"  Part="1" 
-F 0 "SW4" H 7150 3235 50  0000 C CNN
-F 1 "SW_Push" H 7150 3144 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7150 3150 50  0001 C CNN
-F 3 "~" H 7150 3150 50  0001 C CNN
-	1    7150 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D4
-U 1 1 66F6AEB3
-P 6950 3100
-AR Path="/67E4E0EB/66F6AEB3" Ref="D4"  Part="1" 
-AR Path="/67E4ECE8/66F6AEB3" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/66F6AEB3" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEB3" Ref="D?"  Part="1" 
-F 0 "D4" V 6996 3020 50  0000 R CNN
-F 1 "D" V 6905 3020 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 6950 3100 50  0001 C CNN
-F 3 "~" H 6950 3100 50  0001 C CNN
-	1    6950 3100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW3
-U 1 1 66F6AEB2
-P 6650 2950
-AR Path="/67E4E0EB/66F6AEB2" Ref="SW3"  Part="1" 
-AR Path="/67E4ECE8/66F6AEB2" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/66F6AEB2" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEB2" Ref="SW?"  Part="1" 
-F 0 "SW3" H 6650 3235 50  0000 C CNN
-F 1 "SW_Push" H 6650 3144 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6650 3150 50  0001 C CNN
-F 3 "~" H 6650 3150 50  0001 C CNN
-	1    6650 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D3
-U 1 1 66F6AEB1
-P 6450 3100
-AR Path="/67E4E0EB/66F6AEB1" Ref="D3"  Part="1" 
-AR Path="/67E4ECE8/66F6AEB1" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/66F6AEB1" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEB1" Ref="D?"  Part="1" 
-F 0 "D3" V 6496 3020 50  0000 R CNN
-F 1 "D" V 6405 3020 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 6450 3100 50  0001 C CNN
-F 3 "~" H 6450 3100 50  0001 C CNN
-	1    6450 3100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW2
-U 1 1 66F6AEB0
-P 6150 2950
-AR Path="/67E4E0EB/66F6AEB0" Ref="SW2"  Part="1" 
-AR Path="/67E4ECE8/66F6AEB0" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/66F6AEB0" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEB0" Ref="SW?"  Part="1" 
-F 0 "SW2" H 6150 3235 50  0000 C CNN
-F 1 "SW_Push" H 6150 3144 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6150 3150 50  0001 C CNN
-F 3 "~" H 6150 3150 50  0001 C CNN
-	1    6150 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D2
-U 1 1 66F6AEAF
-P 5950 3100
-AR Path="/67E4E0EB/66F6AEAF" Ref="D2"  Part="1" 
-AR Path="/67E4ECE8/66F6AEAF" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/66F6AEAF" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEAF" Ref="D?"  Part="1" 
-F 0 "D2" V 5996 3020 50  0000 R CNN
-F 1 "D" V 5905 3020 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 5950 3100 50  0001 C CNN
-F 3 "~" H 5950 3100 50  0001 C CNN
-	1    5950 3100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW1
-U 1 1 66F6AEAE
-P 5650 2950
-AR Path="/67E4E0EB/66F6AEAE" Ref="SW1"  Part="1" 
-AR Path="/67E4ECE8/66F6AEAE" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/66F6AEAE" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEAE" Ref="SW?"  Part="1" 
-F 0 "SW1" H 5650 3235 50  0000 C CNN
-F 1 "SW_Push" H 5650 3144 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5650 3150 50  0001 C CNN
-F 3 "~" H 5650 3150 50  0001 C CNN
-	1    5650 2950
-	1    0    0    -1  
-$EndComp
-Text Label 5850 2700 2    50   ~ 0
-c0
-Text Label 6350 2700 2    50   ~ 0
-c1
-Text Label 6850 2700 2    50   ~ 0
-c2
-Text Label 7350 2700 2    50   ~ 0
-c3
-Text Label 7850 2700 2    50   ~ 0
-c4
-Text Label 8350 2700 2    50   ~ 0
-c5
-Text Label 5450 3250 2    50   ~ 0
-r0
-$Comp
-L Device:R_US R3
-U 1 1 60D24793
-P 9700 1450
-AR Path="/67E4E0EB/60D24793" Ref="R3"  Part="1" 
-AR Path="/67E4ECE8/60D24793" Ref="R?"  Part="1" 
-AR Path="/67E4ED54/60D24793" Ref="R?"  Part="1" 
-AR Path="/67E4ED7B/60D24793" Ref="R?"  Part="1" 
-F 0 "R3" V 9813 1450 50  0000 C CNN
-F 1 "4.7k" V 9904 1450 50  0000 C CNN
-F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 9630 1450 50  0001 C CNN
-F 3 "~" H 9700 1450 50  0001 C CNN
-	1    9700 1450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R1
-U 1 1 60D2479D
-P 9700 2050
-AR Path="/67E4E0EB/60D2479D" Ref="R1"  Part="1" 
-AR Path="/67E4ECE8/60D2479D" Ref="R?"  Part="1" 
-AR Path="/67E4ED54/60D2479D" Ref="R?"  Part="1" 
-AR Path="/67E4ED7B/60D2479D" Ref="R?"  Part="1" 
-F 0 "R1" V 9813 2050 50  0000 C CNN
-F 1 "4.7k" V 9904 2050 50  0000 C CNN
-F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 9630 2050 50  0001 C CNN
-F 3 "~" H 9700 2050 50  0001 C CNN
-	1    9700 2050
-	-1   0    0    -1  
-$EndComp
-Text Label 11050 5100 0    50   ~ 0
-VCC
 Text Label 10600 5200 1    50   ~ 0
 CLK
 Text Label 10500 5200 1    50   ~ 0
 DATA
-$Comp
-L Graphic:SYM_Arrow_Tiny #SYM3
-U 1 1 60D247C6
-P 11050 5050
-AR Path="/67E4E0EB/60D247C6" Ref="#SYM3"  Part="1" 
-AR Path="/67E4ECE8/60D247C6" Ref="#SYM?"  Part="1" 
-AR Path="/67E4ED54/60D247C6" Ref="#SYM?"  Part="1" 
-AR Path="/67E4ED7B/60D247C6" Ref="#SYM?"  Part="1" 
-F 0 "#SYM3" H 11050 5110 50  0001 C CNN
-F 1 "SYM_Arrow_Tiny" H 11060 5000 50  0001 C CNN
-F 2 "" H 11050 5050 50  0001 C CNN
-F 3 "~" H 11050 5050 50  0001 C CNN
-	1    11050 5050
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:GND1 #PWR02
 U 1 1 60D247D0
@@ -345,7 +43,7 @@ AR Path="/67E4ED54/60D247DB" Ref="C?"  Part="1"
 AR Path="/67E4ED7B/60D247DB" Ref="C?"  Part="1" 
 F 0 "C91" V 10598 5100 50  0000 C CNN
 F 1 "2.2u" V 10689 5100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder" H 10888 4950 50  0001 C CNN
+F 2 "libmodulo:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder" H 10888 4950 50  0001 C CNN
 F 3 "~" H 10850 5100 50  0001 C CNN
 	1    10850 5100
 	0    -1   -1   0   
@@ -369,7 +67,7 @@ AR Path="/67E4ED54/66F6AEC7" Ref="R?"  Part="1"
 AR Path="/67E4ED7B/66F6AEC7" Ref="R?"  Part="1" 
 F 0 "R9" V 10093 5800 50  0000 C CNN
 F 1 "100k" V 10184 5800 50  0000 C CNN
-F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 10230 5800 50  0001 C CNN
+F 2 "libmodulo:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 10230 5800 50  0001 C CNN
 F 3 "~" H 10300 5800 50  0001 C CNN
 	1    10300 5800
 	0    1    -1   0   
@@ -388,1398 +86,111 @@ AR Path="/67E4ED54/60D2480E" Ref="J?"  Part="1"
 AR Path="/67E4ED7B/60D2480E" Ref="J?"  Part="1" 
 F 0 "J1" V 10817 6246 50  0000 C CNN
 F 1 "Pointing stick" V 10726 6246 50  0000 C CNN
-F 2 "" H 10600 6250 50  0001 C CNN
+F 2 "libmodulo:SK8707-01" H 10600 6250 50  0001 C CNN
 F 3 "~" H 10600 6250 50  0001 C CNN
 	1    10600 6250
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	11000 5100 11050 5100
-Text Label 6000 700  1    50   ~ 0
-c2
-Text Label 6100 700  1    50   ~ 0
-c3
-Text Label 6400 700  1    50   ~ 0
-c4
-Text Label 6300 700  1    50   ~ 0
-c5
-Text Label 6200 700  1    50   ~ 0
-c6
-Text Label 5800 700  1    50   ~ 0
-c0
-Text Label 5900 700  1    50   ~ 0
-c1
-Text Label 5900 2100 3    50   ~ 0
-r5
-Text Label 6000 2100 3    50   ~ 0
-r4
-Text Label 6100 2100 3    50   ~ 0
-r3
-Text Label 6200 2100 3    50   ~ 0
-r2
-Text Label 6300 2100 3    50   ~ 0
-r1
-Text Label 5800 2100 3    50   ~ 0
-r0
-Text Label 6600 700  1    50   ~ 0
-VCC
-Text Label 6400 2100 3    50   ~ 0
-SCL
-Text Label 6500 2100 3    50   ~ 0
-SDA
-Text Label 6500 700  1    50   ~ 0
-RGB
-Text Label 6800 2100 3    50   ~ 0
-DATA
+Connection ~ 11050 5750
 Wire Wire Line
-	5400 1500 5350 1500
+	10500 5200 10500 5750
+Connection ~ 10500 5750
 Wire Wire Line
-	5350 2350 6900 2350
+	11050 5750 11050 6050
+Wire Wire Line
+	10500 5750 10500 6050
 $Comp
-L Switch:SW_SPDT JP1
-U 1 1 66F6AECC
-P 7100 2250
-AR Path="/67E4E0EB/66F6AECC" Ref="JP1"  Part="1" 
-AR Path="/67E4ECE8/66F6AECC" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/66F6AECC" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/66F6AECC" Ref="SW?"  Part="1" 
-F 0 "JP1" H 7100 2535 50  0000 C CNN
-F 1 "SW_SPDT" H 7100 2444 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7100 2250 50  0001 C CNN
-F 3 "~" H 7100 2250 50  0001 C CNN
-	1    7100 2250
+L Device:R_US R7
+U 1 1 60D247FA
+P 10900 5750
+AR Path="/67E4E0EB/60D247FA" Ref="R7"  Part="1" 
+AR Path="/67E4ECE8/60D247FA" Ref="R?"  Part="1" 
+AR Path="/67E4ED54/60D247FA" Ref="R?"  Part="1" 
+AR Path="/67E4ED7B/60D247FA" Ref="R?"  Part="1" 
+F 0 "R7" V 10693 5750 50  0000 C CNN
+F 1 "4.7k" V 10784 5750 50  0000 C CNN
+F 2 "libmodulo:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 10830 5750 50  0001 C CNN
+F 3 "~" H 10900 5750 50  0001 C CNN
+	1    10900 5750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10750 5750 10500 5750
+Connection ~ 11050 5450
+Connection ~ 10600 5450
+Wire Wire Line
+	11050 5100 11050 5450
+Wire Wire Line
+	10600 5200 10600 5450
+Wire Wire Line
+	11050 5450 11050 5750
+Wire Wire Line
+	10600 5450 10600 6050
+Wire Wire Line
+	10750 5450 10600 5450
+$Comp
+L Device:R_US R5
+U 1 1 60D24804
+P 10900 5450
+AR Path="/67E4E0EB/60D24804" Ref="R5"  Part="1" 
+AR Path="/67E4ECE8/60D24804" Ref="R?"  Part="1" 
+AR Path="/67E4ED54/60D24804" Ref="R?"  Part="1" 
+AR Path="/67E4ED7B/60D24804" Ref="R?"  Part="1" 
+F 0 "R5" V 10693 5450 50  0000 C CNN
+F 1 "4.7k" V 10784 5450 50  0000 C CNN
+F 2 "libmodulo:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 10830 5450 50  0001 C CNN
+F 3 "~" H 10900 5450 50  0001 C CNN
+	1    10900 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0107
+U 1 1 62541F76
+P 11050 5100
+F 0 "#PWR0107" H 11050 4950 50  0001 C CNN
+F 1 "VCC" H 11065 5273 50  0000 C CNN
+F 2 "" H 11050 5100 50  0001 C CNN
+F 3 "" H 11050 5100 50  0001 C CNN
+	1    11050 5100
+	1    0    0    -1  
+$EndComp
+Connection ~ 11050 5100
+$Comp
+L Device:R_US R3
+U 1 1 60D24793
+P 9700 1450
+AR Path="/67E4E0EB/60D24793" Ref="R3"  Part="1" 
+AR Path="/67E4ECE8/60D24793" Ref="R?"  Part="1" 
+AR Path="/67E4ED54/60D24793" Ref="R?"  Part="1" 
+AR Path="/67E4ED7B/60D24793" Ref="R?"  Part="1" 
+F 0 "R3" V 9813 1450 50  0000 C CNN
+F 1 "4.7k" V 9904 1450 50  0000 C CNN
+F 2 "libmodulo:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 9630 1450 50  0001 C CNN
+F 3 "~" H 9700 1450 50  0001 C CNN
+	1    9700 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 60D2479D
+P 9700 2050
+AR Path="/67E4E0EB/60D2479D" Ref="R1"  Part="1" 
+AR Path="/67E4ECE8/60D2479D" Ref="R?"  Part="1" 
+AR Path="/67E4ED54/60D2479D" Ref="R?"  Part="1" 
+AR Path="/67E4ED7B/60D2479D" Ref="R?"  Part="1" 
+F 0 "R1" V 9813 2050 50  0000 C CNN
+F 1 "4.7k" V 9904 2050 50  0000 C CNN
+F 2 "libmodulo:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 9630 2050 50  0001 C CNN
+F 3 "~" H 9700 2050 50  0001 C CNN
+	1    9700 2050
 	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5850 2950 5850 3600
-Text Label 5450 6500 2    50   ~ 0
-r5
-Text Label 5450 5850 2    50   ~ 0
-r4
-Text Label 5450 5200 2    50   ~ 0
-r3
-Text Label 5450 4550 2    50   ~ 0
-r2
-Text Label 5450 3900 2    50   ~ 0
-r1
-Connection ~ 5850 5550
-Wire Wire Line
-	5850 6200 5850 5550
-Connection ~ 6350 5550
-Wire Wire Line
-	6350 5550 6350 6200
-Connection ~ 6850 5550
-Wire Wire Line
-	6850 6200 6850 5550
-Connection ~ 7350 5550
-Wire Wire Line
-	7350 5550 7350 6200
-Connection ~ 7850 5550
-Wire Wire Line
-	7850 6200 7850 5550
-Connection ~ 8350 5550
-Wire Wire Line
-	8350 5550 8350 6200
-Connection ~ 8850 5550
-Wire Wire Line
-	8850 6200 8850 5550
-Wire Wire Line
-	8850 4900 8850 5550
-Connection ~ 8850 4900
-Wire Wire Line
-	8850 4250 8850 4900
-Connection ~ 8850 4250
-Wire Wire Line
-	8850 3600 8850 4250
-Connection ~ 8850 3600
-Wire Wire Line
-	8850 2950 8850 3600
-Wire Wire Line
-	8350 4900 8350 4250
-Connection ~ 8350 4900
-Wire Wire Line
-	8350 4250 8350 3600
-Connection ~ 8350 4250
-Wire Wire Line
-	8350 3600 8350 2950
-Connection ~ 8350 3600
-Wire Wire Line
-	8350 5550 8350 4900
-Wire Wire Line
-	7850 4900 7850 5550
-Connection ~ 7850 4900
-Wire Wire Line
-	7850 4250 7850 4900
-Connection ~ 7850 4250
-Wire Wire Line
-	7850 3600 7850 4250
-Connection ~ 7850 3600
-Wire Wire Line
-	7850 2950 7850 3600
-Wire Wire Line
-	7350 4900 7350 4250
-Connection ~ 7350 4900
-Wire Wire Line
-	7350 4250 7350 3600
-Connection ~ 7350 4250
-Wire Wire Line
-	7350 3600 7350 2950
-Connection ~ 7350 3600
-Wire Wire Line
-	7350 5550 7350 4900
-Wire Wire Line
-	6850 4900 6850 5550
-Connection ~ 6850 4900
-Wire Wire Line
-	6850 4250 6850 4900
-Connection ~ 6850 4250
-Wire Wire Line
-	6850 3600 6850 4250
-Connection ~ 6850 3600
-Wire Wire Line
-	6850 2950 6850 3600
-Wire Wire Line
-	6350 4900 6350 5550
-Connection ~ 6350 4900
-Wire Wire Line
-	6350 4250 6350 4900
-Connection ~ 6350 4250
-Wire Wire Line
-	6350 3600 6350 4250
-Connection ~ 6350 3600
-Wire Wire Line
-	6350 2950 6350 3600
-Wire Wire Line
-	5850 4900 5850 5550
-Connection ~ 5850 4900
-Wire Wire Line
-	5850 4250 5850 4900
-Connection ~ 5850 4250
-Wire Wire Line
-	5850 3600 5850 4250
-Connection ~ 5850 3600
-Wire Wire Line
-	8450 6500 7950 6500
-Connection ~ 7950 6500
-Wire Wire Line
-	7950 6500 7450 6500
-Connection ~ 7450 6500
-Wire Wire Line
-	7450 6500 6950 6500
-Connection ~ 6950 6500
-Wire Wire Line
-	6950 6500 6450 6500
-Connection ~ 6450 6500
-Wire Wire Line
-	6450 6500 5950 6500
-Connection ~ 5950 6500
-Wire Wire Line
-	5950 6500 5450 6500
-Wire Wire Line
-	7950 5850 8450 5850
-Connection ~ 7950 5850
-Wire Wire Line
-	7450 5850 7950 5850
-Connection ~ 7450 5850
-Wire Wire Line
-	6950 5850 7450 5850
-Connection ~ 6950 5850
-Wire Wire Line
-	6450 5850 6950 5850
-Connection ~ 6450 5850
-Wire Wire Line
-	5950 5850 6450 5850
-Connection ~ 5950 5850
-Wire Wire Line
-	5450 5850 5950 5850
-Wire Wire Line
-	8450 5200 7950 5200
-Wire Wire Line
-	7950 5200 7450 5200
-Connection ~ 7950 5200
-Wire Wire Line
-	7450 5200 6950 5200
-Connection ~ 7450 5200
-Wire Wire Line
-	6950 5200 6450 5200
-Connection ~ 6950 5200
-Wire Wire Line
-	6450 5200 5950 5200
-Connection ~ 6450 5200
-Wire Wire Line
-	5950 5200 5450 5200
-Connection ~ 5950 5200
-Wire Wire Line
-	7950 4550 8450 4550
-Connection ~ 7950 4550
-Wire Wire Line
-	7450 4550 7950 4550
-Connection ~ 7450 4550
-Wire Wire Line
-	6950 4550 7450 4550
-Connection ~ 6950 4550
-Wire Wire Line
-	6450 4550 6950 4550
-Connection ~ 6450 4550
-Wire Wire Line
-	5950 4550 6450 4550
-Connection ~ 5950 4550
-Wire Wire Line
-	5450 4550 5950 4550
-Wire Wire Line
-	8450 3900 7950 3900
-Wire Wire Line
-	7950 3900 7450 3900
-Connection ~ 7950 3900
-Wire Wire Line
-	7450 3900 6950 3900
-Connection ~ 7450 3900
-Wire Wire Line
-	6950 3900 6450 3900
-Connection ~ 6950 3900
-Wire Wire Line
-	6450 3900 5950 3900
-Connection ~ 6450 3900
-Wire Wire Line
-	5950 3900 5450 3900
-Connection ~ 5950 3900
-$Comp
-L Switch:SW_Push SW22
-U 1 1 66F6AEDB
-P 8650 3600
-AR Path="/67E4E0EB/66F6AEDB" Ref="SW22"  Part="1" 
-AR Path="/67E4ECE8/66F6AEDB" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/66F6AEDB" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEDB" Ref="SW?"  Part="1" 
-F 0 "SW22" H 8650 3885 50  0000 C CNN
-F 1 "SW_Push" H 8650 3794 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8650 3800 50  0001 C CNN
-F 3 "~" H 8650 3800 50  0001 C CNN
-	1    8650 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D22
-U 1 1 6566F8F2
-P 8450 3750
-AR Path="/67E4E0EB/6566F8F2" Ref="D22"  Part="1" 
-AR Path="/67E4ECE8/6566F8F2" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/6566F8F2" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/6566F8F2" Ref="D?"  Part="1" 
-F 0 "D22" V 8496 3670 50  0000 R CNN
-F 1 "D" V 8405 3670 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 8450 3750 50  0001 C CNN
-F 3 "~" H 8450 3750 50  0001 C CNN
-	1    8450 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW21
-U 1 1 66F6AEDD
-P 8150 3600
-AR Path="/67E4E0EB/66F6AEDD" Ref="SW21"  Part="1" 
-AR Path="/67E4ECE8/66F6AEDD" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/66F6AEDD" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEDD" Ref="SW?"  Part="1" 
-F 0 "SW21" H 8150 3885 50  0000 C CNN
-F 1 "SW_Push" H 8150 3794 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8150 3800 50  0001 C CNN
-F 3 "~" H 8150 3800 50  0001 C CNN
-	1    8150 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D21
-U 1 1 66F6AEDE
-P 7950 3750
-AR Path="/67E4E0EB/66F6AEDE" Ref="D21"  Part="1" 
-AR Path="/67E4ECE8/66F6AEDE" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/66F6AEDE" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEDE" Ref="D?"  Part="1" 
-F 0 "D21" V 7996 3670 50  0000 R CNN
-F 1 "D" V 7905 3670 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 7950 3750 50  0001 C CNN
-F 3 "~" H 7950 3750 50  0001 C CNN
-	1    7950 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW20
-U 1 1 66F6AEDF
-P 7650 3600
-AR Path="/67E4E0EB/66F6AEDF" Ref="SW20"  Part="1" 
-AR Path="/67E4ECE8/66F6AEDF" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/66F6AEDF" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEDF" Ref="SW?"  Part="1" 
-F 0 "SW20" H 7650 3885 50  0000 C CNN
-F 1 "SW_Push" H 7650 3794 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7650 3800 50  0001 C CNN
-F 3 "~" H 7650 3800 50  0001 C CNN
-	1    7650 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D20
-U 1 1 66F6AEE0
-P 7450 3750
-AR Path="/67E4E0EB/66F6AEE0" Ref="D20"  Part="1" 
-AR Path="/67E4ECE8/66F6AEE0" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/66F6AEE0" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEE0" Ref="D?"  Part="1" 
-F 0 "D20" V 7496 3670 50  0000 R CNN
-F 1 "D" V 7405 3670 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 7450 3750 50  0001 C CNN
-F 3 "~" H 7450 3750 50  0001 C CNN
-	1    7450 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW19
-U 1 1 66F6AEE1
-P 7150 3600
-AR Path="/67E4E0EB/66F6AEE1" Ref="SW19"  Part="1" 
-AR Path="/67E4ECE8/66F6AEE1" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/66F6AEE1" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEE1" Ref="SW?"  Part="1" 
-F 0 "SW19" H 7150 3885 50  0000 C CNN
-F 1 "SW_Push" H 7150 3794 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7150 3800 50  0001 C CNN
-F 3 "~" H 7150 3800 50  0001 C CNN
-	1    7150 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D19
-U 1 1 66F6AEE2
-P 6950 3750
-AR Path="/67E4E0EB/66F6AEE2" Ref="D19"  Part="1" 
-AR Path="/67E4ECE8/66F6AEE2" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/66F6AEE2" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEE2" Ref="D?"  Part="1" 
-F 0 "D19" V 6996 3670 50  0000 R CNN
-F 1 "D" V 6905 3670 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 6950 3750 50  0001 C CNN
-F 3 "~" H 6950 3750 50  0001 C CNN
-	1    6950 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW18
-U 1 1 6566F938
-P 6650 3600
-AR Path="/67E4E0EB/6566F938" Ref="SW18"  Part="1" 
-AR Path="/67E4ECE8/6566F938" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/6566F938" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/6566F938" Ref="SW?"  Part="1" 
-F 0 "SW18" H 6650 3885 50  0000 C CNN
-F 1 "SW_Push" H 6650 3794 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6650 3800 50  0001 C CNN
-F 3 "~" H 6650 3800 50  0001 C CNN
-	1    6650 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D18
-U 1 1 6566F942
-P 6450 3750
-AR Path="/67E4E0EB/6566F942" Ref="D18"  Part="1" 
-AR Path="/67E4ECE8/6566F942" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/6566F942" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/6566F942" Ref="D?"  Part="1" 
-F 0 "D18" V 6496 3670 50  0000 R CNN
-F 1 "D" V 6405 3670 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 6450 3750 50  0001 C CNN
-F 3 "~" H 6450 3750 50  0001 C CNN
-	1    6450 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW17
-U 1 1 6566F94C
-P 6150 3600
-AR Path="/67E4E0EB/6566F94C" Ref="SW17"  Part="1" 
-AR Path="/67E4ECE8/6566F94C" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/6566F94C" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/6566F94C" Ref="SW?"  Part="1" 
-F 0 "SW17" H 6150 3885 50  0000 C CNN
-F 1 "SW_Push" H 6150 3794 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6150 3800 50  0001 C CNN
-F 3 "~" H 6150 3800 50  0001 C CNN
-	1    6150 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D17
-U 1 1 66F6AEE6
-P 5950 3750
-AR Path="/67E4E0EB/66F6AEE6" Ref="D17"  Part="1" 
-AR Path="/67E4ECE8/66F6AEE6" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/66F6AEE6" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEE6" Ref="D?"  Part="1" 
-F 0 "D17" V 5996 3670 50  0000 R CNN
-F 1 "D" V 5905 3670 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 5950 3750 50  0001 C CNN
-F 3 "~" H 5950 3750 50  0001 C CNN
-	1    5950 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW16
-U 1 1 66F6AEE7
-P 5650 3600
-AR Path="/67E4E0EB/66F6AEE7" Ref="SW16"  Part="1" 
-AR Path="/67E4ECE8/66F6AEE7" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/66F6AEE7" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEE7" Ref="SW?"  Part="1" 
-F 0 "SW16" H 5650 3885 50  0000 C CNN
-F 1 "SW_Push" H 5650 3794 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5650 3800 50  0001 C CNN
-F 3 "~" H 5650 3800 50  0001 C CNN
-	1    5650 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D16
-U 1 1 66F6AEE8
-P 5450 3750
-AR Path="/67E4E0EB/66F6AEE8" Ref="D16"  Part="1" 
-AR Path="/67E4ECE8/66F6AEE8" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/66F6AEE8" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEE8" Ref="D?"  Part="1" 
-F 0 "D16" V 5496 3670 50  0000 R CNN
-F 1 "D" V 5405 3670 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 5450 3750 50  0001 C CNN
-F 3 "~" H 5450 3750 50  0001 C CNN
-	1    5450 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW37
-U 1 1 6566F974
-P 8650 4250
-AR Path="/67E4E0EB/6566F974" Ref="SW37"  Part="1" 
-AR Path="/67E4ECE8/6566F974" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/6566F974" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/6566F974" Ref="SW?"  Part="1" 
-F 0 "SW37" H 8650 4535 50  0000 C CNN
-F 1 "SW_Push" H 8650 4444 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8650 4450 50  0001 C CNN
-F 3 "~" H 8650 4450 50  0001 C CNN
-	1    8650 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D37
-U 1 1 6566F97E
-P 8450 4400
-AR Path="/67E4E0EB/6566F97E" Ref="D37"  Part="1" 
-AR Path="/67E4ECE8/6566F97E" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/6566F97E" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/6566F97E" Ref="D?"  Part="1" 
-F 0 "D37" V 8496 4320 50  0000 R CNN
-F 1 "D" V 8405 4320 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 8450 4400 50  0001 C CNN
-F 3 "~" H 8450 4400 50  0001 C CNN
-	1    8450 4400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW36
-U 1 1 6566F988
-P 8150 4250
-AR Path="/67E4E0EB/6566F988" Ref="SW36"  Part="1" 
-AR Path="/67E4ECE8/6566F988" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/6566F988" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/6566F988" Ref="SW?"  Part="1" 
-F 0 "SW36" H 8150 4535 50  0000 C CNN
-F 1 "SW_Push" H 8150 4444 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8150 4450 50  0001 C CNN
-F 3 "~" H 8150 4450 50  0001 C CNN
-	1    8150 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D36
-U 1 1 6566F992
-P 7950 4400
-AR Path="/67E4E0EB/6566F992" Ref="D36"  Part="1" 
-AR Path="/67E4ECE8/6566F992" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/6566F992" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/6566F992" Ref="D?"  Part="1" 
-F 0 "D36" V 7996 4320 50  0000 R CNN
-F 1 "D" V 7905 4320 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 7950 4400 50  0001 C CNN
-F 3 "~" H 7950 4400 50  0001 C CNN
-	1    7950 4400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW35
-U 1 1 6566F99C
-P 7650 4250
-AR Path="/67E4E0EB/6566F99C" Ref="SW35"  Part="1" 
-AR Path="/67E4ECE8/6566F99C" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/6566F99C" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/6566F99C" Ref="SW?"  Part="1" 
-F 0 "SW35" H 7650 4535 50  0000 C CNN
-F 1 "SW_Push" H 7650 4444 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7650 4450 50  0001 C CNN
-F 3 "~" H 7650 4450 50  0001 C CNN
-	1    7650 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D35
-U 1 1 6566F9A6
-P 7450 4400
-AR Path="/67E4E0EB/6566F9A6" Ref="D35"  Part="1" 
-AR Path="/67E4ECE8/6566F9A6" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/6566F9A6" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/6566F9A6" Ref="D?"  Part="1" 
-F 0 "D35" V 7496 4320 50  0000 R CNN
-F 1 "D" V 7405 4320 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 7450 4400 50  0001 C CNN
-F 3 "~" H 7450 4400 50  0001 C CNN
-	1    7450 4400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW34
-U 1 1 66F6AEEF
-P 7150 4250
-AR Path="/67E4E0EB/66F6AEEF" Ref="SW34"  Part="1" 
-AR Path="/67E4ECE8/66F6AEEF" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/66F6AEEF" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEEF" Ref="SW?"  Part="1" 
-F 0 "SW34" H 7150 4535 50  0000 C CNN
-F 1 "SW_Push" H 7150 4444 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7150 4450 50  0001 C CNN
-F 3 "~" H 7150 4450 50  0001 C CNN
-	1    7150 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D34
-U 1 1 66F6AEF0
-P 6950 4400
-AR Path="/67E4E0EB/66F6AEF0" Ref="D34"  Part="1" 
-AR Path="/67E4ECE8/66F6AEF0" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/66F6AEF0" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEF0" Ref="D?"  Part="1" 
-F 0 "D34" V 6996 4320 50  0000 R CNN
-F 1 "D" V 6905 4320 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 6950 4400 50  0001 C CNN
-F 3 "~" H 6950 4400 50  0001 C CNN
-	1    6950 4400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW33
-U 1 1 66F6AEF1
-P 6650 4250
-AR Path="/67E4E0EB/66F6AEF1" Ref="SW33"  Part="1" 
-AR Path="/67E4ECE8/66F6AEF1" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/66F6AEF1" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEF1" Ref="SW?"  Part="1" 
-F 0 "SW33" H 6650 4535 50  0000 C CNN
-F 1 "SW_Push" H 6650 4444 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6650 4450 50  0001 C CNN
-F 3 "~" H 6650 4450 50  0001 C CNN
-	1    6650 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D33
-U 1 1 6566F9CE
-P 6450 4400
-AR Path="/67E4E0EB/6566F9CE" Ref="D33"  Part="1" 
-AR Path="/67E4ECE8/6566F9CE" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/6566F9CE" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/6566F9CE" Ref="D?"  Part="1" 
-F 0 "D33" V 6496 4320 50  0000 R CNN
-F 1 "D" V 6405 4320 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 6450 4400 50  0001 C CNN
-F 3 "~" H 6450 4400 50  0001 C CNN
-	1    6450 4400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW32
-U 1 1 66F6AEF3
-P 6150 4250
-AR Path="/67E4E0EB/66F6AEF3" Ref="SW32"  Part="1" 
-AR Path="/67E4ECE8/66F6AEF3" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/66F6AEF3" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEF3" Ref="SW?"  Part="1" 
-F 0 "SW32" H 6150 4535 50  0000 C CNN
-F 1 "SW_Push" H 6150 4444 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6150 4450 50  0001 C CNN
-F 3 "~" H 6150 4450 50  0001 C CNN
-	1    6150 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D32
-U 1 1 6566F9E2
-P 5950 4400
-AR Path="/67E4E0EB/6566F9E2" Ref="D32"  Part="1" 
-AR Path="/67E4ECE8/6566F9E2" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/6566F9E2" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/6566F9E2" Ref="D?"  Part="1" 
-F 0 "D32" V 5996 4320 50  0000 R CNN
-F 1 "D" V 5905 4320 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 5950 4400 50  0001 C CNN
-F 3 "~" H 5950 4400 50  0001 C CNN
-	1    5950 4400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW31
-U 1 1 6566F9EC
-P 5650 4250
-AR Path="/67E4E0EB/6566F9EC" Ref="SW31"  Part="1" 
-AR Path="/67E4ECE8/6566F9EC" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/6566F9EC" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/6566F9EC" Ref="SW?"  Part="1" 
-F 0 "SW31" H 5650 4535 50  0000 C CNN
-F 1 "SW_Push" H 5650 4444 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5650 4450 50  0001 C CNN
-F 3 "~" H 5650 4450 50  0001 C CNN
-	1    5650 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D31
-U 1 1 6566F9F6
-P 5450 4400
-AR Path="/67E4E0EB/6566F9F6" Ref="D31"  Part="1" 
-AR Path="/67E4ECE8/6566F9F6" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/6566F9F6" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/6566F9F6" Ref="D?"  Part="1" 
-F 0 "D31" V 5496 4320 50  0000 R CNN
-F 1 "D" V 5405 4320 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 5450 4400 50  0001 C CNN
-F 3 "~" H 5450 4400 50  0001 C CNN
-	1    5450 4400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW52
-U 1 1 6566FA00
-P 8650 4900
-AR Path="/67E4E0EB/6566FA00" Ref="SW52"  Part="1" 
-AR Path="/67E4ECE8/6566FA00" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/6566FA00" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/6566FA00" Ref="SW?"  Part="1" 
-F 0 "SW52" H 8650 5185 50  0000 C CNN
-F 1 "SW_Push" H 8650 5094 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8650 5100 50  0001 C CNN
-F 3 "~" H 8650 5100 50  0001 C CNN
-	1    8650 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D52
-U 1 1 6566FA0A
-P 8450 5050
-AR Path="/67E4E0EB/6566FA0A" Ref="D52"  Part="1" 
-AR Path="/67E4ECE8/6566FA0A" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/6566FA0A" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/6566FA0A" Ref="D?"  Part="1" 
-F 0 "D52" V 8496 4970 50  0000 R CNN
-F 1 "D" V 8405 4970 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 8450 5050 50  0001 C CNN
-F 3 "~" H 8450 5050 50  0001 C CNN
-	1    8450 5050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW51
-U 1 1 66F6AEF9
-P 8150 4900
-AR Path="/67E4E0EB/66F6AEF9" Ref="SW51"  Part="1" 
-AR Path="/67E4ECE8/66F6AEF9" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/66F6AEF9" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEF9" Ref="SW?"  Part="1" 
-F 0 "SW51" H 8150 5185 50  0000 C CNN
-F 1 "SW_Push" H 8150 5094 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8150 5100 50  0001 C CNN
-F 3 "~" H 8150 5100 50  0001 C CNN
-	1    8150 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D51
-U 1 1 6566FA1E
-P 7950 5050
-AR Path="/67E4E0EB/6566FA1E" Ref="D51"  Part="1" 
-AR Path="/67E4ECE8/6566FA1E" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/6566FA1E" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/6566FA1E" Ref="D?"  Part="1" 
-F 0 "D51" V 7996 4970 50  0000 R CNN
-F 1 "D" V 7905 4970 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 7950 5050 50  0001 C CNN
-F 3 "~" H 7950 5050 50  0001 C CNN
-	1    7950 5050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW50
-U 1 1 66F6AEFB
-P 7650 4900
-AR Path="/67E4E0EB/66F6AEFB" Ref="SW50"  Part="1" 
-AR Path="/67E4ECE8/66F6AEFB" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/66F6AEFB" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEFB" Ref="SW?"  Part="1" 
-F 0 "SW50" H 7650 5185 50  0000 C CNN
-F 1 "SW_Push" H 7650 5094 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7650 5100 50  0001 C CNN
-F 3 "~" H 7650 5100 50  0001 C CNN
-	1    7650 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D50
-U 1 1 66F6AEFC
-P 7450 5050
-AR Path="/67E4E0EB/66F6AEFC" Ref="D50"  Part="1" 
-AR Path="/67E4ECE8/66F6AEFC" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/66F6AEFC" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEFC" Ref="D?"  Part="1" 
-F 0 "D50" V 7496 4970 50  0000 R CNN
-F 1 "D" V 7405 4970 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 7450 5050 50  0001 C CNN
-F 3 "~" H 7450 5050 50  0001 C CNN
-	1    7450 5050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW49
-U 1 1 66F6AEFD
-P 7150 4900
-AR Path="/67E4E0EB/66F6AEFD" Ref="SW49"  Part="1" 
-AR Path="/67E4ECE8/66F6AEFD" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/66F6AEFD" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEFD" Ref="SW?"  Part="1" 
-F 0 "SW49" H 7150 5185 50  0000 C CNN
-F 1 "SW_Push" H 7150 5094 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7150 5100 50  0001 C CNN
-F 3 "~" H 7150 5100 50  0001 C CNN
-	1    7150 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D49
-U 1 1 66F6AEFE
-P 6950 5050
-AR Path="/67E4E0EB/66F6AEFE" Ref="D49"  Part="1" 
-AR Path="/67E4ECE8/66F6AEFE" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/66F6AEFE" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEFE" Ref="D?"  Part="1" 
-F 0 "D49" V 6996 4970 50  0000 R CNN
-F 1 "D" V 6905 4970 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 6950 5050 50  0001 C CNN
-F 3 "~" H 6950 5050 50  0001 C CNN
-	1    6950 5050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW48
-U 1 1 66F6AEFF
-P 6650 4900
-AR Path="/67E4E0EB/66F6AEFF" Ref="SW48"  Part="1" 
-AR Path="/67E4ECE8/66F6AEFF" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/66F6AEFF" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/66F6AEFF" Ref="SW?"  Part="1" 
-F 0 "SW48" H 6650 5185 50  0000 C CNN
-F 1 "SW_Push" H 6650 5094 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6650 5100 50  0001 C CNN
-F 3 "~" H 6650 5100 50  0001 C CNN
-	1    6650 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D48
-U 1 1 66F6AF00
-P 6450 5050
-AR Path="/67E4E0EB/66F6AF00" Ref="D48"  Part="1" 
-AR Path="/67E4ECE8/66F6AF00" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/66F6AF00" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF00" Ref="D?"  Part="1" 
-F 0 "D48" V 6496 4970 50  0000 R CNN
-F 1 "D" V 6405 4970 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 6450 5050 50  0001 C CNN
-F 3 "~" H 6450 5050 50  0001 C CNN
-	1    6450 5050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW47
-U 1 1 6566FA64
-P 6150 4900
-AR Path="/67E4E0EB/6566FA64" Ref="SW47"  Part="1" 
-AR Path="/67E4ECE8/6566FA64" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/6566FA64" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/6566FA64" Ref="SW?"  Part="1" 
-F 0 "SW47" H 6150 5185 50  0000 C CNN
-F 1 "SW_Push" H 6150 5094 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6150 5100 50  0001 C CNN
-F 3 "~" H 6150 5100 50  0001 C CNN
-	1    6150 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D47
-U 1 1 6566FA6E
-P 5950 5050
-AR Path="/67E4E0EB/6566FA6E" Ref="D47"  Part="1" 
-AR Path="/67E4ECE8/6566FA6E" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/6566FA6E" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/6566FA6E" Ref="D?"  Part="1" 
-F 0 "D47" V 5996 4970 50  0000 R CNN
-F 1 "D" V 5905 4970 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 5950 5050 50  0001 C CNN
-F 3 "~" H 5950 5050 50  0001 C CNN
-	1    5950 5050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW46
-U 1 1 6566FA78
-P 5650 4900
-AR Path="/67E4E0EB/6566FA78" Ref="SW46"  Part="1" 
-AR Path="/67E4ECE8/6566FA78" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/6566FA78" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/6566FA78" Ref="SW?"  Part="1" 
-F 0 "SW46" H 5650 5185 50  0000 C CNN
-F 1 "SW_Push" H 5650 5094 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5650 5100 50  0001 C CNN
-F 3 "~" H 5650 5100 50  0001 C CNN
-	1    5650 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D46
-U 1 1 6566FA82
-P 5450 5050
-AR Path="/67E4E0EB/6566FA82" Ref="D46"  Part="1" 
-AR Path="/67E4ECE8/6566FA82" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/6566FA82" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/6566FA82" Ref="D?"  Part="1" 
-F 0 "D46" V 5496 4970 50  0000 R CNN
-F 1 "D" V 5405 4970 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 5450 5050 50  0001 C CNN
-F 3 "~" H 5450 5050 50  0001 C CNN
-	1    5450 5050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW67
-U 1 1 6566FA8C
-P 8650 5550
-AR Path="/67E4E0EB/6566FA8C" Ref="SW67"  Part="1" 
-AR Path="/67E4ECE8/6566FA8C" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/6566FA8C" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/6566FA8C" Ref="SW?"  Part="1" 
-F 0 "SW67" H 8650 5835 50  0000 C CNN
-F 1 "SW_Push" H 8650 5744 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8650 5750 50  0001 C CNN
-F 3 "~" H 8650 5750 50  0001 C CNN
-	1    8650 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D67
-U 1 1 6566FA96
-P 8450 5700
-AR Path="/67E4E0EB/6566FA96" Ref="D67"  Part="1" 
-AR Path="/67E4ECE8/6566FA96" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/6566FA96" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/6566FA96" Ref="D?"  Part="1" 
-F 0 "D67" V 8496 5620 50  0000 R CNN
-F 1 "D" V 8405 5620 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 8450 5700 50  0001 C CNN
-F 3 "~" H 8450 5700 50  0001 C CNN
-	1    8450 5700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW66
-U 1 1 6566FAA0
-P 8150 5550
-AR Path="/67E4E0EB/6566FAA0" Ref="SW66"  Part="1" 
-AR Path="/67E4ECE8/6566FAA0" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/6566FAA0" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/6566FAA0" Ref="SW?"  Part="1" 
-F 0 "SW66" H 8150 5835 50  0000 C CNN
-F 1 "SW_Push" H 8150 5744 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8150 5750 50  0001 C CNN
-F 3 "~" H 8150 5750 50  0001 C CNN
-	1    8150 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D66
-U 1 1 66F6AF08
-P 7950 5700
-AR Path="/67E4E0EB/66F6AF08" Ref="D66"  Part="1" 
-AR Path="/67E4ECE8/66F6AF08" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/66F6AF08" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF08" Ref="D?"  Part="1" 
-F 0 "D66" V 7996 5620 50  0000 R CNN
-F 1 "D" V 7905 5620 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 7950 5700 50  0001 C CNN
-F 3 "~" H 7950 5700 50  0001 C CNN
-	1    7950 5700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW65
-U 1 1 6566FAB4
-P 7650 5550
-AR Path="/67E4E0EB/6566FAB4" Ref="SW65"  Part="1" 
-AR Path="/67E4ECE8/6566FAB4" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/6566FAB4" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/6566FAB4" Ref="SW?"  Part="1" 
-F 0 "SW65" H 7650 5835 50  0000 C CNN
-F 1 "SW_Push" H 7650 5744 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7650 5750 50  0001 C CNN
-F 3 "~" H 7650 5750 50  0001 C CNN
-	1    7650 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D65
-U 1 1 6566FABE
-P 7450 5700
-AR Path="/67E4E0EB/6566FABE" Ref="D65"  Part="1" 
-AR Path="/67E4ECE8/6566FABE" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/6566FABE" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/6566FABE" Ref="D?"  Part="1" 
-F 0 "D65" V 7496 5620 50  0000 R CNN
-F 1 "D" V 7405 5620 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 7450 5700 50  0001 C CNN
-F 3 "~" H 7450 5700 50  0001 C CNN
-	1    7450 5700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW64
-U 1 1 6566FAC8
-P 7150 5550
-AR Path="/67E4E0EB/6566FAC8" Ref="SW64"  Part="1" 
-AR Path="/67E4ECE8/6566FAC8" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/6566FAC8" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/6566FAC8" Ref="SW?"  Part="1" 
-F 0 "SW64" H 7150 5835 50  0000 C CNN
-F 1 "SW_Push" H 7150 5744 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7150 5750 50  0001 C CNN
-F 3 "~" H 7150 5750 50  0001 C CNN
-	1    7150 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D64
-U 1 1 6566FAD2
-P 6950 5700
-AR Path="/67E4E0EB/6566FAD2" Ref="D64"  Part="1" 
-AR Path="/67E4ECE8/6566FAD2" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/6566FAD2" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/6566FAD2" Ref="D?"  Part="1" 
-F 0 "D64" V 6996 5620 50  0000 R CNN
-F 1 "D" V 6905 5620 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 6950 5700 50  0001 C CNN
-F 3 "~" H 6950 5700 50  0001 C CNN
-	1    6950 5700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW63
-U 1 1 6566FADC
-P 6650 5550
-AR Path="/67E4E0EB/6566FADC" Ref="SW63"  Part="1" 
-AR Path="/67E4ECE8/6566FADC" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/6566FADC" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/6566FADC" Ref="SW?"  Part="1" 
-F 0 "SW63" H 6650 5835 50  0000 C CNN
-F 1 "SW_Push" H 6650 5744 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6650 5750 50  0001 C CNN
-F 3 "~" H 6650 5750 50  0001 C CNN
-	1    6650 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D63
-U 1 1 6566FAE6
-P 6450 5700
-AR Path="/67E4E0EB/6566FAE6" Ref="D63"  Part="1" 
-AR Path="/67E4ECE8/6566FAE6" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/6566FAE6" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/6566FAE6" Ref="D?"  Part="1" 
-F 0 "D63" V 6496 5620 50  0000 R CNN
-F 1 "D" V 6405 5620 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 6450 5700 50  0001 C CNN
-F 3 "~" H 6450 5700 50  0001 C CNN
-	1    6450 5700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW62
-U 1 1 6566FAF0
-P 6150 5550
-AR Path="/67E4E0EB/6566FAF0" Ref="SW62"  Part="1" 
-AR Path="/67E4ECE8/6566FAF0" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/6566FAF0" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/6566FAF0" Ref="SW?"  Part="1" 
-F 0 "SW62" H 6150 5835 50  0000 C CNN
-F 1 "SW_Push" H 6150 5744 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6150 5750 50  0001 C CNN
-F 3 "~" H 6150 5750 50  0001 C CNN
-	1    6150 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D62
-U 1 1 66F6AF10
-P 5950 5700
-AR Path="/67E4E0EB/66F6AF10" Ref="D62"  Part="1" 
-AR Path="/67E4ECE8/66F6AF10" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/66F6AF10" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF10" Ref="D?"  Part="1" 
-F 0 "D62" V 5996 5620 50  0000 R CNN
-F 1 "D" V 5905 5620 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 5950 5700 50  0001 C CNN
-F 3 "~" H 5950 5700 50  0001 C CNN
-	1    5950 5700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW61
-U 1 1 66F6AF11
-P 5650 5550
-AR Path="/67E4E0EB/66F6AF11" Ref="SW61"  Part="1" 
-AR Path="/67E4ECE8/66F6AF11" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/66F6AF11" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF11" Ref="SW?"  Part="1" 
-F 0 "SW61" H 5650 5835 50  0000 C CNN
-F 1 "SW_Push" H 5650 5744 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5650 5750 50  0001 C CNN
-F 3 "~" H 5650 5750 50  0001 C CNN
-	1    5650 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D61
-U 1 1 6566FB0E
-P 5450 5700
-AR Path="/67E4E0EB/6566FB0E" Ref="D61"  Part="1" 
-AR Path="/67E4ECE8/6566FB0E" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/6566FB0E" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/6566FB0E" Ref="D?"  Part="1" 
-F 0 "D61" V 5496 5620 50  0000 R CNN
-F 1 "D" V 5405 5620 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 5450 5700 50  0001 C CNN
-F 3 "~" H 5450 5700 50  0001 C CNN
-	1    5450 5700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW82
-U 1 1 6566FB18
-P 8650 6200
-AR Path="/67E4E0EB/6566FB18" Ref="SW82"  Part="1" 
-AR Path="/67E4ECE8/6566FB18" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/6566FB18" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/6566FB18" Ref="SW?"  Part="1" 
-F 0 "SW82" H 8650 6485 50  0000 C CNN
-F 1 "SW_Push" H 8650 6394 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8650 6400 50  0001 C CNN
-F 3 "~" H 8650 6400 50  0001 C CNN
-	1    8650 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D82
-U 1 1 6566FB22
-P 8450 6350
-AR Path="/67E4E0EB/6566FB22" Ref="D82"  Part="1" 
-AR Path="/67E4ECE8/6566FB22" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/6566FB22" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/6566FB22" Ref="D?"  Part="1" 
-F 0 "D82" V 8496 6270 50  0000 R CNN
-F 1 "D" V 8405 6270 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 8450 6350 50  0001 C CNN
-F 3 "~" H 8450 6350 50  0001 C CNN
-	1    8450 6350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW81
-U 1 1 6566FB2C
-P 8150 6200
-AR Path="/67E4E0EB/6566FB2C" Ref="SW81"  Part="1" 
-AR Path="/67E4ECE8/6566FB2C" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/6566FB2C" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/6566FB2C" Ref="SW?"  Part="1" 
-F 0 "SW81" H 8150 6485 50  0000 C CNN
-F 1 "SW_Push" H 8150 6394 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 8150 6400 50  0001 C CNN
-F 3 "~" H 8150 6400 50  0001 C CNN
-	1    8150 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D81
-U 1 1 6566FB36
-P 7950 6350
-AR Path="/67E4E0EB/6566FB36" Ref="D81"  Part="1" 
-AR Path="/67E4ECE8/6566FB36" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/6566FB36" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/6566FB36" Ref="D?"  Part="1" 
-F 0 "D81" V 7996 6270 50  0000 R CNN
-F 1 "D" V 7905 6270 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 7950 6350 50  0001 C CNN
-F 3 "~" H 7950 6350 50  0001 C CNN
-	1    7950 6350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW80
-U 1 1 6566FB40
-P 7650 6200
-AR Path="/67E4E0EB/6566FB40" Ref="SW80"  Part="1" 
-AR Path="/67E4ECE8/6566FB40" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/6566FB40" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/6566FB40" Ref="SW?"  Part="1" 
-F 0 "SW80" H 7650 6485 50  0000 C CNN
-F 1 "SW_Push" H 7650 6394 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7650 6400 50  0001 C CNN
-F 3 "~" H 7650 6400 50  0001 C CNN
-	1    7650 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D80
-U 1 1 6566FB4A
-P 7450 6350
-AR Path="/67E4E0EB/6566FB4A" Ref="D80"  Part="1" 
-AR Path="/67E4ECE8/6566FB4A" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/6566FB4A" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/6566FB4A" Ref="D?"  Part="1" 
-F 0 "D80" V 7496 6270 50  0000 R CNN
-F 1 "D" V 7405 6270 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 7450 6350 50  0001 C CNN
-F 3 "~" H 7450 6350 50  0001 C CNN
-	1    7450 6350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW79
-U 1 1 6566FB54
-P 7150 6200
-AR Path="/67E4E0EB/6566FB54" Ref="SW79"  Part="1" 
-AR Path="/67E4ECE8/6566FB54" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/6566FB54" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/6566FB54" Ref="SW?"  Part="1" 
-F 0 "SW79" H 7150 6485 50  0000 C CNN
-F 1 "SW_Push" H 7150 6394 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 7150 6400 50  0001 C CNN
-F 3 "~" H 7150 6400 50  0001 C CNN
-	1    7150 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D79
-U 1 1 66F6AF1A
-P 6950 6350
-AR Path="/67E4E0EB/66F6AF1A" Ref="D79"  Part="1" 
-AR Path="/67E4ECE8/66F6AF1A" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/66F6AF1A" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF1A" Ref="D?"  Part="1" 
-F 0 "D79" V 6996 6270 50  0000 R CNN
-F 1 "D" V 6905 6270 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 6950 6350 50  0001 C CNN
-F 3 "~" H 6950 6350 50  0001 C CNN
-	1    6950 6350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW78
-U 1 1 66F6AF1B
-P 6650 6200
-AR Path="/67E4E0EB/66F6AF1B" Ref="SW78"  Part="1" 
-AR Path="/67E4ECE8/66F6AF1B" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/66F6AF1B" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF1B" Ref="SW?"  Part="1" 
-F 0 "SW78" H 6650 6485 50  0000 C CNN
-F 1 "SW_Push" H 6650 6394 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6650 6400 50  0001 C CNN
-F 3 "~" H 6650 6400 50  0001 C CNN
-	1    6650 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D78
-U 1 1 66F6AF1C
-P 6450 6350
-AR Path="/67E4E0EB/66F6AF1C" Ref="D78"  Part="1" 
-AR Path="/67E4ECE8/66F6AF1C" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/66F6AF1C" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF1C" Ref="D?"  Part="1" 
-F 0 "D78" V 6496 6270 50  0000 R CNN
-F 1 "D" V 6405 6270 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 6450 6350 50  0001 C CNN
-F 3 "~" H 6450 6350 50  0001 C CNN
-	1    6450 6350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW77
-U 1 1 6566FB7C
-P 6150 6200
-AR Path="/67E4E0EB/6566FB7C" Ref="SW77"  Part="1" 
-AR Path="/67E4ECE8/6566FB7C" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/6566FB7C" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/6566FB7C" Ref="SW?"  Part="1" 
-F 0 "SW77" H 6150 6485 50  0000 C CNN
-F 1 "SW_Push" H 6150 6394 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6150 6400 50  0001 C CNN
-F 3 "~" H 6150 6400 50  0001 C CNN
-	1    6150 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D77
-U 1 1 66F6AF1E
-P 5950 6350
-AR Path="/67E4E0EB/66F6AF1E" Ref="D77"  Part="1" 
-AR Path="/67E4ECE8/66F6AF1E" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/66F6AF1E" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF1E" Ref="D?"  Part="1" 
-F 0 "D77" V 5996 6270 50  0000 R CNN
-F 1 "D" V 5905 6270 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 5950 6350 50  0001 C CNN
-F 3 "~" H 5950 6350 50  0001 C CNN
-	1    5950 6350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW76
-U 1 1 66F6AF1F
-P 5650 6200
-AR Path="/67E4E0EB/66F6AF1F" Ref="SW76"  Part="1" 
-AR Path="/67E4ECE8/66F6AF1F" Ref="SW?"  Part="1" 
-AR Path="/67E4ED54/66F6AF1F" Ref="SW?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF1F" Ref="SW?"  Part="1" 
-F 0 "SW76" H 5650 6485 50  0000 C CNN
-F 1 "SW_Push" H 5650 6394 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5650 6400 50  0001 C CNN
-F 3 "~" H 5650 6400 50  0001 C CNN
-	1    5650 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D76
-U 1 1 66F6AF20
-P 5450 6350
-AR Path="/67E4E0EB/66F6AF20" Ref="D76"  Part="1" 
-AR Path="/67E4ECE8/66F6AF20" Ref="D?"  Part="1" 
-AR Path="/67E4ED54/66F6AF20" Ref="D?"  Part="1" 
-AR Path="/67E4ED7B/66F6AF20" Ref="D?"  Part="1" 
-F 0 "D76" V 5496 6270 50  0000 R CNN
-F 1 "D" V 5405 6270 50  0000 R CNN
-F 2 "libmodulo:D_SOD123" H 5450 6350 50  0001 C CNN
-F 3 "~" H 5450 6350 50  0001 C CNN
-	1    5450 6350
-	0    -1   -1   0   
-$EndComp
-Connection ~ 5850 2950
-Connection ~ 6350 2950
-Connection ~ 6850 2950
-Connection ~ 7350 2950
-Connection ~ 7850 2950
-Connection ~ 8350 2950
-Connection ~ 8850 2950
-NoConn ~ 6900 700 
-$Comp
-L power:GND1 #PWR0108
-U 1 1 60C29E83
-P 6800 700
-AR Path="/67E4E0EB/60C29E83" Ref="#PWR0108"  Part="1" 
-AR Path="/67E4ECE8/60C29E83" Ref="#PWR?"  Part="1" 
-AR Path="/67E4ED54/60C29E83" Ref="#PWR?"  Part="1" 
-AR Path="/67E4ED7B/60C29E83" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0108" H 6800 450 50  0001 C CNN
-F 1 "GND1" H 6805 527 50  0000 C CNN
-F 2 "" H 6800 700 50  0001 C CNN
-F 3 "" H 6800 700 50  0001 C CNN
-	1    6800 700 
-	1    0    0    1   
-$EndComp
-$Comp
-L power:GND1 #PWR0109
-U 1 1 60CE88BA
-P 6650 2100
-AR Path="/67E4E0EB/60CE88BA" Ref="#PWR0109"  Part="1" 
-AR Path="/67E4ECE8/60CE88BA" Ref="#PWR?"  Part="1" 
-AR Path="/67E4ED54/60CE88BA" Ref="#PWR?"  Part="1" 
-AR Path="/67E4ED7B/60CE88BA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0109" H 6650 1850 50  0001 C CNN
-F 1 "GND1" H 6655 1927 50  0000 C CNN
-F 2 "" H 6650 2100 50  0001 C CNN
-F 3 "" H 6650 2100 50  0001 C CNN
-	1    6650 2100
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 2100 6650 2100
-Connection ~ 6650 2100
-Wire Wire Line
-	6650 2100 6700 2100
-Wire Wire Line
-	6900 2150 6900 2100
-Wire Wire Line
-	5350 1500 5350 2350
-NoConn ~ 5400 1200
-NoConn ~ 5400 1300
-NoConn ~ 5400 1400
-NoConn ~ 5400 1600
-$Comp
-L keebio:Elite-C U1
-U 1 1 66F6AECB
-P 6350 1400
-AR Path="/67E4E0EB/66F6AECB" Ref="U1"  Part="1" 
-AR Path="/67E4ECE8/66F6AECB" Ref="U?"  Part="1" 
-AR Path="/67E4ED54/66F6AECB" Ref="U?"  Part="1" 
-AR Path="/67E4ED7B/66F6AECB" Ref="U?"  Part="1" 
-F 0 "U1" V 6297 2078 60  0000 L CNN
-F 1 "Elite-C" V 6403 2078 60  0000 L CNN
-F 2 "Keebio-Parts:Elite-C" V 7400 -1100 60  0001 C CNN
-F 3 "" V 7400 -1100 60  0001 C CNN
-	1    6350 1400
-	0    1    -1   0   
-$EndComp
-$Comp
-L Graphic:SYM_Arrow_Tiny #SYM9
-U 1 1 60638C2F
-P 9650 1250
-AR Path="/67E4E0EB/60638C2F" Ref="#SYM9"  Part="1" 
-AR Path="/67E4ECE8/60638C2F" Ref="#SYM?"  Part="1" 
-AR Path="/67E4ED54/60638C2F" Ref="#SYM?"  Part="1" 
-AR Path="/67E4ED7B/60638C2F" Ref="#SYM?"  Part="1" 
-F 0 "#SYM9" H 9650 1310 50  0001 C CNN
-F 1 "SYM_Arrow_Tiny" H 9660 1200 50  0001 C CNN
-F 2 "" H 9650 1250 50  0001 C CNN
-F 3 "~" H 9650 1250 50  0001 C CNN
-	1    9650 1250
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	9700 1050 9800 1050
 Wire Wire Line
 	9800 1200 9800 1050
-Text Label 9650 1300 2    50   ~ 0
-VCC
 $Comp
 L power:GND1 #PWR0110
 U 1 1 60420C73
@@ -1821,23 +232,6 @@ F 3 "" H 9800 2400 50  0001 C CNN
 	1    9800 2400
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Graphic:SYM_Arrow_Tiny #SYM10
-U 1 1 6091992F
-P 9600 2150
-AR Path="/67E4E0EB/6091992F" Ref="#SYM10"  Part="1" 
-AR Path="/67E4ECE8/6091992F" Ref="#SYM?"  Part="1" 
-AR Path="/67E4ED54/6091992F" Ref="#SYM?"  Part="1" 
-AR Path="/67E4ED7B/6091992F" Ref="#SYM?"  Part="1" 
-F 0 "#SYM10" H 9600 2210 50  0001 C CNN
-F 1 "SYM_Arrow_Tiny" H 9610 2100 50  0001 C CNN
-F 2 "" H 9600 2150 50  0001 C CNN
-F 3 "~" H 9600 2150 50  0001 C CNN
-	1    9600 2150
-	0    -1   -1   0   
-$EndComp
-Text Label 9600 2200 2    50   ~ 0
-VCC
 Wire Wire Line
 	9600 1700 9800 1700
 Wire Wire Line
@@ -1850,64 +244,10 @@ Wire Wire Line
 	9600 2200 9700 2200
 Wire Wire Line
 	9600 1900 9700 1900
-Text Label 7300 2250 0    50   ~ 0
-CLK
 NoConn ~ 9800 1400
 NoConn ~ 9800 1500
 NoConn ~ 9800 2000
 NoConn ~ 9800 2100
-Connection ~ 11050 5750
-Wire Wire Line
-	10500 5200 10500 5750
-Connection ~ 10500 5750
-Wire Wire Line
-	11050 5750 11050 6050
-Wire Wire Line
-	10500 5750 10500 6050
-$Comp
-L Device:R_US R7
-U 1 1 60D247FA
-P 10900 5750
-AR Path="/67E4E0EB/60D247FA" Ref="R7"  Part="1" 
-AR Path="/67E4ECE8/60D247FA" Ref="R?"  Part="1" 
-AR Path="/67E4ED54/60D247FA" Ref="R?"  Part="1" 
-AR Path="/67E4ED7B/60D247FA" Ref="R?"  Part="1" 
-F 0 "R7" V 10693 5750 50  0000 C CNN
-F 1 "4.7k" V 10784 5750 50  0000 C CNN
-F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 10830 5750 50  0001 C CNN
-F 3 "~" H 10900 5750 50  0001 C CNN
-	1    10900 5750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	10750 5750 10500 5750
-Connection ~ 11050 5450
-Connection ~ 10600 5450
-Wire Wire Line
-	11050 5100 11050 5450
-Wire Wire Line
-	10600 5200 10600 5450
-Wire Wire Line
-	11050 5450 11050 5750
-Wire Wire Line
-	10600 5450 10600 6050
-Wire Wire Line
-	10750 5450 10600 5450
-$Comp
-L Device:R_US R5
-U 1 1 60D24804
-P 10900 5450
-AR Path="/67E4E0EB/60D24804" Ref="R5"  Part="1" 
-AR Path="/67E4ECE8/60D24804" Ref="R?"  Part="1" 
-AR Path="/67E4ED54/60D24804" Ref="R?"  Part="1" 
-AR Path="/67E4ED7B/60D24804" Ref="R?"  Part="1" 
-F 0 "R5" V 10693 5450 50  0000 C CNN
-F 1 "4.7k" V 10784 5450 50  0000 C CNN
-F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 10830 5450 50  0001 C CNN
-F 3 "~" H 10900 5450 50  0001 C CNN
-	1    10900 5450
-	0    -1   -1   0   
-$EndComp
 $Comp
 L keebio:HRO-TYPE-C-31-M-12 USB1
 U 1 1 603E780E
@@ -1918,1206 +258,6 @@ F 2 "libmodulo:HRO-TYPE-C-31-M-12" H 9900 1750 60  0001 C CNN
 F 3 "" H 9900 1750 60  0001 C CNN
 	1    9900 1750
 	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	7950 3250 8450 3250
-$Comp
-L power:GND1 #PWR0101
-U 1 1 63E66028
-P 2400 3500
-F 0 "#PWR0101" H 2400 3250 50  0001 C CNN
-F 1 "GND1" H 2405 3327 50  0000 C CNN
-F 2 "" H 2400 3500 50  0001 C CNN
-F 3 "" H 2400 3500 50  0001 C CNN
-	1    2400 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SK6812MINI L31
-U 1 1 64D5311F
-P 850 1650
-F 0 "L31" H 850 1650 51  0000 C CNN
-F 1 "SK6812MINI" H 850 1600 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 850 1650 60  0001 C CNN
-F 3 "" H 850 1650 60  0001 C CNN
-	1    850  1650
-	-1   0    0    1   
-$EndComp
-$Comp
-L kbd:SK6812MINI L16
-U 1 1 64B825B7
-P 850 1250
-F 0 "L16" H 850 1250 51  0000 C CNN
-F 1 "SK6812MINI" H 850 1200 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 850 1250 60  0001 C CNN
-F 3 "" H 850 1250 60  0001 C CNN
-	1    850  1250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1050 1350 1050 1450
-Wire Wire Line
-	1050 1450 650  1450
-Wire Wire Line
-	650  1450 650  1550
-$Comp
-L kbd:SK6812MINI L46
-U 1 1 64E84796
-P 850 2050
-F 0 "L46" H 850 2050 51  0000 C CNN
-F 1 "SK6812MINI" H 850 2000 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 850 2050 60  0001 C CNN
-F 3 "" H 850 2050 60  0001 C CNN
-	1    850  2050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1050 1750 1050 1850
-Wire Wire Line
-	1050 1850 650  1850
-Wire Wire Line
-	650  1850 650  1950
-$Comp
-L kbd:SK6812MINI L61
-U 1 1 64EB9BCD
-P 850 2450
-F 0 "L61" H 850 2450 51  0000 C CNN
-F 1 "SK6812MINI" H 850 2400 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 850 2450 60  0001 C CNN
-F 3 "" H 850 2450 60  0001 C CNN
-	1    850  2450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1050 2150 1050 2250
-Wire Wire Line
-	1050 2250 650  2250
-Wire Wire Line
-	650  2250 650  2350
-$Comp
-L kbd:SK6812MINI L76
-U 1 1 64EF009A
-P 850 2850
-F 0 "L76" H 850 2850 51  0000 C CNN
-F 1 "SK6812MINI" H 850 2800 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 850 2850 60  0001 C CNN
-F 3 "" H 850 2850 60  0001 C CNN
-	1    850  2850
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1050 2550 1050 2650
-Wire Wire Line
-	1050 2650 650  2650
-Wire Wire Line
-	650  2650 650  2750
-Wire Wire Line
-	650  1350 600  1350
-Wire Wire Line
-	600  1350 600  1750
-Wire Wire Line
-	600  2950 650  2950
-Wire Wire Line
-	650  2550 600  2550
-Connection ~ 600  2550
-Wire Wire Line
-	600  2550 600  2950
-Wire Wire Line
-	650  2150 600  2150
-Connection ~ 600  2150
-Wire Wire Line
-	600  2150 600  2550
-Wire Wire Line
-	650  1750 600  1750
-Connection ~ 600  1750
-Wire Wire Line
-	600  1750 600  2150
-Wire Wire Line
-	1050 1150 1100 1150
-Wire Wire Line
-	1100 1150 1100 1550
-Wire Wire Line
-	1100 2750 1050 2750
-Wire Wire Line
-	1050 2350 1100 2350
-Connection ~ 1100 2350
-Wire Wire Line
-	1100 2350 1100 2750
-Wire Wire Line
-	1050 1950 1100 1950
-Connection ~ 1100 1950
-Wire Wire Line
-	1100 1950 1100 2350
-Wire Wire Line
-	1050 1550 1100 1550
-Connection ~ 1100 1550
-Wire Wire Line
-	1100 1550 1100 1950
-$Comp
-L kbd:SK6812MINI L62
-U 1 1 650F1507
-P 1450 2450
-F 0 "L62" H 1450 2450 51  0000 C CNN
-F 1 "SK6812MINI" H 1450 2400 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 1450 2450 60  0001 C CNN
-F 3 "" H 1450 2450 60  0001 C CNN
-	1    1450 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SK6812MINI L77
-U 1 1 650F15E1
-P 1450 2850
-F 0 "L77" H 1450 2850 51  0000 C CNN
-F 1 "SK6812MINI" H 1450 2800 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 1450 2850 60  0001 C CNN
-F 3 "" H 1450 2850 60  0001 C CNN
-	1    1450 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 2750 1250 2650
-Wire Wire Line
-	1250 2650 1650 2650
-Wire Wire Line
-	1650 2650 1650 2550
-$Comp
-L kbd:SK6812MINI L47
-U 1 1 650F15EE
-P 1450 2050
-F 0 "L47" H 1450 2050 51  0000 C CNN
-F 1 "SK6812MINI" H 1450 2000 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 1450 2050 60  0001 C CNN
-F 3 "" H 1450 2050 60  0001 C CNN
-	1    1450 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 2350 1250 2250
-Wire Wire Line
-	1250 2250 1650 2250
-Wire Wire Line
-	1650 2250 1650 2150
-$Comp
-L kbd:SK6812MINI L32
-U 1 1 650F15FB
-P 1450 1650
-F 0 "L32" H 1450 1650 51  0000 C CNN
-F 1 "SK6812MINI" H 1450 1600 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 1450 1650 60  0001 C CNN
-F 3 "" H 1450 1650 60  0001 C CNN
-	1    1450 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 1950 1250 1850
-Wire Wire Line
-	1250 1850 1650 1850
-Wire Wire Line
-	1650 1850 1650 1750
-$Comp
-L kbd:SK6812MINI L17
-U 1 1 650F1608
-P 1450 1250
-F 0 "L17" H 1450 1250 51  0000 C CNN
-F 1 "SK6812MINI" H 1450 1200 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 1450 1250 60  0001 C CNN
-F 3 "" H 1450 1250 60  0001 C CNN
-	1    1450 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 1550 1250 1450
-Wire Wire Line
-	1250 1450 1650 1450
-Wire Wire Line
-	1650 1450 1650 1350
-Wire Wire Line
-	1650 2750 1700 2750
-Wire Wire Line
-	1700 2750 1700 2350
-Wire Wire Line
-	1700 1150 1650 1150
-Wire Wire Line
-	1650 1550 1700 1550
-Connection ~ 1700 1550
-Wire Wire Line
-	1700 1550 1700 1150
-Wire Wire Line
-	1650 1950 1700 1950
-Connection ~ 1700 1950
-Wire Wire Line
-	1700 1950 1700 1550
-Wire Wire Line
-	1650 2350 1700 2350
-Connection ~ 1700 2350
-Wire Wire Line
-	1700 2350 1700 1950
-Wire Wire Line
-	1250 2950 1200 2950
-Wire Wire Line
-	1200 2950 1200 2550
-Wire Wire Line
-	1200 1350 1250 1350
-Wire Wire Line
-	1250 1750 1200 1750
-Connection ~ 1200 1750
-Wire Wire Line
-	1200 1750 1200 1350
-Wire Wire Line
-	1250 2150 1200 2150
-Connection ~ 1200 2150
-Wire Wire Line
-	1200 2150 1200 1750
-Wire Wire Line
-	1250 2550 1200 2550
-Connection ~ 1200 2550
-Wire Wire Line
-	1200 2550 1200 2150
-$Comp
-L kbd:SK6812MINI L33
-U 1 1 652A4AC5
-P 2050 1650
-F 0 "L33" H 2050 1650 51  0000 C CNN
-F 1 "SK6812MINI" H 2050 1600 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 2050 1650 60  0001 C CNN
-F 3 "" H 2050 1650 60  0001 C CNN
-	1    2050 1650
-	-1   0    0    1   
-$EndComp
-$Comp
-L kbd:SK6812MINI L18
-U 1 1 652A4BCF
-P 2050 1250
-F 0 "L18" H 2050 1250 51  0000 C CNN
-F 1 "SK6812MINI" H 2050 1200 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 2050 1250 60  0001 C CNN
-F 3 "" H 2050 1250 60  0001 C CNN
-	1    2050 1250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2250 1350 2250 1450
-Wire Wire Line
-	2250 1450 1850 1450
-Wire Wire Line
-	1850 1450 1850 1550
-$Comp
-L kbd:SK6812MINI L48
-U 1 1 652A4BDC
-P 2050 2050
-F 0 "L48" H 2050 2050 51  0000 C CNN
-F 1 "SK6812MINI" H 2050 2000 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 2050 2050 60  0001 C CNN
-F 3 "" H 2050 2050 60  0001 C CNN
-	1    2050 2050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2250 1750 2250 1850
-Wire Wire Line
-	2250 1850 1850 1850
-Wire Wire Line
-	1850 1850 1850 1950
-$Comp
-L kbd:SK6812MINI L63
-U 1 1 652A4BE9
-P 2050 2450
-F 0 "L63" H 2050 2450 51  0000 C CNN
-F 1 "SK6812MINI" H 2050 2400 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 2050 2450 60  0001 C CNN
-F 3 "" H 2050 2450 60  0001 C CNN
-	1    2050 2450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2250 2150 2250 2250
-Wire Wire Line
-	2250 2250 1850 2250
-Wire Wire Line
-	1850 2250 1850 2350
-$Comp
-L kbd:SK6812MINI L78
-U 1 1 652A4BF6
-P 2050 2850
-F 0 "L78" H 2050 2850 51  0000 C CNN
-F 1 "SK6812MINI" H 2050 2800 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 2050 2850 60  0001 C CNN
-F 3 "" H 2050 2850 60  0001 C CNN
-	1    2050 2850
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2250 2550 2250 2650
-Wire Wire Line
-	2250 2650 1850 2650
-Wire Wire Line
-	1850 2650 1850 2750
-Wire Wire Line
-	1850 1350 1800 1350
-Wire Wire Line
-	1800 1350 1800 1750
-Wire Wire Line
-	1800 2950 1850 2950
-Wire Wire Line
-	1850 2550 1800 2550
-Connection ~ 1800 2550
-Wire Wire Line
-	1800 2550 1800 2950
-Wire Wire Line
-	1850 2150 1800 2150
-Connection ~ 1800 2150
-Wire Wire Line
-	1800 2150 1800 2550
-Wire Wire Line
-	1850 1750 1800 1750
-Connection ~ 1800 1750
-Wire Wire Line
-	1800 1750 1800 2150
-Wire Wire Line
-	2250 1150 2300 1150
-Wire Wire Line
-	2300 1150 2300 1550
-Wire Wire Line
-	2300 2750 2250 2750
-Wire Wire Line
-	2250 2350 2300 2350
-Connection ~ 2300 2350
-Wire Wire Line
-	2300 2350 2300 2750
-Wire Wire Line
-	2250 1950 2300 1950
-Connection ~ 2300 1950
-Wire Wire Line
-	2300 1950 2300 2350
-Wire Wire Line
-	2250 1550 2300 1550
-Connection ~ 2300 1550
-Wire Wire Line
-	2300 1550 2300 1950
-$Comp
-L kbd:SK6812MINI L64
-U 1 1 653AC059
-P 2650 2450
-F 0 "L64" H 2650 2450 51  0000 C CNN
-F 1 "SK6812MINI" H 2650 2400 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 2650 2450 60  0001 C CNN
-F 3 "" H 2650 2450 60  0001 C CNN
-	1    2650 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SK6812MINI L79
-U 1 1 653AC183
-P 2650 2850
-F 0 "L79" H 2650 2850 51  0000 C CNN
-F 1 "SK6812MINI" H 2650 2800 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 2650 2850 60  0001 C CNN
-F 3 "" H 2650 2850 60  0001 C CNN
-	1    2650 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 2750 2450 2650
-Wire Wire Line
-	2450 2650 2850 2650
-Wire Wire Line
-	2850 2650 2850 2550
-$Comp
-L kbd:SK6812MINI L49
-U 1 1 653AC190
-P 2650 2050
-F 0 "L49" H 2650 2050 51  0000 C CNN
-F 1 "SK6812MINI" H 2650 2000 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 2650 2050 60  0001 C CNN
-F 3 "" H 2650 2050 60  0001 C CNN
-	1    2650 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 2350 2450 2250
-Wire Wire Line
-	2450 2250 2850 2250
-Wire Wire Line
-	2850 2250 2850 2150
-$Comp
-L kbd:SK6812MINI L34
-U 1 1 653AC19D
-P 2650 1650
-F 0 "L34" H 2650 1650 51  0000 C CNN
-F 1 "SK6812MINI" H 2650 1600 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 2650 1650 60  0001 C CNN
-F 3 "" H 2650 1650 60  0001 C CNN
-	1    2650 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 1950 2450 1850
-Wire Wire Line
-	2450 1850 2850 1850
-Wire Wire Line
-	2850 1850 2850 1750
-$Comp
-L kbd:SK6812MINI L19
-U 1 1 653AC1AA
-P 2650 1250
-F 0 "L19" H 2650 1250 51  0000 C CNN
-F 1 "SK6812MINI" H 2650 1200 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 2650 1250 60  0001 C CNN
-F 3 "" H 2650 1250 60  0001 C CNN
-	1    2650 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 1550 2450 1450
-Wire Wire Line
-	2450 1450 2850 1450
-Wire Wire Line
-	2850 1450 2850 1350
-Wire Wire Line
-	2850 2750 2900 2750
-Wire Wire Line
-	2900 2750 2900 2350
-Wire Wire Line
-	2900 1150 2850 1150
-Wire Wire Line
-	2850 1550 2900 1550
-Connection ~ 2900 1550
-Wire Wire Line
-	2900 1550 2900 1150
-Wire Wire Line
-	2850 1950 2900 1950
-Connection ~ 2900 1950
-Wire Wire Line
-	2900 1950 2900 1550
-Wire Wire Line
-	2850 2350 2900 2350
-Connection ~ 2900 2350
-Wire Wire Line
-	2900 2350 2900 1950
-Wire Wire Line
-	2450 2950 2400 2950
-Wire Wire Line
-	2400 2950 2400 2550
-Wire Wire Line
-	2400 1350 2450 1350
-Wire Wire Line
-	2450 1750 2400 1750
-Connection ~ 2400 1750
-Wire Wire Line
-	2400 1750 2400 1350
-Wire Wire Line
-	2450 2150 2400 2150
-Connection ~ 2400 2150
-Wire Wire Line
-	2400 2150 2400 1750
-Wire Wire Line
-	2450 2550 2400 2550
-Connection ~ 2400 2550
-Wire Wire Line
-	2400 2550 2400 2150
-$Comp
-L kbd:SK6812MINI L37
-U 1 1 655142A3
-P 4450 1650
-F 0 "L37" H 4450 1650 51  0000 C CNN
-F 1 "SK6812MINI" H 4450 1600 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 4450 1650 60  0001 C CNN
-F 3 "" H 4450 1650 60  0001 C CNN
-	1    4450 1650
-	-1   0    0    1   
-$EndComp
-$Comp
-L kbd:SK6812MINI L22
-U 1 1 65514515
-P 4450 1250
-F 0 "L22" H 4450 1250 51  0000 C CNN
-F 1 "SK6812MINI" H 4450 1200 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 4450 1250 60  0001 C CNN
-F 3 "" H 4450 1250 60  0001 C CNN
-	1    4450 1250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4650 1350 4650 1450
-Wire Wire Line
-	4650 1450 4250 1450
-Wire Wire Line
-	4250 1450 4250 1550
-$Comp
-L kbd:SK6812MINI L52
-U 1 1 65514522
-P 4450 2050
-F 0 "L52" H 4450 2050 51  0000 C CNN
-F 1 "SK6812MINI" H 4450 2000 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 4450 2050 60  0001 C CNN
-F 3 "" H 4450 2050 60  0001 C CNN
-	1    4450 2050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4650 1750 4650 1850
-Wire Wire Line
-	4650 1850 4250 1850
-Wire Wire Line
-	4250 1850 4250 1950
-$Comp
-L kbd:SK6812MINI L67
-U 1 1 6551452F
-P 4450 2450
-F 0 "L67" H 4450 2450 51  0000 C CNN
-F 1 "SK6812MINI" H 4450 2400 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 4450 2450 60  0001 C CNN
-F 3 "" H 4450 2450 60  0001 C CNN
-	1    4450 2450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4650 2150 4650 2250
-Wire Wire Line
-	4650 2250 4250 2250
-Wire Wire Line
-	4250 2250 4250 2350
-$Comp
-L kbd:SK6812MINI L82
-U 1 1 6551453C
-P 4450 2850
-F 0 "L82" H 4450 2850 51  0000 C CNN
-F 1 "SK6812MINI" H 4450 2800 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 4450 2850 60  0001 C CNN
-F 3 "" H 4450 2850 60  0001 C CNN
-	1    4450 2850
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4650 2550 4650 2650
-Wire Wire Line
-	4650 2650 4250 2650
-Wire Wire Line
-	4250 2650 4250 2750
-Wire Wire Line
-	4250 1350 4200 1350
-Wire Wire Line
-	4200 1350 4200 1750
-Wire Wire Line
-	4200 2950 4250 2950
-Wire Wire Line
-	4250 2550 4200 2550
-Connection ~ 4200 2550
-Wire Wire Line
-	4200 2550 4200 2950
-Wire Wire Line
-	4250 2150 4200 2150
-Connection ~ 4200 2150
-Wire Wire Line
-	4200 2150 4200 2550
-Wire Wire Line
-	4250 1750 4200 1750
-Connection ~ 4200 1750
-Wire Wire Line
-	4200 1750 4200 2150
-Wire Wire Line
-	4650 1150 4700 1150
-Wire Wire Line
-	4700 1150 4700 1550
-Wire Wire Line
-	4700 2750 4650 2750
-Wire Wire Line
-	4650 2350 4700 2350
-Connection ~ 4700 2350
-Wire Wire Line
-	4700 2350 4700 2750
-Wire Wire Line
-	4650 1950 4700 1950
-Connection ~ 4700 1950
-Wire Wire Line
-	4700 1950 4700 2350
-Wire Wire Line
-	4650 1550 4700 1550
-Connection ~ 4700 1550
-Wire Wire Line
-	4700 1550 4700 1950
-$Comp
-L kbd:SK6812MINI L66
-U 1 1 65514561
-P 3850 2450
-F 0 "L66" H 3850 2450 51  0000 C CNN
-F 1 "SK6812MINI" H 3850 2400 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 3850 2450 60  0001 C CNN
-F 3 "" H 3850 2450 60  0001 C CNN
-	1    3850 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SK6812MINI L81
-U 1 1 6551456B
-P 3850 2850
-F 0 "L81" H 3850 2850 51  0000 C CNN
-F 1 "SK6812MINI" H 3850 2800 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 3850 2850 60  0001 C CNN
-F 3 "" H 3850 2850 60  0001 C CNN
-	1    3850 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 2750 3650 2650
-Wire Wire Line
-	3650 2650 4050 2650
-Wire Wire Line
-	4050 2650 4050 2550
-$Comp
-L kbd:SK6812MINI L51
-U 1 1 65514578
-P 3850 2050
-F 0 "L51" H 3850 2050 51  0000 C CNN
-F 1 "SK6812MINI" H 3850 2000 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 3850 2050 60  0001 C CNN
-F 3 "" H 3850 2050 60  0001 C CNN
-	1    3850 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 2350 3650 2250
-Wire Wire Line
-	3650 2250 4050 2250
-Wire Wire Line
-	4050 2250 4050 2150
-$Comp
-L kbd:SK6812MINI L36
-U 1 1 65514585
-P 3850 1650
-F 0 "L36" H 3850 1650 51  0000 C CNN
-F 1 "SK6812MINI" H 3850 1600 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 3850 1650 60  0001 C CNN
-F 3 "" H 3850 1650 60  0001 C CNN
-	1    3850 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 1950 3650 1850
-Wire Wire Line
-	3650 1850 4050 1850
-Wire Wire Line
-	4050 1850 4050 1750
-$Comp
-L kbd:SK6812MINI L21
-U 1 1 65514592
-P 3850 1250
-F 0 "L21" H 3850 1250 51  0000 C CNN
-F 1 "SK6812MINI" H 3850 1200 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 3850 1250 60  0001 C CNN
-F 3 "" H 3850 1250 60  0001 C CNN
-	1    3850 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 1550 3650 1450
-Wire Wire Line
-	3650 1450 4050 1450
-Wire Wire Line
-	4050 1450 4050 1350
-Wire Wire Line
-	4050 2750 4100 2750
-Wire Wire Line
-	4100 2750 4100 2350
-Wire Wire Line
-	4100 1150 4050 1150
-Wire Wire Line
-	4050 1550 4100 1550
-Connection ~ 4100 1550
-Wire Wire Line
-	4100 1550 4100 1150
-Wire Wire Line
-	4050 1950 4100 1950
-Connection ~ 4100 1950
-Wire Wire Line
-	4100 1950 4100 1550
-Wire Wire Line
-	4050 2350 4100 2350
-Connection ~ 4100 2350
-Wire Wire Line
-	4100 2350 4100 1950
-Wire Wire Line
-	3650 2950 3600 2950
-Wire Wire Line
-	3600 2950 3600 2550
-Wire Wire Line
-	3600 1350 3650 1350
-Wire Wire Line
-	3650 1750 3600 1750
-Connection ~ 3600 1750
-Wire Wire Line
-	3600 1750 3600 1350
-Wire Wire Line
-	3650 2150 3600 2150
-Connection ~ 3600 2150
-Wire Wire Line
-	3600 2150 3600 1750
-Wire Wire Line
-	3650 2550 3600 2550
-Connection ~ 3600 2550
-Wire Wire Line
-	3600 2550 3600 2150
-$Comp
-L kbd:SK6812MINI L35
-U 1 1 655145B7
-P 3250 1650
-F 0 "L35" H 3250 1650 51  0000 C CNN
-F 1 "SK6812MINI" H 3250 1600 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 3250 1650 60  0001 C CNN
-F 3 "" H 3250 1650 60  0001 C CNN
-	1    3250 1650
-	-1   0    0    1   
-$EndComp
-$Comp
-L kbd:SK6812MINI L20
-U 1 1 655145C1
-P 3250 1250
-F 0 "L20" H 3250 1250 51  0000 C CNN
-F 1 "SK6812MINI" H 3250 1200 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 3250 1250 60  0001 C CNN
-F 3 "" H 3250 1250 60  0001 C CNN
-	1    3250 1250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3450 1350 3450 1450
-Wire Wire Line
-	3450 1450 3050 1450
-Wire Wire Line
-	3050 1450 3050 1550
-$Comp
-L kbd:SK6812MINI L50
-U 1 1 655145CE
-P 3250 2050
-F 0 "L50" H 3250 2050 51  0000 C CNN
-F 1 "SK6812MINI" H 3250 2000 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 3250 2050 60  0001 C CNN
-F 3 "" H 3250 2050 60  0001 C CNN
-	1    3250 2050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3450 1750 3450 1850
-Wire Wire Line
-	3450 1850 3050 1850
-Wire Wire Line
-	3050 1850 3050 1950
-$Comp
-L kbd:SK6812MINI L65
-U 1 1 655145DB
-P 3250 2450
-F 0 "L65" H 3250 2450 51  0000 C CNN
-F 1 "SK6812MINI" H 3250 2400 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 3250 2450 60  0001 C CNN
-F 3 "" H 3250 2450 60  0001 C CNN
-	1    3250 2450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3450 2150 3450 2250
-Wire Wire Line
-	3450 2250 3050 2250
-Wire Wire Line
-	3050 2250 3050 2350
-$Comp
-L kbd:SK6812MINI L80
-U 1 1 655145E8
-P 3250 2850
-F 0 "L80" H 3250 2850 51  0000 C CNN
-F 1 "SK6812MINI" H 3250 2800 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 3250 2850 60  0001 C CNN
-F 3 "" H 3250 2850 60  0001 C CNN
-	1    3250 2850
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3450 2550 3450 2650
-Wire Wire Line
-	3450 2650 3050 2650
-Wire Wire Line
-	3050 2650 3050 2750
-Wire Wire Line
-	3050 1350 3000 1350
-Wire Wire Line
-	3000 1350 3000 1750
-Wire Wire Line
-	3000 2950 3050 2950
-Wire Wire Line
-	3050 2550 3000 2550
-Connection ~ 3000 2550
-Wire Wire Line
-	3000 2550 3000 2950
-Wire Wire Line
-	3050 2150 3000 2150
-Connection ~ 3000 2150
-Wire Wire Line
-	3000 2150 3000 2550
-Wire Wire Line
-	3050 1750 3000 1750
-Connection ~ 3000 1750
-Wire Wire Line
-	3000 1750 3000 2150
-Wire Wire Line
-	3450 1150 3500 1150
-Wire Wire Line
-	3500 1150 3500 1550
-Wire Wire Line
-	3500 2750 3450 2750
-Wire Wire Line
-	3450 2350 3500 2350
-Connection ~ 3500 2350
-Wire Wire Line
-	3500 2350 3500 2750
-Wire Wire Line
-	3450 1950 3500 1950
-Connection ~ 3500 1950
-Wire Wire Line
-	3500 1950 3500 2350
-Wire Wire Line
-	3450 1550 3500 1550
-Connection ~ 3500 1550
-Wire Wire Line
-	3500 1550 3500 1950
-Wire Wire Line
-	1050 2950 1050 3050
-Wire Wire Line
-	1050 3050 1650 3050
-Wire Wire Line
-	1650 3050 1650 2950
-Wire Wire Line
-	2250 2950 2250 3050
-Wire Wire Line
-	2250 3050 2850 3050
-Wire Wire Line
-	2850 3050 2850 2950
-$Comp
-L kbd:SK6812MINI L4
-U 1 1 65947D77
-P 4450 3250
-F 0 "L4" H 4450 3250 51  0000 C CNN
-F 1 "SK6812MINI" H 4450 3200 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 4450 3250 60  0001 C CNN
-F 3 "" H 4450 3250 60  0001 C CNN
-	1    4450 3250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4650 2950 4650 3050
-Wire Wire Line
-	4650 3050 4250 3050
-Wire Wire Line
-	4250 3050 4250 3150
-Wire Wire Line
-	4200 3350 4250 3350
-Wire Wire Line
-	4200 2950 4200 3350
-Wire Wire Line
-	4700 3150 4650 3150
-Wire Wire Line
-	4700 2750 4700 3150
-$Comp
-L kbd:SK6812MINI L3
-U 1 1 65948232
-P 3850 3250
-F 0 "L3" H 3850 3250 51  0000 C CNN
-F 1 "SK6812MINI" H 3850 3200 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 3850 3250 60  0001 C CNN
-F 3 "" H 3850 3250 60  0001 C CNN
-	1    3850 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 3150 3650 3050
-Wire Wire Line
-	3650 3050 4050 3050
-Wire Wire Line
-	4050 3050 4050 2950
-Wire Wire Line
-	4050 3150 4100 3150
-Wire Wire Line
-	4100 3150 4100 2750
-Wire Wire Line
-	3650 3350 3600 3350
-Wire Wire Line
-	3600 3350 3600 2950
-$Comp
-L kbd:SK6812MINI L2
-U 1 1 65948243
-P 3250 3250
-F 0 "L2" H 3250 3250 51  0000 C CNN
-F 1 "SK6812MINI" H 3250 3200 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 3250 3250 60  0001 C CNN
-F 3 "" H 3250 3250 60  0001 C CNN
-	1    3250 3250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3450 2950 3450 3050
-Wire Wire Line
-	3450 3050 3050 3050
-Wire Wire Line
-	3050 3050 3050 3150
-Wire Wire Line
-	3000 3350 3050 3350
-Wire Wire Line
-	3000 2950 3000 3350
-Wire Wire Line
-	3500 3150 3450 3150
-Wire Wire Line
-	3500 2750 3500 3150
-Connection ~ 3000 2950
-Connection ~ 3500 2750
-Connection ~ 3600 2950
-Connection ~ 4100 2750
-Connection ~ 4200 2950
-Connection ~ 4700 2750
-Wire Wire Line
-	3450 3350 3450 3450
-Wire Wire Line
-	3450 3450 4050 3450
-Wire Wire Line
-	4050 3450 4050 3350
-NoConn ~ 4650 3350
-Wire Wire Line
-	4200 3350 4200 3500
-Wire Wire Line
-	4200 3500 3000 3500
-Wire Wire Line
-	600  3500 600  2950
-Connection ~ 4200 3350
-Connection ~ 600  2950
-Wire Wire Line
-	1800 2950 1800 3500
-Connection ~ 1800 2950
-Connection ~ 1800 3500
-Wire Wire Line
-	1800 3500 1700 3500
-Wire Wire Line
-	3000 3350 3000 3500
-Connection ~ 3000 3350
-Connection ~ 3000 3500
-Wire Wire Line
-	3000 3500 2900 3500
-Connection ~ 2400 3500
-Wire Wire Line
-	2400 3500 1800 3500
-Text Label 650  750  2    50   ~ 0
-RGB
-$Comp
-L kbd:SK6812MINI L1
-U 1 1 65ABC663
-P 850 850
-F 0 "L1" H 850 850 51  0000 C CNN
-F 1 "SK6812MINI" H 850 800 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 850 850 60  0001 C CNN
-F 3 "" H 850 850 60  0001 C CNN
-	1    850  850 
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1050 950  1050 1050
-Wire Wire Line
-	1050 1050 650  1050
-Wire Wire Line
-	650  1050 650  1150
-Wire Wire Line
-	650  950  600  950 
-Wire Wire Line
-	600  950  600  1350
-Wire Wire Line
-	1050 750  1100 750 
-Wire Wire Line
-	1100 750  1100 1150
-Connection ~ 600  1350
-Connection ~ 1100 1150
-$Comp
-L kbd:SK6812MINI L7
-U 1 1 65AFE63E
-P 4450 850
-F 0 "L7" H 4450 850 51  0000 C CNN
-F 1 "SK6812MINI" H 4450 800 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 4450 850 60  0001 C CNN
-F 3 "" H 4450 850 60  0001 C CNN
-	1    4450 850 
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4650 950  4650 1050
-Wire Wire Line
-	4650 1050 4250 1050
-Wire Wire Line
-	4250 1050 4250 1150
-Wire Wire Line
-	4250 950  4200 950 
-Wire Wire Line
-	4200 950  4200 1350
-Wire Wire Line
-	4650 750  4700 750 
-Wire Wire Line
-	4700 750  4700 1150
-$Comp
-L kbd:SK6812MINI L6
-U 1 1 65AFED25
-P 3850 850
-F 0 "L6" H 3850 850 51  0000 C CNN
-F 1 "SK6812MINI" H 3850 800 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 3850 850 60  0001 C CNN
-F 3 "" H 3850 850 60  0001 C CNN
-	1    3850 850 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 1150 3650 1050
-Wire Wire Line
-	3650 1050 4050 1050
-Wire Wire Line
-	4050 1050 4050 950 
-Wire Wire Line
-	4100 750  4050 750 
-Wire Wire Line
-	4100 1150 4100 750 
-Wire Wire Line
-	3600 950  3650 950 
-Wire Wire Line
-	3600 1350 3600 950 
-$Comp
-L kbd:SK6812MINI L5
-U 1 1 65AFED36
-P 3250 850
-F 0 "L5" H 3250 850 51  0000 C CNN
-F 1 "SK6812MINI" H 3250 800 16  0000 C CNN
-F 2 "libmodulo:SK6812MINI" H 3250 850 60  0001 C CNN
-F 3 "" H 3250 850 60  0001 C CNN
-	1    3250 850 
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3450 950  3450 1050
-Wire Wire Line
-	3450 1050 3050 1050
-Wire Wire Line
-	3050 1050 3050 1150
-Wire Wire Line
-	3050 950  3000 950 
-Wire Wire Line
-	3000 950  3000 1350
-Wire Wire Line
-	3450 750  3500 750 
-Wire Wire Line
-	3500 750  3500 1150
-Connection ~ 3000 1350
-Connection ~ 3500 1150
-Connection ~ 3600 1350
-Connection ~ 4100 1150
-Connection ~ 4200 1350
-Connection ~ 4700 1150
-Wire Wire Line
-	1250 1150 1250 1050
-Wire Wire Line
-	1250 1050 1850 1050
-Wire Wire Line
-	1850 1050 1850 1150
-Wire Wire Line
-	2450 1150 2450 750 
-Wire Wire Line
-	2450 750  3050 750 
-Wire Wire Line
-	3650 750  3650 650 
-Wire Wire Line
-	3650 650  4250 650 
-Wire Wire Line
-	4250 650  4250 750 
-Wire Wire Line
-	4700 750  4700 600 
-Wire Wire Line
-	4700 600  3500 600 
-Wire Wire Line
-	1100 600  1100 750 
-Connection ~ 4700 750 
-Connection ~ 1100 750 
-Wire Wire Line
-	2300 1150 2300 600 
-Connection ~ 2300 1150
-Connection ~ 2300 600 
-Wire Wire Line
-	2300 600  1200 600 
-Wire Wire Line
-	3500 750  3500 600 
-Connection ~ 3500 750 
-Connection ~ 3500 600 
-Wire Wire Line
-	3500 600  2400 600 
-$Comp
-L Graphic:SYM_Arrow_Tiny #SYM1
-U 1 1 65C79477
-P 2900 550
-AR Path="/67E4E0EB/65C79477" Ref="#SYM1"  Part="1" 
-AR Path="/67E4ECE8/65C79477" Ref="#SYM?"  Part="1" 
-AR Path="/67E4ED54/65C79477" Ref="#SYM?"  Part="1" 
-AR Path="/67E4ED7B/65C79477" Ref="#SYM?"  Part="1" 
-F 0 "#SYM1" H 2900 610 50  0001 C CNN
-F 1 "SYM_Arrow_Tiny" H 2910 500 50  0001 C CNN
-F 2 "" H 2900 550 50  0001 C CNN
-F 3 "~" H 2900 550 50  0001 C CNN
-	1    2900 550 
-	0    -1   -1   0   
-$EndComp
-Text Label 2900 600  2    50   ~ 0
-VCC
-Wire Wire Line
-	1700 2750 1700 3500
-Connection ~ 1700 2750
-Connection ~ 1700 3500
-Wire Wire Line
-	1700 3500 600  3500
-Wire Wire Line
-	2400 1350 2400 600 
-Connection ~ 2400 1350
-Connection ~ 2400 600 
-Wire Wire Line
-	2400 600  2300 600 
-Wire Wire Line
-	1200 1350 1200 600 
-Connection ~ 1200 1350
-Connection ~ 1200 600 
-Wire Wire Line
-	1200 600  1100 600 
-Wire Wire Line
-	2900 2750 2900 3500
-Connection ~ 2900 2750
-Connection ~ 2900 3500
-Wire Wire Line
-	2900 3500 2400 3500
-$Comp
-L power:GND1 #PWR0113
-U 1 1 604556B2
-P 7700 800
-AR Path="/67E4E0EB/604556B2" Ref="#PWR0113"  Part="1" 
-AR Path="/67E4ECE8/604556B2" Ref="#PWR?"  Part="1" 
-AR Path="/67E4ED54/604556B2" Ref="#PWR?"  Part="1" 
-AR Path="/67E4ED7B/604556B2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0113" H 7700 550 50  0001 C CNN
-F 1 "GND1" H 7622 763 50  0000 R CNN
-F 2 "" H 7700 800 50  0001 C CNN
-F 3 "" H 7700 800 50  0001 C CNN
-	1    7700 800 
-	-1   0    0    -1  
-$EndComp
-Text Label 7100 800  2    50   ~ 0
-RST
-Text Label 6700 700  1    50   ~ 0
-RST
-$Comp
-L kbd:SW_PUSH SW91
-U 1 1 60761CC7
-P 7400 800
-F 0 "SW91" H 7400 1055 50  0000 C CNN
-F 1 "SW_PUSH" H 7400 964 50  0000 C CNN
-F 2 "libmodulo:Kailh_Micro_Switch_6x6" H 7400 800 50  0001 C CNN
-F 3 "" H 7400 800 50  0000 C CNN
-	1    7400 800 
-	1    0    0    -1  
 $EndComp
 Connection ~ 9700 1900
 Wire Wire Line
@@ -3131,4 +271,3824 @@ Wire Wire Line
 Connection ~ 9700 1300
 Wire Wire Line
 	9700 1300 9800 1300
+$Comp
+L power:VCC #PWR0114
+U 1 1 6250FA93
+P 9600 2200
+F 0 "#PWR0114" H 9600 2050 50  0001 C CNN
+F 1 "VCC" H 9543 2237 50  0000 R CNN
+F 2 "" H 9600 2200 50  0001 C CNN
+F 3 "" H 9600 2200 50  0001 C CNN
+	1    9600 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0115
+U 1 1 6253E825
+P 9650 1300
+F 0 "#PWR0115" H 9650 1150 50  0001 C CNN
+F 1 "VCC" H 9593 1337 50  0000 R CNN
+F 2 "" H 9650 1300 50  0001 C CNN
+F 3 "" H 9650 1300 50  0001 C CNN
+	1    9650 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR0113
+U 1 1 604556B2
+P 7700 2900
+AR Path="/67E4E0EB/604556B2" Ref="#PWR0113"  Part="1" 
+AR Path="/67E4ECE8/604556B2" Ref="#PWR?"  Part="1" 
+AR Path="/67E4ED54/604556B2" Ref="#PWR?"  Part="1" 
+AR Path="/67E4ED7B/604556B2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0113" H 7700 2650 50  0001 C CNN
+F 1 "GND1" H 7622 2863 50  0000 R CNN
+F 2 "" H 7700 2900 50  0001 C CNN
+F 3 "" H 7700 2900 50  0001 C CNN
+	1    7700 2900
+	-1   0    0    -1  
+$EndComp
+Text Label 7100 2900 2    50   ~ 0
+RST
+$Comp
+L kbd:SW_PUSH SW91
+U 1 1 60761CC7
+P 7400 2900
+F 0 "SW91" H 7400 3155 50  0000 C CNN
+F 1 "SW_PUSH" H 7400 3064 50  0000 C CNN
+F 2 "libmodulo:Kailh_Micro_Switch_6x6" H 7400 2900 50  0001 C CNN
+F 3 "" H 7400 2900 50  0000 C CNN
+	1    7400 2900
+	1    0    0    -1  
+$EndComp
+Text Label 7800 700  1    50   ~ 0
+c2
+Text Label 7700 700  1    50   ~ 0
+c3
+Text Label 7600 700  1    50   ~ 0
+c4
+Text Label 7500 700  1    50   ~ 0
+c5
+Text Label 7400 700  1    50   ~ 0
+c6
+Text Label 8000 700  1    50   ~ 0
+c0
+Text Label 7900 700  1    50   ~ 0
+c1
+Text Label 7900 2100 3    50   ~ 0
+r5
+Text Label 7800 2100 3    50   ~ 0
+r4
+Text Label 7700 2100 3    50   ~ 0
+r3
+Text Label 7600 2100 3    50   ~ 0
+r2
+Text Label 7500 2100 3    50   ~ 0
+r1
+Text Label 7400 2100 3    50   ~ 0
+r0
+Text Label 8000 2100 3    50   ~ 0
+SCL
+Text Label 8100 2100 3    50   ~ 0
+SDA
+Text Label 8100 700  1    50   ~ 0
+RGB
+Text Label 8400 2100 3    50   ~ 0
+DATA
+Wire Wire Line
+	7000 1500 6950 1500
+Wire Wire Line
+	6950 2350 8500 2350
+$Comp
+L Switch:SW_SPDT JP1
+U 1 1 66F6AECC
+P 8700 2250
+AR Path="/67E4E0EB/66F6AECC" Ref="JP1"  Part="1" 
+AR Path="/67E4ECE8/66F6AECC" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/66F6AECC" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/66F6AECC" Ref="SW?"  Part="1" 
+F 0 "JP1" H 8700 2535 50  0000 C CNN
+F 1 "TP_CLK" H 8700 2444 50  0000 C CNN
+F 2 "libmodulo:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 8700 2250 50  0001 C CNN
+F 3 "~" H 8700 2250 50  0001 C CNN
+	1    8700 2250
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 8500 700 
+$Comp
+L power:GND1 #PWR0108
+U 1 1 60C29E83
+P 8400 700
+AR Path="/67E4E0EB/60C29E83" Ref="#PWR0108"  Part="1" 
+AR Path="/67E4ECE8/60C29E83" Ref="#PWR?"  Part="1" 
+AR Path="/67E4ED54/60C29E83" Ref="#PWR?"  Part="1" 
+AR Path="/67E4ED7B/60C29E83" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0108" H 8400 450 50  0001 C CNN
+F 1 "GND1" H 8405 527 50  0000 C CNN
+F 2 "" H 8400 700 50  0001 C CNN
+F 3 "" H 8400 700 50  0001 C CNN
+	1    8400 700 
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND1 #PWR0109
+U 1 1 60CE88BA
+P 8250 2100
+AR Path="/67E4E0EB/60CE88BA" Ref="#PWR0109"  Part="1" 
+AR Path="/67E4ECE8/60CE88BA" Ref="#PWR?"  Part="1" 
+AR Path="/67E4ED54/60CE88BA" Ref="#PWR?"  Part="1" 
+AR Path="/67E4ED7B/60CE88BA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0109" H 8250 1850 50  0001 C CNN
+F 1 "GND1" H 8255 1927 50  0000 C CNN
+F 2 "" H 8250 2100 50  0001 C CNN
+F 3 "" H 8250 2100 50  0001 C CNN
+	1    8250 2100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2100 8250 2100
+Connection ~ 8250 2100
+Wire Wire Line
+	8250 2100 8300 2100
+Wire Wire Line
+	8500 2150 8500 2100
+Wire Wire Line
+	6950 1500 6950 2350
+NoConn ~ 7000 1200
+NoConn ~ 7000 1300
+NoConn ~ 7000 1400
+NoConn ~ 7000 1600
+$Comp
+L keebio:Elite-C U1
+U 1 1 66F6AECB
+P 7950 1400
+AR Path="/67E4E0EB/66F6AECB" Ref="U1"  Part="1" 
+AR Path="/67E4ECE8/66F6AECB" Ref="U?"  Part="1" 
+AR Path="/67E4ED54/66F6AECB" Ref="U?"  Part="1" 
+AR Path="/67E4ED7B/66F6AECB" Ref="U?"  Part="1" 
+F 0 "U1" V 7897 2078 60  0000 L CNN
+F 1 "Elite-C" V 8003 2078 60  0000 L CNN
+F 2 "libmodulo:Elite-C-29pin-holes" V 9000 -1100 60  0001 C CNN
+F 3 "" V 9000 -1100 60  0001 C CNN
+	1    7950 1400
+	0    1    -1   0   
+$EndComp
+Text Label 8900 2250 0    50   ~ 0
+CLK
+Text Label 8300 700  1    50   ~ 0
+RST
+$Comp
+L power:VCC #PWR0116
+U 1 1 62508818
+P 8200 700
+F 0 "#PWR0116" H 8200 550 50  0001 C CNN
+F 1 "VCC" H 8215 873 50  0000 C CNN
+F 2 "" H 8200 700 50  0001 C CNN
+F 3 "" H 8200 700 50  0001 C CNN
+	1    8200 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L31
+U 1 1 64D5311F
+P 1050 1650
+F 0 "L31" H 1050 1650 51  0000 C CNN
+F 1 "SK6812MINI" H 1050 1600 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 1050 1650 60  0001 C CNN
+F 3 "" H 1050 1650 60  0001 C CNN
+	1    1050 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L16
+U 1 1 64B825B7
+P 1050 1250
+F 0 "L16" H 1050 1250 51  0000 C CNN
+F 1 "SK6812MINI" H 1050 1200 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 1050 1250 60  0001 C CNN
+F 3 "" H 1050 1250 60  0001 C CNN
+	1    1050 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1250 1350 1250 1450
+Wire Wire Line
+	1250 1450 850  1450
+Wire Wire Line
+	850  1450 850  1550
+$Comp
+L kbd:SK6812MINI L46
+U 1 1 64E84796
+P 1050 2050
+F 0 "L46" H 1050 2050 51  0000 C CNN
+F 1 "SK6812MINI" H 1050 2000 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 1050 2050 60  0001 C CNN
+F 3 "" H 1050 2050 60  0001 C CNN
+	1    1050 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1250 1750 1250 1850
+Wire Wire Line
+	1250 1850 850  1850
+Wire Wire Line
+	850  1850 850  1950
+$Comp
+L kbd:SK6812MINI L61
+U 1 1 64EB9BCD
+P 1050 2450
+F 0 "L61" H 1050 2450 51  0000 C CNN
+F 1 "SK6812MINI" H 1050 2400 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 1050 2450 60  0001 C CNN
+F 3 "" H 1050 2450 60  0001 C CNN
+	1    1050 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1250 2150 1250 2250
+Wire Wire Line
+	1250 2250 850  2250
+Wire Wire Line
+	850  2250 850  2350
+$Comp
+L kbd:SK6812MINI L76
+U 1 1 64EF009A
+P 1050 2850
+F 0 "L76" H 1050 2850 51  0000 C CNN
+F 1 "SK6812MINI" H 1050 2800 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 1050 2850 60  0001 C CNN
+F 3 "" H 1050 2850 60  0001 C CNN
+	1    1050 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1250 2550 1250 2650
+Wire Wire Line
+	1250 2650 850  2650
+Wire Wire Line
+	850  2650 850  2750
+Wire Wire Line
+	850  1350 800  1350
+Wire Wire Line
+	800  1350 800  1750
+Wire Wire Line
+	800  2950 850  2950
+Wire Wire Line
+	850  2550 800  2550
+Connection ~ 800  2550
+Wire Wire Line
+	800  2550 800  2950
+Wire Wire Line
+	850  2150 800  2150
+Connection ~ 800  2150
+Wire Wire Line
+	800  2150 800  2550
+Wire Wire Line
+	850  1750 800  1750
+Connection ~ 800  1750
+Wire Wire Line
+	800  1750 800  2150
+Wire Wire Line
+	1250 1150 1300 1150
+Wire Wire Line
+	1300 1150 1300 1550
+Wire Wire Line
+	1300 2750 1250 2750
+Wire Wire Line
+	1250 2350 1300 2350
+Connection ~ 1300 2350
+Wire Wire Line
+	1300 2350 1300 2750
+Wire Wire Line
+	1250 1950 1300 1950
+Connection ~ 1300 1950
+Wire Wire Line
+	1300 1950 1300 2350
+Wire Wire Line
+	1250 1550 1300 1550
+Connection ~ 1300 1550
+Wire Wire Line
+	1300 1550 1300 1950
+$Comp
+L kbd:SK6812MINI L66
+U 1 1 65514561
+P 4700 2450
+F 0 "L66" H 4700 2450 51  0000 C CNN
+F 1 "SK6812MINI" H 4700 2400 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 4700 2450 60  0001 C CNN
+F 3 "" H 4700 2450 60  0001 C CNN
+	1    4700 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L81
+U 1 1 6551456B
+P 4700 2850
+F 0 "L81" H 4700 2850 51  0000 C CNN
+F 1 "SK6812MINI" H 4700 2800 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 4700 2850 60  0001 C CNN
+F 3 "" H 4700 2850 60  0001 C CNN
+	1    4700 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2750 4500 2650
+Wire Wire Line
+	4500 2650 4900 2650
+Wire Wire Line
+	4900 2650 4900 2550
+$Comp
+L kbd:SK6812MINI L51
+U 1 1 65514578
+P 4700 2050
+F 0 "L51" H 4700 2050 51  0000 C CNN
+F 1 "SK6812MINI" H 4700 2000 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 4700 2050 60  0001 C CNN
+F 3 "" H 4700 2050 60  0001 C CNN
+	1    4700 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2350 4500 2250
+Wire Wire Line
+	4500 2250 4900 2250
+Wire Wire Line
+	4900 2250 4900 2150
+$Comp
+L kbd:SK6812MINI L36
+U 1 1 65514585
+P 4700 1650
+F 0 "L36" H 4700 1650 51  0000 C CNN
+F 1 "SK6812MINI" H 4700 1600 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 4700 1650 60  0001 C CNN
+F 3 "" H 4700 1650 60  0001 C CNN
+	1    4700 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1950 4500 1850
+Wire Wire Line
+	4500 1850 4900 1850
+Wire Wire Line
+	4900 1850 4900 1750
+$Comp
+L kbd:SK6812MINI L21
+U 1 1 65514592
+P 4700 1250
+F 0 "L21" H 4700 1250 51  0000 C CNN
+F 1 "SK6812MINI" H 4700 1200 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 4700 1250 60  0001 C CNN
+F 3 "" H 4700 1250 60  0001 C CNN
+	1    4700 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1550 4500 1450
+Wire Wire Line
+	4500 1450 4900 1450
+Wire Wire Line
+	4900 1450 4900 1350
+Wire Wire Line
+	4900 2750 4950 2750
+Wire Wire Line
+	4950 2750 4950 2350
+Wire Wire Line
+	4950 1150 4900 1150
+Wire Wire Line
+	4900 1550 4950 1550
+Connection ~ 4950 1550
+Wire Wire Line
+	4950 1550 4950 1150
+Wire Wire Line
+	4900 1950 4950 1950
+Connection ~ 4950 1950
+Wire Wire Line
+	4950 1950 4950 1550
+Wire Wire Line
+	4900 2350 4950 2350
+Connection ~ 4950 2350
+Wire Wire Line
+	4950 2350 4950 1950
+$Comp
+L kbd:SK6812MINI L35
+U 1 1 655145B7
+P 4150 1650
+F 0 "L35" H 4150 1650 51  0000 C CNN
+F 1 "SK6812MINI" H 4150 1600 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 4150 1650 60  0001 C CNN
+F 3 "" H 4150 1650 60  0001 C CNN
+	1    4150 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L20
+U 1 1 655145C1
+P 4150 1250
+F 0 "L20" H 4150 1250 51  0000 C CNN
+F 1 "SK6812MINI" H 4150 1200 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 4150 1250 60  0001 C CNN
+F 3 "" H 4150 1250 60  0001 C CNN
+	1    4150 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4350 1350 4350 1450
+Wire Wire Line
+	4350 1450 3950 1450
+Wire Wire Line
+	3950 1450 3950 1550
+$Comp
+L kbd:SK6812MINI L50
+U 1 1 655145CE
+P 4150 2050
+F 0 "L50" H 4150 2050 51  0000 C CNN
+F 1 "SK6812MINI" H 4150 2000 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 4150 2050 60  0001 C CNN
+F 3 "" H 4150 2050 60  0001 C CNN
+	1    4150 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4350 1750 4350 1850
+Wire Wire Line
+	4350 1850 3950 1850
+Wire Wire Line
+	3950 1850 3950 1950
+$Comp
+L kbd:SK6812MINI L65
+U 1 1 655145DB
+P 4150 2450
+F 0 "L65" H 4150 2450 51  0000 C CNN
+F 1 "SK6812MINI" H 4150 2400 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 4150 2450 60  0001 C CNN
+F 3 "" H 4150 2450 60  0001 C CNN
+	1    4150 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4350 2150 4350 2250
+Wire Wire Line
+	4350 2250 3950 2250
+Wire Wire Line
+	3950 2250 3950 2350
+$Comp
+L kbd:SK6812MINI L80
+U 1 1 655145E8
+P 4150 2850
+F 0 "L80" H 4150 2850 51  0000 C CNN
+F 1 "SK6812MINI" H 4150 2800 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 4150 2850 60  0001 C CNN
+F 3 "" H 4150 2850 60  0001 C CNN
+	1    4150 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4350 2550 4350 2650
+Wire Wire Line
+	4350 2650 3950 2650
+Wire Wire Line
+	3950 2650 3950 2750
+$Comp
+L kbd:SK6812MINI L1
+U 1 1 65ABC663
+P 1050 850
+F 0 "L1" H 1050 850 51  0000 C CNN
+F 1 "SK6812MINI" H 1050 800 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 1050 850 60  0001 C CNN
+F 3 "" H 1050 850 60  0001 C CNN
+	1    1050 850 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1250 950  1250 1050
+Wire Wire Line
+	1250 1050 850  1050
+Wire Wire Line
+	850  1050 850  1150
+Wire Wire Line
+	850  950  800  950 
+Wire Wire Line
+	800  950  800  1350
+Wire Wire Line
+	1250 750  1300 750 
+Wire Wire Line
+	1300 750  1300 1150
+Connection ~ 800  1350
+Connection ~ 1300 1150
+$Comp
+L power:GND1 #PWR0101
+U 1 1 63E66028
+P 1350 3050
+F 0 "#PWR0101" H 1350 2800 50  0001 C CNN
+F 1 "GND1" H 1438 3013 50  0000 L CNN
+F 2 "" H 1350 3050 50  0001 C CNN
+F 3 "" H 1350 3050 50  0001 C CNN
+	1    1350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L33
+U 1 1 652A4AC5
+P 2600 1650
+F 0 "L33" H 2600 1650 51  0000 C CNN
+F 1 "SK6812MINI" H 2600 1600 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 2600 1650 60  0001 C CNN
+F 3 "" H 2600 1650 60  0001 C CNN
+	1    2600 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L18
+U 1 1 652A4BCF
+P 2600 1250
+F 0 "L18" H 2600 1250 51  0000 C CNN
+F 1 "SK6812MINI" H 2600 1200 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 2600 1250 60  0001 C CNN
+F 3 "" H 2600 1250 60  0001 C CNN
+	1    2600 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 1350 2800 1450
+Wire Wire Line
+	2800 1450 2400 1450
+Wire Wire Line
+	2400 1450 2400 1550
+$Comp
+L kbd:SK6812MINI L48
+U 1 1 652A4BDC
+P 2600 2050
+F 0 "L48" H 2600 2050 51  0000 C CNN
+F 1 "SK6812MINI" H 2600 2000 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 2600 2050 60  0001 C CNN
+F 3 "" H 2600 2050 60  0001 C CNN
+	1    2600 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 1750 2800 1850
+Wire Wire Line
+	2800 1850 2400 1850
+Wire Wire Line
+	2400 1850 2400 1950
+$Comp
+L kbd:SK6812MINI L63
+U 1 1 652A4BE9
+P 2600 2450
+F 0 "L63" H 2600 2450 51  0000 C CNN
+F 1 "SK6812MINI" H 2600 2400 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 2600 2450 60  0001 C CNN
+F 3 "" H 2600 2450 60  0001 C CNN
+	1    2600 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 2150 2800 2250
+Wire Wire Line
+	2800 2250 2400 2250
+Wire Wire Line
+	2400 2250 2400 2350
+$Comp
+L kbd:SK6812MINI L78
+U 1 1 652A4BF6
+P 2600 2850
+F 0 "L78" H 2600 2850 51  0000 C CNN
+F 1 "SK6812MINI" H 2600 2800 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 2600 2850 60  0001 C CNN
+F 3 "" H 2600 2850 60  0001 C CNN
+	1    2600 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 2550 2800 2650
+Wire Wire Line
+	2800 2650 2400 2650
+Wire Wire Line
+	2400 2650 2400 2750
+$Comp
+L kbd:SK6812MINI L3
+U 1 1 65948232
+P 2600 850
+F 0 "L3" H 2600 850 51  0000 C CNN
+F 1 "SK6812MINI" H 2600 800 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 2600 850 60  0001 C CNN
+F 3 "" H 2600 850 60  0001 C CNN
+	1    2600 850 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 1150 2400 1050
+Wire Wire Line
+	2400 1050 2800 1050
+Wire Wire Line
+	2800 1050 2800 950 
+Wire Wire Line
+	5450 1750 5450 2150
+Connection ~ 5450 1750
+Wire Wire Line
+	5500 1750 5450 1750
+Wire Wire Line
+	5450 2150 5450 2550
+Connection ~ 5450 2150
+Wire Wire Line
+	5500 2150 5450 2150
+Wire Wire Line
+	5450 2550 5450 2950
+Connection ~ 5450 2550
+Wire Wire Line
+	5500 2550 5450 2550
+Wire Wire Line
+	5450 2950 5500 2950
+Wire Wire Line
+	5450 1350 5450 1750
+Wire Wire Line
+	5500 1350 5450 1350
+Wire Wire Line
+	5500 2650 5500 2750
+Wire Wire Line
+	5900 2650 5500 2650
+Wire Wire Line
+	5900 2550 5900 2650
+$Comp
+L kbd:SK6812MINI L82
+U 1 1 6551453C
+P 5700 2850
+F 0 "L82" H 5700 2850 51  0000 C CNN
+F 1 "SK6812MINI" H 5700 2800 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 5700 2850 60  0001 C CNN
+F 3 "" H 5700 2850 60  0001 C CNN
+	1    5700 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 2250 5500 2350
+Wire Wire Line
+	5900 2250 5500 2250
+Wire Wire Line
+	5900 2150 5900 2250
+$Comp
+L kbd:SK6812MINI L67
+U 1 1 6551452F
+P 5700 2450
+F 0 "L67" H 5700 2450 51  0000 C CNN
+F 1 "SK6812MINI" H 5700 2400 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 5700 2450 60  0001 C CNN
+F 3 "" H 5700 2450 60  0001 C CNN
+	1    5700 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 1850 5500 1950
+Wire Wire Line
+	5900 1850 5500 1850
+Wire Wire Line
+	5900 1750 5900 1850
+$Comp
+L kbd:SK6812MINI L52
+U 1 1 65514522
+P 5700 2050
+F 0 "L52" H 5700 2050 51  0000 C CNN
+F 1 "SK6812MINI" H 5700 2000 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 5700 2050 60  0001 C CNN
+F 3 "" H 5700 2050 60  0001 C CNN
+	1    5700 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 1450 5500 1550
+Wire Wire Line
+	5900 1450 5500 1450
+Wire Wire Line
+	5900 1350 5900 1450
+$Comp
+L kbd:SK6812MINI L22
+U 1 1 65514515
+P 5700 1250
+F 0 "L22" H 5700 1250 51  0000 C CNN
+F 1 "SK6812MINI" H 5700 1200 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 5700 1250 60  0001 C CNN
+F 3 "" H 5700 1250 60  0001 C CNN
+	1    5700 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L37
+U 1 1 655142A3
+P 5700 1650
+F 0 "L37" H 5700 1650 51  0000 C CNN
+F 1 "SK6812MINI" H 5700 1600 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 5700 1650 60  0001 C CNN
+F 3 "" H 5700 1650 60  0001 C CNN
+	1    5700 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SK6812MINI L5
+U 1 1 65AFED36
+P 4700 3250
+F 0 "L5" H 4700 3250 51  0000 C CNN
+F 1 "SK6812MINI" H 4700 3200 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 4700 3250 60  0001 C CNN
+F 3 "" H 4700 3250 60  0001 C CNN
+	1    4700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L6
+U 1 1 65AFED25
+P 5700 3250
+F 0 "L6" H 5700 3250 51  0000 C CNN
+F 1 "SK6812MINI" H 5700 3200 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 5700 3250 60  0001 C CNN
+F 3 "" H 5700 3250 60  0001 C CNN
+	1    5700 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 3150 4500 3050
+Wire Wire Line
+	4500 3050 4900 3050
+Wire Wire Line
+	4900 3050 4900 2950
+Wire Wire Line
+	5500 3150 5500 3050
+Wire Wire Line
+	5500 3050 5900 3050
+Wire Wire Line
+	5900 3050 5900 2950
+Wire Wire Line
+	4900 3150 4950 3150
+Wire Wire Line
+	4950 3150 4950 2750
+Connection ~ 4950 2750
+Wire Wire Line
+	5450 2950 5450 3350
+Wire Wire Line
+	5450 3350 5500 3350
+Connection ~ 5450 2950
+Connection ~ 4950 1150
+$Comp
+L power:VCC #PWR0117
+U 1 1 62617A9A
+P 5200 1050
+F 0 "#PWR0117" H 5200 900 50  0001 C CNN
+F 1 "VCC" H 5143 1087 50  0000 R CNN
+F 2 "" H 5200 1050 50  0001 C CNN
+F 3 "" H 5200 1050 50  0001 C CNN
+	1    5200 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L7
+U 1 1 65AFE63E
+P 6250 3250
+F 0 "L7" H 6250 3250 51  0000 C CNN
+F 1 "SK6812MINI" H 6250 3200 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 6250 3250 60  0001 C CNN
+F 3 "" H 6250 3250 60  0001 C CNN
+	1    6250 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 1550 5950 1550
+Wire Wire Line
+	5950 1550 5950 1950
+Wire Wire Line
+	5950 3150 5900 3150
+Wire Wire Line
+	5900 2750 5950 2750
+Connection ~ 5950 2750
+Wire Wire Line
+	5950 2750 5950 3150
+Wire Wire Line
+	5900 2350 5950 2350
+Connection ~ 5950 2350
+Wire Wire Line
+	5950 2350 5950 2750
+Wire Wire Line
+	5900 1950 5950 1950
+Connection ~ 5950 1950
+Wire Wire Line
+	5950 1950 5950 2350
+Wire Wire Line
+	5900 1150 5950 1150
+Wire Wire Line
+	5950 1150 5950 1550
+Connection ~ 5950 1550
+$Comp
+L power:GND1 #PWR0118
+U 1 1 6327A278
+P 2100 3450
+F 0 "#PWR0118" H 2100 3200 50  0001 C CNN
+F 1 "GND1" H 2105 3277 50  0000 C CNN
+F 2 "" H 2100 3450 50  0001 C CNN
+F 3 "" H 2100 3450 50  0001 C CNN
+	1    2100 3450
+	-1   0    0    -1  
+$EndComp
+Connection ~ 5450 1350
+Wire Wire Line
+	4500 1150 4500 900 
+Wire Wire Line
+	5500 900  5500 1150
+Wire Wire Line
+	5200 3500 5150 3500
+Wire Wire Line
+	5250 3500 5200 3500
+Connection ~ 5200 3500
+Wire Wire Line
+	4950 1150 4950 1050
+Wire Wire Line
+	4950 1050 5200 1050
+Wire Wire Line
+	5450 1050 5200 1050
+Wire Wire Line
+	5450 1050 5450 1350
+Connection ~ 5200 1050
+Wire Wire Line
+	5500 900  4500 900 
+$Comp
+L kbd:SK6812MINI L64
+U 1 1 653AC059
+P 3150 2450
+F 0 "L64" H 3150 2450 51  0000 C CNN
+F 1 "SK6812MINI" H 3150 2400 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 3150 2450 60  0001 C CNN
+F 3 "" H 3150 2450 60  0001 C CNN
+	1    3150 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L79
+U 1 1 653AC183
+P 3150 2850
+F 0 "L79" H 3150 2850 51  0000 C CNN
+F 1 "SK6812MINI" H 3150 2800 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 3150 2850 60  0001 C CNN
+F 3 "" H 3150 2850 60  0001 C CNN
+	1    3150 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 2750 2950 2650
+Wire Wire Line
+	2950 2650 3350 2650
+Wire Wire Line
+	3350 2650 3350 2550
+$Comp
+L kbd:SK6812MINI L49
+U 1 1 653AC190
+P 3150 2050
+F 0 "L49" H 3150 2050 51  0000 C CNN
+F 1 "SK6812MINI" H 3150 2000 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 3150 2050 60  0001 C CNN
+F 3 "" H 3150 2050 60  0001 C CNN
+	1    3150 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 2350 2950 2250
+Wire Wire Line
+	2950 2250 3350 2250
+Wire Wire Line
+	3350 2250 3350 2150
+$Comp
+L kbd:SK6812MINI L34
+U 1 1 653AC19D
+P 3150 1650
+F 0 "L34" H 3150 1650 51  0000 C CNN
+F 1 "SK6812MINI" H 3150 1600 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 3150 1650 60  0001 C CNN
+F 3 "" H 3150 1650 60  0001 C CNN
+	1    3150 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 1950 2950 1850
+Wire Wire Line
+	2950 1850 3350 1850
+Wire Wire Line
+	3350 1850 3350 1750
+$Comp
+L kbd:SK6812MINI L19
+U 1 1 653AC1AA
+P 3150 1250
+F 0 "L19" H 3150 1250 51  0000 C CNN
+F 1 "SK6812MINI" H 3150 1200 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 3150 1250 60  0001 C CNN
+F 3 "" H 3150 1250 60  0001 C CNN
+	1    3150 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 1550 2950 1450
+Wire Wire Line
+	2950 1450 3350 1450
+Wire Wire Line
+	3350 1450 3350 1350
+Wire Wire Line
+	2950 1150 2950 1050
+Wire Wire Line
+	3350 1050 3350 950 
+Wire Wire Line
+	2950 1050 3350 1050
+$Comp
+L kbd:SK6812MINI L4
+U 1 1 65947D77
+P 3150 850
+F 0 "L4" H 3150 850 51  0000 C CNN
+F 1 "SK6812MINI" H 3150 800 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 3150 850 60  0001 C CNN
+F 3 "" H 3150 850 60  0001 C CNN
+	1    3150 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 63BDDA7F
+P 700 950
+F 0 "C1" V 563 950 50  0000 C CNN
+F 1 "100n" V 472 950 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 700 950 50  0001 C CNN
+F 3 "~" H 700 950 50  0001 C CNN
+	1    700  950 
+	0    1    -1   0   
+$EndComp
+Connection ~ 800  950 
+Wire Wire Line
+	1250 2950 1250 3200
+Wire Wire Line
+	1350 2950 1300 2950
+Wire Wire Line
+	1300 2950 1300 2750
+Connection ~ 1300 2750
+Wire Wire Line
+	1800 1050 1800 950 
+Wire Wire Line
+	1400 1050 1800 1050
+Wire Wire Line
+	1400 1150 1400 1050
+$Comp
+L kbd:SK6812MINI L2
+U 1 1 65948243
+P 1600 850
+F 0 "L2" H 1600 850 51  0000 C CNN
+F 1 "SK6812MINI" H 1600 800 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 1600 850 60  0001 C CNN
+F 3 "" H 1600 850 60  0001 C CNN
+	1    1600 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1450 1800 1350
+Wire Wire Line
+	1400 1450 1800 1450
+Wire Wire Line
+	1400 1550 1400 1450
+$Comp
+L kbd:SK6812MINI L17
+U 1 1 650F1608
+P 1600 1250
+F 0 "L17" H 1600 1250 51  0000 C CNN
+F 1 "SK6812MINI" H 1600 1200 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 1600 1250 60  0001 C CNN
+F 3 "" H 1600 1250 60  0001 C CNN
+	1    1600 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1850 1800 1750
+Wire Wire Line
+	1400 1850 1800 1850
+Wire Wire Line
+	1400 1950 1400 1850
+$Comp
+L kbd:SK6812MINI L32
+U 1 1 650F15FB
+P 1600 1650
+F 0 "L32" H 1600 1650 51  0000 C CNN
+F 1 "SK6812MINI" H 1600 1600 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 1600 1650 60  0001 C CNN
+F 3 "" H 1600 1650 60  0001 C CNN
+	1    1600 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2250 1800 2150
+Wire Wire Line
+	1400 2250 1800 2250
+Wire Wire Line
+	1400 2350 1400 2250
+$Comp
+L kbd:SK6812MINI L47
+U 1 1 650F15EE
+P 1600 2050
+F 0 "L47" H 1600 2050 51  0000 C CNN
+F 1 "SK6812MINI" H 1600 2000 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 1600 2050 60  0001 C CNN
+F 3 "" H 1600 2050 60  0001 C CNN
+	1    1600 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2650 1800 2550
+Wire Wire Line
+	1400 2650 1800 2650
+Wire Wire Line
+	1400 2750 1400 2650
+$Comp
+L kbd:SK6812MINI L77
+U 1 1 650F15E1
+P 1600 2850
+F 0 "L77" H 1600 2850 51  0000 C CNN
+F 1 "SK6812MINI" H 1600 2800 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 1600 2850 60  0001 C CNN
+F 3 "" H 1600 2850 60  0001 C CNN
+	1    1600 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L62
+U 1 1 650F1507
+P 1600 2450
+F 0 "L62" H 1600 2450 51  0000 C CNN
+F 1 "SK6812MINI" H 1600 2400 16  0000 C CNN
+F 2 "libmodulo:SK6812MINI" H 1600 2450 60  0001 C CNN
+F 3 "" H 1600 2450 60  0001 C CNN
+	1    1600 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 2950 1350 2950
+Wire Wire Line
+	1350 2950 1350 2550
+Wire Wire Line
+	1350 1350 1400 1350
+Wire Wire Line
+	1400 1750 1350 1750
+Connection ~ 1350 1750
+Wire Wire Line
+	1350 1750 1350 1350
+Wire Wire Line
+	1400 2150 1350 2150
+Connection ~ 1350 2150
+Wire Wire Line
+	1350 2150 1350 1750
+Wire Wire Line
+	1400 2550 1350 2550
+Connection ~ 1350 2550
+Wire Wire Line
+	1350 2550 1350 2150
+Wire Wire Line
+	1350 1350 1350 950 
+Wire Wire Line
+	1350 950  1400 950 
+Connection ~ 1350 1350
+Connection ~ 1350 2950
+Wire Wire Line
+	1800 2350 1850 2350
+Wire Wire Line
+	1850 2350 1850 1950
+Wire Wire Line
+	1850 750  1800 750 
+Wire Wire Line
+	1800 1150 1850 1150
+Connection ~ 1850 1150
+Wire Wire Line
+	1850 1150 1850 750 
+Wire Wire Line
+	1800 1550 1850 1550
+Connection ~ 1850 1550
+Wire Wire Line
+	1850 1550 1850 1150
+Wire Wire Line
+	1800 1950 1850 1950
+Connection ~ 1850 1950
+Wire Wire Line
+	1850 1950 1850 1550
+Wire Wire Line
+	2350 1350 2350 1750
+Connection ~ 2350 1350
+Wire Wire Line
+	2400 1350 2350 1350
+Wire Wire Line
+	2350 1750 2350 2150
+Connection ~ 2350 1750
+Wire Wire Line
+	2400 1750 2350 1750
+Wire Wire Line
+	2350 2150 2350 2550
+Connection ~ 2350 2150
+Wire Wire Line
+	2400 2150 2350 2150
+Wire Wire Line
+	2350 2550 2400 2550
+Wire Wire Line
+	2350 950  2350 1350
+Wire Wire Line
+	2400 950  2350 950 
+Wire Wire Line
+	1800 2750 1850 2750
+Wire Wire Line
+	1850 2750 1850 2350
+Connection ~ 1850 2350
+Wire Wire Line
+	2350 2550 2350 2950
+Wire Wire Line
+	2350 2950 2400 2950
+Connection ~ 2350 2550
+$Comp
+L Device:C_Small C2
+U 1 1 63F70734
+P 1950 750
+F 0 "C2" V 1813 750 50  0000 C CNN
+F 1 "100n" V 1722 750 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1950 750 50  0001 C CNN
+F 3 "~" H 1950 750 50  0001 C CNN
+	1    1950 750 
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1850 750 
+$Comp
+L power:VCC #PWR0119
+U 1 1 63F7077A
+P 2100 650
+F 0 "#PWR0119" H 2100 500 50  0001 C CNN
+F 1 "VCC" H 2043 687 50  0000 R CNN
+F 2 "" H 2100 650 50  0001 C CNN
+F 3 "" H 2100 650 50  0001 C CNN
+	1    2100 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 63F70786
+P 2250 950
+F 0 "C3" V 2113 950 50  0000 C CNN
+F 1 "100n" V 2022 950 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2250 950 50  0001 C CNN
+F 3 "~" H 2250 950 50  0001 C CNN
+	1    2250 950 
+	0    1    -1   0   
+$EndComp
+Connection ~ 2350 950 
+Wire Wire Line
+	1850 750  1850 650 
+Wire Wire Line
+	1850 650  2100 650 
+Wire Wire Line
+	2350 650  2100 650 
+Wire Wire Line
+	2350 650  2350 950 
+Connection ~ 2100 650 
+Wire Wire Line
+	1250 3200 1800 3200
+Wire Wire Line
+	1800 2950 1800 3200
+Wire Wire Line
+	2400 750  2400 500 
+Wire Wire Line
+	2400 500  1400 500 
+Wire Wire Line
+	1400 500  1400 750 
+Wire Wire Line
+	2800 1150 2850 1150
+Wire Wire Line
+	2850 1150 2850 1550
+Wire Wire Line
+	2850 2750 2800 2750
+Wire Wire Line
+	2800 2350 2850 2350
+Connection ~ 2850 2350
+Wire Wire Line
+	2850 2350 2850 2750
+Wire Wire Line
+	2800 1950 2850 1950
+Connection ~ 2850 1950
+Wire Wire Line
+	2850 1950 2850 2350
+Wire Wire Line
+	2800 1550 2850 1550
+Connection ~ 2850 1550
+Wire Wire Line
+	2850 1550 2850 1950
+Wire Wire Line
+	2800 750  2850 750 
+Wire Wire Line
+	2850 750  2850 1150
+Connection ~ 2850 1150
+Wire Wire Line
+	2900 2950 2850 2950
+Wire Wire Line
+	2850 2950 2850 2750
+Connection ~ 2850 2750
+Wire Wire Line
+	2950 2950 2900 2950
+Wire Wire Line
+	2900 2950 2900 2550
+Wire Wire Line
+	2900 1350 2950 1350
+Wire Wire Line
+	2950 1750 2900 1750
+Connection ~ 2900 1750
+Wire Wire Line
+	2900 1750 2900 1350
+Wire Wire Line
+	2950 2150 2900 2150
+Connection ~ 2900 2150
+Wire Wire Line
+	2900 2150 2900 1750
+Wire Wire Line
+	2950 2550 2900 2550
+Connection ~ 2900 2550
+Wire Wire Line
+	2900 2550 2900 2150
+Wire Wire Line
+	2900 1350 2900 950 
+Wire Wire Line
+	2900 950  2950 950 
+Connection ~ 2900 1350
+Connection ~ 2900 2950
+Wire Wire Line
+	2800 2950 2800 3200
+Wire Wire Line
+	2800 3200 3350 3200
+Wire Wire Line
+	3350 3200 3350 2950
+Wire Wire Line
+	1350 3050 1350 2950
+$Comp
+L power:GND1 #PWR0120
+U 1 1 64584A8F
+P 2900 3050
+F 0 "#PWR0120" H 2900 2800 50  0001 C CNN
+F 1 "GND1" H 2988 3013 50  0000 L CNN
+F 2 "" H 2900 3050 50  0001 C CNN
+F 3 "" H 2900 3050 50  0001 C CNN
+	1    2900 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 3050 2900 2950
+Wire Wire Line
+	3350 2350 3400 2350
+Wire Wire Line
+	3400 2350 3400 1950
+Wire Wire Line
+	3400 750  3350 750 
+Wire Wire Line
+	3350 1150 3400 1150
+Connection ~ 3400 1150
+Wire Wire Line
+	3400 1150 3400 750 
+Wire Wire Line
+	3350 1550 3400 1550
+Connection ~ 3400 1550
+Wire Wire Line
+	3400 1550 3400 1150
+Wire Wire Line
+	3350 1950 3400 1950
+Connection ~ 3400 1950
+Wire Wire Line
+	3400 1950 3400 1550
+Wire Wire Line
+	3900 1350 3900 1750
+Connection ~ 3900 1350
+Wire Wire Line
+	3950 1350 3900 1350
+Wire Wire Line
+	3900 1750 3900 2150
+Connection ~ 3900 1750
+Wire Wire Line
+	3950 1750 3900 1750
+Wire Wire Line
+	3900 2150 3900 2550
+Connection ~ 3900 2150
+Wire Wire Line
+	3950 2150 3900 2150
+Wire Wire Line
+	3900 2550 3950 2550
+Wire Wire Line
+	3350 2750 3400 2750
+Wire Wire Line
+	3400 2750 3400 2350
+Connection ~ 3400 2350
+Wire Wire Line
+	3900 2550 3900 2950
+Wire Wire Line
+	3900 2950 3950 2950
+Connection ~ 3900 2550
+$Comp
+L Device:C_Small C4
+U 1 1 647245C5
+P 3500 750
+F 0 "C4" V 3363 750 50  0000 C CNN
+F 1 "100n" V 3272 750 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3500 750 50  0001 C CNN
+F 3 "~" H 3500 750 50  0001 C CNN
+	1    3500 750 
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3400 750 
+$Comp
+L power:VCC #PWR0121
+U 1 1 647245FF
+P 3650 650
+F 0 "#PWR0121" H 3650 500 50  0001 C CNN
+F 1 "VCC" H 3593 687 50  0000 R CNN
+F 2 "" H 3650 650 50  0001 C CNN
+F 3 "" H 3650 650 50  0001 C CNN
+	1    3650 650 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 750  3400 650 
+Wire Wire Line
+	3400 650  3650 650 
+Wire Wire Line
+	3900 650  3650 650 
+Connection ~ 3650 650 
+Wire Wire Line
+	2950 750  2950 500 
+Wire Wire Line
+	2950 500  3950 500 
+Wire Wire Line
+	3900 650  3900 1350
+Wire Wire Line
+	3950 500  3950 1150
+Wire Wire Line
+	4350 1150 4400 1150
+Wire Wire Line
+	4400 1150 4400 1550
+Wire Wire Line
+	4400 2750 4350 2750
+Wire Wire Line
+	4350 2350 4400 2350
+Connection ~ 4400 2350
+Wire Wire Line
+	4400 2350 4400 2750
+Wire Wire Line
+	4350 1950 4400 1950
+Connection ~ 4400 1950
+Wire Wire Line
+	4400 1950 4400 2350
+Wire Wire Line
+	4350 1550 4400 1550
+Connection ~ 4400 1550
+Wire Wire Line
+	4400 1550 4400 1950
+Wire Wire Line
+	4450 2950 4400 2950
+Wire Wire Line
+	4400 2950 4400 2750
+Connection ~ 4400 2750
+Wire Wire Line
+	4500 2950 4450 2950
+Wire Wire Line
+	4450 2950 4450 2550
+Wire Wire Line
+	4450 1350 4500 1350
+Wire Wire Line
+	4500 1750 4450 1750
+Connection ~ 4450 1750
+Wire Wire Line
+	4450 1750 4450 1350
+Wire Wire Line
+	4500 2150 4450 2150
+Connection ~ 4450 2150
+Wire Wire Line
+	4450 2150 4450 1750
+Wire Wire Line
+	4500 2550 4450 2550
+Connection ~ 4450 2550
+Wire Wire Line
+	4450 2550 4450 2150
+Connection ~ 4450 2950
+Wire Wire Line
+	4450 3350 4500 3350
+Wire Wire Line
+	4450 2950 4450 3350
+$Comp
+L power:GND1 #PWR0122
+U 1 1 64ECDCC0
+P 4450 3450
+F 0 "#PWR0122" H 4450 3200 50  0001 C CNN
+F 1 "GND1" H 4538 3413 50  0000 L CNN
+F 2 "" H 4450 3450 50  0001 C CNN
+F 3 "" H 4450 3450 50  0001 C CNN
+	1    4450 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3450 4450 3350
+Connection ~ 4450 3350
+Wire Wire Line
+	4350 2950 4350 3600
+Wire Wire Line
+	4350 3600 4900 3600
+Wire Wire Line
+	4900 3600 4900 3350
+Wire Wire Line
+	6000 3350 6050 3350
+$Comp
+L power:GND1 #PWR0123
+U 1 1 64F8948E
+P 6000 3450
+F 0 "#PWR0123" H 6000 3200 50  0001 C CNN
+F 1 "GND1" H 6088 3413 50  0000 L CNN
+F 2 "" H 6000 3450 50  0001 C CNN
+F 3 "" H 6000 3450 50  0001 C CNN
+	1    6000 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3450 6000 3350
+Wire Wire Line
+	6000 3350 6000 3150
+Wire Wire Line
+	6000 3150 5950 3150
+Connection ~ 6000 3350
+Connection ~ 5950 3150
+Wire Wire Line
+	5900 3350 5900 3600
+Wire Wire Line
+	5900 3600 6450 3600
+Wire Wire Line
+	6450 3600 6450 3350
+NoConn ~ 6050 3150
+$Comp
+L power:GND1 #PWR0124
+U 1 1 655D01F4
+P 6350 2800
+F 0 "#PWR0124" H 6350 2550 50  0001 C CNN
+F 1 "GND1" H 6355 2627 50  0000 C CNN
+F 2 "" H 6350 2800 50  0001 C CNN
+F 3 "" H 6350 2800 50  0001 C CNN
+	1    6350 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0125
+U 1 1 655D127F
+P 6150 2550
+F 0 "#PWR0125" H 6150 2400 50  0001 C CNN
+F 1 "VCC" H 6165 2723 50  0000 C CNN
+F 2 "" H 6150 2550 50  0001 C CNN
+F 3 "" H 6150 2550 50  0001 C CNN
+	1    6150 2550
+	1    0    0    -1  
+$EndComp
+Text Label 850  750  2    50   ~ 0
+RGB
+Wire Wire Line
+	800  850  800  950 
+$Comp
+L power:VCC #PWR0126
+U 1 1 63BDD72F
+P 550 700
+F 0 "#PWR0126" H 550 550 50  0001 C CNN
+F 1 "VCC" H 565 873 50  0000 C CNN
+F 2 "" H 550 700 50  0001 C CNN
+F 3 "" H 550 700 50  0001 C CNN
+	1    550  700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	550  700  550  850 
+Wire Wire Line
+	550  850  800  850 
+Wire Wire Line
+	6150 2550 6150 3050
+Wire Wire Line
+	6150 3050 6450 3050
+Wire Wire Line
+	6450 3050 6450 3150
+Wire Wire Line
+	6350 2550 6350 2800
+Wire Wire Line
+	5200 3500 5200 3650
+Wire Wire Line
+	5200 3650 3650 3650
+Wire Wire Line
+	2050 3100 2100 3100
+Wire Wire Line
+	3600 3100 3650 3100
+Connection ~ 3650 3100
+Wire Wire Line
+	3650 3100 3700 3100
+Connection ~ 2100 3100
+Wire Wire Line
+	2100 3100 2150 3100
+Wire Wire Line
+	2100 3100 2100 3450
+Wire Wire Line
+	3650 3100 3650 3450
+Wire Wire Line
+	600  3450 2100 3450
+Connection ~ 3650 3450
+Wire Wire Line
+	3650 3450 3650 3650
+Connection ~ 2100 3450
+Wire Wire Line
+	2100 3450 3650 3450
+Wire Wire Line
+	3700 1350 3700 1750
+Wire Wire Line
+	5150 1150 5150 1550
+Wire Wire Line
+	5250 1350 5250 1750
+$Comp
+L Device:C_Small C6
+U 1 1 66FE8DF3
+P 5350 3350
+F 0 "C6" V 5213 3350 50  0000 C CNN
+F 1 "100n" V 5122 3350 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5350 3350 50  0001 C CNN
+F 3 "~" H 5350 3350 50  0001 C CNN
+	1    5350 3350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 66FE8E06
+P 6250 2550
+F 0 "C7" V 6113 2550 50  0000 C CNN
+F 1 "100n" V 6022 2550 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 6250 2550 50  0001 C CNN
+F 3 "~" H 6250 2550 50  0001 C CNN
+	1    6250 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 66FE8DE9
+P 5050 3150
+F 0 "C5" V 4913 3150 50  0000 C CNN
+F 1 "100n" V 4822 3150 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5050 3150 50  0001 C CNN
+F 3 "~" H 5050 3150 50  0001 C CNN
+	1    5050 3150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4950 3150
+Connection ~ 5150 3150
+Wire Wire Line
+	5150 3150 5150 3500
+Connection ~ 5250 3350
+Wire Wire Line
+	5250 3350 5250 3500
+Connection ~ 5450 3350
+Connection ~ 6150 2550
+Wire Wire Line
+	3600 750  3600 1150
+Wire Wire Line
+	2150 950  2150 1350
+Wire Wire Line
+	2050 750  2050 1150
+Wire Wire Line
+	600  950  600  1350
+$Comp
+L Device:C_Small C17
+U 1 1 6B22DC3C
+P 1950 1150
+AR Path="/67E4E0EB/6B22DC3C" Ref="C17"  Part="1" 
+AR Path="/67E4ED7B/6B22DC3C" Ref="C?"  Part="1" 
+F 0 "C17" V 1813 1150 50  0000 C CNN
+F 1 "100n" V 1722 1150 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1950 1150 50  0001 C CNN
+F 3 "~" H 1950 1150 50  0001 C CNN
+	1    1950 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C16
+U 1 1 6B22DC42
+P 700 1350
+AR Path="/67E4E0EB/6B22DC42" Ref="C16"  Part="1" 
+AR Path="/67E4ED7B/6B22DC42" Ref="C?"  Part="1" 
+F 0 "C16" V 563 1350 50  0000 C CNN
+F 1 "100n" V 472 1350 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 700 1350 50  0001 C CNN
+F 3 "~" H 700 1350 50  0001 C CNN
+	1    700  1350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C_Small C22
+U 1 1 6B22DC4E
+P 5350 1350
+AR Path="/67E4E0EB/6B22DC4E" Ref="C22"  Part="1" 
+AR Path="/67E4ED7B/6B22DC4E" Ref="C?"  Part="1" 
+F 0 "C22" V 5213 1350 50  0000 C CNN
+F 1 "100n" V 5122 1350 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5350 1350 50  0001 C CNN
+F 3 "~" H 5350 1350 50  0001 C CNN
+	1    5350 1350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C_Small C21
+U 1 1 6B22DC54
+P 5050 1150
+AR Path="/67E4E0EB/6B22DC54" Ref="C21"  Part="1" 
+AR Path="/67E4ED7B/6B22DC54" Ref="C?"  Part="1" 
+F 0 "C21" V 4913 1150 50  0000 C CNN
+F 1 "100n" V 4822 1150 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5050 1150 50  0001 C CNN
+F 3 "~" H 5050 1150 50  0001 C CNN
+	1    5050 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C20
+U 1 1 6B22DC5A
+P 3800 1350
+AR Path="/67E4E0EB/6B22DC5A" Ref="C20"  Part="1" 
+AR Path="/67E4ED7B/6B22DC5A" Ref="C?"  Part="1" 
+F 0 "C20" V 3663 1350 50  0000 C CNN
+F 1 "100n" V 3572 1350 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3800 1350 50  0001 C CNN
+F 3 "~" H 3800 1350 50  0001 C CNN
+	1    3800 1350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C_Small C19
+U 1 1 6B22DC60
+P 3500 1150
+AR Path="/67E4E0EB/6B22DC60" Ref="C19"  Part="1" 
+AR Path="/67E4ED7B/6B22DC60" Ref="C?"  Part="1" 
+F 0 "C19" V 3363 1150 50  0000 C CNN
+F 1 "100n" V 3272 1150 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3500 1150 50  0001 C CNN
+F 3 "~" H 3500 1150 50  0001 C CNN
+	1    3500 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C18
+U 1 1 6B22DC66
+P 2250 1350
+AR Path="/67E4E0EB/6B22DC66" Ref="C18"  Part="1" 
+AR Path="/67E4ED7B/6B22DC66" Ref="C?"  Part="1" 
+F 0 "C18" V 2113 1350 50  0000 C CNN
+F 1 "100n" V 2022 1350 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2250 1350 50  0001 C CNN
+F 3 "~" H 2250 1350 50  0001 C CNN
+	1    2250 1350
+	0    1    -1   0   
+$EndComp
+Connection ~ 600  1350
+Wire Wire Line
+	600  1350 600  1750
+Connection ~ 2050 1150
+Wire Wire Line
+	2050 1150 2050 1550
+Connection ~ 2150 1350
+Wire Wire Line
+	2150 1350 2150 1750
+Connection ~ 3600 1150
+Wire Wire Line
+	3600 1150 3600 1550
+$Comp
+L Device:C_Small C32
+U 1 1 6B2B78F0
+P 1950 1550
+AR Path="/67E4E0EB/6B2B78F0" Ref="C32"  Part="1" 
+AR Path="/67E4ED7B/6B2B78F0" Ref="C?"  Part="1" 
+F 0 "C32" V 1813 1550 50  0000 C CNN
+F 1 "100n" V 1722 1550 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1950 1550 50  0001 C CNN
+F 3 "~" H 1950 1550 50  0001 C CNN
+	1    1950 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C31
+U 1 1 6B2B78F6
+P 700 1750
+AR Path="/67E4E0EB/6B2B78F6" Ref="C31"  Part="1" 
+AR Path="/67E4ED7B/6B2B78F6" Ref="C?"  Part="1" 
+F 0 "C31" V 563 1750 50  0000 C CNN
+F 1 "100n" V 472 1750 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 700 1750 50  0001 C CNN
+F 3 "~" H 700 1750 50  0001 C CNN
+	1    700  1750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C_Small C37
+U 1 1 6B2B7902
+P 5350 1750
+AR Path="/67E4E0EB/6B2B7902" Ref="C37"  Part="1" 
+AR Path="/67E4ED7B/6B2B7902" Ref="C?"  Part="1" 
+F 0 "C37" V 5213 1750 50  0000 C CNN
+F 1 "100n" V 5122 1750 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5350 1750 50  0001 C CNN
+F 3 "~" H 5350 1750 50  0001 C CNN
+	1    5350 1750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C_Small C36
+U 1 1 6B2B7908
+P 5050 1550
+AR Path="/67E4E0EB/6B2B7908" Ref="C36"  Part="1" 
+AR Path="/67E4ED7B/6B2B7908" Ref="C?"  Part="1" 
+F 0 "C36" V 4913 1550 50  0000 C CNN
+F 1 "100n" V 4822 1550 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5050 1550 50  0001 C CNN
+F 3 "~" H 5050 1550 50  0001 C CNN
+	1    5050 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C35
+U 1 1 6B2B790E
+P 3800 1750
+AR Path="/67E4E0EB/6B2B790E" Ref="C35"  Part="1" 
+AR Path="/67E4ED7B/6B2B790E" Ref="C?"  Part="1" 
+F 0 "C35" V 3663 1750 50  0000 C CNN
+F 1 "100n" V 3572 1750 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3800 1750 50  0001 C CNN
+F 3 "~" H 3800 1750 50  0001 C CNN
+	1    3800 1750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C_Small C34
+U 1 1 6B2B7914
+P 3500 1550
+AR Path="/67E4E0EB/6B2B7914" Ref="C34"  Part="1" 
+AR Path="/67E4ED7B/6B2B7914" Ref="C?"  Part="1" 
+F 0 "C34" V 3363 1550 50  0000 C CNN
+F 1 "100n" V 3272 1550 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3500 1550 50  0001 C CNN
+F 3 "~" H 3500 1550 50  0001 C CNN
+	1    3500 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C33
+U 1 1 6B2B791A
+P 2250 1750
+AR Path="/67E4E0EB/6B2B791A" Ref="C33"  Part="1" 
+AR Path="/67E4ED7B/6B2B791A" Ref="C?"  Part="1" 
+F 0 "C33" V 2113 1750 50  0000 C CNN
+F 1 "100n" V 2022 1750 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2250 1750 50  0001 C CNN
+F 3 "~" H 2250 1750 50  0001 C CNN
+	1    2250 1750
+	0    1    -1   0   
+$EndComp
+Connection ~ 600  1750
+Wire Wire Line
+	600  1750 600  2150
+Connection ~ 2050 1550
+Wire Wire Line
+	2050 1550 2050 1950
+Connection ~ 2150 1750
+Wire Wire Line
+	2150 1750 2150 2150
+Connection ~ 3600 1550
+Wire Wire Line
+	3600 1550 3600 1950
+Connection ~ 3700 1750
+Wire Wire Line
+	3700 1750 3700 2150
+Connection ~ 5150 1550
+Wire Wire Line
+	5150 1550 5150 1950
+Connection ~ 5250 1750
+Wire Wire Line
+	5250 1750 5250 2150
+$Comp
+L Device:C_Small C47
+U 1 1 6B3522A0
+P 1950 1950
+AR Path="/67E4E0EB/6B3522A0" Ref="C47"  Part="1" 
+AR Path="/67E4ED7B/6B3522A0" Ref="C?"  Part="1" 
+F 0 "C47" V 1813 1950 50  0000 C CNN
+F 1 "100n" V 1722 1950 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1950 1950 50  0001 C CNN
+F 3 "~" H 1950 1950 50  0001 C CNN
+	1    1950 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C46
+U 1 1 6B3522A6
+P 700 2150
+AR Path="/67E4E0EB/6B3522A6" Ref="C46"  Part="1" 
+AR Path="/67E4ED7B/6B3522A6" Ref="C?"  Part="1" 
+F 0 "C46" V 563 2150 50  0000 C CNN
+F 1 "100n" V 472 2150 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 700 2150 50  0001 C CNN
+F 3 "~" H 700 2150 50  0001 C CNN
+	1    700  2150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C_Small C52
+U 1 1 6B3522B2
+P 5350 2150
+AR Path="/67E4E0EB/6B3522B2" Ref="C52"  Part="1" 
+AR Path="/67E4ED7B/6B3522B2" Ref="C?"  Part="1" 
+F 0 "C52" V 5213 2150 50  0000 C CNN
+F 1 "100n" V 5122 2150 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5350 2150 50  0001 C CNN
+F 3 "~" H 5350 2150 50  0001 C CNN
+	1    5350 2150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C_Small C51
+U 1 1 6B3522B8
+P 5050 1950
+AR Path="/67E4E0EB/6B3522B8" Ref="C51"  Part="1" 
+AR Path="/67E4ED7B/6B3522B8" Ref="C?"  Part="1" 
+F 0 "C51" V 4913 1950 50  0000 C CNN
+F 1 "100n" V 4822 1950 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5050 1950 50  0001 C CNN
+F 3 "~" H 5050 1950 50  0001 C CNN
+	1    5050 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C50
+U 1 1 6B3522BE
+P 3800 2150
+AR Path="/67E4E0EB/6B3522BE" Ref="C50"  Part="1" 
+AR Path="/67E4ED7B/6B3522BE" Ref="C?"  Part="1" 
+F 0 "C50" V 3663 2150 50  0000 C CNN
+F 1 "100n" V 3572 2150 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3800 2150 50  0001 C CNN
+F 3 "~" H 3800 2150 50  0001 C CNN
+	1    3800 2150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C_Small C49
+U 1 1 6B3522C4
+P 3500 1950
+AR Path="/67E4E0EB/6B3522C4" Ref="C49"  Part="1" 
+AR Path="/67E4ED7B/6B3522C4" Ref="C?"  Part="1" 
+F 0 "C49" V 3363 1950 50  0000 C CNN
+F 1 "100n" V 3272 1950 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3500 1950 50  0001 C CNN
+F 3 "~" H 3500 1950 50  0001 C CNN
+	1    3500 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C48
+U 1 1 6B3522CA
+P 2250 2150
+AR Path="/67E4E0EB/6B3522CA" Ref="C48"  Part="1" 
+AR Path="/67E4ED7B/6B3522CA" Ref="C?"  Part="1" 
+F 0 "C48" V 2113 2150 50  0000 C CNN
+F 1 "100n" V 2022 2150 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2250 2150 50  0001 C CNN
+F 3 "~" H 2250 2150 50  0001 C CNN
+	1    2250 2150
+	0    1    -1   0   
+$EndComp
+Connection ~ 600  2150
+Wire Wire Line
+	600  2150 600  2550
+Connection ~ 2050 1950
+Wire Wire Line
+	2050 1950 2050 2350
+Connection ~ 2150 2150
+Wire Wire Line
+	2150 2150 2150 2550
+Connection ~ 3600 1950
+Wire Wire Line
+	3600 1950 3600 2350
+Connection ~ 3700 2150
+Wire Wire Line
+	3700 2150 3700 2550
+Connection ~ 5150 1950
+Wire Wire Line
+	5150 1950 5150 2350
+Connection ~ 5250 2150
+Wire Wire Line
+	5250 2150 5250 2550
+$Comp
+L Device:C_Small C62
+U 1 1 6085A002
+P 1950 2350
+AR Path="/67E4E0EB/6085A002" Ref="C62"  Part="1" 
+AR Path="/67E4ED7B/6085A002" Ref="C?"  Part="1" 
+F 0 "C62" V 1813 2350 50  0000 C CNN
+F 1 "100n" V 1722 2350 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1950 2350 50  0001 C CNN
+F 3 "~" H 1950 2350 50  0001 C CNN
+	1    1950 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C67
+U 1 1 6085A00E
+P 5350 2550
+AR Path="/67E4E0EB/6085A00E" Ref="C67"  Part="1" 
+AR Path="/67E4ED7B/6085A00E" Ref="C?"  Part="1" 
+F 0 "C67" V 5213 2550 50  0000 C CNN
+F 1 "100n" V 5122 2550 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5350 2550 50  0001 C CNN
+F 3 "~" H 5350 2550 50  0001 C CNN
+	1    5350 2550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C_Small C66
+U 1 1 6085A014
+P 5050 2350
+AR Path="/67E4E0EB/6085A014" Ref="C66"  Part="1" 
+AR Path="/67E4ED7B/6085A014" Ref="C?"  Part="1" 
+F 0 "C66" V 4913 2350 50  0000 C CNN
+F 1 "100n" V 4822 2350 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5050 2350 50  0001 C CNN
+F 3 "~" H 5050 2350 50  0001 C CNN
+	1    5050 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C65
+U 1 1 6085A01A
+P 3800 2550
+AR Path="/67E4E0EB/6085A01A" Ref="C65"  Part="1" 
+AR Path="/67E4ED7B/6085A01A" Ref="C?"  Part="1" 
+F 0 "C65" V 3663 2550 50  0000 C CNN
+F 1 "100n" V 3572 2550 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3800 2550 50  0001 C CNN
+F 3 "~" H 3800 2550 50  0001 C CNN
+	1    3800 2550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C_Small C64
+U 1 1 6085A020
+P 3500 2350
+AR Path="/67E4E0EB/6085A020" Ref="C64"  Part="1" 
+AR Path="/67E4ED7B/6085A020" Ref="C?"  Part="1" 
+F 0 "C64" V 3363 2350 50  0000 C CNN
+F 1 "100n" V 3272 2350 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3500 2350 50  0001 C CNN
+F 3 "~" H 3500 2350 50  0001 C CNN
+	1    3500 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C63
+U 1 1 6085A026
+P 2250 2550
+AR Path="/67E4E0EB/6085A026" Ref="C63"  Part="1" 
+AR Path="/67E4ED7B/6085A026" Ref="C?"  Part="1" 
+F 0 "C63" V 2113 2550 50  0000 C CNN
+F 1 "100n" V 2022 2550 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2250 2550 50  0001 C CNN
+F 3 "~" H 2250 2550 50  0001 C CNN
+	1    2250 2550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C_Small C61
+U 1 1 6085A02C
+P 700 2550
+AR Path="/67E4E0EB/6085A02C" Ref="C61"  Part="1" 
+AR Path="/67E4ED7B/6085A02C" Ref="C?"  Part="1" 
+F 0 "C61" V 563 2550 50  0000 C CNN
+F 1 "100n" V 472 2550 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 700 2550 50  0001 C CNN
+F 3 "~" H 700 2550 50  0001 C CNN
+	1    700  2550
+	0    1    -1   0   
+$EndComp
+Connection ~ 600  2550
+Wire Wire Line
+	600  2550 600  2950
+Connection ~ 2050 2350
+Wire Wire Line
+	2050 2350 2050 2750
+Connection ~ 2150 2550
+Wire Wire Line
+	2150 2550 2150 2950
+Connection ~ 3600 2350
+Wire Wire Line
+	3600 2350 3600 2750
+Connection ~ 3700 2550
+Wire Wire Line
+	3700 2550 3700 2950
+Connection ~ 5150 2350
+Wire Wire Line
+	5150 2350 5150 2750
+Connection ~ 5250 2550
+Wire Wire Line
+	5250 2550 5250 2950
+$Comp
+L Device:C_Small C77
+U 1 1 609047BD
+P 1950 2750
+AR Path="/67E4E0EB/609047BD" Ref="C77"  Part="1" 
+AR Path="/67E4ED7B/609047BD" Ref="C?"  Part="1" 
+F 0 "C77" V 1813 2750 50  0000 C CNN
+F 1 "100n" V 1722 2750 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1950 2750 50  0001 C CNN
+F 3 "~" H 1950 2750 50  0001 C CNN
+	1    1950 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C82
+U 1 1 609047C9
+P 5350 2950
+AR Path="/67E4E0EB/609047C9" Ref="C82"  Part="1" 
+AR Path="/67E4ED7B/609047C9" Ref="C?"  Part="1" 
+F 0 "C82" V 5213 2950 50  0000 C CNN
+F 1 "100n" V 5122 2950 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5350 2950 50  0001 C CNN
+F 3 "~" H 5350 2950 50  0001 C CNN
+	1    5350 2950
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C_Small C81
+U 1 1 609047CF
+P 5050 2750
+AR Path="/67E4E0EB/609047CF" Ref="C81"  Part="1" 
+AR Path="/67E4ED7B/609047CF" Ref="C?"  Part="1" 
+F 0 "C81" V 4913 2750 50  0000 C CNN
+F 1 "100n" V 4822 2750 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5050 2750 50  0001 C CNN
+F 3 "~" H 5050 2750 50  0001 C CNN
+	1    5050 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C80
+U 1 1 609047D5
+P 3800 2950
+AR Path="/67E4E0EB/609047D5" Ref="C80"  Part="1" 
+AR Path="/67E4ED7B/609047D5" Ref="C?"  Part="1" 
+F 0 "C80" V 3663 2950 50  0000 C CNN
+F 1 "100n" V 3572 2950 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3800 2950 50  0001 C CNN
+F 3 "~" H 3800 2950 50  0001 C CNN
+	1    3800 2950
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C_Small C79
+U 1 1 609047DB
+P 3500 2750
+AR Path="/67E4E0EB/609047DB" Ref="C79"  Part="1" 
+AR Path="/67E4ED7B/609047DB" Ref="C?"  Part="1" 
+F 0 "C79" V 3363 2750 50  0000 C CNN
+F 1 "100n" V 3272 2750 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3500 2750 50  0001 C CNN
+F 3 "~" H 3500 2750 50  0001 C CNN
+	1    3500 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C78
+U 1 1 609047E1
+P 2250 2950
+AR Path="/67E4E0EB/609047E1" Ref="C78"  Part="1" 
+AR Path="/67E4ED7B/609047E1" Ref="C?"  Part="1" 
+F 0 "C78" V 2113 2950 50  0000 C CNN
+F 1 "100n" V 2022 2950 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2250 2950 50  0001 C CNN
+F 3 "~" H 2250 2950 50  0001 C CNN
+	1    2250 2950
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C_Small C76
+U 1 1 609047E7
+P 700 2950
+AR Path="/67E4E0EB/609047E7" Ref="C76"  Part="1" 
+AR Path="/67E4ED7B/609047E7" Ref="C?"  Part="1" 
+F 0 "C76" V 563 2950 50  0000 C CNN
+F 1 "100n" V 472 2950 50  0000 C CNN
+F 2 "libmodulo:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 700 2950 50  0001 C CNN
+F 3 "~" H 700 2950 50  0001 C CNN
+	1    700  2950
+	0    1    -1   0   
+$EndComp
+Connection ~ 800  2950
+Connection ~ 600  2950
+Wire Wire Line
+	600  2950 600  3450
+Connection ~ 1850 2750
+Connection ~ 2050 2750
+Wire Wire Line
+	2050 2750 2050 3100
+Connection ~ 2350 2950
+Connection ~ 2150 2950
+Wire Wire Line
+	2150 2950 2150 3100
+Connection ~ 3400 2750
+Connection ~ 3600 2750
+Wire Wire Line
+	3600 2750 3600 3100
+Connection ~ 3900 2950
+Connection ~ 3700 2950
+Wire Wire Line
+	3700 2950 3700 3100
+Connection ~ 5150 2750
+Wire Wire Line
+	5150 2750 5150 3150
+Connection ~ 5250 2950
+Wire Wire Line
+	5250 2950 5250 3350
+Text Label 8650 3850 1    50   ~ 0
+SDA
+Text Label 8500 3850 1    50   ~ 0
+SCL
+Wire Wire Line
+	8200 3850 8100 3850
+$Comp
+L power:VCC #PWR0136
+U 1 1 60792067
+P 8350 3850
+F 0 "#PWR0136" H 8350 3700 50  0001 C CNN
+F 1 "VCC" H 8365 4023 50  0000 C CNN
+F 2 "" H 8350 3850 50  0001 C CNN
+F 3 "" H 8350 3850 50  0001 C CNN
+	1    8350 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR0135
+U 1 1 60790C49
+P 8100 3850
+AR Path="/67E4E0EB/60790C49" Ref="#PWR0135"  Part="1" 
+AR Path="/67E4ECE8/60790C49" Ref="#PWR?"  Part="1" 
+AR Path="/67E4ED54/60790C49" Ref="#PWR?"  Part="1" 
+AR Path="/67E4ED7B/60790C49" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0135" H 8100 3600 50  0001 C CNN
+F 1 "GND1" H 8188 3813 50  0000 L CNN
+F 2 "" H 8100 3850 50  0001 C CNN
+F 3 "" H 8100 3850 50  0001 C CNN
+	1    8100 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L kbd:OLED OL1
+U 1 1 6053E449
+P 8400 4600
+F 0 "OL1" V 8273 4978 51  0000 L CNN
+F 1 "OLED" V 8363 4978 47  0000 L CNN
+F 2 "libmodulo:128x64OLED" H 8400 4700 60  0001 C CNN
+F 3 "" H 8400 4700 60  0001 C CNN
+	1    8400 4600
+	0    1    1    0   
+$EndComp
+Text Label 1200 3950 1    50   ~ 0
+r2
+Text Label 1550 3950 1    50   ~ 0
+r3
+Text Label 1900 3950 1    50   ~ 0
+r4
+Text Label 2250 3950 1    50   ~ 0
+r5
+Wire Wire Line
+	6900 3850 6900 4100
+Wire Wire Line
+	6400 3850 6400 4100
+Wire Wire Line
+	5900 3850 5900 4100
+Wire Wire Line
+	5400 3850 5400 4100
+Wire Wire Line
+	4400 3850 4400 4100
+$Comp
+L Device:D D1
+U 1 1 66F6AEAD
+P 3500 4250
+AR Path="/67E4E0EB/66F6AEAD" Ref="D1"  Part="1" 
+AR Path="/67E4ECE8/66F6AEAD" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/66F6AEAD" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEAD" Ref="D?"  Part="1" 
+F 0 "D1" V 3546 4170 50  0000 R CNN
+F 1 "D" V 3455 4170 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 3500 4250 50  0001 C CNN
+F 3 "~" H 3500 4250 50  0001 C CNN
+	1    3500 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 3850 3900 4100
+Wire Wire Line
+	4900 3850 4900 4100
+Text Label 6900 3850 2    50   ~ 0
+c6
+Connection ~ 4500 4400
+Wire Wire Line
+	4500 4400 5000 4400
+$Comp
+L Switch:SW_Push SW7
+U 1 1 601DC26F
+P 6700 4100
+AR Path="/67E4E0EB/601DC26F" Ref="SW7"  Part="1" 
+AR Path="/67E4ECE8/601DC26F" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/601DC26F" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/601DC26F" Ref="SW?"  Part="1" 
+F 0 "SW7" H 6700 4385 50  0000 C CNN
+F 1 "SW_Push" H 6700 4294 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6700 4300 50  0001 C CNN
+F 3 "~" H 6700 4300 50  0001 C CNN
+	1    6700 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 4400
+Connection ~ 6000 4400
+Wire Wire Line
+	5500 4400 6000 4400
+Connection ~ 5500 4400
+Wire Wire Line
+	5000 4400 5500 4400
+Wire Wire Line
+	4000 4400 4500 4400
+Connection ~ 4000 4400
+Wire Wire Line
+	3500 4400 4000 4400
+$Comp
+L Device:D D7
+U 1 1 601DC265
+P 6500 4250
+AR Path="/67E4E0EB/601DC265" Ref="D7"  Part="1" 
+AR Path="/67E4ECE8/601DC265" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/601DC265" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/601DC265" Ref="D?"  Part="1" 
+F 0 "D7" V 6546 4170 50  0000 R CNN
+F 1 "D" V 6455 4170 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 6500 4250 50  0001 C CNN
+F 3 "~" H 6500 4250 50  0001 C CNN
+	1    6500 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 601DC25B
+P 6200 4100
+AR Path="/67E4E0EB/601DC25B" Ref="SW6"  Part="1" 
+AR Path="/67E4ECE8/601DC25B" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/601DC25B" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/601DC25B" Ref="SW?"  Part="1" 
+F 0 "SW6" H 6200 4385 50  0000 C CNN
+F 1 "SW_Push" H 6200 4294 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6200 4300 50  0001 C CNN
+F 3 "~" H 6200 4300 50  0001 C CNN
+	1    6200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 601DC251
+P 6000 4250
+AR Path="/67E4E0EB/601DC251" Ref="D6"  Part="1" 
+AR Path="/67E4ECE8/601DC251" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/601DC251" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/601DC251" Ref="D?"  Part="1" 
+F 0 "D6" V 6046 4170 50  0000 R CNN
+F 1 "D" V 5955 4170 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 6000 4250 50  0001 C CNN
+F 3 "~" H 6000 4250 50  0001 C CNN
+	1    6000 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 66F6AEB6
+P 5700 4100
+AR Path="/67E4E0EB/66F6AEB6" Ref="SW5"  Part="1" 
+AR Path="/67E4ECE8/66F6AEB6" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/66F6AEB6" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEB6" Ref="SW?"  Part="1" 
+F 0 "SW5" H 5700 4385 50  0000 C CNN
+F 1 "SW_Push" H 5700 4294 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5700 4300 50  0001 C CNN
+F 3 "~" H 5700 4300 50  0001 C CNN
+	1    5700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 601DC23D
+P 5500 4250
+AR Path="/67E4E0EB/601DC23D" Ref="D5"  Part="1" 
+AR Path="/67E4ECE8/601DC23D" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/601DC23D" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/601DC23D" Ref="D?"  Part="1" 
+F 0 "D5" V 5546 4170 50  0000 R CNN
+F 1 "D" V 5455 4170 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 5500 4250 50  0001 C CNN
+F 3 "~" H 5500 4250 50  0001 C CNN
+	1    5500 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 66F6AEB4
+P 5200 4100
+AR Path="/67E4E0EB/66F6AEB4" Ref="SW4"  Part="1" 
+AR Path="/67E4ECE8/66F6AEB4" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/66F6AEB4" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEB4" Ref="SW?"  Part="1" 
+F 0 "SW4" H 5200 4385 50  0000 C CNN
+F 1 "SW_Push" H 5200 4294 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5200 4300 50  0001 C CNN
+F 3 "~" H 5200 4300 50  0001 C CNN
+	1    5200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 66F6AEB3
+P 5000 4250
+AR Path="/67E4E0EB/66F6AEB3" Ref="D4"  Part="1" 
+AR Path="/67E4ECE8/66F6AEB3" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/66F6AEB3" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEB3" Ref="D?"  Part="1" 
+F 0 "D4" V 5046 4170 50  0000 R CNN
+F 1 "D" V 4955 4170 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 5000 4250 50  0001 C CNN
+F 3 "~" H 5000 4250 50  0001 C CNN
+	1    5000 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 66F6AEB2
+P 4700 4100
+AR Path="/67E4E0EB/66F6AEB2" Ref="SW3"  Part="1" 
+AR Path="/67E4ECE8/66F6AEB2" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/66F6AEB2" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEB2" Ref="SW?"  Part="1" 
+F 0 "SW3" H 4700 4385 50  0000 C CNN
+F 1 "SW_Push" H 4700 4294 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4700 4300 50  0001 C CNN
+F 3 "~" H 4700 4300 50  0001 C CNN
+	1    4700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 66F6AEB1
+P 4500 4250
+AR Path="/67E4E0EB/66F6AEB1" Ref="D3"  Part="1" 
+AR Path="/67E4ECE8/66F6AEB1" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/66F6AEB1" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEB1" Ref="D?"  Part="1" 
+F 0 "D3" V 4546 4170 50  0000 R CNN
+F 1 "D" V 4455 4170 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 4500 4250 50  0001 C CNN
+F 3 "~" H 4500 4250 50  0001 C CNN
+	1    4500 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 66F6AEB0
+P 4200 4100
+AR Path="/67E4E0EB/66F6AEB0" Ref="SW2"  Part="1" 
+AR Path="/67E4ECE8/66F6AEB0" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/66F6AEB0" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEB0" Ref="SW?"  Part="1" 
+F 0 "SW2" H 4200 4385 50  0000 C CNN
+F 1 "SW_Push" H 4200 4294 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4200 4300 50  0001 C CNN
+F 3 "~" H 4200 4300 50  0001 C CNN
+	1    4200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 66F6AEAF
+P 4000 4250
+AR Path="/67E4E0EB/66F6AEAF" Ref="D2"  Part="1" 
+AR Path="/67E4ECE8/66F6AEAF" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/66F6AEAF" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEAF" Ref="D?"  Part="1" 
+F 0 "D2" V 4046 4170 50  0000 R CNN
+F 1 "D" V 3955 4170 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 4000 4250 50  0001 C CNN
+F 3 "~" H 4000 4250 50  0001 C CNN
+	1    4000 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 66F6AEAE
+P 3700 4100
+AR Path="/67E4E0EB/66F6AEAE" Ref="SW1"  Part="1" 
+AR Path="/67E4ECE8/66F6AEAE" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/66F6AEAE" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEAE" Ref="SW?"  Part="1" 
+F 0 "SW1" H 3700 4385 50  0000 C CNN
+F 1 "SW_Push" H 3700 4294 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 3700 4300 50  0001 C CNN
+F 3 "~" H 3700 4300 50  0001 C CNN
+	1    3700 4100
+	1    0    0    -1  
+$EndComp
+Text Label 3900 3850 2    50   ~ 0
+c0
+Text Label 4400 3850 2    50   ~ 0
+c1
+Text Label 4900 3850 2    50   ~ 0
+c2
+Text Label 5400 3850 2    50   ~ 0
+c3
+Text Label 5900 3850 2    50   ~ 0
+c4
+Text Label 6400 3850 2    50   ~ 0
+c5
+Wire Wire Line
+	3900 4100 3900 4750
+Connection ~ 3900 6700
+Wire Wire Line
+	3900 7350 3900 6700
+Connection ~ 4400 6700
+Wire Wire Line
+	4400 6700 4400 7350
+Connection ~ 4900 6700
+Wire Wire Line
+	4900 7350 4900 6700
+Connection ~ 5400 6700
+Wire Wire Line
+	5400 6700 5400 7350
+Connection ~ 5900 6700
+Wire Wire Line
+	5900 7350 5900 6700
+Connection ~ 6400 6700
+Wire Wire Line
+	6400 6700 6400 7350
+Connection ~ 6900 6700
+Wire Wire Line
+	6900 7350 6900 6700
+Wire Wire Line
+	6900 6050 6900 6700
+Connection ~ 6900 6050
+Wire Wire Line
+	6900 5400 6900 6050
+Connection ~ 6900 5400
+Wire Wire Line
+	6900 4750 6900 5400
+Connection ~ 6900 4750
+Wire Wire Line
+	6900 4100 6900 4750
+Wire Wire Line
+	6400 6050 6400 5400
+Connection ~ 6400 6050
+Wire Wire Line
+	6400 5400 6400 4750
+Connection ~ 6400 5400
+Wire Wire Line
+	6400 4750 6400 4100
+Connection ~ 6400 4750
+Wire Wire Line
+	6400 6700 6400 6050
+Wire Wire Line
+	5900 6050 5900 6700
+Connection ~ 5900 6050
+Wire Wire Line
+	5900 5400 5900 6050
+Connection ~ 5900 5400
+Wire Wire Line
+	5900 4750 5900 5400
+Connection ~ 5900 4750
+Wire Wire Line
+	5900 4100 5900 4750
+Wire Wire Line
+	5400 6050 5400 5400
+Connection ~ 5400 6050
+Wire Wire Line
+	5400 5400 5400 4750
+Connection ~ 5400 5400
+Wire Wire Line
+	5400 4750 5400 4100
+Connection ~ 5400 4750
+Wire Wire Line
+	5400 6700 5400 6050
+Wire Wire Line
+	4900 6050 4900 6700
+Connection ~ 4900 6050
+Wire Wire Line
+	4900 5400 4900 6050
+Connection ~ 4900 5400
+Wire Wire Line
+	4900 4750 4900 5400
+Connection ~ 4900 4750
+Wire Wire Line
+	4900 4100 4900 4750
+Wire Wire Line
+	4400 6050 4400 6700
+Connection ~ 4400 6050
+Wire Wire Line
+	4400 5400 4400 6050
+Connection ~ 4400 5400
+Wire Wire Line
+	4400 4750 4400 5400
+Connection ~ 4400 4750
+Wire Wire Line
+	4400 4100 4400 4750
+Wire Wire Line
+	3900 6050 3900 6700
+Connection ~ 3900 6050
+Wire Wire Line
+	3900 5400 3900 6050
+Connection ~ 3900 5400
+Wire Wire Line
+	3900 4750 3900 5400
+Connection ~ 3900 4750
+Wire Wire Line
+	6500 7650 6000 7650
+Connection ~ 6000 7650
+Wire Wire Line
+	6000 7650 5500 7650
+Connection ~ 5500 7650
+Wire Wire Line
+	5500 7650 5000 7650
+Connection ~ 5000 7650
+Wire Wire Line
+	5000 7650 4500 7650
+Connection ~ 4500 7650
+Wire Wire Line
+	4500 7650 4000 7650
+Connection ~ 4000 7650
+Wire Wire Line
+	4000 7650 3500 7650
+Wire Wire Line
+	6000 7000 6500 7000
+Connection ~ 6000 7000
+Wire Wire Line
+	5500 7000 6000 7000
+Connection ~ 5500 7000
+Wire Wire Line
+	5000 7000 5500 7000
+Connection ~ 5000 7000
+Wire Wire Line
+	4500 7000 5000 7000
+Connection ~ 4500 7000
+Wire Wire Line
+	4000 7000 4500 7000
+Connection ~ 4000 7000
+Wire Wire Line
+	3500 7000 4000 7000
+Wire Wire Line
+	6500 6350 6000 6350
+Wire Wire Line
+	6000 6350 5500 6350
+Connection ~ 6000 6350
+Wire Wire Line
+	5500 6350 5000 6350
+Connection ~ 5500 6350
+Wire Wire Line
+	5000 6350 4500 6350
+Connection ~ 5000 6350
+Wire Wire Line
+	4500 6350 4000 6350
+Connection ~ 4500 6350
+Wire Wire Line
+	4000 6350 3500 6350
+Connection ~ 4000 6350
+Wire Wire Line
+	6000 5700 6500 5700
+Connection ~ 6000 5700
+Wire Wire Line
+	5500 5700 6000 5700
+Connection ~ 5500 5700
+Wire Wire Line
+	5000 5700 5500 5700
+Connection ~ 5000 5700
+Wire Wire Line
+	4500 5700 5000 5700
+Connection ~ 4500 5700
+Wire Wire Line
+	4000 5700 4500 5700
+Connection ~ 4000 5700
+Wire Wire Line
+	3500 5700 4000 5700
+Wire Wire Line
+	6500 5050 6000 5050
+Wire Wire Line
+	6000 5050 5500 5050
+Connection ~ 6000 5050
+Wire Wire Line
+	5500 5050 5000 5050
+Connection ~ 5500 5050
+Wire Wire Line
+	5000 5050 4500 5050
+Connection ~ 5000 5050
+Wire Wire Line
+	4500 5050 4000 5050
+Connection ~ 4500 5050
+Wire Wire Line
+	4000 5050 3500 5050
+Connection ~ 4000 5050
+$Comp
+L Switch:SW_Push SW22
+U 1 1 66F6AEDB
+P 6700 4750
+AR Path="/67E4E0EB/66F6AEDB" Ref="SW22"  Part="1" 
+AR Path="/67E4ECE8/66F6AEDB" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/66F6AEDB" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEDB" Ref="SW?"  Part="1" 
+F 0 "SW22" H 6700 5035 50  0000 C CNN
+F 1 "SW_Push" H 6700 4944 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6700 4950 50  0001 C CNN
+F 3 "~" H 6700 4950 50  0001 C CNN
+	1    6700 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 6566F8F2
+P 6500 4900
+AR Path="/67E4E0EB/6566F8F2" Ref="D22"  Part="1" 
+AR Path="/67E4ECE8/6566F8F2" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/6566F8F2" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/6566F8F2" Ref="D?"  Part="1" 
+F 0 "D22" V 6546 4820 50  0000 R CNN
+F 1 "D" V 6455 4820 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 6500 4900 50  0001 C CNN
+F 3 "~" H 6500 4900 50  0001 C CNN
+	1    6500 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW21
+U 1 1 66F6AEDD
+P 6200 4750
+AR Path="/67E4E0EB/66F6AEDD" Ref="SW21"  Part="1" 
+AR Path="/67E4ECE8/66F6AEDD" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/66F6AEDD" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEDD" Ref="SW?"  Part="1" 
+F 0 "SW21" H 6200 5035 50  0000 C CNN
+F 1 "SW_Push" H 6200 4944 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6200 4950 50  0001 C CNN
+F 3 "~" H 6200 4950 50  0001 C CNN
+	1    6200 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 66F6AEDE
+P 6000 4900
+AR Path="/67E4E0EB/66F6AEDE" Ref="D21"  Part="1" 
+AR Path="/67E4ECE8/66F6AEDE" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/66F6AEDE" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEDE" Ref="D?"  Part="1" 
+F 0 "D21" V 6046 4820 50  0000 R CNN
+F 1 "D" V 5955 4820 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 6000 4900 50  0001 C CNN
+F 3 "~" H 6000 4900 50  0001 C CNN
+	1    6000 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW20
+U 1 1 66F6AEDF
+P 5700 4750
+AR Path="/67E4E0EB/66F6AEDF" Ref="SW20"  Part="1" 
+AR Path="/67E4ECE8/66F6AEDF" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/66F6AEDF" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEDF" Ref="SW?"  Part="1" 
+F 0 "SW20" H 5700 5035 50  0000 C CNN
+F 1 "SW_Push" H 5700 4944 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5700 4950 50  0001 C CNN
+F 3 "~" H 5700 4950 50  0001 C CNN
+	1    5700 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 66F6AEE0
+P 5500 4900
+AR Path="/67E4E0EB/66F6AEE0" Ref="D20"  Part="1" 
+AR Path="/67E4ECE8/66F6AEE0" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/66F6AEE0" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEE0" Ref="D?"  Part="1" 
+F 0 "D20" V 5546 4820 50  0000 R CNN
+F 1 "D" V 5455 4820 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 5500 4900 50  0001 C CNN
+F 3 "~" H 5500 4900 50  0001 C CNN
+	1    5500 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW19
+U 1 1 66F6AEE1
+P 5200 4750
+AR Path="/67E4E0EB/66F6AEE1" Ref="SW19"  Part="1" 
+AR Path="/67E4ECE8/66F6AEE1" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/66F6AEE1" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEE1" Ref="SW?"  Part="1" 
+F 0 "SW19" H 5200 5035 50  0000 C CNN
+F 1 "SW_Push" H 5200 4944 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5200 4950 50  0001 C CNN
+F 3 "~" H 5200 4950 50  0001 C CNN
+	1    5200 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 66F6AEE2
+P 5000 4900
+AR Path="/67E4E0EB/66F6AEE2" Ref="D19"  Part="1" 
+AR Path="/67E4ECE8/66F6AEE2" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/66F6AEE2" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEE2" Ref="D?"  Part="1" 
+F 0 "D19" V 5046 4820 50  0000 R CNN
+F 1 "D" V 4955 4820 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 5000 4900 50  0001 C CNN
+F 3 "~" H 5000 4900 50  0001 C CNN
+	1    5000 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW18
+U 1 1 6566F938
+P 4700 4750
+AR Path="/67E4E0EB/6566F938" Ref="SW18"  Part="1" 
+AR Path="/67E4ECE8/6566F938" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/6566F938" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/6566F938" Ref="SW?"  Part="1" 
+F 0 "SW18" H 4700 5035 50  0000 C CNN
+F 1 "SW_Push" H 4700 4944 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4700 4950 50  0001 C CNN
+F 3 "~" H 4700 4950 50  0001 C CNN
+	1    4700 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 6566F942
+P 4500 4900
+AR Path="/67E4E0EB/6566F942" Ref="D18"  Part="1" 
+AR Path="/67E4ECE8/6566F942" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/6566F942" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/6566F942" Ref="D?"  Part="1" 
+F 0 "D18" V 4546 4820 50  0000 R CNN
+F 1 "D" V 4455 4820 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 4500 4900 50  0001 C CNN
+F 3 "~" H 4500 4900 50  0001 C CNN
+	1    4500 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW17
+U 1 1 6566F94C
+P 4200 4750
+AR Path="/67E4E0EB/6566F94C" Ref="SW17"  Part="1" 
+AR Path="/67E4ECE8/6566F94C" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/6566F94C" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/6566F94C" Ref="SW?"  Part="1" 
+F 0 "SW17" H 4200 5035 50  0000 C CNN
+F 1 "SW_Push" H 4200 4944 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4200 4950 50  0001 C CNN
+F 3 "~" H 4200 4950 50  0001 C CNN
+	1    4200 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 66F6AEE6
+P 4000 4900
+AR Path="/67E4E0EB/66F6AEE6" Ref="D17"  Part="1" 
+AR Path="/67E4ECE8/66F6AEE6" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/66F6AEE6" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEE6" Ref="D?"  Part="1" 
+F 0 "D17" V 4046 4820 50  0000 R CNN
+F 1 "D" V 3955 4820 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 4000 4900 50  0001 C CNN
+F 3 "~" H 4000 4900 50  0001 C CNN
+	1    4000 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW16
+U 1 1 66F6AEE7
+P 3700 4750
+AR Path="/67E4E0EB/66F6AEE7" Ref="SW16"  Part="1" 
+AR Path="/67E4ECE8/66F6AEE7" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/66F6AEE7" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEE7" Ref="SW?"  Part="1" 
+F 0 "SW16" H 3700 5035 50  0000 C CNN
+F 1 "SW_Push" H 3700 4944 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 3700 4950 50  0001 C CNN
+F 3 "~" H 3700 4950 50  0001 C CNN
+	1    3700 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 66F6AEE8
+P 3500 4900
+AR Path="/67E4E0EB/66F6AEE8" Ref="D16"  Part="1" 
+AR Path="/67E4ECE8/66F6AEE8" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/66F6AEE8" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEE8" Ref="D?"  Part="1" 
+F 0 "D16" V 3546 4820 50  0000 R CNN
+F 1 "D" V 3455 4820 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 3500 4900 50  0001 C CNN
+F 3 "~" H 3500 4900 50  0001 C CNN
+	1    3500 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW37
+U 1 1 6566F974
+P 6700 5400
+AR Path="/67E4E0EB/6566F974" Ref="SW37"  Part="1" 
+AR Path="/67E4ECE8/6566F974" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/6566F974" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/6566F974" Ref="SW?"  Part="1" 
+F 0 "SW37" H 6700 5685 50  0000 C CNN
+F 1 "SW_Push" H 6700 5594 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6700 5600 50  0001 C CNN
+F 3 "~" H 6700 5600 50  0001 C CNN
+	1    6700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D37
+U 1 1 6566F97E
+P 6500 5550
+AR Path="/67E4E0EB/6566F97E" Ref="D37"  Part="1" 
+AR Path="/67E4ECE8/6566F97E" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/6566F97E" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/6566F97E" Ref="D?"  Part="1" 
+F 0 "D37" V 6546 5470 50  0000 R CNN
+F 1 "D" V 6455 5470 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 6500 5550 50  0001 C CNN
+F 3 "~" H 6500 5550 50  0001 C CNN
+	1    6500 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW36
+U 1 1 6566F988
+P 6200 5400
+AR Path="/67E4E0EB/6566F988" Ref="SW36"  Part="1" 
+AR Path="/67E4ECE8/6566F988" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/6566F988" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/6566F988" Ref="SW?"  Part="1" 
+F 0 "SW36" H 6200 5685 50  0000 C CNN
+F 1 "SW_Push" H 6200 5594 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6200 5600 50  0001 C CNN
+F 3 "~" H 6200 5600 50  0001 C CNN
+	1    6200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D36
+U 1 1 6566F992
+P 6000 5550
+AR Path="/67E4E0EB/6566F992" Ref="D36"  Part="1" 
+AR Path="/67E4ECE8/6566F992" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/6566F992" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/6566F992" Ref="D?"  Part="1" 
+F 0 "D36" V 6046 5470 50  0000 R CNN
+F 1 "D" V 5955 5470 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 6000 5550 50  0001 C CNN
+F 3 "~" H 6000 5550 50  0001 C CNN
+	1    6000 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW35
+U 1 1 6566F99C
+P 5700 5400
+AR Path="/67E4E0EB/6566F99C" Ref="SW35"  Part="1" 
+AR Path="/67E4ECE8/6566F99C" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/6566F99C" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/6566F99C" Ref="SW?"  Part="1" 
+F 0 "SW35" H 5700 5685 50  0000 C CNN
+F 1 "SW_Push" H 5700 5594 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5700 5600 50  0001 C CNN
+F 3 "~" H 5700 5600 50  0001 C CNN
+	1    5700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 6566F9A6
+P 5500 5550
+AR Path="/67E4E0EB/6566F9A6" Ref="D35"  Part="1" 
+AR Path="/67E4ECE8/6566F9A6" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/6566F9A6" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/6566F9A6" Ref="D?"  Part="1" 
+F 0 "D35" V 5546 5470 50  0000 R CNN
+F 1 "D" V 5455 5470 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 5500 5550 50  0001 C CNN
+F 3 "~" H 5500 5550 50  0001 C CNN
+	1    5500 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW34
+U 1 1 66F6AEEF
+P 5200 5400
+AR Path="/67E4E0EB/66F6AEEF" Ref="SW34"  Part="1" 
+AR Path="/67E4ECE8/66F6AEEF" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/66F6AEEF" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEEF" Ref="SW?"  Part="1" 
+F 0 "SW34" H 5200 5685 50  0000 C CNN
+F 1 "SW_Push" H 5200 5594 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5200 5600 50  0001 C CNN
+F 3 "~" H 5200 5600 50  0001 C CNN
+	1    5200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D34
+U 1 1 66F6AEF0
+P 5000 5550
+AR Path="/67E4E0EB/66F6AEF0" Ref="D34"  Part="1" 
+AR Path="/67E4ECE8/66F6AEF0" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/66F6AEF0" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEF0" Ref="D?"  Part="1" 
+F 0 "D34" V 5046 5470 50  0000 R CNN
+F 1 "D" V 4955 5470 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 5000 5550 50  0001 C CNN
+F 3 "~" H 5000 5550 50  0001 C CNN
+	1    5000 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW33
+U 1 1 66F6AEF1
+P 4700 5400
+AR Path="/67E4E0EB/66F6AEF1" Ref="SW33"  Part="1" 
+AR Path="/67E4ECE8/66F6AEF1" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/66F6AEF1" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEF1" Ref="SW?"  Part="1" 
+F 0 "SW33" H 4700 5685 50  0000 C CNN
+F 1 "SW_Push" H 4700 5594 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4700 5600 50  0001 C CNN
+F 3 "~" H 4700 5600 50  0001 C CNN
+	1    4700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D33
+U 1 1 6566F9CE
+P 4500 5550
+AR Path="/67E4E0EB/6566F9CE" Ref="D33"  Part="1" 
+AR Path="/67E4ECE8/6566F9CE" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/6566F9CE" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/6566F9CE" Ref="D?"  Part="1" 
+F 0 "D33" V 4546 5470 50  0000 R CNN
+F 1 "D" V 4455 5470 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 4500 5550 50  0001 C CNN
+F 3 "~" H 4500 5550 50  0001 C CNN
+	1    4500 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW32
+U 1 1 66F6AEF3
+P 4200 5400
+AR Path="/67E4E0EB/66F6AEF3" Ref="SW32"  Part="1" 
+AR Path="/67E4ECE8/66F6AEF3" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/66F6AEF3" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEF3" Ref="SW?"  Part="1" 
+F 0 "SW32" H 4200 5685 50  0000 C CNN
+F 1 "SW_Push" H 4200 5594 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4200 5600 50  0001 C CNN
+F 3 "~" H 4200 5600 50  0001 C CNN
+	1    4200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D32
+U 1 1 6566F9E2
+P 4000 5550
+AR Path="/67E4E0EB/6566F9E2" Ref="D32"  Part="1" 
+AR Path="/67E4ECE8/6566F9E2" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/6566F9E2" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/6566F9E2" Ref="D?"  Part="1" 
+F 0 "D32" V 4046 5470 50  0000 R CNN
+F 1 "D" V 3955 5470 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 4000 5550 50  0001 C CNN
+F 3 "~" H 4000 5550 50  0001 C CNN
+	1    4000 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW31
+U 1 1 6566F9EC
+P 3700 5400
+AR Path="/67E4E0EB/6566F9EC" Ref="SW31"  Part="1" 
+AR Path="/67E4ECE8/6566F9EC" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/6566F9EC" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/6566F9EC" Ref="SW?"  Part="1" 
+F 0 "SW31" H 3700 5685 50  0000 C CNN
+F 1 "SW_Push" H 3700 5594 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 3700 5600 50  0001 C CNN
+F 3 "~" H 3700 5600 50  0001 C CNN
+	1    3700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 6566F9F6
+P 3500 5550
+AR Path="/67E4E0EB/6566F9F6" Ref="D31"  Part="1" 
+AR Path="/67E4ECE8/6566F9F6" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/6566F9F6" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/6566F9F6" Ref="D?"  Part="1" 
+F 0 "D31" V 3546 5470 50  0000 R CNN
+F 1 "D" V 3455 5470 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 3500 5550 50  0001 C CNN
+F 3 "~" H 3500 5550 50  0001 C CNN
+	1    3500 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW52
+U 1 1 6566FA00
+P 6700 6050
+AR Path="/67E4E0EB/6566FA00" Ref="SW52"  Part="1" 
+AR Path="/67E4ECE8/6566FA00" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/6566FA00" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/6566FA00" Ref="SW?"  Part="1" 
+F 0 "SW52" H 6700 6335 50  0000 C CNN
+F 1 "SW_Push" H 6700 6244 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6700 6250 50  0001 C CNN
+F 3 "~" H 6700 6250 50  0001 C CNN
+	1    6700 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D52
+U 1 1 6566FA0A
+P 6500 6200
+AR Path="/67E4E0EB/6566FA0A" Ref="D52"  Part="1" 
+AR Path="/67E4ECE8/6566FA0A" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/6566FA0A" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/6566FA0A" Ref="D?"  Part="1" 
+F 0 "D52" V 6546 6120 50  0000 R CNN
+F 1 "D" V 6455 6120 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 6500 6200 50  0001 C CNN
+F 3 "~" H 6500 6200 50  0001 C CNN
+	1    6500 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW51
+U 1 1 66F6AEF9
+P 6200 6050
+AR Path="/67E4E0EB/66F6AEF9" Ref="SW51"  Part="1" 
+AR Path="/67E4ECE8/66F6AEF9" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/66F6AEF9" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEF9" Ref="SW?"  Part="1" 
+F 0 "SW51" H 6200 6335 50  0000 C CNN
+F 1 "SW_Push" H 6200 6244 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6200 6250 50  0001 C CNN
+F 3 "~" H 6200 6250 50  0001 C CNN
+	1    6200 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D51
+U 1 1 6566FA1E
+P 6000 6200
+AR Path="/67E4E0EB/6566FA1E" Ref="D51"  Part="1" 
+AR Path="/67E4ECE8/6566FA1E" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/6566FA1E" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/6566FA1E" Ref="D?"  Part="1" 
+F 0 "D51" V 6046 6120 50  0000 R CNN
+F 1 "D" V 5955 6120 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 6000 6200 50  0001 C CNN
+F 3 "~" H 6000 6200 50  0001 C CNN
+	1    6000 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW50
+U 1 1 66F6AEFB
+P 5700 6050
+AR Path="/67E4E0EB/66F6AEFB" Ref="SW50"  Part="1" 
+AR Path="/67E4ECE8/66F6AEFB" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/66F6AEFB" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEFB" Ref="SW?"  Part="1" 
+F 0 "SW50" H 5700 6335 50  0000 C CNN
+F 1 "SW_Push" H 5700 6244 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5700 6250 50  0001 C CNN
+F 3 "~" H 5700 6250 50  0001 C CNN
+	1    5700 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D50
+U 1 1 66F6AEFC
+P 5500 6200
+AR Path="/67E4E0EB/66F6AEFC" Ref="D50"  Part="1" 
+AR Path="/67E4ECE8/66F6AEFC" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/66F6AEFC" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEFC" Ref="D?"  Part="1" 
+F 0 "D50" V 5546 6120 50  0000 R CNN
+F 1 "D" V 5455 6120 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 5500 6200 50  0001 C CNN
+F 3 "~" H 5500 6200 50  0001 C CNN
+	1    5500 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW49
+U 1 1 66F6AEFD
+P 5200 6050
+AR Path="/67E4E0EB/66F6AEFD" Ref="SW49"  Part="1" 
+AR Path="/67E4ECE8/66F6AEFD" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/66F6AEFD" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEFD" Ref="SW?"  Part="1" 
+F 0 "SW49" H 5200 6335 50  0000 C CNN
+F 1 "SW_Push" H 5200 6244 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5200 6250 50  0001 C CNN
+F 3 "~" H 5200 6250 50  0001 C CNN
+	1    5200 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D49
+U 1 1 66F6AEFE
+P 5000 6200
+AR Path="/67E4E0EB/66F6AEFE" Ref="D49"  Part="1" 
+AR Path="/67E4ECE8/66F6AEFE" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/66F6AEFE" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEFE" Ref="D?"  Part="1" 
+F 0 "D49" V 5046 6120 50  0000 R CNN
+F 1 "D" V 4955 6120 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 5000 6200 50  0001 C CNN
+F 3 "~" H 5000 6200 50  0001 C CNN
+	1    5000 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW48
+U 1 1 66F6AEFF
+P 4700 6050
+AR Path="/67E4E0EB/66F6AEFF" Ref="SW48"  Part="1" 
+AR Path="/67E4ECE8/66F6AEFF" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/66F6AEFF" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/66F6AEFF" Ref="SW?"  Part="1" 
+F 0 "SW48" H 4700 6335 50  0000 C CNN
+F 1 "SW_Push" H 4700 6244 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4700 6250 50  0001 C CNN
+F 3 "~" H 4700 6250 50  0001 C CNN
+	1    4700 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D48
+U 1 1 66F6AF00
+P 4500 6200
+AR Path="/67E4E0EB/66F6AF00" Ref="D48"  Part="1" 
+AR Path="/67E4ECE8/66F6AF00" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/66F6AF00" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/66F6AF00" Ref="D?"  Part="1" 
+F 0 "D48" V 4546 6120 50  0000 R CNN
+F 1 "D" V 4455 6120 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 4500 6200 50  0001 C CNN
+F 3 "~" H 4500 6200 50  0001 C CNN
+	1    4500 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW47
+U 1 1 6566FA64
+P 4200 6050
+AR Path="/67E4E0EB/6566FA64" Ref="SW47"  Part="1" 
+AR Path="/67E4ECE8/6566FA64" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/6566FA64" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/6566FA64" Ref="SW?"  Part="1" 
+F 0 "SW47" H 4200 6335 50  0000 C CNN
+F 1 "SW_Push" H 4200 6244 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4200 6250 50  0001 C CNN
+F 3 "~" H 4200 6250 50  0001 C CNN
+	1    4200 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D47
+U 1 1 6566FA6E
+P 4000 6200
+AR Path="/67E4E0EB/6566FA6E" Ref="D47"  Part="1" 
+AR Path="/67E4ECE8/6566FA6E" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/6566FA6E" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/6566FA6E" Ref="D?"  Part="1" 
+F 0 "D47" V 4046 6120 50  0000 R CNN
+F 1 "D" V 3955 6120 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 4000 6200 50  0001 C CNN
+F 3 "~" H 4000 6200 50  0001 C CNN
+	1    4000 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW46
+U 1 1 6566FA78
+P 3700 6050
+AR Path="/67E4E0EB/6566FA78" Ref="SW46"  Part="1" 
+AR Path="/67E4ECE8/6566FA78" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/6566FA78" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/6566FA78" Ref="SW?"  Part="1" 
+F 0 "SW46" H 3700 6335 50  0000 C CNN
+F 1 "SW_Push" H 3700 6244 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 3700 6250 50  0001 C CNN
+F 3 "~" H 3700 6250 50  0001 C CNN
+	1    3700 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D46
+U 1 1 6566FA82
+P 3500 6200
+AR Path="/67E4E0EB/6566FA82" Ref="D46"  Part="1" 
+AR Path="/67E4ECE8/6566FA82" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/6566FA82" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/6566FA82" Ref="D?"  Part="1" 
+F 0 "D46" V 3546 6120 50  0000 R CNN
+F 1 "D" V 3455 6120 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 3500 6200 50  0001 C CNN
+F 3 "~" H 3500 6200 50  0001 C CNN
+	1    3500 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW67
+U 1 1 6566FA8C
+P 6700 6700
+AR Path="/67E4E0EB/6566FA8C" Ref="SW67"  Part="1" 
+AR Path="/67E4ECE8/6566FA8C" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/6566FA8C" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/6566FA8C" Ref="SW?"  Part="1" 
+F 0 "SW67" H 6700 6985 50  0000 C CNN
+F 1 "SW_Push" H 6700 6894 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6700 6900 50  0001 C CNN
+F 3 "~" H 6700 6900 50  0001 C CNN
+	1    6700 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D67
+U 1 1 6566FA96
+P 6500 6850
+AR Path="/67E4E0EB/6566FA96" Ref="D67"  Part="1" 
+AR Path="/67E4ECE8/6566FA96" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/6566FA96" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/6566FA96" Ref="D?"  Part="1" 
+F 0 "D67" V 6546 6770 50  0000 R CNN
+F 1 "D" V 6455 6770 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 6500 6850 50  0001 C CNN
+F 3 "~" H 6500 6850 50  0001 C CNN
+	1    6500 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW66
+U 1 1 6566FAA0
+P 6200 6700
+AR Path="/67E4E0EB/6566FAA0" Ref="SW66"  Part="1" 
+AR Path="/67E4ECE8/6566FAA0" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/6566FAA0" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/6566FAA0" Ref="SW?"  Part="1" 
+F 0 "SW66" H 6200 6985 50  0000 C CNN
+F 1 "SW_Push" H 6200 6894 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6200 6900 50  0001 C CNN
+F 3 "~" H 6200 6900 50  0001 C CNN
+	1    6200 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D66
+U 1 1 66F6AF08
+P 6000 6850
+AR Path="/67E4E0EB/66F6AF08" Ref="D66"  Part="1" 
+AR Path="/67E4ECE8/66F6AF08" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/66F6AF08" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/66F6AF08" Ref="D?"  Part="1" 
+F 0 "D66" V 6046 6770 50  0000 R CNN
+F 1 "D" V 5955 6770 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 6000 6850 50  0001 C CNN
+F 3 "~" H 6000 6850 50  0001 C CNN
+	1    6000 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW65
+U 1 1 6566FAB4
+P 5700 6700
+AR Path="/67E4E0EB/6566FAB4" Ref="SW65"  Part="1" 
+AR Path="/67E4ECE8/6566FAB4" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/6566FAB4" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/6566FAB4" Ref="SW?"  Part="1" 
+F 0 "SW65" H 5700 6985 50  0000 C CNN
+F 1 "SW_Push" H 5700 6894 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5700 6900 50  0001 C CNN
+F 3 "~" H 5700 6900 50  0001 C CNN
+	1    5700 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D65
+U 1 1 6566FABE
+P 5500 6850
+AR Path="/67E4E0EB/6566FABE" Ref="D65"  Part="1" 
+AR Path="/67E4ECE8/6566FABE" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/6566FABE" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/6566FABE" Ref="D?"  Part="1" 
+F 0 "D65" V 5546 6770 50  0000 R CNN
+F 1 "D" V 5455 6770 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 5500 6850 50  0001 C CNN
+F 3 "~" H 5500 6850 50  0001 C CNN
+	1    5500 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW64
+U 1 1 6566FAC8
+P 5200 6700
+AR Path="/67E4E0EB/6566FAC8" Ref="SW64"  Part="1" 
+AR Path="/67E4ECE8/6566FAC8" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/6566FAC8" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/6566FAC8" Ref="SW?"  Part="1" 
+F 0 "SW64" H 5200 6985 50  0000 C CNN
+F 1 "SW_Push" H 5200 6894 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5200 6900 50  0001 C CNN
+F 3 "~" H 5200 6900 50  0001 C CNN
+	1    5200 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D64
+U 1 1 6566FAD2
+P 5000 6850
+AR Path="/67E4E0EB/6566FAD2" Ref="D64"  Part="1" 
+AR Path="/67E4ECE8/6566FAD2" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/6566FAD2" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/6566FAD2" Ref="D?"  Part="1" 
+F 0 "D64" V 5046 6770 50  0000 R CNN
+F 1 "D" V 4955 6770 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 5000 6850 50  0001 C CNN
+F 3 "~" H 5000 6850 50  0001 C CNN
+	1    5000 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW63
+U 1 1 6566FADC
+P 4700 6700
+AR Path="/67E4E0EB/6566FADC" Ref="SW63"  Part="1" 
+AR Path="/67E4ECE8/6566FADC" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/6566FADC" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/6566FADC" Ref="SW?"  Part="1" 
+F 0 "SW63" H 4700 6985 50  0000 C CNN
+F 1 "SW_Push" H 4700 6894 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4700 6900 50  0001 C CNN
+F 3 "~" H 4700 6900 50  0001 C CNN
+	1    4700 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D63
+U 1 1 6566FAE6
+P 4500 6850
+AR Path="/67E4E0EB/6566FAE6" Ref="D63"  Part="1" 
+AR Path="/67E4ECE8/6566FAE6" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/6566FAE6" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/6566FAE6" Ref="D?"  Part="1" 
+F 0 "D63" V 4546 6770 50  0000 R CNN
+F 1 "D" V 4455 6770 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 4500 6850 50  0001 C CNN
+F 3 "~" H 4500 6850 50  0001 C CNN
+	1    4500 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW62
+U 1 1 6566FAF0
+P 4200 6700
+AR Path="/67E4E0EB/6566FAF0" Ref="SW62"  Part="1" 
+AR Path="/67E4ECE8/6566FAF0" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/6566FAF0" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/6566FAF0" Ref="SW?"  Part="1" 
+F 0 "SW62" H 4200 6985 50  0000 C CNN
+F 1 "SW_Push" H 4200 6894 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4200 6900 50  0001 C CNN
+F 3 "~" H 4200 6900 50  0001 C CNN
+	1    4200 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D62
+U 1 1 66F6AF10
+P 4000 6850
+AR Path="/67E4E0EB/66F6AF10" Ref="D62"  Part="1" 
+AR Path="/67E4ECE8/66F6AF10" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/66F6AF10" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/66F6AF10" Ref="D?"  Part="1" 
+F 0 "D62" V 4046 6770 50  0000 R CNN
+F 1 "D" V 3955 6770 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 4000 6850 50  0001 C CNN
+F 3 "~" H 4000 6850 50  0001 C CNN
+	1    4000 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW61
+U 1 1 66F6AF11
+P 3700 6700
+AR Path="/67E4E0EB/66F6AF11" Ref="SW61"  Part="1" 
+AR Path="/67E4ECE8/66F6AF11" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/66F6AF11" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/66F6AF11" Ref="SW?"  Part="1" 
+F 0 "SW61" H 3700 6985 50  0000 C CNN
+F 1 "SW_Push" H 3700 6894 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 3700 6900 50  0001 C CNN
+F 3 "~" H 3700 6900 50  0001 C CNN
+	1    3700 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D61
+U 1 1 6566FB0E
+P 3500 6850
+AR Path="/67E4E0EB/6566FB0E" Ref="D61"  Part="1" 
+AR Path="/67E4ECE8/6566FB0E" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/6566FB0E" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/6566FB0E" Ref="D?"  Part="1" 
+F 0 "D61" V 3546 6770 50  0000 R CNN
+F 1 "D" V 3455 6770 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 3500 6850 50  0001 C CNN
+F 3 "~" H 3500 6850 50  0001 C CNN
+	1    3500 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW82
+U 1 1 6566FB18
+P 6700 7350
+AR Path="/67E4E0EB/6566FB18" Ref="SW82"  Part="1" 
+AR Path="/67E4ECE8/6566FB18" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/6566FB18" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/6566FB18" Ref="SW?"  Part="1" 
+F 0 "SW82" H 6700 7635 50  0000 C CNN
+F 1 "SW_Push" H 6700 7544 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6700 7550 50  0001 C CNN
+F 3 "~" H 6700 7550 50  0001 C CNN
+	1    6700 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D82
+U 1 1 6566FB22
+P 6500 7500
+AR Path="/67E4E0EB/6566FB22" Ref="D82"  Part="1" 
+AR Path="/67E4ECE8/6566FB22" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/6566FB22" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/6566FB22" Ref="D?"  Part="1" 
+F 0 "D82" V 6546 7420 50  0000 R CNN
+F 1 "D" V 6455 7420 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 6500 7500 50  0001 C CNN
+F 3 "~" H 6500 7500 50  0001 C CNN
+	1    6500 7500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW81
+U 1 1 6566FB2C
+P 6200 7350
+AR Path="/67E4E0EB/6566FB2C" Ref="SW81"  Part="1" 
+AR Path="/67E4ECE8/6566FB2C" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/6566FB2C" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/6566FB2C" Ref="SW?"  Part="1" 
+F 0 "SW81" H 6200 7635 50  0000 C CNN
+F 1 "SW_Push" H 6200 7544 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6200 7550 50  0001 C CNN
+F 3 "~" H 6200 7550 50  0001 C CNN
+	1    6200 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D81
+U 1 1 6566FB36
+P 6000 7500
+AR Path="/67E4E0EB/6566FB36" Ref="D81"  Part="1" 
+AR Path="/67E4ECE8/6566FB36" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/6566FB36" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/6566FB36" Ref="D?"  Part="1" 
+F 0 "D81" V 6046 7420 50  0000 R CNN
+F 1 "D" V 5955 7420 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 6000 7500 50  0001 C CNN
+F 3 "~" H 6000 7500 50  0001 C CNN
+	1    6000 7500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW80
+U 1 1 6566FB40
+P 5700 7350
+AR Path="/67E4E0EB/6566FB40" Ref="SW80"  Part="1" 
+AR Path="/67E4ECE8/6566FB40" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/6566FB40" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/6566FB40" Ref="SW?"  Part="1" 
+F 0 "SW80" H 5700 7635 50  0000 C CNN
+F 1 "SW_Push" H 5700 7544 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5700 7550 50  0001 C CNN
+F 3 "~" H 5700 7550 50  0001 C CNN
+	1    5700 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D80
+U 1 1 6566FB4A
+P 5500 7500
+AR Path="/67E4E0EB/6566FB4A" Ref="D80"  Part="1" 
+AR Path="/67E4ECE8/6566FB4A" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/6566FB4A" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/6566FB4A" Ref="D?"  Part="1" 
+F 0 "D80" V 5546 7420 50  0000 R CNN
+F 1 "D" V 5455 7420 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 5500 7500 50  0001 C CNN
+F 3 "~" H 5500 7500 50  0001 C CNN
+	1    5500 7500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW79
+U 1 1 6566FB54
+P 5200 7350
+AR Path="/67E4E0EB/6566FB54" Ref="SW79"  Part="1" 
+AR Path="/67E4ECE8/6566FB54" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/6566FB54" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/6566FB54" Ref="SW?"  Part="1" 
+F 0 "SW79" H 5200 7635 50  0000 C CNN
+F 1 "SW_Push" H 5200 7544 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5200 7550 50  0001 C CNN
+F 3 "~" H 5200 7550 50  0001 C CNN
+	1    5200 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D79
+U 1 1 66F6AF1A
+P 5000 7500
+AR Path="/67E4E0EB/66F6AF1A" Ref="D79"  Part="1" 
+AR Path="/67E4ECE8/66F6AF1A" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/66F6AF1A" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/66F6AF1A" Ref="D?"  Part="1" 
+F 0 "D79" V 5046 7420 50  0000 R CNN
+F 1 "D" V 4955 7420 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 5000 7500 50  0001 C CNN
+F 3 "~" H 5000 7500 50  0001 C CNN
+	1    5000 7500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW78
+U 1 1 66F6AF1B
+P 4700 7350
+AR Path="/67E4E0EB/66F6AF1B" Ref="SW78"  Part="1" 
+AR Path="/67E4ECE8/66F6AF1B" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/66F6AF1B" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/66F6AF1B" Ref="SW?"  Part="1" 
+F 0 "SW78" H 4700 7635 50  0000 C CNN
+F 1 "SW_Push" H 4700 7544 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4700 7550 50  0001 C CNN
+F 3 "~" H 4700 7550 50  0001 C CNN
+	1    4700 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D78
+U 1 1 66F6AF1C
+P 4500 7500
+AR Path="/67E4E0EB/66F6AF1C" Ref="D78"  Part="1" 
+AR Path="/67E4ECE8/66F6AF1C" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/66F6AF1C" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/66F6AF1C" Ref="D?"  Part="1" 
+F 0 "D78" V 4546 7420 50  0000 R CNN
+F 1 "D" V 4455 7420 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 4500 7500 50  0001 C CNN
+F 3 "~" H 4500 7500 50  0001 C CNN
+	1    4500 7500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW77
+U 1 1 6566FB7C
+P 4200 7350
+AR Path="/67E4E0EB/6566FB7C" Ref="SW77"  Part="1" 
+AR Path="/67E4ECE8/6566FB7C" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/6566FB7C" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/6566FB7C" Ref="SW?"  Part="1" 
+F 0 "SW77" H 4200 7635 50  0000 C CNN
+F 1 "SW_Push" H 4200 7544 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4200 7550 50  0001 C CNN
+F 3 "~" H 4200 7550 50  0001 C CNN
+	1    4200 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D77
+U 1 1 66F6AF1E
+P 4000 7500
+AR Path="/67E4E0EB/66F6AF1E" Ref="D77"  Part="1" 
+AR Path="/67E4ECE8/66F6AF1E" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/66F6AF1E" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/66F6AF1E" Ref="D?"  Part="1" 
+F 0 "D77" V 4046 7420 50  0000 R CNN
+F 1 "D" V 3955 7420 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 4000 7500 50  0001 C CNN
+F 3 "~" H 4000 7500 50  0001 C CNN
+	1    4000 7500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW76
+U 1 1 66F6AF1F
+P 3700 7350
+AR Path="/67E4E0EB/66F6AF1F" Ref="SW76"  Part="1" 
+AR Path="/67E4ECE8/66F6AF1F" Ref="SW?"  Part="1" 
+AR Path="/67E4ED54/66F6AF1F" Ref="SW?"  Part="1" 
+AR Path="/67E4ED7B/66F6AF1F" Ref="SW?"  Part="1" 
+F 0 "SW76" H 3700 7635 50  0000 C CNN
+F 1 "SW_Push" H 3700 7544 50  0000 C CNN
+F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 3700 7550 50  0001 C CNN
+F 3 "~" H 3700 7550 50  0001 C CNN
+	1    3700 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D76
+U 1 1 66F6AF20
+P 3500 7500
+AR Path="/67E4E0EB/66F6AF20" Ref="D76"  Part="1" 
+AR Path="/67E4ECE8/66F6AF20" Ref="D?"  Part="1" 
+AR Path="/67E4ED54/66F6AF20" Ref="D?"  Part="1" 
+AR Path="/67E4ED7B/66F6AF20" Ref="D?"  Part="1" 
+F 0 "D76" V 3546 7420 50  0000 R CNN
+F 1 "D" V 3455 7420 50  0000 R CNN
+F 2 "libmodulo:D_SOD-123" H 3500 7500 50  0001 C CNN
+F 3 "~" H 3500 7500 50  0001 C CNN
+	1    3500 7500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3900 4100
+Connection ~ 4400 4100
+Connection ~ 4900 4100
+Connection ~ 5400 4100
+Connection ~ 5900 4100
+Connection ~ 6400 4100
+Connection ~ 6900 4100
+Wire Wire Line
+	6000 4400 6500 4400
+Text Label 2600 3950 1    50   ~ 0
+r0
+$Comp
+L Connector:TestPoint TP2
+U 1 1 62FFA044
+P 1200 3950
+F 0 "TP2" H 1200 4183 50  0000 C CNN
+F 1 "TestPoint" H 1200 4274 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 1400 3950 50  0001 C CNN
+F 3 "~" H 1400 3950 50  0001 C CNN
+	1    1200 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 6308394E
+P 1550 3950
+F 0 "TP3" H 1550 4183 50  0000 C CNN
+F 1 "TestPoint" H 1550 4274 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 1750 3950 50  0001 C CNN
+F 3 "~" H 1750 3950 50  0001 C CNN
+	1    1550 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 63083DE4
+P 1900 3950
+F 0 "TP4" H 1900 4183 50  0000 C CNN
+F 1 "TestPoint" H 1900 4274 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 2100 3950 50  0001 C CNN
+F 3 "~" H 2100 3950 50  0001 C CNN
+	1    1900 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 630D1F72
+P 2250 3950
+F 0 "TP5" H 2250 4183 50  0000 C CNN
+F 1 "TestPoint" H 2250 4274 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 2450 3950 50  0001 C CNN
+F 3 "~" H 2450 3950 50  0001 C CNN
+	1    2250 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 630D241C
+P 2600 3950
+F 0 "TP6" H 2600 4183 50  0000 C CNN
+F 1 "TestPoint" H 2600 4274 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 2800 3950 50  0001 C CNN
+F 3 "~" H 2800 3950 50  0001 C CNN
+	1    2600 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 62875CD2
+P 850 3950
+F 0 "TP1" H 850 4183 50  0000 C CNN
+F 1 "TestPoint" H 850 4274 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 1050 3950 50  0001 C CNN
+F 3 "~" H 1050 3950 50  0001 C CNN
+	1    850  3950
+	-1   0    0    1   
+$EndComp
+Text Label 850  3950 1    50   ~ 0
+r1
+Connection ~ 3500 7650
+Connection ~ 3500 7000
+Connection ~ 3500 6350
+Connection ~ 3500 5700
+Connection ~ 3500 5050
+Connection ~ 3500 4400
+$Comp
+L Connector:TestPoint TP12
+U 1 1 634181F0
+P 3500 7650
+F 0 "TP12" V 3546 7837 50  0000 L CNN
+F 1 "TestPoint" V 3455 7837 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 3700 7650 50  0001 C CNN
+F 3 "~" H 3700 7650 50  0001 C CNN
+	1    3500 7650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP11
+U 1 1 63417930
+P 3500 7000
+F 0 "TP11" V 3546 7187 50  0000 L CNN
+F 1 "TestPoint" V 3455 7187 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 3700 7000 50  0001 C CNN
+F 3 "~" H 3700 7000 50  0001 C CNN
+	1    3500 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP10
+U 1 1 633C6C96
+P 3500 6350
+F 0 "TP10" V 3546 6537 50  0000 L CNN
+F 1 "TestPoint" V 3455 6537 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 3700 6350 50  0001 C CNN
+F 3 "~" H 3700 6350 50  0001 C CNN
+	1    3500 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP9
+U 1 1 633C63EA
+P 3500 5700
+F 0 "TP9" V 3546 5887 50  0000 L CNN
+F 1 "TestPoint" V 3455 5887 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 3700 5700 50  0001 C CNN
+F 3 "~" H 3700 5700 50  0001 C CNN
+	1    3500 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 6337CB2B
+P 3500 5050
+F 0 "TP8" V 3546 5237 50  0000 L CNN
+F 1 "TestPoint" V 3455 5237 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 3700 5050 50  0001 C CNN
+F 3 "~" H 3700 5050 50  0001 C CNN
+	1    3500 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 6282C3BA
+P 3500 4400
+F 0 "TP7" V 3546 4587 50  0000 L CNN
+F 1 "TestPoint" V 3455 4587 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 3700 4400 50  0001 C CNN
+F 3 "~" H 3700 4400 50  0001 C CNN
+	1    3500 4400
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
