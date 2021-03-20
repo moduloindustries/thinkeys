@@ -40,7 +40,8 @@ Goals
 - [X] TrackPoint
 - [X] Split for external/desktop use (connect via TRRS)
 - [X] Ortholinear
-- [X] RGB LED Backlight (ThinkLight infeasible)
+- [ ] ~~RGB LED Backlight (ThinkLight infeasible)~~ No backlight in the first
+      version, maybe next time
 - [X] USB Connection (Internal via [ThinkMods](https://thinkmods.store/)
       Bluetooth/SmartCard adapters, or external for desktop use)
 - [X] Power Button
