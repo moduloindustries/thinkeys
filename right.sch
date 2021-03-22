@@ -24,142 +24,61 @@ F 3 "~" H 1150 4900 50  0001 C CNN
 	1    1150 4900
 	1    0    0    -1  
 $EndComp
-Text Label 9900 750  1    50   ~ 0
-c2
-Text Label 9800 750  1    50   ~ 0
-c3
-Text Label 9700 750  1    50   ~ 0
-c4
-Text Label 9600 750  1    50   ~ 0
-c5
-Text Label 9500 750  1    50   ~ 0
-c6
-Text Label 9800 2150 3    50   ~ 0
-c0
-Text Label 9900 2150 3    50   ~ 0
-c1
-Text Label 9300 2150 3    50   ~ 0
-r5
-Text Label 9400 2150 3    50   ~ 0
-r4
-Text Label 9500 2150 3    50   ~ 0
-r3
-Text Label 9600 2150 3    50   ~ 0
-r2
-Text Label 9700 2150 3    50   ~ 0
-r1
-Text Label 9200 2150 3    50   ~ 0
-r0
-Text Label 9300 750  1    50   ~ 0
-SCL
-Text Label 9200 750  1    50   ~ 0
-SDA
-Text Label 10300 750  2    50   ~ 0
-RGB
-Text Label 8900 750  1    50   ~ 0
-DATA
-Text Label 9400 750  1    50   ~ 0
-c7
-Wire Wire Line
-	1500 6350 1500 6700
-Wire Wire Line
-	1200 6700 950  6700
-Wire Wire Line
-	1200 7000 1050 7000
-Wire Wire Line
-	1500 6700 1500 7000
-Connection ~ 1500 6700
 $Comp
 L Connector_Generic:Conn_01x05 J2
 U 1 1 66F6B00B
-P 1050 7500
-F 0 "J2" V 1267 7496 50  0000 C CNN
-F 1 "Pointing stick" V 1176 7496 50  0000 C CNN
-F 2 "libmodulo:SK8707-01" H 1050 7500 50  0001 C CNN
-F 3 "~" H 1050 7500 50  0001 C CNN
-	1    1050 7500
+P 1500 7500
+F 0 "J2" V 1717 7496 50  0000 C CNN
+F 1 "Pointing stick" V 1626 7496 50  0000 C CNN
+F 2 "libmodulo:SK8707-01" H 1500 7500 50  0001 C CNN
+F 3 "~" H 1500 7500 50  0001 C CNN
+	1    1500 7500
 	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R_US R8
 U 1 1 66237CC2
-P 1350 7000
-F 0 "R8" V 1143 7000 50  0000 C CNN
-F 1 "4.7k" V 1234 7000 50  0000 C CNN
-F 2 "libmodulo:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 1280 7000 50  0001 C CNN
-F 3 "~" H 1350 7000 50  0001 C CNN
-	1    1350 7000
+P 1700 6150
+F 0 "R8" V 1900 6150 50  0000 C CNN
+F 1 "4.7k" V 1800 6150 50  0000 C CNN
+F 2 "libmodulo:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 1630 6150 50  0001 C CNN
+F 3 "~" H 1700 6150 50  0001 C CNN
+	1    1700 6150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_US R6
 U 1 1 66F6B00C
-P 1350 6700
-F 0 "R6" V 1143 6700 50  0000 C CNN
-F 1 "4.7k" V 1234 6700 50  0000 C CNN
-F 2 "libmodulo:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 1280 6700 50  0001 C CNN
-F 3 "~" H 1350 6700 50  0001 C CNN
-	1    1350 6700
+P 1350 5850
+F 0 "R6" V 1555 5850 50  0000 C CNN
+F 1 "4.7k" V 1464 5850 50  0000 C CNN
+F 2 "libmodulo:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 1280 5850 50  0001 C CNN
+F 3 "~" H 1350 5850 50  0001 C CNN
+	1    1350 5850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1250 7300 1500 7300
-Wire Wire Line
-	850  7300 600  7300
-Connection ~ 1500 7000
 $Comp
 L Device:R_US R10
 U 1 1 66F6B00D
-P 750 7050
-F 0 "R10" V 543 7050 50  0000 C CNN
-F 1 "100k" V 634 7050 50  0000 C CNN
-F 2 "libmodulo:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 680 7050 50  0001 C CNN
-F 3 "~" H 750 7050 50  0001 C CNN
-	1    750  7050
+P 950 6450
+F 0 "R10" V 1155 6450 50  0000 C CNN
+F 1 "100k" V 1064 6450 50  0000 C CNN
+F 2 "libmodulo:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 880 6450 50  0001 C CNN
+F 3 "~" H 950 6450 50  0001 C CNN
+	1    950  6450
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	950  6700 950  7300
-Wire Wire Line
-	1050 7000 1050 7300
-Wire Wire Line
-	1500 7000 1500 7300
-Wire Wire Line
-	1150 7050 1150 7300
-Wire Wire Line
-	1150 6350 1150 7050
-Connection ~ 1150 7050
-Wire Wire Line
-	900  7050 1150 7050
-Text Label 950  6450 1    50   ~ 0
-DATA
-Text Label 1050 6450 1    50   ~ 0
-CLK
-Wire Wire Line
-	1050 7000 1050 6450
-Connection ~ 1050 7000
-Wire Wire Line
-	950  6700 950  6450
-Connection ~ 950  6700
-Wire Wire Line
-	600  7050 600  7300
 $Comp
 L Device:C C92
 U 1 1 66F6AF4E
-P 1300 6350
-F 0 "C92" V 1048 6350 50  0000 C CNN
-F 1 "2.2u" V 1139 6350 50  0000 C CNN
-F 2 "libmodulo:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder" H 1338 6200 50  0001 C CNN
-F 3 "~" H 1300 6350 50  0001 C CNN
-	1    1300 6350
+P 2050 6500
+F 0 "C92" V 2302 6500 50  0000 C CNN
+F 1 "2.2u" V 2211 6500 50  0000 C CNN
+F 2 "libmodulo:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder" H 2088 6350 50  0001 C CNN
+F 3 "~" H 2050 6500 50  0001 C CNN
+	1    2050 6500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1450 6350 1500 6350
-Text Label 8350 600  2    50   ~ 0
-CLK
-Wire Wire Line
-	10300 1350 10350 1350
 $Comp
 L Connector_Generic:Conn_01x01 J3
 U 1 1 60669BC4
@@ -188,7 +107,7 @@ U 1 1 602C2F86
 P 10650 800
 F 0 "SW93" H 10650 1085 50  0000 C CNN
 F 1 "SW_Push" H 10650 994 50  0000 C CNN
-F 2 "libmodulo:Kailh_Micro_Switch_6x6" H 10650 1000 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 10650 1000 50  0001 C CNN
 F 3 "~" H 10650 1000 50  0001 C CNN
 	1    10650 800 
 	1    0    0    -1  
@@ -293,7 +212,7 @@ U 1 1 66F6AFD5
 P 6250 2700
 F 0 "SW14" H 6250 2985 50  0000 C CNN
 F 1 "SW_Push" H 6250 2894 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6250 2900 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 6250 2900 50  0001 C CNN
 F 3 "~" H 6250 2900 50  0001 C CNN
 	1    6250 2700
 	1    0    0    -1  
@@ -413,7 +332,7 @@ U 1 1 66F6AFD7
 P 5750 2700
 F 0 "SW13" H 5750 2985 50  0000 C CNN
 F 1 "SW_Push" H 5750 2894 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5750 2900 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 5750 2900 50  0001 C CNN
 F 3 "~" H 5750 2900 50  0001 C CNN
 	1    5750 2700
 	1    0    0    -1  
@@ -435,7 +354,7 @@ U 1 1 66F6AFD9
 P 5250 2700
 F 0 "SW12" H 5250 2985 50  0000 C CNN
 F 1 "SW_Push" H 5250 2894 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5250 2900 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 5250 2900 50  0001 C CNN
 F 3 "~" H 5250 2900 50  0001 C CNN
 	1    5250 2700
 	1    0    0    -1  
@@ -457,7 +376,7 @@ U 1 1 66F6AF23
 P 4750 2700
 F 0 "SW11" H 4750 2985 50  0000 C CNN
 F 1 "SW_Push" H 4750 2894 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4750 2900 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 4750 2900 50  0001 C CNN
 F 3 "~" H 4750 2900 50  0001 C CNN
 	1    4750 2700
 	1    0    0    -1  
@@ -479,7 +398,7 @@ U 1 1 66F6AF25
 P 4250 7450
 F 0 "SW10" H 4250 7735 50  0000 C CNN
 F 1 "SW_Push" H 4250 7644 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4250 7650 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 4250 7650 50  0001 C CNN
 F 3 "~" H 4250 7650 50  0001 C CNN
 	1    4250 7450
 	1    0    0    -1  
@@ -501,7 +420,7 @@ U 1 1 66F6AF27
 P 3750 7450
 F 0 "SW9" H 3750 7735 50  0000 C CNN
 F 1 "SW_Push" H 3750 7644 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 3750 7650 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-X_PCB" H 3750 7650 50  0001 C CNN
 F 3 "~" H 3750 7650 50  0001 C CNN
 	1    3750 7450
 	1    0    0    -1  
@@ -523,7 +442,7 @@ U 1 1 66F6AFDB
 P 3250 7450
 F 0 "SW8" H 3250 7735 50  0000 C CNN
 F 1 "SW_Push" H 3250 7644 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 3250 7650 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 3250 7650 50  0001 C CNN
 F 3 "~" H 3250 7650 50  0001 C CNN
 	1    3250 7450
 	1    0    0    -1  
@@ -534,7 +453,7 @@ U 1 1 66F0CFD8
 P 6250 4200
 F 0 "SW29" H 6250 4485 50  0000 C CNN
 F 1 "SW_Push" H 6250 4394 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6250 4400 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 6250 4400 50  0001 C CNN
 F 3 "~" H 6250 4400 50  0001 C CNN
 	1    6250 4200
 	1    0    0    -1  
@@ -556,7 +475,7 @@ U 1 1 66F6AFDE
 P 5750 4200
 F 0 "SW28" H 5750 4485 50  0000 C CNN
 F 1 "SW_Push" H 5750 4394 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5750 4400 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 5750 4400 50  0001 C CNN
 F 3 "~" H 5750 4400 50  0001 C CNN
 	1    5750 4200
 	1    0    0    -1  
@@ -578,7 +497,7 @@ U 1 1 66F0CFDC
 P 5250 4200
 F 0 "SW27" H 5250 4485 50  0000 C CNN
 F 1 "SW_Push" H 5250 4394 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5250 4400 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 5250 4400 50  0001 C CNN
 F 3 "~" H 5250 4400 50  0001 C CNN
 	1    5250 4200
 	1    0    0    -1  
@@ -600,7 +519,7 @@ U 1 1 66F0CFDE
 P 4750 4200
 F 0 "SW26" H 4750 4485 50  0000 C CNN
 F 1 "SW_Push" H 4750 4394 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4750 4400 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 4750 4400 50  0001 C CNN
 F 3 "~" H 4750 4400 50  0001 C CNN
 	1    4750 4200
 	1    0    0    -1  
@@ -622,7 +541,7 @@ U 1 1 66F0CFE0
 P 4250 4200
 F 0 "SW25" H 4250 4485 50  0000 C CNN
 F 1 "SW_Push" H 4250 4394 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4250 4400 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 4250 4400 50  0001 C CNN
 F 3 "~" H 4250 4400 50  0001 C CNN
 	1    4250 4200
 	1    0    0    -1  
@@ -644,7 +563,7 @@ U 1 1 657968A3
 P 3750 4200
 F 0 "SW24" H 3750 4485 50  0000 C CNN
 F 1 "SW_Push" H 3750 4394 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 3750 4400 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 3750 4400 50  0001 C CNN
 F 3 "~" H 3750 4400 50  0001 C CNN
 	1    3750 4200
 	1    0    0    -1  
@@ -666,7 +585,7 @@ U 1 1 657968B7
 P 3250 4200
 F 0 "SW23" H 3250 4485 50  0000 C CNN
 F 1 "SW_Push" H 3250 4394 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 3250 4400 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 3250 4400 50  0001 C CNN
 F 3 "~" H 3250 4400 50  0001 C CNN
 	1    3250 4200
 	1    0    0    -1  
@@ -688,7 +607,7 @@ U 1 1 66F6AFE4
 P 6250 4850
 F 0 "SW44" H 6250 5135 50  0000 C CNN
 F 1 "SW_Push" H 6250 5044 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6250 5050 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 6250 5050 50  0001 C CNN
 F 3 "~" H 6250 5050 50  0001 C CNN
 	1    6250 4850
 	1    0    0    -1  
@@ -710,7 +629,7 @@ U 1 1 66F6AF2F
 P 5750 4850
 F 0 "SW43" H 5750 5135 50  0000 C CNN
 F 1 "SW_Push" H 5750 5044 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5750 5050 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 5750 5050 50  0001 C CNN
 F 3 "~" H 5750 5050 50  0001 C CNN
 	1    5750 4850
 	1    0    0    -1  
@@ -732,7 +651,7 @@ U 1 1 657968F3
 P 5250 4850
 F 0 "SW42" H 5250 5135 50  0000 C CNN
 F 1 "SW_Push" H 5250 5044 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5250 5050 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 5250 5050 50  0001 C CNN
 F 3 "~" H 5250 5050 50  0001 C CNN
 	1    5250 4850
 	1    0    0    -1  
@@ -754,7 +673,7 @@ U 1 1 65796907
 P 4750 4850
 F 0 "SW41" H 4750 5135 50  0000 C CNN
 F 1 "SW_Push" H 4750 5044 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4750 5050 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 4750 5050 50  0001 C CNN
 F 3 "~" H 4750 5050 50  0001 C CNN
 	1    4750 4850
 	1    0    0    -1  
@@ -776,7 +695,7 @@ U 1 1 6579691B
 P 4250 4850
 F 0 "SW40" H 4250 5135 50  0000 C CNN
 F 1 "SW_Push" H 4250 5044 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4250 5050 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 4250 5050 50  0001 C CNN
 F 3 "~" H 4250 5050 50  0001 C CNN
 	1    4250 4850
 	1    0    0    -1  
@@ -798,7 +717,7 @@ U 1 1 66F6AF36
 P 3750 4850
 F 0 "SW39" H 3750 5135 50  0000 C CNN
 F 1 "SW_Push" H 3750 5044 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 3750 5050 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 3750 5050 50  0001 C CNN
 F 3 "~" H 3750 5050 50  0001 C CNN
 	1    3750 4850
 	1    0    0    -1  
@@ -820,7 +739,7 @@ U 1 1 66F6AF38
 P 3250 4850
 F 0 "SW38" H 3250 5135 50  0000 C CNN
 F 1 "SW_Push" H 3250 5044 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 3250 5050 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 3250 5050 50  0001 C CNN
 F 3 "~" H 3250 5050 50  0001 C CNN
 	1    3250 4850
 	1    0    0    -1  
@@ -842,7 +761,7 @@ U 1 1 66F0CFF4
 P 6250 5500
 F 0 "SW59" H 6250 5785 50  0000 C CNN
 F 1 "SW_Push" H 6250 5694 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6250 5700 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 6250 5700 50  0001 C CNN
 F 3 "~" H 6250 5700 50  0001 C CNN
 	1    6250 5500
 	1    0    0    -1  
@@ -864,7 +783,7 @@ U 1 1 66F6AFE9
 P 5750 5500
 F 0 "SW58" H 5750 5785 50  0000 C CNN
 F 1 "SW_Push" H 5750 5694 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5750 5700 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 5750 5700 50  0001 C CNN
 F 3 "~" H 5750 5700 50  0001 C CNN
 	1    5750 5500
 	1    0    0    -1  
@@ -886,7 +805,7 @@ U 1 1 66F6AFEB
 P 5250 5500
 F 0 "SW57" H 5250 5785 50  0000 C CNN
 F 1 "SW_Push" H 5250 5694 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5250 5700 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 5250 5700 50  0001 C CNN
 F 3 "~" H 5250 5700 50  0001 C CNN
 	1    5250 5500
 	1    0    0    -1  
@@ -908,7 +827,7 @@ U 1 1 66F6AFED
 P 4750 5500
 F 0 "SW56" H 4750 5785 50  0000 C CNN
 F 1 "SW_Push" H 4750 5694 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4750 5700 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 4750 5700 50  0001 C CNN
 F 3 "~" H 4750 5700 50  0001 C CNN
 	1    4750 5500
 	1    0    0    -1  
@@ -930,7 +849,7 @@ U 1 1 66F0CFFC
 P 4250 5500
 F 0 "SW55" H 4250 5785 50  0000 C CNN
 F 1 "SW_Push" H 4250 5694 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4250 5700 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 4250 5700 50  0001 C CNN
 F 3 "~" H 4250 5700 50  0001 C CNN
 	1    4250 5500
 	1    0    0    -1  
@@ -952,7 +871,7 @@ U 1 1 66F6AF39
 P 3750 5500
 F 0 "SW54" H 3750 5785 50  0000 C CNN
 F 1 "SW_Push" H 3750 5694 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 3750 5700 50  0001 C CNN
+F 2 "libmodulo:SW_ALPS-X" H 3750 5700 50  0001 C CNN
 F 3 "~" H 3750 5700 50  0001 C CNN
 	1    3750 5500
 	1    0    0    -1  
@@ -974,7 +893,7 @@ U 1 1 657969CF
 P 3250 5500
 F 0 "SW53" H 3250 5785 50  0000 C CNN
 F 1 "SW_Push" H 3250 5694 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 3250 5700 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-X_PCB" H 3250 5700 50  0001 C CNN
 F 3 "~" H 3250 5700 50  0001 C CNN
 	1    3250 5500
 	1    0    0    -1  
@@ -996,7 +915,7 @@ U 1 1 66F6AFF2
 P 6250 6150
 F 0 "SW74" H 6250 6435 50  0000 C CNN
 F 1 "SW_Push" H 6250 6344 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6250 6350 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 6250 6350 50  0001 C CNN
 F 3 "~" H 6250 6350 50  0001 C CNN
 	1    6250 6150
 	1    0    0    -1  
@@ -1018,7 +937,7 @@ U 1 1 66F0D004
 P 5750 6150
 F 0 "SW73" H 5750 6435 50  0000 C CNN
 F 1 "SW_Push" H 5750 6344 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5750 6350 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 5750 6350 50  0001 C CNN
 F 3 "~" H 5750 6350 50  0001 C CNN
 	1    5750 6150
 	1    0    0    -1  
@@ -1040,7 +959,7 @@ U 1 1 66F6AFF6
 P 5250 6150
 F 0 "SW72" H 5250 6435 50  0000 C CNN
 F 1 "SW_Push" H 5250 6344 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5250 6350 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 5250 6350 50  0001 C CNN
 F 3 "~" H 5250 6350 50  0001 C CNN
 	1    5250 6150
 	1    0    0    -1  
@@ -1062,7 +981,7 @@ U 1 1 66F6AF3C
 P 4750 6150
 F 0 "SW71" H 4750 6435 50  0000 C CNN
 F 1 "SW_Push" H 4750 6344 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4750 6350 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 4750 6350 50  0001 C CNN
 F 3 "~" H 4750 6350 50  0001 C CNN
 	1    4750 6150
 	1    0    0    -1  
@@ -1084,7 +1003,7 @@ U 1 1 66F6AF3E
 P 4250 6150
 F 0 "SW70" H 4250 6435 50  0000 C CNN
 F 1 "SW_Push" H 4250 6344 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4250 6350 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 4250 6350 50  0001 C CNN
 F 3 "~" H 4250 6350 50  0001 C CNN
 	1    4250 6150
 	1    0    0    -1  
@@ -1106,7 +1025,7 @@ U 1 1 66F6AFF8
 P 3750 6150
 F 0 "SW69" H 3750 6435 50  0000 C CNN
 F 1 "SW_Push" H 3750 6344 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 3750 6350 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 3750 6350 50  0001 C CNN
 F 3 "~" H 3750 6350 50  0001 C CNN
 	1    3750 6150
 	1    0    0    -1  
@@ -1128,7 +1047,7 @@ U 1 1 66F6AF41
 P 3250 6150
 F 0 "SW68" H 3250 6435 50  0000 C CNN
 F 1 "SW_Push" H 3250 6344 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 3250 6350 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 3250 6350 50  0001 C CNN
 F 3 "~" H 3250 6350 50  0001 C CNN
 	1    3250 6150
 	1    0    0    -1  
@@ -1150,7 +1069,7 @@ U 1 1 65796A6F
 P 6250 6800
 F 0 "SW89" H 6250 7085 50  0000 C CNN
 F 1 "SW_Push" H 6250 6994 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6250 7000 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 6250 7000 50  0001 C CNN
 F 3 "~" H 6250 7000 50  0001 C CNN
 	1    6250 6800
 	1    0    0    -1  
@@ -1172,7 +1091,7 @@ U 1 1 66F6AF45
 P 5750 6800
 F 0 "SW88" H 5750 7085 50  0000 C CNN
 F 1 "SW_Push" H 5750 6994 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5750 7000 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 5750 7000 50  0001 C CNN
 F 3 "~" H 5750 7000 50  0001 C CNN
 	1    5750 6800
 	1    0    0    -1  
@@ -1194,7 +1113,7 @@ U 1 1 66F0D014
 P 5250 6800
 F 0 "SW87" H 5250 7085 50  0000 C CNN
 F 1 "SW_Push" H 5250 6994 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 5250 7000 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 5250 7000 50  0001 C CNN
 F 3 "~" H 5250 7000 50  0001 C CNN
 	1    5250 6800
 	1    0    0    -1  
@@ -1216,7 +1135,7 @@ U 1 1 66F6AF46
 P 4750 6800
 F 0 "SW86" H 4750 7085 50  0000 C CNN
 F 1 "SW_Push" H 4750 6994 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4750 7000 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 4750 7000 50  0001 C CNN
 F 3 "~" H 4750 7000 50  0001 C CNN
 	1    4750 6800
 	1    0    0    -1  
@@ -1238,7 +1157,7 @@ U 1 1 65796ABF
 P 4250 6800
 F 0 "SW85" H 4250 7085 50  0000 C CNN
 F 1 "SW_Push" H 4250 6994 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 4250 7000 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 4250 7000 50  0001 C CNN
 F 3 "~" H 4250 7000 50  0001 C CNN
 	1    4250 6800
 	1    0    0    -1  
@@ -1260,7 +1179,7 @@ U 1 1 66F6AFFC
 P 3750 6800
 F 0 "SW84" H 3750 7085 50  0000 C CNN
 F 1 "SW_Push" H 3750 6994 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 3750 7000 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 3750 7000 50  0001 C CNN
 F 3 "~" H 3750 7000 50  0001 C CNN
 	1    3750 6800
 	1    0    0    -1  
@@ -1282,7 +1201,7 @@ U 1 1 66F0D01C
 P 3250 6800
 F 0 "SW83" H 3250 7085 50  0000 C CNN
 F 1 "SW_Push" H 3250 6994 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 3250 7000 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 3250 7000 50  0001 C CNN
 F 3 "~" H 3250 7000 50  0001 C CNN
 	1    3250 6800
 	1    0    0    -1  
@@ -1318,7 +1237,7 @@ U 1 1 66F6AF4A
 P 6750 4200
 F 0 "SW30" H 6750 4485 50  0000 C CNN
 F 1 "SW_Push" H 6750 4394 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6750 4400 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 6750 4400 50  0001 C CNN
 F 3 "~" H 6750 4400 50  0001 C CNN
 	1    6750 4200
 	1    0    0    -1  
@@ -1340,7 +1259,7 @@ U 1 1 65796B27
 P 6750 4850
 F 0 "SW45" H 6750 5135 50  0000 C CNN
 F 1 "SW_Push" H 6750 5044 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6750 5050 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 6750 5050 50  0001 C CNN
 F 3 "~" H 6750 5050 50  0001 C CNN
 	1    6750 4850
 	1    0    0    -1  
@@ -1362,7 +1281,7 @@ U 1 1 66F0D023
 P 6750 5500
 F 0 "SW60" H 6750 5785 50  0000 C CNN
 F 1 "SW_Push" H 6750 5694 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6750 5700 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 6750 5700 50  0001 C CNN
 F 3 "~" H 6750 5700 50  0001 C CNN
 	1    6750 5500
 	1    0    0    -1  
@@ -1384,7 +1303,7 @@ U 1 1 66F6B004
 P 6750 6150
 F 0 "SW75" H 6750 6435 50  0000 C CNN
 F 1 "SW_Push" H 6750 6344 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6750 6350 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 6750 6350 50  0001 C CNN
 F 3 "~" H 6750 6350 50  0001 C CNN
 	1    6750 6150
 	1    0    0    -1  
@@ -1406,7 +1325,7 @@ U 1 1 66F6B006
 P 6750 6800
 F 0 "SW90" H 6750 7085 50  0000 C CNN
 F 1 "SW_Push" H 6750 6994 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6750 7000 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 6750 7000 50  0001 C CNN
 F 3 "~" H 6750 7000 50  0001 C CNN
 	1    6750 6800
 	1    0    0    -1  
@@ -1446,7 +1365,7 @@ U 1 1 66F6B008
 P 6750 2700
 F 0 "SW15" H 6750 2985 50  0000 C CNN
 F 1 "SW_Push" H 6750 2894 50  0000 C CNN
-F 2 "libmodulo:MX-ALPS-Choc-X-straight-oneside" H 6750 2900 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 6750 2900 50  0001 C CNN
 F 3 "~" H 6750 2900 50  0001 C CNN
 	1    6750 2700
 	1    0    0    -1  
@@ -1454,30 +1373,14 @@ $EndComp
 $Comp
 L power:GND2 #PWR0102
 U 1 1 672BCD2D
-P 600 7300
-F 0 "#PWR0102" H 600 7050 50  0001 C CNN
-F 1 "GND2" H 605 7127 50  0000 C CNN
-F 2 "" H 600 7300 50  0001 C CNN
-F 3 "" H 600 7300 50  0001 C CNN
-	1    600  7300
+P 600 7550
+F 0 "#PWR0102" H 600 7300 50  0001 C CNN
+F 1 "GND2" H 605 7377 50  0000 C CNN
+F 2 "" H 600 7550 50  0001 C CNN
+F 3 "" H 600 7550 50  0001 C CNN
+	1    600  7550
 	1    0    0    -1  
 $EndComp
-Connection ~ 600  7300
-$Comp
-L Switch:SW_SPDT JP2
-U 1 1 66F6B00A
-P 8550 600
-F 0 "JP2" H 8550 885 50  0000 C CNN
-F 1 "TP_CLK" H 8550 794 50  0000 C CNN
-F 2 "libmodulo:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 8550 600 50  0001 C CNN
-F 3 "~" H 8550 600 50  0001 C CNN
-	1    8550 600 
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	8750 500  10350 500 
-Wire Wire Line
-	8800 700  8750 700 
 $Comp
 L power:GND2 #PWR0103
 U 1 1 60E18699
@@ -1489,32 +1392,6 @@ F 3 "" H 1050 5250 50  0001 C CNN
 	1    1050 5250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8800 750  8800 700 
-Wire Wire Line
-	10350 500  10350 1350
-Wire Wire Line
-	9100 750  9050 750 
-Connection ~ 9050 750 
-Wire Wire Line
-	9050 750  9000 750 
-$Comp
-L keebio:Elite-C U2
-U 1 1 66F0D02A
-P 9350 1450
-F 0 "U2" V 9297 2128 60  0000 L CNN
-F 1 "Elite-C" V 9403 2128 60  0000 L CNN
-F 2 "libmodulo:Elite-C-29pin-holes" V 10400 -1050 60  0001 C CNN
-F 3 "" V 10400 -1050 60  0001 C CNN
-	1    9350 1450
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	10300 750  10300 1250
-NoConn ~ 8800 2150
-NoConn ~ 10300 1450
-NoConn ~ 10300 1550
-NoConn ~ 10300 1650
 Wire Wire Line
 	1150 3900 1050 3900
 Wire Wire Line
@@ -1555,21 +1432,17 @@ NoConn ~ 1050 4250
 NoConn ~ 1050 4350
 NoConn ~ 1050 4850
 NoConn ~ 1050 4950
-Text Label 9000 2150 3    50   ~ 0
-RST
-Wire Wire Line
-	8900 2250 8900 2150
-Text Label 11050 1700 0    50   ~ 0
+Text Label 11050 1350 0    50   ~ 0
 RST
 $Comp
 L kbd:SW_PUSH SW92
 U 1 1 6066E01C
-P 10750 1700
-F 0 "SW92" H 10750 1955 50  0000 C CNN
-F 1 "SW_PUSH" H 10750 1864 50  0000 C CNN
-F 2 "libmodulo:Kailh_Micro_Switch_6x6" H 10750 1700 50  0001 C CNN
-F 3 "" H 10750 1700 50  0000 C CNN
-	1    10750 1700
+P 10750 1350
+F 0 "SW92" H 10750 1605 50  0000 C CNN
+F 1 "SW_PUSH" H 10750 1514 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 10750 1350 50  0001 C CNN
+F 3 "" H 10750 1350 50  0000 C CNN
+	1    10750 1350
 	1    0    0    -1  
 $EndComp
 Connection ~ 1150 4750
@@ -1587,39 +1460,16 @@ F 3 "" H 1150 3900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND2 #PWR0105
-U 1 1 60774ED2
-P 8900 2250
-F 0 "#PWR0105" H 8900 2000 50  0001 C CNN
-F 1 "GND2" H 8822 2213 50  0000 R CNN
-F 2 "" H 8900 2250 50  0001 C CNN
-F 3 "" H 8900 2250 50  0001 C CNN
-	1    8900 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND2 #PWR0106
-U 1 1 60776946
-P 9050 750
-F 0 "#PWR0106" H 9050 500 50  0001 C CNN
-F 1 "GND2" H 9055 577 50  0000 C CNN
-F 2 "" H 9050 750 50  0001 C CNN
-F 3 "" H 9050 750 50  0001 C CNN
-	1    9050 750 
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:VDD #PWR01
 U 1 1 6A8BECB4
-P 1500 6350
-F 0 "#PWR01" H 1500 6200 50  0001 C CNN
-F 1 "VDD" H 1515 6523 50  0000 C CNN
-F 2 "" H 1500 6350 50  0001 C CNN
-F 3 "" H 1500 6350 50  0001 C CNN
-	1    1500 6350
+P 2200 5850
+F 0 "#PWR01" H 2200 5700 50  0001 C CNN
+F 1 "VDD" H 2215 6023 50  0000 C CNN
+F 2 "" H 2200 5850 50  0001 C CNN
+F 3 "" H 2200 5850 50  0001 C CNN
+	1    2200 5850
 	1    0    0    -1  
 $EndComp
-Connection ~ 1500 6350
 Connection ~ 1150 5050
 Wire Wire Line
 	1150 5050 1250 5050
@@ -1646,25 +1496,14 @@ F 3 "" H 1250 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR05
-U 1 1 6AA1D0CD
-P 9100 2150
-F 0 "#PWR05" H 9100 2000 50  0001 C CNN
-F 1 "VDD" H 9115 2323 50  0000 C CNN
-F 2 "" H 9100 2150 50  0001 C CNN
-F 3 "" H 9100 2150 50  0001 C CNN
-	1    9100 2150
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND2 #PWR0132
 U 1 1 647A4E35
-P 10450 1700
-F 0 "#PWR0132" H 10450 1450 50  0001 C CNN
-F 1 "GND2" H 10372 1663 50  0000 R CNN
-F 2 "" H 10450 1700 50  0001 C CNN
-F 3 "" H 10450 1700 50  0001 C CNN
-	1    10450 1700
+P 10450 1350
+F 0 "#PWR0132" H 10450 1100 50  0001 C CNN
+F 1 "GND2" H 10372 1313 50  0000 R CNN
+F 2 "" H 10450 1350 50  0001 C CNN
+F 3 "" H 10450 1350 50  0001 C CNN
+	1    10450 1350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1748,8 +1587,8 @@ P 9450 3900
 AR Path="/67E4E0EB/634F2FDA" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/634F2FDA" Ref="TP18"  Part="1" 
 F 0 "TP18" H 9450 4133 50  0000 C CNN
-F 1 "TestPoint" H 9450 4224 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 9650 3900 50  0001 C CNN
+F 1 "r1" H 9450 4224 50  0000 C CNN
+F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 9650 3900 50  0001 C CNN
 F 3 "~" H 9650 3900 50  0001 C CNN
 	1    9450 3900
 	1    0    0    1   
@@ -1761,8 +1600,8 @@ P 9100 3900
 AR Path="/67E4E0EB/634F2FE0" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/634F2FE0" Ref="TP17"  Part="1" 
 F 0 "TP17" H 9100 4133 50  0000 C CNN
-F 1 "TestPoint" H 9100 4224 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 9300 3900 50  0001 C CNN
+F 1 "r2" H 9100 4224 50  0000 C CNN
+F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 9300 3900 50  0001 C CNN
 F 3 "~" H 9300 3900 50  0001 C CNN
 	1    9100 3900
 	1    0    0    1   
@@ -1774,8 +1613,8 @@ P 8750 3900
 AR Path="/67E4E0EB/634F2FE6" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/634F2FE6" Ref="TP16"  Part="1" 
 F 0 "TP16" H 8750 4133 50  0000 C CNN
-F 1 "TestPoint" H 8750 4224 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 8950 3900 50  0001 C CNN
+F 1 "r3" H 8750 4224 50  0000 C CNN
+F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 8950 3900 50  0001 C CNN
 F 3 "~" H 8950 3900 50  0001 C CNN
 	1    8750 3900
 	1    0    0    1   
@@ -1787,8 +1626,8 @@ P 8400 3900
 AR Path="/67E4E0EB/634F2FEC" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/634F2FEC" Ref="TP15"  Part="1" 
 F 0 "TP15" H 8400 4133 50  0000 C CNN
-F 1 "TestPoint" H 8400 4224 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 8600 3900 50  0001 C CNN
+F 1 "r4" H 8400 4224 50  0000 C CNN
+F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 8600 3900 50  0001 C CNN
 F 3 "~" H 8600 3900 50  0001 C CNN
 	1    8400 3900
 	1    0    0    1   
@@ -1800,8 +1639,8 @@ P 8050 3900
 AR Path="/67E4E0EB/634F2FF2" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/634F2FF2" Ref="TP14"  Part="1" 
 F 0 "TP14" H 8050 4133 50  0000 C CNN
-F 1 "TestPoint" H 8050 4224 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 8250 3900 50  0001 C CNN
+F 1 "r5" H 8050 4224 50  0000 C CNN
+F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 8250 3900 50  0001 C CNN
 F 3 "~" H 8250 3900 50  0001 C CNN
 	1    8050 3900
 	1    0    0    1   
@@ -1817,14 +1656,14 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP?
 U 1 1 634F2FD4
-P 2550 7750
+P 2950 7750
 AR Path="/67E4E0EB/634F2FD4" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/634F2FD4" Ref="TP19"  Part="1" 
-F 0 "TP19" H 2493 7868 50  0000 R CNN
-F 1 "TestPoint" H 2493 7777 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 2750 7750 50  0001 C CNN
-F 3 "~" H 2750 7750 50  0001 C CNN
-	1    2550 7750
+F 0 "TP19" H 2893 7868 50  0000 R CNN
+F 1 "r0" H 2893 7777 50  0000 R CNN
+F 2 "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm" H 3150 7750 50  0001 C CNN
+F 3 "~" H 3150 7750 50  0001 C CNN
+	1    2950 7750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1834,8 +1673,8 @@ P 3050 7100
 AR Path="/67E4E0EB/634F3016" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/634F3016" Ref="TP24"  Part="1" 
 F 0 "TP24" V 3096 7287 50  0000 L CNN
-F 1 "TestPoint" V 3005 7287 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 3250 7100 50  0001 C CNN
+F 1 "r5" V 3005 7287 50  0000 L CNN
+F 2 "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm" H 3250 7100 50  0001 C CNN
 F 3 "~" H 3250 7100 50  0001 C CNN
 	1    3050 7100
 	0    -1   -1   0   
@@ -1847,8 +1686,8 @@ P 3050 6450
 AR Path="/67E4E0EB/634F3010" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/634F3010" Ref="TP23"  Part="1" 
 F 0 "TP23" V 3096 6637 50  0000 L CNN
-F 1 "TestPoint" V 3005 6637 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 3250 6450 50  0001 C CNN
+F 1 "r4" V 3005 6637 50  0000 L CNN
+F 2 "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm" H 3250 6450 50  0001 C CNN
 F 3 "~" H 3250 6450 50  0001 C CNN
 	1    3050 6450
 	0    -1   -1   0   
@@ -1860,8 +1699,8 @@ P 3050 5800
 AR Path="/67E4E0EB/634F300A" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/634F300A" Ref="TP22"  Part="1" 
 F 0 "TP22" V 3096 5987 50  0000 L CNN
-F 1 "TestPoint" V 3005 5987 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 3250 5800 50  0001 C CNN
+F 1 "r3" V 3005 5987 50  0000 L CNN
+F 2 "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm" H 3250 5800 50  0001 C CNN
 F 3 "~" H 3250 5800 50  0001 C CNN
 	1    3050 5800
 	0    -1   -1   0   
@@ -1873,8 +1712,8 @@ P 3050 5150
 AR Path="/67E4E0EB/634F3004" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/634F3004" Ref="TP21"  Part="1" 
 F 0 "TP21" V 3096 5337 50  0000 L CNN
-F 1 "TestPoint" V 3005 5337 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 3250 5150 50  0001 C CNN
+F 1 "r2" V 3005 5337 50  0000 L CNN
+F 2 "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm" H 3250 5150 50  0001 C CNN
 F 3 "~" H 3250 5150 50  0001 C CNN
 	1    3050 5150
 	0    -1   -1   0   
@@ -1886,8 +1725,8 @@ P 3050 4500
 AR Path="/67E4E0EB/634F2FFE" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/634F2FFE" Ref="TP20"  Part="1" 
 F 0 "TP20" V 3096 4687 50  0000 L CNN
-F 1 "TestPoint" V 3005 4687 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 3250 4500 50  0001 C CNN
+F 1 "r1" V 3005 4687 50  0000 L CNN
+F 2 "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm" H 3250 4500 50  0001 C CNN
 F 3 "~" H 3250 4500 50  0001 C CNN
 	1    3050 4500
 	0    -1   -1   0   
@@ -1905,8 +1744,8 @@ P 7700 3900
 AR Path="/67E4E0EB/634F2FF8" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/634F2FF8" Ref="TP13"  Part="1" 
 F 0 "TP13" H 7700 4133 50  0000 C CNN
-F 1 "TestPoint" H 7700 4224 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 7900 3900 50  0001 C CNN
+F 1 "r0" H 7700 4224 50  0000 C CNN
+F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 7900 3900 50  0001 C CNN
 F 3 "~" H 7900 3900 50  0001 C CNN
 	1    7700 3900
 	1    0    0    1   
@@ -1954,8 +1793,8 @@ P 6950 3100
 AR Path="/67E4E0EB/607BC4A8" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/607BC4A8" Ref="TP46"  Part="1" 
 F 0 "TP46" H 6950 3333 50  0000 C CNN
-F 1 "TestPoint" H 6950 3424 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 7150 3100 50  0001 C CNN
+F 1 "c7" H 6950 3424 50  0000 C CNN
+F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 7150 3100 50  0001 C CNN
 F 3 "~" H 7150 3100 50  0001 C CNN
 	1    6950 3100
 	-1   0    0    1   
@@ -1967,8 +1806,8 @@ P 6950 3850
 AR Path="/67E4E0EB/607BC49E" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/607BC49E" Ref="TP54"  Part="1" 
 F 0 "TP54" H 6950 4083 50  0000 C CNN
-F 1 "TestPoint" H 6950 4174 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 7150 3850 50  0001 C CNN
+F 1 "c7" H 6950 4174 50  0000 C CNN
+F 2 "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm" H 7150 3850 50  0001 C CNN
 F 3 "~" H 7150 3850 50  0001 C CNN
 	1    6950 3850
 	1    0    0    -1  
@@ -1980,8 +1819,8 @@ P 3450 3850
 AR Path="/67E4E0EB/607B65B3" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/607B65B3" Ref="TP47"  Part="1" 
 F 0 "TP47" H 3450 4083 50  0000 C CNN
-F 1 "TestPoint" H 3450 4174 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 3650 3850 50  0001 C CNN
+F 1 "c0" H 3450 4174 50  0000 C CNN
+F 2 "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm" H 3650 3850 50  0001 C CNN
 F 3 "~" H 3650 3850 50  0001 C CNN
 	1    3450 3850
 	1    0    0    -1  
@@ -1993,8 +1832,8 @@ P 3950 3100
 AR Path="/67E4E0EB/607B65AD" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/607B65AD" Ref="TP40"  Part="1" 
 F 0 "TP40" H 3950 3333 50  0000 C CNN
-F 1 "TestPoint" H 3950 3424 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 4150 3100 50  0001 C CNN
+F 1 "c1" H 3950 3424 50  0000 C CNN
+F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 4150 3100 50  0001 C CNN
 F 3 "~" H 4150 3100 50  0001 C CNN
 	1    3950 3100
 	-1   0    0    1   
@@ -2006,8 +1845,8 @@ P 3450 3100
 AR Path="/67E4E0EB/607B65A7" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/607B65A7" Ref="TP39"  Part="1" 
 F 0 "TP39" H 3450 3333 50  0000 C CNN
-F 1 "TestPoint" H 3450 3424 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 3650 3100 50  0001 C CNN
+F 1 "c0" H 3450 3424 50  0000 C CNN
+F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 3650 3100 50  0001 C CNN
 F 3 "~" H 3650 3100 50  0001 C CNN
 	1    3450 3100
 	-1   0    0    1   
@@ -2019,8 +1858,8 @@ P 6450 3100
 AR Path="/67E4E0EB/607B65A1" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/607B65A1" Ref="TP45"  Part="1" 
 F 0 "TP45" H 6450 3333 50  0000 C CNN
-F 1 "TestPoint" H 6450 3424 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 6650 3100 50  0001 C CNN
+F 1 "c6" H 6450 3424 50  0000 C CNN
+F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 6650 3100 50  0001 C CNN
 F 3 "~" H 6650 3100 50  0001 C CNN
 	1    6450 3100
 	-1   0    0    1   
@@ -2032,8 +1871,8 @@ P 5950 3100
 AR Path="/67E4E0EB/607B659B" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/607B659B" Ref="TP44"  Part="1" 
 F 0 "TP44" H 5950 3333 50  0000 C CNN
-F 1 "TestPoint" H 5950 3424 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 6150 3100 50  0001 C CNN
+F 1 "c5" H 5950 3424 50  0000 C CNN
+F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 6150 3100 50  0001 C CNN
 F 3 "~" H 6150 3100 50  0001 C CNN
 	1    5950 3100
 	-1   0    0    1   
@@ -2045,8 +1884,8 @@ P 5450 3100
 AR Path="/67E4E0EB/607B6595" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/607B6595" Ref="TP43"  Part="1" 
 F 0 "TP43" H 5450 3333 50  0000 C CNN
-F 1 "TestPoint" H 5450 3424 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 5650 3100 50  0001 C CNN
+F 1 "c4" H 5450 3424 50  0000 C CNN
+F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 5650 3100 50  0001 C CNN
 F 3 "~" H 5650 3100 50  0001 C CNN
 	1    5450 3100
 	-1   0    0    1   
@@ -2058,8 +1897,8 @@ P 4950 3100
 AR Path="/67E4E0EB/607B658F" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/607B658F" Ref="TP42"  Part="1" 
 F 0 "TP42" H 4950 3333 50  0000 C CNN
-F 1 "TestPoint" H 4950 3424 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 5150 3100 50  0001 C CNN
+F 1 "c3" H 4950 3424 50  0000 C CNN
+F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 5150 3100 50  0001 C CNN
 F 3 "~" H 5150 3100 50  0001 C CNN
 	1    4950 3100
 	-1   0    0    1   
@@ -2071,8 +1910,8 @@ P 4450 3100
 AR Path="/67E4E0EB/607B6589" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/607B6589" Ref="TP41"  Part="1" 
 F 0 "TP41" H 4450 3333 50  0000 C CNN
-F 1 "TestPoint" H 4450 3424 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 4650 3100 50  0001 C CNN
+F 1 "c2" H 4450 3424 50  0000 C CNN
+F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 4650 3100 50  0001 C CNN
 F 3 "~" H 4650 3100 50  0001 C CNN
 	1    4450 3100
 	-1   0    0    1   
@@ -2084,8 +1923,8 @@ P 6450 3850
 AR Path="/67E4E0EB/607B6583" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/607B6583" Ref="TP53"  Part="1" 
 F 0 "TP53" H 6450 4083 50  0000 C CNN
-F 1 "TestPoint" H 6450 4174 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 6650 3850 50  0001 C CNN
+F 1 "c6" H 6450 4174 50  0000 C CNN
+F 2 "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm" H 6650 3850 50  0001 C CNN
 F 3 "~" H 6650 3850 50  0001 C CNN
 	1    6450 3850
 	1    0    0    -1  
@@ -2097,8 +1936,8 @@ P 3950 3850
 AR Path="/67E4E0EB/607B657D" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/607B657D" Ref="TP48"  Part="1" 
 F 0 "TP48" H 3950 4083 50  0000 C CNN
-F 1 "TestPoint" H 3950 4174 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 4150 3850 50  0001 C CNN
+F 1 "c1" H 3950 4174 50  0000 C CNN
+F 2 "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm" H 4150 3850 50  0001 C CNN
 F 3 "~" H 4150 3850 50  0001 C CNN
 	1    3950 3850
 	1    0    0    -1  
@@ -2110,8 +1949,8 @@ P 4450 3850
 AR Path="/67E4E0EB/607B6577" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/607B6577" Ref="TP49"  Part="1" 
 F 0 "TP49" H 4450 4083 50  0000 C CNN
-F 1 "TestPoint" H 4450 4174 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 4650 3850 50  0001 C CNN
+F 1 "c2" H 4450 4174 50  0000 C CNN
+F 2 "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm" H 4650 3850 50  0001 C CNN
 F 3 "~" H 4650 3850 50  0001 C CNN
 	1    4450 3850
 	1    0    0    -1  
@@ -2123,8 +1962,8 @@ P 4950 3850
 AR Path="/67E4E0EB/607B6571" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/607B6571" Ref="TP50"  Part="1" 
 F 0 "TP50" H 4950 4083 50  0000 C CNN
-F 1 "TestPoint" H 4950 4174 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 5150 3850 50  0001 C CNN
+F 1 "c3" H 4950 4174 50  0000 C CNN
+F 2 "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm" H 5150 3850 50  0001 C CNN
 F 3 "~" H 5150 3850 50  0001 C CNN
 	1    4950 3850
 	1    0    0    -1  
@@ -2136,8 +1975,8 @@ P 5450 3850
 AR Path="/67E4E0EB/607B656B" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/607B656B" Ref="TP51"  Part="1" 
 F 0 "TP51" H 5450 4083 50  0000 C CNN
-F 1 "TestPoint" H 5450 4174 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 5650 3850 50  0001 C CNN
+F 1 "c4" H 5450 4174 50  0000 C CNN
+F 2 "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm" H 5650 3850 50  0001 C CNN
 F 3 "~" H 5650 3850 50  0001 C CNN
 	1    5450 3850
 	1    0    0    -1  
@@ -2149,8 +1988,8 @@ P 5950 3850
 AR Path="/67E4E0EB/607B6565" Ref="TP?"  Part="1" 
 AR Path="/67E4ED7B/607B6565" Ref="TP52"  Part="1" 
 F 0 "TP52" H 5950 4083 50  0000 C CNN
-F 1 "TestPoint" H 5950 4174 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm" H 6150 3850 50  0001 C CNN
+F 1 "c5" H 5950 4174 50  0000 C CNN
+F 2 "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm" H 6150 3850 50  0001 C CNN
 F 3 "~" H 6150 3850 50  0001 C CNN
 	1    5950 3850
 	1    0    0    -1  
@@ -2169,9 +2008,307 @@ Connection ~ 6450 4200
 Connection ~ 6950 4200
 Wire Wire Line
 	4950 2700 4950 3100
-Wire Wire Line
-	2550 7750 3050 7750
 Connection ~ 3450 6800
 Connection ~ 3950 6800
 Connection ~ 4450 6800
+$Comp
+L Connector:TestPoint TP?
+U 1 1 60C36FEC
+P 1850 7250
+AR Path="/67E4E0EB/60C36FEC" Ref="TP?"  Part="1" 
+AR Path="/67E4ED7B/60C36FEC" Ref="TP73"  Part="1" 
+F 0 "TP73" H 1850 7483 50  0000 C CNN
+F 1 "RST" H 1850 7574 50  0000 C CNN
+F 2 "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm" H 2050 7250 50  0001 C CNN
+F 3 "~" H 2050 7250 50  0001 C CNN
+	1    1850 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 60C36FF2
+P 1500 7250
+AR Path="/67E4E0EB/60C36FF2" Ref="TP?"  Part="1" 
+AR Path="/67E4ED7B/60C36FF2" Ref="TP72"  Part="1" 
+F 0 "TP72" H 1500 7483 50  0000 C CNN
+F 1 "CLK" H 1500 7574 50  0000 C CNN
+F 2 "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm" H 1700 7250 50  0001 C CNN
+F 3 "~" H 1700 7250 50  0001 C CNN
+	1    1500 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 60C36FF8
+P 800 7250
+AR Path="/67E4E0EB/60C36FF8" Ref="TP?"  Part="1" 
+AR Path="/67E4ED7B/60C36FF8" Ref="TP70"  Part="1" 
+F 0 "TP70" H 800 7483 50  0000 C CNN
+F 1 "GND" H 800 7574 50  0000 C CNN
+F 2 "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm" H 1000 7250 50  0001 C CNN
+F 3 "~" H 1000 7250 50  0001 C CNN
+	1    800  7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 60C36FFE
+P 2200 7250
+AR Path="/67E4E0EB/60C36FFE" Ref="TP?"  Part="1" 
+AR Path="/67E4ED7B/60C36FFE" Ref="TP74"  Part="1" 
+F 0 "TP74" H 2200 7483 50  0000 C CNN
+F 1 "VCC" H 2200 7574 50  0000 C CNN
+F 2 "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm" H 2400 7250 50  0001 C CNN
+F 3 "~" H 2400 7250 50  0001 C CNN
+	1    2200 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 60C37004
+P 800 6500
+AR Path="/67E4E0EB/60C37004" Ref="TP?"  Part="1" 
+AR Path="/67E4ED7B/60C37004" Ref="TP65"  Part="1" 
+F 0 "TP65" H 800 6733 50  0000 C CNN
+F 1 "GND" H 800 6824 50  0000 C CNN
+F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 1000 6500 50  0001 C CNN
+F 3 "~" H 1000 6500 50  0001 C CNN
+	1    800  6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 60C3700A
+P 1150 6500
+AR Path="/67E4E0EB/60C3700A" Ref="TP?"  Part="1" 
+AR Path="/67E4ED7B/60C3700A" Ref="TP66"  Part="1" 
+F 0 "TP66" H 1150 6733 50  0000 C CNN
+F 1 "DATA" H 1150 6824 50  0000 C CNN
+F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 1350 6500 50  0001 C CNN
+F 3 "~" H 1350 6500 50  0001 C CNN
+	1    1150 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 60C37010
+P 1500 6500
+AR Path="/67E4E0EB/60C37010" Ref="TP?"  Part="1" 
+AR Path="/67E4ED7B/60C37010" Ref="TP67"  Part="1" 
+F 0 "TP67" H 1500 6733 50  0000 C CNN
+F 1 "CLK" H 1500 6824 50  0000 C CNN
+F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 1700 6500 50  0001 C CNN
+F 3 "~" H 1700 6500 50  0001 C CNN
+	1    1500 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 60C37016
+P 1850 6500
+AR Path="/67E4E0EB/60C37016" Ref="TP?"  Part="1" 
+AR Path="/67E4ED7B/60C37016" Ref="TP68"  Part="1" 
+F 0 "TP68" H 1850 6733 50  0000 C CNN
+F 1 "RST" H 1850 6824 50  0000 C CNN
+F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 2050 6500 50  0001 C CNN
+F 3 "~" H 2050 6500 50  0001 C CNN
+	1    1850 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 60C3701C
+P 2200 6500
+AR Path="/67E4E0EB/60C3701C" Ref="TP?"  Part="1" 
+AR Path="/67E4ED7B/60C3701C" Ref="TP69"  Part="1" 
+F 0 "TP69" H 2200 6733 50  0000 C CNN
+F 1 "VCC" H 2200 6824 50  0000 C CNN
+F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 2400 6500 50  0001 C CNN
+F 3 "~" H 2400 6500 50  0001 C CNN
+	1    2200 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 60C37022
+P 1150 7250
+AR Path="/67E4E0EB/60C37022" Ref="TP?"  Part="1" 
+AR Path="/67E4ED7B/60C37022" Ref="TP71"  Part="1" 
+F 0 "TP71" H 1150 7483 50  0000 C CNN
+F 1 "DATA" H 1150 7574 50  0000 C CNN
+F 2 "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm" H 1350 7250 50  0001 C CNN
+F 3 "~" H 1350 7250 50  0001 C CNN
+	1    1150 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 7250 1500 7300
+Wire Wire Line
+	1150 7250 1400 7250
+Wire Wire Line
+	1400 7250 1400 7300
+Wire Wire Line
+	1850 7250 1600 7250
+Wire Wire Line
+	1600 7250 1600 7300
+Wire Wire Line
+	1700 7300 2200 7300
+Wire Wire Line
+	2200 7300 2200 7250
+Wire Wire Line
+	1300 7300 800  7300
+Wire Wire Line
+	800  7300 800  7250
+Wire Wire Line
+	600  7550 600  6500
+Wire Wire Line
+	600  6500 800  6500
+Wire Wire Line
+	800  6500 800  6450
+Connection ~ 800  6500
+Wire Wire Line
+	1100 6450 1850 6450
+Wire Wire Line
+	1850 6450 1850 6500
+Wire Wire Line
+	1900 6500 1850 6500
+Connection ~ 1850 6500
+Wire Wire Line
+	1500 6150 1500 6500
+Wire Wire Line
+	1150 5850 1150 6500
+Text Label 1500 6150 1    50   ~ 0
+CLK
+Text Label 1150 5850 1    50   ~ 0
+DATA
+Wire Wire Line
+	1150 5850 1200 5850
+Wire Wire Line
+	2200 5850 2200 6150
+Wire Wire Line
+	1500 5850 2200 5850
+Wire Wire Line
+	1500 6150 1550 6150
+Wire Wire Line
+	1850 6150 2200 6150
+Connection ~ 2200 6150
+Wire Wire Line
+	2200 6150 2200 6500
+Connection ~ 2200 6500
+Connection ~ 2200 5850
+Wire Wire Line
+	2950 7750 3050 7750
+Text Label 10450 2350 0    50   ~ 0
+CLK
+$Comp
+L Switch:SW_SPDT JP2
+U 1 1 66F6B00A
+P 10250 2350
+F 0 "JP2" H 10250 2025 50  0000 C CNN
+F 1 "TP_CLK" H 10250 2116 50  0000 C CNN
+F 2 "libmodulo:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 10250 2350 50  0001 C CNN
+F 3 "~" H 10250 2350 50  0001 C CNN
+	1    10250 2350
+	-1   0    0    1   
+$EndComp
+Text Label 8500 950  1    50   ~ 0
+c7
+NoConn ~ 10000 1450
+$Comp
+L power:VDD #PWR05
+U 1 1 6AA1D0CD
+P 8800 2350
+F 0 "#PWR05" H 8800 2200 50  0001 C CNN
+F 1 "VDD" H 8815 2523 50  0000 C CNN
+F 2 "" H 8800 2350 50  0001 C CNN
+F 3 "" H 8800 2350 50  0001 C CNN
+	1    8800 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND2 #PWR0106
+U 1 1 60776946
+P 8750 950
+F 0 "#PWR0106" H 8750 700 50  0001 C CNN
+F 1 "GND2" H 8755 777 50  0000 C CNN
+F 2 "" H 8750 950 50  0001 C CNN
+F 3 "" H 8750 950 50  0001 C CNN
+	1    8750 950 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND2 #PWR0105
+U 1 1 60774ED2
+P 8600 2450
+F 0 "#PWR0105" H 8600 2200 50  0001 C CNN
+F 1 "GND2" H 8522 2413 50  0000 R CNN
+F 2 "" H 8600 2450 50  0001 C CNN
+F 3 "" H 8600 2450 50  0001 C CNN
+	1    8600 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 2450 8600 2350
+Text Label 8700 2350 3    50   ~ 0
+RST
+NoConn ~ 10000 1850
+NoConn ~ 10000 1750
+NoConn ~ 10000 1650
+NoConn ~ 8500 2350
+$Comp
+L keebio:Elite-C U2
+U 1 1 66F0D02A
+P 9050 1650
+F 0 "U2" V 8997 2328 60  0000 L CNN
+F 1 "Elite-C" V 9103 2328 60  0000 L CNN
+F 2 "libmodulo:Elite-C" V 10100 -850 60  0001 C CNN
+F 3 "" V 10100 -850 60  0001 C CNN
+	1    9050 1650
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8750 950  8700 950 
+Connection ~ 8750 950 
+Wire Wire Line
+	8800 950  8750 950 
+Wire Wire Line
+	10000 1550 10050 1550
+Text Label 8600 950  1    50   ~ 0
+DATA
+Text Label 8900 950  1    50   ~ 0
+SDA
+Text Label 9000 950  1    50   ~ 0
+SCL
+Text Label 8900 2350 3    50   ~ 0
+r0
+Text Label 9500 2350 3    50   ~ 0
+r1
+Text Label 9400 2350 3    50   ~ 0
+r2
+Text Label 9200 2350 3    50   ~ 0
+r3
+Text Label 9100 2350 3    50   ~ 0
+r4
+Text Label 9000 2350 3    50   ~ 0
+r5
+Text Label 9600 950  1    50   ~ 0
+c1
+Text Label 9600 2350 3    50   ~ 0
+c0
+Text Label 9100 950  1    50   ~ 0
+c6
+Text Label 9200 950  1    50   ~ 0
+c5
+Text Label 9300 950  1    50   ~ 0
+c4
+Text Label 9400 950  1    50   ~ 0
+c3
+Text Label 9500 950  1    50   ~ 0
+c2
+Wire Wire Line
+	9300 2350 9300 2450
+Wire Wire Line
+	10050 1550 10050 2250
+Wire Wire Line
+	9300 2450 10050 2450
 $EndSCHEMATC
