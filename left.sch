@@ -1168,7 +1168,7 @@ AR Path="/67E4ED54/6566FA00" Ref="SW?"  Part="1"
 AR Path="/67E4ED7B/6566FA00" Ref="SW?"  Part="1" 
 F 0 "SW52" H 6700 5785 50  0000 C CNN
 F 1 "SW_Push" H 6700 5694 50  0000 C CNN
-F 2 "libmodulo:SW_MX-ALPS-X_PCB" H 6700 5700 50  0001 C CNN
+F 2 "libmodulo:SW_MX-ALPS-ChocV1_V2-X_PCB" H 6700 5700 50  0001 C CNN
 F 3 "~" H 6700 5700 50  0001 C CNN
 	1    6700 5500
 	1    0    0    -1  
@@ -2453,4 +2453,9 @@ F 3 "~" H 9800 6000 50  0001 C CNN
 	1    9600 6000
 	1    0    0    -1  
 $EndComp
+Text Label 3250 3000 2    50   ~ 0
+r0
+Wire Wire Line
+	3250 3000 3500 3000
+Connection ~ 3500 3000
 $EndSCHEMATC
