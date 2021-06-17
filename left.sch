@@ -1449,7 +1449,7 @@ U 1 1 62FFA044
 P 4950 3500
 F 0 "TP2" H 4892 3526 50  0000 R CNN
 F 1 "r2" H 4892 3617 50  0000 R CNN
-F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 5150 3500 50  0001 C CNN
+F 2 "libmodulo:SMDPad_4.0x2.0mm" H 5150 3500 50  0001 C CNN
 F 3 "~" H 5150 3500 50  0001 C CNN
 	1    4950 3500
 	-1   0    0    1   
@@ -1460,7 +1460,7 @@ U 1 1 6308394E
 P 5450 3500
 F 0 "TP3" H 5392 3526 50  0000 R CNN
 F 1 "r3" H 5392 3617 50  0000 R CNN
-F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 5650 3500 50  0001 C CNN
+F 2 "libmodulo:SMDPad_4.0x2.0mm" H 5650 3500 50  0001 C CNN
 F 3 "~" H 5650 3500 50  0001 C CNN
 	1    5450 3500
 	-1   0    0    1   
@@ -1471,7 +1471,7 @@ U 1 1 63083DE4
 P 5950 3500
 F 0 "TP4" H 5892 3526 50  0000 R CNN
 F 1 "r4" H 5892 3617 50  0000 R CNN
-F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 6150 3500 50  0001 C CNN
+F 2 "libmodulo:SMDPad_4.0x2.0mm" H 6150 3500 50  0001 C CNN
 F 3 "~" H 6150 3500 50  0001 C CNN
 	1    5950 3500
 	-1   0    0    1   
@@ -1482,7 +1482,7 @@ U 1 1 630D1F72
 P 6450 3500
 F 0 "TP5" H 6392 3526 50  0000 R CNN
 F 1 "r5" H 6392 3617 50  0000 R CNN
-F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 6650 3500 50  0001 C CNN
+F 2 "libmodulo:SMDPad_4.0x2.0mm" H 6650 3500 50  0001 C CNN
 F 3 "~" H 6650 3500 50  0001 C CNN
 	1    6450 3500
 	-1   0    0    1   
@@ -1493,7 +1493,7 @@ U 1 1 630D241C
 P 6950 3500
 F 0 "TP6" H 6892 3526 50  0000 R CNN
 F 1 "r0" H 6892 3617 50  0000 R CNN
-F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 7150 3500 50  0001 C CNN
+F 2 "libmodulo:SMDPad_4.0x2.0mm" H 7150 3500 50  0001 C CNN
 F 3 "~" H 7150 3500 50  0001 C CNN
 	1    6950 3500
 	-1   0    0    1   
@@ -1504,7 +1504,7 @@ U 1 1 62875CD2
 P 4450 3500
 F 0 "TP1" H 4392 3526 50  0000 R CNN
 F 1 "r1" H 4392 3617 50  0000 R CNN
-F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 4650 3500 50  0001 C CNN
+F 2 "libmodulo:SMDPad_4.0x2.0mm" H 4650 3500 50  0001 C CNN
 F 3 "~" H 4650 3500 50  0001 C CNN
 	1    4450 3500
 	-1   0    0    1   
@@ -1609,7 +1609,7 @@ AR Path="/67E4E0EB/60790D80" Ref="TP27"  Part="1"
 AR Path="/67E4ED7B/60790D80" Ref="TP?"  Part="1" 
 F 0 "TP27" H 1892 3526 50  0000 R CNN
 F 1 "c2" H 1892 3617 50  0000 R CNN
-F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 2150 3500 50  0001 C CNN
+F 2 "libmodulo:SMDPad_4.0x2.0mm" H 2150 3500 50  0001 C CNN
 F 3 "~" H 2150 3500 50  0001 C CNN
 	1    1950 3500
 	-1   0    0    1   
@@ -1622,7 +1622,7 @@ AR Path="/67E4E0EB/60790D8A" Ref="TP28"  Part="1"
 AR Path="/67E4ED7B/60790D8A" Ref="TP?"  Part="1" 
 F 0 "TP28" H 2392 3526 50  0000 R CNN
 F 1 "c3" H 2392 3617 50  0000 R CNN
-F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 2650 3500 50  0001 C CNN
+F 2 "libmodulo:SMDPad_4.0x2.0mm" H 2650 3500 50  0001 C CNN
 F 3 "~" H 2650 3500 50  0001 C CNN
 	1    2450 3500
 	-1   0    0    1   
@@ -1635,7 +1635,7 @@ AR Path="/67E4E0EB/60790D94" Ref="TP29"  Part="1"
 AR Path="/67E4ED7B/60790D94" Ref="TP?"  Part="1" 
 F 0 "TP29" H 2892 3526 50  0000 R CNN
 F 1 "c4" H 2892 3617 50  0000 R CNN
-F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 3150 3500 50  0001 C CNN
+F 2 "libmodulo:SMDPad_4.0x2.0mm" H 3150 3500 50  0001 C CNN
 F 3 "~" H 3150 3500 50  0001 C CNN
 	1    2950 3500
 	-1   0    0    1   
@@ -1648,7 +1648,7 @@ AR Path="/67E4E0EB/60790D9E" Ref="TP30"  Part="1"
 AR Path="/67E4ED7B/60790D9E" Ref="TP?"  Part="1" 
 F 0 "TP30" H 3392 3526 50  0000 R CNN
 F 1 "c5" H 3392 3617 50  0000 R CNN
-F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 3650 3500 50  0001 C CNN
+F 2 "libmodulo:SMDPad_4.0x2.0mm" H 3650 3500 50  0001 C CNN
 F 3 "~" H 3650 3500 50  0001 C CNN
 	1    3450 3500
 	-1   0    0    1   
@@ -1661,7 +1661,7 @@ AR Path="/67E4E0EB/60790DA8" Ref="TP31"  Part="1"
 AR Path="/67E4ED7B/60790DA8" Ref="TP?"  Part="1" 
 F 0 "TP31" H 3892 3526 50  0000 R CNN
 F 1 "c6" H 3892 3617 50  0000 R CNN
-F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 4150 3500 50  0001 C CNN
+F 2 "libmodulo:SMDPad_4.0x2.0mm" H 4150 3500 50  0001 C CNN
 F 3 "~" H 4150 3500 50  0001 C CNN
 	1    3950 3500
 	-1   0    0    1   
@@ -1674,7 +1674,7 @@ AR Path="/67E4E0EB/60790DB2" Ref="TP25"  Part="1"
 AR Path="/67E4ED7B/60790DB2" Ref="TP?"  Part="1" 
 F 0 "TP25" H 892 3526 50  0000 R CNN
 F 1 "c2" H 892 3617 50  0000 R CNN
-F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 1150 3500 50  0001 C CNN
+F 2 "libmodulo:SMDPad_4.0x2.0mm" H 1150 3500 50  0001 C CNN
 F 3 "~" H 1150 3500 50  0001 C CNN
 	1    950  3500
 	-1   0    0    1   
@@ -1687,7 +1687,7 @@ AR Path="/67E4E0EB/60790DBC" Ref="TP26"  Part="1"
 AR Path="/67E4ED7B/60790DBC" Ref="TP?"  Part="1" 
 F 0 "TP26" H 1392 3526 50  0000 R CNN
 F 1 "c1" H 1392 3617 50  0000 R CNN
-F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 1650 3500 50  0001 C CNN
+F 2 "libmodulo:SMDPad_4.0x2.0mm" H 1650 3500 50  0001 C CNN
 F 3 "~" H 1650 3500 50  0001 C CNN
 	1    1450 3500
 	-1   0    0    1   
@@ -2202,7 +2202,7 @@ AR Path="/67E4E0EB/60AA8556" Ref="TP55"  Part="1"
 AR Path="/67E4ED7B/60AA8556" Ref="TP?"  Part="1" 
 F 0 "TP55" H 7300 4333 50  0000 C CNN
 F 1 "GND" H 7300 4424 50  0000 C CNN
-F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 7500 4100 50  0001 C CNN
+F 2 "libmodulo:SMDPad_4.0x2.0mm" H 7500 4100 50  0001 C CNN
 F 3 "~" H 7500 4100 50  0001 C CNN
 	1    7300 4100
 	-1   0    0    1   
@@ -2215,7 +2215,7 @@ AR Path="/67E4E0EB/60AA8560" Ref="TP56"  Part="1"
 AR Path="/67E4ED7B/60AA8560" Ref="TP?"  Part="1" 
 F 0 "TP56" H 7650 4333 50  0000 C CNN
 F 1 "DATA" H 7650 4424 50  0000 C CNN
-F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 7850 4100 50  0001 C CNN
+F 2 "libmodulo:SMDPad_4.0x2.0mm" H 7850 4100 50  0001 C CNN
 F 3 "~" H 7850 4100 50  0001 C CNN
 	1    7650 4100
 	-1   0    0    1   
@@ -2228,7 +2228,7 @@ AR Path="/67E4E0EB/60AA856A" Ref="TP57"  Part="1"
 AR Path="/67E4ED7B/60AA856A" Ref="TP?"  Part="1" 
 F 0 "TP57" H 8000 4333 50  0000 C CNN
 F 1 "CLK" H 8000 4424 50  0000 C CNN
-F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 8200 4100 50  0001 C CNN
+F 2 "libmodulo:SMDPad_4.0x2.0mm" H 8200 4100 50  0001 C CNN
 F 3 "~" H 8200 4100 50  0001 C CNN
 	1    8000 4100
 	-1   0    0    1   
@@ -2241,7 +2241,7 @@ AR Path="/67E4E0EB/60AA8574" Ref="TP58"  Part="1"
 AR Path="/67E4ED7B/60AA8574" Ref="TP?"  Part="1" 
 F 0 "TP58" H 8350 4333 50  0000 C CNN
 F 1 "RST" H 8350 4424 50  0000 C CNN
-F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 8550 4100 50  0001 C CNN
+F 2 "libmodulo:SMDPad_4.0x2.0mm" H 8550 4100 50  0001 C CNN
 F 3 "~" H 8550 4100 50  0001 C CNN
 	1    8350 4100
 	-1   0    0    1   
@@ -2254,7 +2254,7 @@ AR Path="/67E4E0EB/60AA857E" Ref="TP59"  Part="1"
 AR Path="/67E4ED7B/60AA857E" Ref="TP?"  Part="1" 
 F 0 "TP59" H 8700 4333 50  0000 C CNN
 F 1 "VCC" H 8700 4424 50  0000 C CNN
-F 2 "libmodulo:TestPoint_Keystone_5019_Minature" H 8900 4100 50  0001 C CNN
+F 2 "libmodulo:SMDPad_4.0x2.0mm" H 8900 4100 50  0001 C CNN
 F 3 "~" H 8900 4100 50  0001 C CNN
 	1    8700 4100
 	-1   0    0    1   
