@@ -30,7 +30,7 @@ U 1 1 66237CC2
 P 3600 2950
 F 0 "R8" V 3800 2950 50  0000 C CNN
 F 1 "4.7k" V 3700 2950 50  0000 C CNN
-F 2 "libmodulo:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 3530 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 3530 2950 50  0001 C CNN
 F 3 "~" H 3600 2950 50  0001 C CNN
 	1    3600 2950
 	0    -1   -1   0   
@@ -41,7 +41,7 @@ U 1 1 66F6B00C
 P 3250 2650
 F 0 "R6" V 3455 2650 50  0000 C CNN
 F 1 "4.7k" V 3364 2650 50  0000 C CNN
-F 2 "libmodulo:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 3180 2650 50  0001 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 3180 2650 50  0001 C CNN
 F 3 "~" H 3250 2650 50  0001 C CNN
 	1    3250 2650
 	0    -1   -1   0   
@@ -52,7 +52,7 @@ U 1 1 66F6B00D
 P 2850 3250
 F 0 "R10" V 3055 3250 50  0000 C CNN
 F 1 "100k" V 2964 3250 50  0000 C CNN
-F 2 "libmodulo:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 2780 3250 50  0001 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 2780 3250 50  0001 C CNN
 F 3 "~" H 2850 3250 50  0001 C CNN
 	1    2850 3250
 	0    1    -1   0   
@@ -62,8 +62,8 @@ L Device:C C92
 U 1 1 66F6AF4E
 P 3950 3300
 F 0 "C92" V 4202 3300 50  0000 C CNN
-F 1 "2.2u" V 4111 3300 50  0000 C CNN
-F 2 "libmodulo:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder" H 3988 3150 50  0001 C CNN
+F 1 "2.2µ" V 4111 3300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder" H 3988 3150 50  0001 C CNN
 F 3 "~" H 3950 3300 50  0001 C CNN
 	1    3950 3300
 	0    -1   -1   0   
@@ -2031,7 +2031,7 @@ U 1 1 602C2F86
 P 4900 800
 F 0 "SW93" H 4900 1085 50  0000 C CNN
 F 1 "SW_Push" H 4900 994 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 4900 1000 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_EVQQ2" H 4900 1000 50  0001 C CNN
 F 3 "~" H 4900 1000 50  0001 C CNN
 	1    4900 800 
 	1    0    0    -1  
@@ -2044,7 +2044,7 @@ U 1 1 6066E01C
 P 5000 1350
 F 0 "SW92" H 5000 1605 50  0000 C CNN
 F 1 "SW_PUSH" H 5000 1514 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 5000 1350 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_EVQQ2" H 5000 1350 50  0001 C CNN
 F 3 "" H 5000 1350 50  0000 C CNN
 	1    5000 1350
 	1    0    0    -1  
@@ -2060,121 +2060,102 @@ F 3 "" H 4700 1350 50  0001 C CNN
 	1    4700 1350
 	1    0    0    -1  
 $EndComp
-Text Label 2900 2100 0    50   ~ 0
+Text Label 2850 1300 0    50   ~ 0
 CLK
 $Comp
 L Switch:SW_SPDT JP2
 U 1 1 66F6B00A
-P 2700 2100
-F 0 "JP2" H 2700 1775 50  0000 C CNN
-F 1 "TP_CLK" H 2700 1866 50  0000 C CNN
-F 2 "libmodulo:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 2700 2100 50  0001 C CNN
-F 3 "~" H 2700 2100 50  0001 C CNN
-	1    2700 2100
+P 2650 1300
+F 0 "JP2" H 2650 975 50  0000 C CNN
+F 1 "TP_CLK" H 2650 1066 50  0000 C CNN
+F 2 "libmodulo:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 2650 1300 50  0001 C CNN
+F 3 "~" H 2650 1300 50  0001 C CNN
+	1    2650 1300
 	-1   0    0    1   
 $EndComp
-Text Label 950  700  1    50   ~ 0
+Text Label 1550 800  1    50   ~ 0
 c7
-NoConn ~ 2450 1200
+NoConn ~ 2450 1300
 $Comp
 L power:VDD #PWR05
 U 1 1 6AA1D0CD
-P 550 2050
-F 0 "#PWR05" H 550 1900 50  0001 C CNN
-F 1 "VDD" H 565 2223 50  0000 C CNN
-F 2 "" H 550 2050 50  0001 C CNN
-F 3 "" H 550 2050 50  0001 C CNN
-	1    550  2050
+P 550 2150
+F 0 "#PWR05" H 550 2000 50  0001 C CNN
+F 1 "VDD" H 565 2323 50  0000 C CNN
+F 2 "" H 550 2150 50  0001 C CNN
+F 3 "" H 550 2150 50  0001 C CNN
+	1    550  2150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND2 #PWR0106
 U 1 1 60776946
-P 600 750
-F 0 "#PWR0106" H 600 500 50  0001 C CNN
-F 1 "GND2" H 605 577 50  0000 C CNN
-F 2 "" H 600 750 50  0001 C CNN
-F 3 "" H 600 750 50  0001 C CNN
-	1    600  750 
+P 850 550
+F 0 "#PWR0106" H 850 300 50  0001 C CNN
+F 1 "GND2" H 855 377 50  0000 C CNN
+F 2 "" H 850 550 50  0001 C CNN
+F 3 "" H 850 550 50  0001 C CNN
+	1    850  550 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND2 #PWR0105
 U 1 1 60774ED2
-P 1050 2200
-F 0 "#PWR0105" H 1050 1950 50  0001 C CNN
-F 1 "GND2" H 972 2163 50  0000 R CNN
-F 2 "" H 1050 2200 50  0001 C CNN
-F 3 "" H 1050 2200 50  0001 C CNN
-	1    1050 2200
+P 1050 2300
+F 0 "#PWR0105" H 1050 2050 50  0001 C CNN
+F 1 "GND2" H 972 2263 50  0000 R CNN
+F 2 "" H 1050 2300 50  0001 C CNN
+F 3 "" H 1050 2300 50  0001 C CNN
+	1    1050 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1050 2200 1050 2100
-Text Label 1150 2100 3    50   ~ 0
+	1050 2300 1050 2200
+Text Label 1150 2200 3    50   ~ 0
 RST
+NoConn ~ 2450 1700
 NoConn ~ 2450 1600
 NoConn ~ 2450 1500
-NoConn ~ 2450 1400
-NoConn ~ 950  2100
-$Comp
-L keebio:Elite-C U2
-U 1 1 66F0D02A
-P 1500 1400
-F 0 "U2" V 1447 2078 60  0000 L CNN
-F 1 "Elite-C" V 1553 2078 60  0000 L CNN
-F 2 "libmodulo:Elite-C" V 2550 -1100 60  0001 C CNN
-F 3 "" V 2550 -1100 60  0001 C CNN
-	1    1500 1400
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	2450 1300 2500 1300
-Text Label 1050 700  1    50   ~ 0
+NoConn ~ 950  2200
+Text Label 1050 800  1    50   ~ 0
 DATA
-Text Label 1350 700  1    50   ~ 0
+Text Label 1350 800  1    50   ~ 0
 SDA
-Text Label 1450 700  1    50   ~ 0
+Text Label 1450 800  1    50   ~ 0
 SCL
-Text Label 1350 2100 3    50   ~ 0
+Text Label 1350 2200 3    50   ~ 0
 r0
-Text Label 1950 2100 3    50   ~ 0
+Text Label 1850 2200 3    50   ~ 0
 r1
-Text Label 1850 2100 3    50   ~ 0
+Text Label 1750 2200 3    50   ~ 0
 r2
-Text Label 1650 2100 3    50   ~ 0
+Text Label 1650 2200 3    50   ~ 0
 r3
-Text Label 1550 2100 3    50   ~ 0
+Text Label 1550 2200 3    50   ~ 0
 r4
-Text Label 1450 2100 3    50   ~ 0
+Text Label 1450 2200 3    50   ~ 0
 r5
-Text Label 2050 700  1    50   ~ 0
+Text Label 2050 2200 3    50   ~ 0
 c1
-Text Label 2050 2100 3    50   ~ 0
+Text Label 1950 2200 3    50   ~ 0
 c0
-Text Label 1550 700  1    50   ~ 0
+Text Label 1650 800  1    50   ~ 0
 c6
-Text Label 1650 700  1    50   ~ 0
+Text Label 1750 800  1    50   ~ 0
 c5
-Text Label 1750 700  1    50   ~ 0
+Text Label 1850 800  1    50   ~ 0
 c4
-Text Label 1850 700  1    50   ~ 0
+Text Label 1950 800  1    50   ~ 0
 c3
-Text Label 1950 700  1    50   ~ 0
+Text Label 2050 800  1    50   ~ 0
 c2
-Wire Wire Line
-	1750 2100 1750 2200
-Wire Wire Line
-	2500 1300 2500 2000
-Wire Wire Line
-	1750 2200 2500 2200
 $Comp
 L Device:R_US R4
 U 1 1 66F6B00E
 P 1150 3400
 F 0 "R4" H 1082 3354 50  0000 R CNN
 F 1 "4.7k" H 1082 3445 50  0000 R CNN
-F 2 "libmodulo:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 1080 3400 50  0001 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 1080 3400 50  0001 C CNN
 F 3 "~" H 1150 3400 50  0001 C CNN
 	1    1150 3400
 	-1   0    0    1   
@@ -2285,28 +2266,45 @@ U 1 1 6640BB67
 P 1150 4000
 F 0 "R2" V 1263 4000 50  0000 C CNN
 F 1 "4.7k" V 1354 4000 50  0000 C CNN
-F 2 "libmodulo:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 1080 4000 50  0001 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 1080 4000 50  0001 C CNN
 F 3 "~" H 1150 4000 50  0001 C CNN
 	1    1150 4000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1150 700  1200 700 
+	1150 800  1200 800 
+Connection ~ 1200 800 
 Wire Wire Line
-	1200 700  1200 500 
+	1200 800  1250 800 
 Wire Wire Line
-	1200 500  600  500 
-Connection ~ 1200 700 
+	1250 2200 1250 2450
 Wire Wire Line
-	1200 700  1250 700 
+	1250 2450 550  2450
 Wire Wire Line
-	600  500  600  750 
-Wire Wire Line
-	1250 2100 1250 2350
-Wire Wire Line
-	1250 2350 550  2350
-Wire Wire Line
-	550  2350 550  2050
+	550  2450 550  2150
 Wire Wire Line
 	2500 3450 2500 3300
+$Comp
+L keebio:Elite-C U2
+U 1 1 66F0D02A
+P 1500 1500
+F 0 "U2" V 1447 2178 60  0000 L CNN
+F 1 "Elite-C" V 1553 2178 60  0000 L CNN
+F 2 "libmodulo:Elite-C" V 2550 -1000 60  0001 C CNN
+F 3 "" V 2550 -1000 60  0001 C CNN
+	1    1500 1500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1200 550  850  550 
+Wire Wire Line
+	1200 550  1200 800 
+Wire Wire Line
+	750  800  750  500 
+Wire Wire Line
+	750  500  2450 500 
+Wire Wire Line
+	750  800  950  800 
+Wire Wire Line
+	2450 1200 2450 500 
 $EndSCHEMATC

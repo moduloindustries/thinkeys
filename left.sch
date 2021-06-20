@@ -1867,7 +1867,7 @@ U 1 1 60761CC7
 P 5400 800
 F 0 "SW91" H 5400 1055 50  0000 C CNN
 F 1 "SW_PUSH" H 5400 964 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 5400 800 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_EVQQ2" H 5400 800 50  0001 C CNN
 F 3 "" H 5400 800 50  0000 C CNN
 	1    5400 800 
 	1    0    0    -1  
@@ -1899,7 +1899,7 @@ AR Path="/67E4ED54/60D24793" Ref="R?"  Part="1"
 AR Path="/67E4ED7B/60D24793" Ref="R?"  Part="1" 
 F 0 "R3" V 9863 1450 50  0000 C CNN
 F 1 "4.7k" V 9954 1450 50  0000 C CNN
-F 2 "libmodulo:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 9680 1450 50  0001 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 9680 1450 50  0001 C CNN
 F 3 "~" H 9750 1450 50  0001 C CNN
 	1    9750 1450
 	-1   0    0    1   
@@ -1914,7 +1914,7 @@ AR Path="/67E4ED54/60D2479D" Ref="R?"  Part="1"
 AR Path="/67E4ED7B/60D2479D" Ref="R?"  Part="1" 
 F 0 "R1" V 9863 2050 50  0000 C CNN
 F 1 "4.7k" V 9954 2050 50  0000 C CNN
-F 2 "libmodulo:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 9680 2050 50  0001 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 9680 2050 50  0001 C CNN
 F 3 "~" H 9750 2050 50  0001 C CNN
 	1    9750 2050
 	-1   0    0    -1  
@@ -2314,8 +2314,8 @@ AR Path="/67E4ECE8/60D247DB" Ref="C?"  Part="1"
 AR Path="/67E4ED54/60D247DB" Ref="C?"  Part="1" 
 AR Path="/67E4ED7B/60D247DB" Ref="C?"  Part="1" 
 F 0 "C91" V 8802 4100 50  0000 C CNN
-F 1 "2.2u" V 8711 4100 50  0000 C CNN
-F 2 "libmodulo:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder" H 8588 3950 50  0001 C CNN
+F 1 "2.2µ" V 8711 4100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder" H 8588 3950 50  0001 C CNN
 F 3 "~" H 8550 4100 50  0001 C CNN
 	1    8550 4100
 	0    -1   -1   0   
@@ -2330,7 +2330,7 @@ AR Path="/67E4ED54/60D247FA" Ref="R?"  Part="1"
 AR Path="/67E4ED7B/60D247FA" Ref="R?"  Part="1" 
 F 0 "R7" V 8055 3450 50  0000 C CNN
 F 1 "4.7k" V 7964 3450 50  0000 C CNN
-F 2 "libmodulo:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 7780 3450 50  0001 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 7780 3450 50  0001 C CNN
 F 3 "~" H 7850 3450 50  0001 C CNN
 	1    7850 3450
 	0    -1   -1   0   
@@ -2345,7 +2345,7 @@ AR Path="/67E4ED54/60D24804" Ref="R?"  Part="1"
 AR Path="/67E4ED7B/60D24804" Ref="R?"  Part="1" 
 F 0 "R5" V 8405 3750 50  0000 C CNN
 F 1 "4.7k" V 8314 3750 50  0000 C CNN
-F 2 "libmodulo:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 8130 3750 50  0001 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 8130 3750 50  0001 C CNN
 F 3 "~" H 8200 3750 50  0001 C CNN
 	1    8200 3750
 	0    -1   -1   0   
@@ -2377,7 +2377,7 @@ AR Path="/67E4ED54/60B5A618" Ref="R?"  Part="1"
 AR Path="/67E4ED7B/60B5A618" Ref="R?"  Part="1" 
 F 0 "R9" V 7655 4050 50  0000 C CNN
 F 1 "100k" V 7564 4050 50  0000 C CNN
-F 2 "libmodulo:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 7380 4050 50  0001 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" V 7380 4050 50  0001 C CNN
 F 3 "~" H 7450 4050 50  0001 C CNN
 	1    7450 4050
 	0    1    -1   0   
