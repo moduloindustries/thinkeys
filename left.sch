@@ -1755,17 +1755,17 @@ Text Label 8050 700  1    50   ~ 0
 c0
 Text Label 7950 700  1    50   ~ 0
 c1
-Text Label 7450 2100 3    50   ~ 0
-r5
 Text Label 7550 2100 3    50   ~ 0
-r4
+r5
 Text Label 7650 2100 3    50   ~ 0
-r3
+r4
 Text Label 7750 2100 3    50   ~ 0
-r2
+r3
 Text Label 7850 2100 3    50   ~ 0
-r1
+r2
 Text Label 7950 2100 3    50   ~ 0
+r1
+Text Label 7450 2100 3    50   ~ 0
 r0
 Text Label 8050 2100 3    50   ~ 0
 SCL
