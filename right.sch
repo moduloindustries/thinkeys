@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
-Title "ThinKeys"
+Title "ThinKeys13"
 Date ""
-Rev ""
-Comp ""
+Rev "v0.2"
+Comp "Modulo Industries"
 Comment1 ""
 Comment2 ""
 Comment3 ""
