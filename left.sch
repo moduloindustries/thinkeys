@@ -1893,7 +1893,6 @@ F 3 "" H 8250 700 50  0001 C CNN
 	1    8250 700 
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8150 700 
 $Comp
 L power:GND1 #PWR0108
 U 1 1 60C29E83
@@ -2287,4 +2286,71 @@ Connection ~ 8350 4100
 Wire Wire Line
 	8700 4100 8700 4200
 Connection ~ 8700 4100
+$Comp
+L power:VCC #PWR0112
+U 1 1 611D82B8
+P 6650 1200
+F 0 "#PWR0112" H 6650 1050 50  0001 C CNN
+F 1 "VCC" H 6665 1373 50  0000 C CNN
+F 2 "" H 6650 1200 50  0001 C CNN
+F 3 "" H 6650 1200 50  0001 C CNN
+	1    6650 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small L1
+U 1 1 611E661D
+P 6500 1400
+F 0 "L1" V 6546 1330 50  0000 R CNN
+F 1 "LED_Small" V 6455 1330 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Castellated" V 6500 1400 50  0001 C CNN
+F 3 "~" V 6500 1400 50  0001 C CNN
+F 4 "C72043" V 6500 1400 50  0001 C CNN "LCSC Part"
+	1    6500 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 61208239
+P 6150 1300
+F 0 "J4" H 6258 1581 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 6258 1490 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical_SMD_Pin1Left" H 6150 1300 50  0001 C CNN
+F 3 "~" H 6150 1300 50  0001 C CNN
+	1    6150 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 1200 6650 1200
+Wire Wire Line
+	6350 1300 6500 1300
+Wire Wire Line
+	8150 600  8150 700 
+Connection ~ 6500 1300
+Wire Wire Line
+	6500 1300 6750 1300
+$Comp
+L power:GND1 #PWR0117
+U 1 1 612E93E7
+P 6500 1500
+AR Path="/67E4E0EB/612E93E7" Ref="#PWR0117"  Part="1" 
+AR Path="/67E4ECE8/612E93E7" Ref="#PWR?"  Part="1" 
+AR Path="/67E4ED54/612E93E7" Ref="#PWR?"  Part="1" 
+AR Path="/67E4ED7B/612E93E7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0117" H 6500 1250 50  0001 C CNN
+F 1 "GND1" H 6505 1327 50  0000 C CNN
+F 2 "" H 6500 1500 50  0001 C CNN
+F 3 "" H 6500 1500 50  0001 C CNN
+	1    6500 1500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 1400 6350 1500
+Wire Wire Line
+	6350 1500 6500 1500
+Connection ~ 6500 1500
+Wire Wire Line
+	6750 1300 6750 600 
+Wire Wire Line
+	6750 600  8150 600 
 $EndSCHEMATC
