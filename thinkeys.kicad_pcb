@@ -443,6 +443,162 @@
     (add_net VDD)
   )
 
+  (module Button_Switch_SMD:SW_SPST_EVQQ2 (layer F.Cu) (tedit 60E7EC0C) (tstamp 6102EBA0)
+    (at 257.175 -12.7)
+    (descr "Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE28.pdf")
+    (path /67E4ED7B/602C2F86)
+    (attr smd)
+    (fp_text reference S3 (at -4.7125 0 90) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SW_PUSH (at 0 4.25) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1.5 0) (layer F.Fab) (width 0.1))
+    (fp_circle (center 0 0) (end 1.9 0) (layer F.Fab) (width 0.1))
+    (fp_line (start -3.35 3.1) (end 3.35 3.1) (layer F.SilkS) (width 0.12))
+    (fp_line (start 3.35 -3.1) (end -3.35 -3.1) (layer F.SilkS) (width 0.12))
+    (fp_line (start 3.35 -1.2) (end 3.35 1.2) (layer F.SilkS) (width 0.12))
+    (fp_line (start -3.35 -1.2) (end -3.35 1.2) (layer F.SilkS) (width 0.12))
+    (fp_line (start -3.35 -3.1) (end -3.35 -2.9) (layer F.SilkS) (width 0.12))
+    (fp_line (start -3.35 3.1) (end -3.35 2.9) (layer F.SilkS) (width 0.12))
+    (fp_line (start 3.35 3.1) (end 3.35 2.9) (layer F.SilkS) (width 0.12))
+    (fp_line (start 3.35 -3.1) (end 3.35 -2.9) (layer F.SilkS) (width 0.12))
+    (fp_line (start -5.25 3.25) (end -5.25 -3.25) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 5.25 3.25) (end -5.25 3.25) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 5.25 -3.25) (end 5.25 3.25) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -5.25 -3.25) (end 5.25 -3.25) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.25 3) (end -3.25 -3) (layer F.Fab) (width 0.1))
+    (fp_line (start 3.25 3) (end -3.25 3) (layer F.Fab) (width 0.1))
+    (fp_line (start 3.25 -3) (end 3.25 3) (layer F.Fab) (width 0.1))
+    (fp_line (start -3.25 -3) (end 3.25 -3) (layer F.Fab) (width 0.1))
+    (fp_text user %R (at 0.05 -3.95) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 2 smd rect (at 3.4 2) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
+      (net 87 "Net-(J3-Pad1)"))
+    (pad 2 smd rect (at -3.4 2) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
+      (net 87 "Net-(J3-Pad1)"))
+    (pad 1 smd rect (at -3.4 -2) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
+      (net 109 GND2))
+    (pad 1 smd rect (at 3.4 -2) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
+      (net 109 GND2))
+    (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_EVQQ2.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/libmodulo/libmodulo.pretty/3dmodels/evq*q2*3w.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Button_Switch_SMD:SW_SPST_EVQQ2 (layer F.Cu) (tedit 60E7EC00) (tstamp 6102CFA6)
+    (at 238.125 -12.7 180)
+    (descr "Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE28.pdf")
+    (path /67E4ED7B/6066E01C)
+    (attr smd)
+    (fp_text reference S2 (at 4.7125 0 270) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SW_PUSH (at 0 4.25 180) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1.5 0) (layer F.Fab) (width 0.1))
+    (fp_circle (center 0 0) (end 1.9 0) (layer F.Fab) (width 0.1))
+    (fp_line (start -3.35 3.1) (end 3.35 3.1) (layer F.SilkS) (width 0.12))
+    (fp_line (start 3.35 -3.1) (end -3.35 -3.1) (layer F.SilkS) (width 0.12))
+    (fp_line (start 3.35 -1.2) (end 3.35 1.2) (layer F.SilkS) (width 0.12))
+    (fp_line (start -3.35 -1.2) (end -3.35 1.2) (layer F.SilkS) (width 0.12))
+    (fp_line (start -3.35 -3.1) (end -3.35 -2.9) (layer F.SilkS) (width 0.12))
+    (fp_line (start -3.35 3.1) (end -3.35 2.9) (layer F.SilkS) (width 0.12))
+    (fp_line (start 3.35 3.1) (end 3.35 2.9) (layer F.SilkS) (width 0.12))
+    (fp_line (start 3.35 -3.1) (end 3.35 -2.9) (layer F.SilkS) (width 0.12))
+    (fp_line (start -5.25 3.25) (end -5.25 -3.25) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 5.25 3.25) (end -5.25 3.25) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 5.25 -3.25) (end 5.25 3.25) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -5.25 -3.25) (end 5.25 -3.25) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.25 3) (end -3.25 -3) (layer F.Fab) (width 0.1))
+    (fp_line (start 3.25 3) (end -3.25 3) (layer F.Fab) (width 0.1))
+    (fp_line (start 3.25 -3) (end 3.25 3) (layer F.Fab) (width 0.1))
+    (fp_line (start -3.25 -3) (end 3.25 -3) (layer F.Fab) (width 0.1))
+    (fp_text user %R (at 0.05 -3.95 180) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 2 smd rect (at 3.4 2 180) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
+      (net 132 /right/RST))
+    (pad 2 smd rect (at -3.4 2 180) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
+      (net 132 /right/RST))
+    (pad 1 smd rect (at -3.4 -2 180) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
+      (net 109 GND2))
+    (pad 1 smd rect (at 3.4 -2 180) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
+      (net 109 GND2))
+    (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_EVQQ2.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/libmodulo/libmodulo.pretty/3dmodels/evq*q2*3w.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Button_Switch_SMD:SW_SPST_EVQQ2 (layer F.Cu) (tedit 60E7EBEF) (tstamp 60D091B2)
+    (at 85.725 -12.7 180)
+    (descr "Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE28.pdf")
+    (path /67E4E0EB/60761CC7)
+    (attr smd)
+    (fp_text reference S1 (at -4.7125 0 270) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SW_PUSH (at 0 4.25 180) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1.5 0) (layer F.Fab) (width 0.1))
+    (fp_circle (center 0 0) (end 1.9 0) (layer F.Fab) (width 0.1))
+    (fp_line (start -3.35 3.1) (end 3.35 3.1) (layer F.SilkS) (width 0.12))
+    (fp_line (start 3.35 -3.1) (end -3.35 -3.1) (layer F.SilkS) (width 0.12))
+    (fp_line (start 3.35 -1.2) (end 3.35 1.2) (layer F.SilkS) (width 0.12))
+    (fp_line (start -3.35 -1.2) (end -3.35 1.2) (layer F.SilkS) (width 0.12))
+    (fp_line (start -3.35 -3.1) (end -3.35 -2.9) (layer F.SilkS) (width 0.12))
+    (fp_line (start -3.35 3.1) (end -3.35 2.9) (layer F.SilkS) (width 0.12))
+    (fp_line (start 3.35 3.1) (end 3.35 2.9) (layer F.SilkS) (width 0.12))
+    (fp_line (start 3.35 -3.1) (end 3.35 -2.9) (layer F.SilkS) (width 0.12))
+    (fp_line (start -5.25 3.25) (end -5.25 -3.25) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 5.25 3.25) (end -5.25 3.25) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 5.25 -3.25) (end 5.25 3.25) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -5.25 -3.25) (end 5.25 -3.25) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.25 3) (end -3.25 -3) (layer F.Fab) (width 0.1))
+    (fp_line (start 3.25 3) (end -3.25 3) (layer F.Fab) (width 0.1))
+    (fp_line (start 3.25 -3) (end 3.25 3) (layer F.Fab) (width 0.1))
+    (fp_line (start -3.25 -3) (end 3.25 -3) (layer F.Fab) (width 0.1))
+    (fp_text user %R (at 0.05 -3.95 180) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 2 smd rect (at 3.4 2 180) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
+      (net 108 GND1))
+    (pad 2 smd rect (at -3.4 2 180) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
+      (net 108 GND1))
+    (pad 1 smd rect (at -3.4 -2 180) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
+      (net 131 /left/RST))
+    (pad 1 smd rect (at 3.4 -2 180) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
+      (net 131 /left/RST))
+    (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_EVQQ2.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/libmodulo/libmodulo.pretty/3dmodels/evq*q2*3w.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
   (module libmodulo:SK8707-01 (layer F.Cu) (tedit 60E7886F) (tstamp 60DD00EE)
     (at 112.325 38.5)
     (descr "SK8707-01 FlexPoint™ Pointing Stick Mouse Module 3 Axis PS/2 Low Power Z-Tap CellMute™ Technology")
@@ -10632,162 +10788,6 @@
     )
   )
 
-  (module Button_Switch_SMD:SW_SPST_EVQQ2 (layer F.Cu) (tedit 60E39737) (tstamp 60D091B2)
-    (at 85.725 -12.7 180)
-    (descr "Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE28.pdf")
-    (path /67E4E0EB/60761CC7)
-    (attr smd)
-    (fp_text reference SW91 (at 0 -3.95 180) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value SW_PUSH (at 0 4.25 180) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 1.5 0) (layer F.Fab) (width 0.1))
-    (fp_circle (center 0 0) (end 1.9 0) (layer F.Fab) (width 0.1))
-    (fp_line (start -3.35 3.1) (end 3.35 3.1) (layer F.SilkS) (width 0.12))
-    (fp_line (start 3.35 -3.1) (end -3.35 -3.1) (layer F.SilkS) (width 0.12))
-    (fp_line (start 3.35 -1.2) (end 3.35 1.2) (layer F.SilkS) (width 0.12))
-    (fp_line (start -3.35 -1.2) (end -3.35 1.2) (layer F.SilkS) (width 0.12))
-    (fp_line (start -3.35 -3.1) (end -3.35 -2.9) (layer F.SilkS) (width 0.12))
-    (fp_line (start -3.35 3.1) (end -3.35 2.9) (layer F.SilkS) (width 0.12))
-    (fp_line (start 3.35 3.1) (end 3.35 2.9) (layer F.SilkS) (width 0.12))
-    (fp_line (start 3.35 -3.1) (end 3.35 -2.9) (layer F.SilkS) (width 0.12))
-    (fp_line (start -5.25 3.25) (end -5.25 -3.25) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 5.25 3.25) (end -5.25 3.25) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 5.25 -3.25) (end 5.25 3.25) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -5.25 -3.25) (end 5.25 -3.25) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -3.25 3) (end -3.25 -3) (layer F.Fab) (width 0.1))
-    (fp_line (start 3.25 3) (end -3.25 3) (layer F.Fab) (width 0.1))
-    (fp_line (start 3.25 -3) (end 3.25 3) (layer F.Fab) (width 0.1))
-    (fp_line (start -3.25 -3) (end 3.25 -3) (layer F.Fab) (width 0.1))
-    (fp_text user %R (at 0 -3.95 180) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 2 smd rect (at 3.4 2 180) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
-      (net 108 GND1))
-    (pad 2 smd rect (at -3.4 2 180) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
-      (net 108 GND1))
-    (pad 1 smd rect (at -3.4 -2 180) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
-      (net 131 /left/RST))
-    (pad 1 smd rect (at 3.4 -2 180) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
-      (net 131 /left/RST))
-    (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_EVQQ2.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model ${KIPRJMOD}/libmodulo/libmodulo.pretty/3dmodels/evq*q2*3w.step
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-  )
-
-  (module Button_Switch_SMD:SW_SPST_EVQQ2 (layer F.Cu) (tedit 60E39721) (tstamp 6102EBA0)
-    (at 257.175 -12.7)
-    (descr "Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE28.pdf")
-    (path /67E4ED7B/602C2F86)
-    (attr smd)
-    (fp_text reference SW93 (at 0 3.95 180 unlocked) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value SW_PUSH (at 0 4.25) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 1.5 0) (layer F.Fab) (width 0.1))
-    (fp_circle (center 0 0) (end 1.9 0) (layer F.Fab) (width 0.1))
-    (fp_line (start -3.35 3.1) (end 3.35 3.1) (layer F.SilkS) (width 0.12))
-    (fp_line (start 3.35 -3.1) (end -3.35 -3.1) (layer F.SilkS) (width 0.12))
-    (fp_line (start 3.35 -1.2) (end 3.35 1.2) (layer F.SilkS) (width 0.12))
-    (fp_line (start -3.35 -1.2) (end -3.35 1.2) (layer F.SilkS) (width 0.12))
-    (fp_line (start -3.35 -3.1) (end -3.35 -2.9) (layer F.SilkS) (width 0.12))
-    (fp_line (start -3.35 3.1) (end -3.35 2.9) (layer F.SilkS) (width 0.12))
-    (fp_line (start 3.35 3.1) (end 3.35 2.9) (layer F.SilkS) (width 0.12))
-    (fp_line (start 3.35 -3.1) (end 3.35 -2.9) (layer F.SilkS) (width 0.12))
-    (fp_line (start -5.25 3.25) (end -5.25 -3.25) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 5.25 3.25) (end -5.25 3.25) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 5.25 -3.25) (end 5.25 3.25) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -5.25 -3.25) (end 5.25 -3.25) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -3.25 3) (end -3.25 -3) (layer F.Fab) (width 0.1))
-    (fp_line (start 3.25 3) (end -3.25 3) (layer F.Fab) (width 0.1))
-    (fp_line (start 3.25 -3) (end 3.25 3) (layer F.Fab) (width 0.1))
-    (fp_line (start -3.25 -3) (end 3.25 -3) (layer F.Fab) (width 0.1))
-    (fp_text user %R (at 0.05 3.95) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 2 smd rect (at 3.4 2) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
-      (net 87 "Net-(J3-Pad1)"))
-    (pad 2 smd rect (at -3.4 2) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
-      (net 87 "Net-(J3-Pad1)"))
-    (pad 1 smd rect (at -3.4 -2) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
-      (net 109 GND2))
-    (pad 1 smd rect (at 3.4 -2) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
-      (net 109 GND2))
-    (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_EVQQ2.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model ${KIPRJMOD}/libmodulo/libmodulo.pretty/3dmodels/evq*q2*3w.step
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-  )
-
-  (module Button_Switch_SMD:SW_SPST_EVQQ2 (layer F.Cu) (tedit 60E39714) (tstamp 6102CFA6)
-    (at 238.125 -12.7 180)
-    (descr "Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE28.pdf")
-    (path /67E4ED7B/6066E01C)
-    (attr smd)
-    (fp_text reference SW92 (at 0 -3.95 180 unlocked) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value SW_PUSH (at 0 4.25 180) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 1.5 0) (layer F.Fab) (width 0.1))
-    (fp_circle (center 0 0) (end 1.9 0) (layer F.Fab) (width 0.1))
-    (fp_line (start -3.35 3.1) (end 3.35 3.1) (layer F.SilkS) (width 0.12))
-    (fp_line (start 3.35 -3.1) (end -3.35 -3.1) (layer F.SilkS) (width 0.12))
-    (fp_line (start 3.35 -1.2) (end 3.35 1.2) (layer F.SilkS) (width 0.12))
-    (fp_line (start -3.35 -1.2) (end -3.35 1.2) (layer F.SilkS) (width 0.12))
-    (fp_line (start -3.35 -3.1) (end -3.35 -2.9) (layer F.SilkS) (width 0.12))
-    (fp_line (start -3.35 3.1) (end -3.35 2.9) (layer F.SilkS) (width 0.12))
-    (fp_line (start 3.35 3.1) (end 3.35 2.9) (layer F.SilkS) (width 0.12))
-    (fp_line (start 3.35 -3.1) (end 3.35 -2.9) (layer F.SilkS) (width 0.12))
-    (fp_line (start -5.25 3.25) (end -5.25 -3.25) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 5.25 3.25) (end -5.25 3.25) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 5.25 -3.25) (end 5.25 3.25) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -5.25 -3.25) (end 5.25 -3.25) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -3.25 3) (end -3.25 -3) (layer F.Fab) (width 0.1))
-    (fp_line (start 3.25 3) (end -3.25 3) (layer F.Fab) (width 0.1))
-    (fp_line (start 3.25 -3) (end 3.25 3) (layer F.Fab) (width 0.1))
-    (fp_line (start -3.25 -3) (end 3.25 -3) (layer F.Fab) (width 0.1))
-    (fp_text user %R (at 0.05 -3.95 180) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 2 smd rect (at 3.4 2 180) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
-      (net 132 /right/RST))
-    (pad 2 smd rect (at -3.4 2 180) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
-      (net 132 /right/RST))
-    (pad 1 smd rect (at -3.4 -2 180) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
-      (net 109 GND2))
-    (pad 1 smd rect (at 3.4 -2 180) (size 3.2 1) (layers F.Cu F.Paste F.Mask)
-      (net 109 GND2))
-    (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_EVQQ2.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model ${KIPRJMOD}/libmodulo/libmodulo.pretty/3dmodels/evq*q2*3w.step
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-  )
-
   (module Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder (layer F.Cu) (tedit 5F68FEEF) (tstamp 60FDAC87)
     (at 102.87 -12.7 270)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -11788,7 +11788,7 @@
     (tags "Test Point")
     (path /67E4ED7B/607B6595)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP43 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value E6 (at 0 0 90) (layer B.SilkS)
@@ -11809,7 +11809,7 @@
     (tags "Test Point")
     (path /67E4ED7B/607B65A1)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP45 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C6 (at 0 0 90) (layer B.SilkS)
@@ -11830,7 +11830,7 @@
     (tags "Test Point")
     (path /67E4ED7B/607BC4A8)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP46 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value D4 (at 0 0 90) (layer B.SilkS)
@@ -11851,7 +11851,7 @@
     (tags "Test Point")
     (path /67E4ED7B/634F2FF8)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP13 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value B3 (at 0 0 90) (layer B.SilkS)
@@ -11872,7 +11872,7 @@
     (tags "Test Point")
     (path /67E4ED7B/607B659B)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP44 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value D7 (at 0 0 90) (layer B.SilkS)
@@ -11893,7 +11893,7 @@
     (tags "Test Point")
     (path /67E4ED7B/634F2FE0)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP17 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value F5 (at 0 0 90) (layer B.SilkS)
@@ -11914,7 +11914,7 @@
     (tags "Test Point")
     (path /67E4ED7B/607B65AD)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP40 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value B6 (at 0 0 90) (layer B.SilkS)
@@ -11935,7 +11935,7 @@
     (tags "Test Point")
     (path /67E4ED7B/634F2FE6)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP16 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value F6 (at 0 0 90) (layer B.SilkS)
@@ -11956,7 +11956,7 @@
     (tags "Test Point")
     (path /67E4ED7B/607B658F)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP42 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value B4 (at 0 0 90) (layer B.SilkS)
@@ -11977,7 +11977,7 @@
     (tags "Test Point")
     (path /67E4ED7B/634F2FF2)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP14 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value B1 (at 0 0 90) (layer B.SilkS)
@@ -11998,7 +11998,7 @@
     (tags "Test Point")
     (path /67E4ED7B/634F2FDA)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP18 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value F4 (at 0 0 90) (layer B.SilkS)
@@ -12019,7 +12019,7 @@
     (tags "Test Point")
     (path /67E4ED7B/607B6589)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP41 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value B5 (at 0 0 90) (layer B.SilkS)
@@ -12040,7 +12040,7 @@
     (tags "Test Point")
     (path /67E4ED7B/634F2FEC)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP15 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value F7 (at 0 0 90) (layer B.SilkS)
@@ -12061,7 +12061,7 @@
     (tags "Test Point")
     (path /67E4ED7B/607B65A7)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP39 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value B2 (at 0 0 90) (layer B.SilkS)
@@ -12082,7 +12082,7 @@
     (tags "Test Point")
     (path /67E4E0EB/62FFA044)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP2 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C6 (at 0 0 90) (layer B.SilkS)
@@ -12103,7 +12103,7 @@
     (tags "Test Point")
     (path /67E4E0EB/60790D9E)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP30 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value B2 (at 0 0 90) (layer B.SilkS)
@@ -12124,7 +12124,7 @@
     (tags "Test Point")
     (path /67E4E0EB/63083DE4)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP4 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value E6 (at 0 0 90) (layer B.SilkS)
@@ -12145,7 +12145,7 @@
     (tags "Test Point")
     (path /67E4E0EB/60790D80)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP27 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value F7 (at 0 0 90) (layer B.SilkS)
@@ -12166,7 +12166,7 @@
     (tags "Test Point")
     (path /67E4E0EB/60790DB2)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP25 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value F5 (at 0 0 90) (layer B.SilkS)
@@ -12187,7 +12187,7 @@
     (tags "Test Point")
     (path /67E4E0EB/60790DA8)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP31 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value B6 (at 0 0 90) (layer B.SilkS)
@@ -12208,7 +12208,7 @@
     (tags "Test Point")
     (path /67E4E0EB/6308394E)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP3 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value D7 (at 0 0 90) (layer B.SilkS)
@@ -12229,7 +12229,7 @@
     (tags "Test Point")
     (path /67E4E0EB/62875CD2)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP1 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value D4 (at 0 0 90) (layer B.SilkS)
@@ -12250,7 +12250,7 @@
     (tags "Test Point")
     (path /67E4E0EB/60790DBC)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP26 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value F6 (at 0 0 90) (layer B.SilkS)
@@ -12271,7 +12271,7 @@
     (tags "Test Point")
     (path /67E4E0EB/60790D8A)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP28 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value B1 (at 0 0 90) (layer B.SilkS)
@@ -12292,7 +12292,7 @@
     (tags "Test Point")
     (path /67E4E0EB/630D1F72)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP5 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value B4 (at 0 0 90) (layer B.SilkS)
@@ -12313,7 +12313,7 @@
     (tags "Test Point")
     (path /67E4E0EB/630D241C)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP6 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value B5 (at 0 0 90) (layer B.SilkS)
@@ -12334,7 +12334,7 @@
     (tags "Test Point")
     (path /67E4E0EB/60790D94)
     (attr smd)
-    (fp_text reference "" (at 0 -3.15 90) (layer B.SilkS) hide
+    (fp_text reference TP29 (at 0 -3.15 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value B3 (at 0 0 90) (layer B.SilkS)
@@ -12355,7 +12355,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4E0EB/60790DC6)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP32 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value c0 (at 0 2 90) (layer B.SilkS)
@@ -12375,7 +12375,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4E0EB/60790D6C)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP33 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value c1 (at 0 2 90) (layer B.SilkS)
@@ -12395,7 +12395,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4E0EB/633C63EA)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP9 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value r2 (at 0 2 90) (layer B.SilkS)
@@ -12415,7 +12415,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4E0EB/60790D76)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP38 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value c6 (at 0 2 90) (layer B.SilkS)
@@ -12435,7 +12435,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4ED7B/607B656B)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP51 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value c4 (at 0 2 90) (layer B.SilkS)
@@ -12455,7 +12455,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4E0EB/6337CB2B)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP8 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value r1 (at 0 2 90) (layer B.SilkS)
@@ -12475,7 +12475,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4E0EB/6282C3BA)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP7 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value r0 (at 0 2 90) (layer B.SilkS)
@@ -12495,7 +12495,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4ED7B/634F3016)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP24 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value r5 (at 0 2 90) (layer B.SilkS)
@@ -12515,7 +12515,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4ED7B/634F2FFE)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP20 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value r1 (at 0 2 90) (layer B.SilkS)
@@ -12535,7 +12535,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4E0EB/60790D4E)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP36 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value c4 (at 0 2 90) (layer B.SilkS)
@@ -12555,7 +12555,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4ED7B/607B6583)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP53 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value c6 (at 0 2 90) (layer B.SilkS)
@@ -12575,7 +12575,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4E0EB/60790D58)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP35 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value c3 (at 0 2 90) (layer B.SilkS)
@@ -12595,7 +12595,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4ED7B/634F300A)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP22 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value r3 (at 0 2 90) (layer B.SilkS)
@@ -12615,7 +12615,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4E0EB/633C6C96)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP10 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value r3 (at 0 2 90) (layer B.SilkS)
@@ -12635,7 +12635,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4ED7B/607B6577)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP49 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value c2 (at 0 2 90) (layer B.SilkS)
@@ -12655,7 +12655,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4ED7B/634F2FD4)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP19 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value r0 (at 0 2 90) (layer B.SilkS)
@@ -12675,7 +12675,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4E0EB/60790D62)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP34 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value c2 (at 0 2 90) (layer B.SilkS)
@@ -12695,7 +12695,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4E0EB/60790906)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP37 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value c5 (at 0 2 90) (layer B.SilkS)
@@ -12715,7 +12715,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4ED7B/634F3004)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP21 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value r2 (at 0 2 90) (layer B.SilkS)
@@ -12735,7 +12735,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4ED7B/607B657D)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP48 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value c1 (at 0 2 90) (layer B.SilkS)
@@ -12755,7 +12755,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4ED7B/607B6565)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP52 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value c5 (at 0 2 90) (layer B.SilkS)
@@ -12775,7 +12775,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4ED7B/607BC49E)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP54 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value c7 (at 0 2 90) (layer B.SilkS)
@@ -12795,7 +12795,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4E0EB/63417930)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP11 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value r4 (at 0 2 90) (layer B.SilkS)
@@ -12815,7 +12815,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4ED7B/634F3010)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP23 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value r4 (at 0 2 90) (layer B.SilkS)
@@ -12835,7 +12835,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4ED7B/607B6571)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP50 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value c3 (at 0 2 90) (layer B.SilkS)
@@ -12855,7 +12855,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4ED7B/607B65B3)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP47 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value c0 (at 0 2 90) (layer B.SilkS)
@@ -12875,7 +12875,7 @@
     (tags "test point THT pad rectangle square")
     (path /67E4E0EB/634181F0)
     (attr virtual)
-    (fp_text reference "" (at 0 -3) (layer B.SilkS) hide
+    (fp_text reference TP12 (at 0 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value r5 (at 0 2 90) (layer B.SilkS)
