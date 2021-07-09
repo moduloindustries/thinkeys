@@ -10530,10 +10530,10 @@
     (pad 26 thru_hole circle (at 13.97 -2.54) (size 2.04 2.04) (drill 1.52) (layers *.Cu *.SilkS *.Mask)
       (net 128 "Net-(JP2-Pad1)"))
     (pad 25 thru_hole circle (at 13.97 -5.08) (size 2.04 2.04) (drill 1.52) (layers *.Cu *.SilkS *.Mask))
-    (model /Users/danny/Documents/proj/custom-keyboard/kicad-libs/3d_models/ArduinoProMicro.wrl
-      (offset (xyz -13.96999979019165 -7.619999885559082 -5.841999912261963))
-      (scale (xyz 0.395 0.395 0.395))
-      (rotate (xyz 90 180 180))
+    (model ${KIPRJMOD}/libmodulo/libmodulo.pretty/3dmodels/AlvaroTracks.step
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 -90))
     )
   )
 
@@ -10781,10 +10781,10 @@
       (net 104 /left/DATA))
     (pad 1 thru_hole rect (at -13.97 -7.62 180) (size 2.04 2.04) (drill 1.52) (layers *.Cu *.SilkS *.Mask)
       (net 126 "Net-(JP1-Pad1)"))
-    (model /Users/danny/Documents/proj/custom-keyboard/kicad-libs/3d_models/ArduinoProMicro.wrl
-      (offset (xyz -13.96999979019165 -7.619999885559082 -5.841999912261963))
-      (scale (xyz 0.395 0.395 0.395))
-      (rotate (xyz 90 180 180))
+    (model ${KIPRJMOD}/libmodulo/libmodulo.pretty/3dmodels/AlvaroTracks.step
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 -90))
     )
   )
 
