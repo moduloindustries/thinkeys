@@ -2176,4 +2176,26 @@ Connection ~ 3550 3300
 Wire Wire Line
 	3900 3300 3900 3400
 Connection ~ 3900 3300
+$Comp
+L Connector:Conn_01x01_Female J5
+U 1 1 612990E9
+P 6350 750
+F 0 "J5" V 6288 662 50  0000 R CNN
+F 1 "Conn_01x01_Female" V 6197 662 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6350 750 50  0001 C CNN
+F 3 "~" H 6350 750 50  0001 C CNN
+	1    6350 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND2 #PWR0118
+U 1 1 6129B61E
+P 6350 950
+F 0 "#PWR0118" H 6350 700 50  0001 C CNN
+F 1 "GND2" H 6272 913 50  0000 R CNN
+F 2 "" H 6350 950 50  0001 C CNN
+F 3 "" H 6350 950 50  0001 C CNN
+	1    6350 950 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
