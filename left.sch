@@ -2346,22 +2346,6 @@ Wire Wire Line
 	6750 600  8150 600 
 Wire Wire Line
 	6750 1300 6750 600 
-$Comp
-L Device:R_US R11
-U 1 1 610123B6
-P 6500 1450
-AR Path="/67E4E0EB/610123B6" Ref="R11"  Part="1" 
-AR Path="/67E4ECE8/610123B6" Ref="R?"  Part="1" 
-AR Path="/67E4ED54/610123B6" Ref="R?"  Part="1" 
-AR Path="/67E4ED7B/610123B6" Ref="R?"  Part="1" 
-F 0 "R11" V 6613 1450 50  0000 C CNN
-F 1 "4.7k" V 6704 1450 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6430 1450 50  0001 C CNN
-F 3 "~" H 6500 1450 50  0001 C CNN
-F 4 "C17936" H 6500 1450 50  0001 C CNN "LCSC Part"
-	1    6500 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6500 1300 6750 1300
 Wire Wire Line
@@ -2398,5 +2382,21 @@ F 2 "" H 5150 1650 50  0001 C CNN
 F 3 "" H 5150 1650 50  0001 C CNN
 	1    5150 1650
 	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R11
+U 1 1 610123B6
+P 6500 1450
+AR Path="/67E4E0EB/610123B6" Ref="R11"  Part="1" 
+AR Path="/67E4ECE8/610123B6" Ref="R?"  Part="1" 
+AR Path="/67E4ED54/610123B6" Ref="R?"  Part="1" 
+AR Path="/67E4ED7B/610123B6" Ref="R?"  Part="1" 
+F 0 "R11" V 6613 1450 50  0000 C CNN
+F 1 "100k" V 6704 1450 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6430 1450 50  0001 C CNN
+F 3 "~" H 6500 1450 50  0001 C CNN
+F 4 "C17936" H 6500 1450 50  0001 C CNN "LCSC Part"
+	1    6500 1450
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
