@@ -1,0 +1,889 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 8fade6d9-7e04-43f3-a0b0-66933f3e4db9)
+
+  (paper "A4")
+
+  (title_block
+    (title "ThinKeys13")
+    (rev "v0.2")
+    (company "Modulo Industries")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 12.7 15.24) (size 134.62 149.86) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000067e4e0eb)
+    (property "Sheet name" "left" (id 0) (at 12.7 14.5284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "left.kicad_sch" (id 1) (at 12.7 165.6846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 149.86 15.24) (size 134.62 149.86) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000067e4ed7b)
+    (property "Sheet name" "right" (id 0) (at 149.86 14.5284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "right.kicad_sch" (id 1) (at 149.86 165.6846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/00000000-0000-0000-0000-000067e4e0eb" (page "2"))
+    (path "/00000000-0000-0000-0000-000067e4ed7b" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-00006a8becb4"
+      (reference "#PWR01") (unit 1) (value "VDD") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-00006aa1c182"
+      (reference "#PWR03") (unit 1) (value "VDD") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-00006aa1c670"
+      (reference "#PWR04") (unit 1) (value "VDD") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-00006aa1d0cd"
+      (reference "#PWR05") (unit 1) (value "VDD") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f0d09f"
+      (reference "#PWR054") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060b4bb13"
+      (reference "#PWR0101") (unit 1) (value "GND1") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000672bcd2d"
+      (reference "#PWR0102") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000060e18699"
+      (reference "#PWR0103") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000060f4bb0c"
+      (reference "#PWR0104") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000060774ed2"
+      (reference "#PWR0105") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000060776946"
+      (reference "#PWR0106") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060b72243"
+      (reference "#PWR0107") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060c29e83"
+      (reference "#PWR0108") (unit 1) (value "GND1") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060ce88ba"
+      (reference "#PWR0109") (unit 1) (value "GND1") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060420c73"
+      (reference "#PWR0110") (unit 1) (value "GND1") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-0000603e8a28"
+      (reference "#PWR0111") (unit 1) (value "GND1") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-0000611d82b8"
+      (reference "#PWR0112") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-0000604556b2"
+      (reference "#PWR0113") (unit 1) (value "GND1") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006250fa93"
+      (reference "#PWR0114") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006253e825"
+      (reference "#PWR0115") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000062508818"
+      (reference "#PWR0116") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-0000612e93e7"
+      (reference "#PWR0117") (unit 1) (value "GND1") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-00006129b61e"
+      (reference "#PWR0118") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-0000612921d2"
+      (reference "#PWR0119") (unit 1) (value "GND1") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000647a4e35"
+      (reference "#PWR0132") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060d247db"
+      (reference "C91") (unit 1) (value "2.2µ") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af4e"
+      (reference "C92") (unit 1) (value "2.2µ") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aead"
+      (reference "D1") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aeaf"
+      (reference "D2") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aeb1"
+      (reference "D3") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aeb3"
+      (reference "D4") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-0000601dc23d"
+      (reference "D5") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-0000601dc251"
+      (reference "D6") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-0000601dc265"
+      (reference "D7") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af21"
+      (reference "D8") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6afda"
+      (reference "D9") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af26"
+      (reference "D10") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000065796803"
+      (reference "D11") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af22"
+      (reference "D12") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6afd8"
+      (reference "D13") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6afd6"
+      (reference "D14") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f0d01e"
+      (reference "D15") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aee8"
+      (reference "D16") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aee6"
+      (reference "D17") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566f942"
+      (reference "D18") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aee2"
+      (reference "D19") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aee0"
+      (reference "D20") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aede"
+      (reference "D21") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566f8f2"
+      (reference "D22") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af2d"
+      (reference "D23") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af2b"
+      (reference "D24") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6afe3"
+      (reference "D25") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f0cfdf"
+      (reference "D26") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af29"
+      (reference "D27") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af28"
+      (reference "D28") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6afdd"
+      (reference "D29") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000065796b1d"
+      (reference "D30") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566f9f6"
+      (reference "D31") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566f9e2"
+      (reference "D32") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566f9ce"
+      (reference "D33") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aef0"
+      (reference "D34") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566f9a6"
+      (reference "D35") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566f992"
+      (reference "D36") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566f97e"
+      (reference "D37") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f0cff3"
+      (reference "D38") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af37"
+      (reference "D39") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af35"
+      (reference "D40") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000065796911"
+      (reference "D41") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6afe5"
+      (reference "D42") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000657968e9"
+      (reference "D43") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af2e"
+      (reference "D44") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6b001"
+      (reference "D45") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566fa82"
+      (reference "D46") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566fa6e"
+      (reference "D47") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6af00"
+      (reference "D48") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aefe"
+      (reference "D49") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aefc"
+      (reference "D50") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566fa1e"
+      (reference "D51") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af3a"
+      (reference "D54") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6aff0"
+      (reference "D55") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6afee"
+      (reference "D56") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6afec"
+      (reference "D57") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6afea"
+      (reference "D58") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6afe8"
+      (reference "D59") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f0d024"
+      (reference "D60") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566fb0e"
+      (reference "D61") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6af10"
+      (reference "D62") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566fae6"
+      (reference "D63") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566fad2"
+      (reference "D64") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566fabe"
+      (reference "D65") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6af08"
+      (reference "D66") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af40"
+      (reference "D69") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af3f"
+      (reference "D70") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af3d"
+      (reference "D71") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6aff7"
+      (reference "D72") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f0d005"
+      (reference "D73") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f0d003"
+      (reference "D74") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6b005"
+      (reference "D75") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6af20"
+      (reference "D76") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6af1e"
+      (reference "D77") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6af1c"
+      (reference "D78") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6af1a"
+      (reference "D79") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566fb4a"
+      (reference "D80") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566fb36"
+      (reference "D81") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566fb22"
+      (reference "D82") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f0d01d"
+      (reference "D83") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6affd"
+      (reference "D84") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af49"
+      (reference "D85") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af47"
+      (reference "D86") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6affb"
+      (reference "D87") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f0d013"
+      (reference "D88") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af44"
+      (reference "D89") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6b007"
+      (reference "D90") (unit 1) (value "D") (footprint "libmodulo:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060d2480e"
+      (reference "J1") (unit 1) (value "Pointing stick") (footprint "libmodulo:SK8707-01")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6b00b"
+      (reference "J2") (unit 1) (value "Pointing stick") (footprint "libmodulo:SK8707-01")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000060669bc4"
+      (reference "J3") (unit 1) (value "PWRSWITCH") (footprint "libmodulo:PinHeader_1x01_P2.54mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000061208239"
+      (reference "J4") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical_SMD_Pin1Left")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000612990e9"
+      (reference "J5") (unit 1) (value "Conn_01x01_Female") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006128f2c7"
+      (reference "J6") (unit 1) (value "Conn_01x01_Female") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aecc"
+      (reference "JP1") (unit 1) (value "TP_CLK") (footprint "libmodulo:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6b00a"
+      (reference "JP2") (unit 1) (value "TP_CLK") (footprint "libmodulo:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-0000611e661d"
+      (reference "L1") (unit 1) (value "LED_Small") (footprint "LED_SMD:LED_0805_2012Metric_Castellated")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060d2479d"
+      (reference "R1") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-00006640bb67"
+      (reference "R2") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060d24793"
+      (reference "R3") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6b00e"
+      (reference "R4") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060d24804"
+      (reference "R5") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6b00c"
+      (reference "R6") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060d247fa"
+      (reference "R7") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066237cc2"
+      (reference "R8") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060b5a618"
+      (reference "R9") (unit 1) (value "100k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6b00d"
+      (reference "R10") (unit 1) (value "100k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-0000610123b6"
+      (reference "R11") (unit 1) (value "100k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060761cc7"
+      (reference "S1") (unit 1) (value "SW_PUSH") (footprint "Button_Switch_SMD:SW_SPST_EVQQ2")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-00006066e01c"
+      (reference "S2") (unit 1) (value "SW_PUSH") (footprint "Button_Switch_SMD:SW_SPST_EVQQ2")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000602c2f86"
+      (reference "S3") (unit 1) (value "SW_PUSH") (footprint "Button_Switch_SMD:SW_SPST_EVQQ2")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aeae"
+      (reference "SW1") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aeb0"
+      (reference "SW2") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aeb2"
+      (reference "SW3") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aeb4"
+      (reference "SW4") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aeb6"
+      (reference "SW5") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-0000601dc25b"
+      (reference "SW6") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-0000601dc26f"
+      (reference "SW7") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6afdb"
+      (reference "SW8") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af27"
+      (reference "SW9") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af25"
+      (reference "SW10") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af23"
+      (reference "SW11") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6afd9"
+      (reference "SW12") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6afd7"
+      (reference "SW13") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6afd5"
+      (reference "SW14") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6b008"
+      (reference "SW15") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aee7"
+      (reference "SW16") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566f94c"
+      (reference "SW17") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566f938"
+      (reference "SW18") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aee1"
+      (reference "SW19") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aedf"
+      (reference "SW20") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aedd"
+      (reference "SW21") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aedb"
+      (reference "SW22") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000657968b7"
+      (reference "SW23") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000657968a3"
+      (reference "SW24") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f0cfe0"
+      (reference "SW25") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f0cfde"
+      (reference "SW26") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f0cfdc"
+      (reference "SW27") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6afde"
+      (reference "SW28") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f0cfd8"
+      (reference "SW29") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af4a"
+      (reference "SW30") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566f9ec"
+      (reference "SW31") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aef3"
+      (reference "SW32") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aef1"
+      (reference "SW33") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aeef"
+      (reference "SW34") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566f99c"
+      (reference "SW35") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566f988"
+      (reference "SW36") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566f974"
+      (reference "SW37") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af38"
+      (reference "SW38") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af36"
+      (reference "SW39") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-00006579691b"
+      (reference "SW40") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000065796907"
+      (reference "SW41") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000657968f3"
+      (reference "SW42") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af2f"
+      (reference "SW43") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6afe4"
+      (reference "SW44") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000065796b27"
+      (reference "SW45") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566fa78"
+      (reference "SW46") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566fa64"
+      (reference "SW47") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aeff"
+      (reference "SW48") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aefd"
+      (reference "SW49") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aefb"
+      (reference "SW50") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aef9"
+      (reference "SW51") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af39"
+      (reference "SW54") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f0cffc"
+      (reference "SW55") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6afed"
+      (reference "SW56") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6afeb"
+      (reference "SW57") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6afe9"
+      (reference "SW58") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f0cff4"
+      (reference "SW59") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f0d023"
+      (reference "SW60") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6af11"
+      (reference "SW61") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566faf0"
+      (reference "SW62") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566fadc"
+      (reference "SW63") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566fac8"
+      (reference "SW64") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566fab4"
+      (reference "SW65") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566faa0"
+      (reference "SW66") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6aff8"
+      (reference "SW69") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af3e"
+      (reference "SW70") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af3c"
+      (reference "SW71") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6aff6"
+      (reference "SW72") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f0d004"
+      (reference "SW73") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6aff2"
+      (reference "SW74") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6b004"
+      (reference "SW75") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6af1f"
+      (reference "SW76") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566fb7c"
+      (reference "SW77") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6af1b"
+      (reference "SW78") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566fb54"
+      (reference "SW79") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566fb40"
+      (reference "SW80") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566fb2c"
+      (reference "SW81") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006566fb18"
+      (reference "SW82") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f0d01c"
+      (reference "SW83") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6affc"
+      (reference "SW84") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000065796abf"
+      (reference "SW85") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af46"
+      (reference "SW86") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f0d014"
+      (reference "SW87") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6af45"
+      (reference "SW88") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000065796a6f"
+      (reference "SW89") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f6b006"
+      (reference "SW90") (unit 1) (value "SW_Push") (footprint "libmodulo:SW_MX-ALPS-ChocV1_V2-X-PG1280_PCB")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000062875cd2"
+      (reference "TP1") (unit 1) (value "D4") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000062ffa044"
+      (reference "TP2") (unit 1) (value "C6") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006308394e"
+      (reference "TP3") (unit 1) (value "D7") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000063083de4"
+      (reference "TP4") (unit 1) (value "E6") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-0000630d1f72"
+      (reference "TP5") (unit 1) (value "B4") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-0000630d241c"
+      (reference "TP6") (unit 1) (value "B5") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006282c3ba"
+      (reference "TP7") (unit 1) (value "r0") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006337cb2b"
+      (reference "TP8") (unit 1) (value "r1") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-0000633c63ea"
+      (reference "TP9") (unit 1) (value "r2") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-0000633c6c96"
+      (reference "TP10") (unit 1) (value "r3") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000063417930"
+      (reference "TP11") (unit 1) (value "r4") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-0000634181f0"
+      (reference "TP12") (unit 1) (value "r5") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000634f2ff8"
+      (reference "TP13") (unit 1) (value "B3") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000634f2ff2"
+      (reference "TP14") (unit 1) (value "B1") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000634f2fec"
+      (reference "TP15") (unit 1) (value "F7") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000634f2fe6"
+      (reference "TP16") (unit 1) (value "F6") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000634f2fe0"
+      (reference "TP17") (unit 1) (value "F5") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000634f2fda"
+      (reference "TP18") (unit 1) (value "F4") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000634f2fd4"
+      (reference "TP19") (unit 1) (value "r0") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000634f2ffe"
+      (reference "TP20") (unit 1) (value "r1") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000634f3004"
+      (reference "TP21") (unit 1) (value "r2") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000634f300a"
+      (reference "TP22") (unit 1) (value "r3") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000634f3010"
+      (reference "TP23") (unit 1) (value "r4") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000634f3016"
+      (reference "TP24") (unit 1) (value "r5") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060790db2"
+      (reference "TP25") (unit 1) (value "F5") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060790dbc"
+      (reference "TP26") (unit 1) (value "F6") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060790d80"
+      (reference "TP27") (unit 1) (value "F7") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060790d8a"
+      (reference "TP28") (unit 1) (value "B1") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060790d94"
+      (reference "TP29") (unit 1) (value "B3") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060790d9e"
+      (reference "TP30") (unit 1) (value "B2") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060790da8"
+      (reference "TP31") (unit 1) (value "B6") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060790dc6"
+      (reference "TP32") (unit 1) (value "c0") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060790d6c"
+      (reference "TP33") (unit 1) (value "c1") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060790d62"
+      (reference "TP34") (unit 1) (value "c2") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060790d58"
+      (reference "TP35") (unit 1) (value "c3") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060790d4e"
+      (reference "TP36") (unit 1) (value "c4") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060790906"
+      (reference "TP37") (unit 1) (value "c5") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000060790d76"
+      (reference "TP38") (unit 1) (value "c6") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000607b65a7"
+      (reference "TP39") (unit 1) (value "B2") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000607b65ad"
+      (reference "TP40") (unit 1) (value "B6") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000607b6589"
+      (reference "TP41") (unit 1) (value "B5") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000607b658f"
+      (reference "TP42") (unit 1) (value "B4") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000607b6595"
+      (reference "TP43") (unit 1) (value "E6") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000607b659b"
+      (reference "TP44") (unit 1) (value "D7") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000607b65a1"
+      (reference "TP45") (unit 1) (value "C6") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000607bc4a8"
+      (reference "TP46") (unit 1) (value "D4") (footprint "libmodulo:SMDPad_4.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000607b65b3"
+      (reference "TP47") (unit 1) (value "c0") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000607b657d"
+      (reference "TP48") (unit 1) (value "c1") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000607b6577"
+      (reference "TP49") (unit 1) (value "c2") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000607b6571"
+      (reference "TP50") (unit 1) (value "c3") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000607b656b"
+      (reference "TP51") (unit 1) (value "c4") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000607b6565"
+      (reference "TP52") (unit 1) (value "c5") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000607b6583"
+      (reference "TP53") (unit 1) (value "c6") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000607bc49e"
+      (reference "TP54") (unit 1) (value "c7") (footprint "libmodulo:THTPad_4.0x4.0mm_Drill2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aecb"
+      (reference "U1") (unit 1) (value "Elite-C") (footprint "libmodulo:Elite-C")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000066f0d02a"
+      (reference "U2") (unit 1) (value "Elite-C") (footprint "libmodulo:Elite-C")
+    )
+    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-0000603e780e"
+      (reference "USB1") (unit 1) (value "USB_C") (footprint "libmodulo:HRO-TYPE-C-31-M-12")
+    )
+    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-000060cb0cab"
+      (reference "USB2") (unit 1) (value "USB_C") (footprint "libmodulo:HRO-TYPE-C-31-M-12")
+    )
+  )
+)
