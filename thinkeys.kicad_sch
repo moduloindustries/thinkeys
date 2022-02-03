@@ -111,12 +111,6 @@
     (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-0000612e93e7"
       (reference "#PWR0117") (unit 1) (value "GND1") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-00006129b61e"
-      (reference "#PWR0118") (unit 1) (value "GND2") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-0000612921d2"
-      (reference "#PWR0119") (unit 1) (value "GND1") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000647a4e35"
       (reference "#PWR0132") (unit 1) (value "GND2") (footprint "")
     )
@@ -395,12 +389,6 @@
     )
     (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000061208239"
       (reference "J4") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical_SMD_Pin1Left")
-    )
-    (path "/00000000-0000-0000-0000-000067e4ed7b/00000000-0000-0000-0000-0000612990e9"
-      (reference "J5") (unit 1) (value "Conn_01x01_Female") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
-    )
-    (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-00006128f2c7"
-      (reference "J6") (unit 1) (value "Conn_01x01_Female") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/00000000-0000-0000-0000-000067e4e0eb/00000000-0000-0000-0000-000066f6aecc"
       (reference "JP1") (unit 1) (value "TP_CLK") (footprint "libmodulo:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
