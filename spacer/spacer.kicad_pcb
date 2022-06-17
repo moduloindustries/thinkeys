@@ -91,9 +91,9 @@
     (pad "8" thru_hole rect (at 4.68 0) (size 1 1.9) (drill 0.8 (offset 0 -0.55)) (layers *.Cu *.Mask) (tstamp 58dc14f9-c158-4824-a84e-24a6a482a7a4))
   )
 
-  (gr_line (start -10.75 0) (end -10.75 -3.2) (layer "Edge.Cuts") (width 0.05) (tstamp 3ae98a70-72b8-4d72-8f0c-ecef7b1ca6d6))
-  (gr_line (start 10.75 -3.2) (end -10.75 -3.2) (layer "Edge.Cuts") (width 0.05) (tstamp 45108c5b-3874-4f53-b99e-7b06655c64f6))
-  (gr_line (start 10.75 0) (end 10.75 -3.2) (layer "Edge.Cuts") (width 0.05) (tstamp 75640a86-c7da-4929-8b77-923b3c6bee6b))
+  (gr_line (start -10.75 0) (end -10.75 -3.1) (layer "Edge.Cuts") (width 0.05) (tstamp 3ae98a70-72b8-4d72-8f0c-ecef7b1ca6d6))
+  (gr_line (start 10.75 -3.1) (end -10.75 -3.1) (layer "Edge.Cuts") (width 0.05) (tstamp 45108c5b-3874-4f53-b99e-7b06655c64f6))
+  (gr_line (start 10.75 0) (end 10.75 -3.1) (layer "Edge.Cuts") (width 0.05) (tstamp 75640a86-c7da-4929-8b77-923b3c6bee6b))
   (gr_line (start -10.75 0) (end 10.75 0) (layer "Edge.Cuts") (width 0.05) (tstamp c14e0e25-addb-4acf-be94-fc826be74200))
 
 )
