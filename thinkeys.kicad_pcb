@@ -22433,7 +22433,7 @@
   (gr_text "RESET" (at 85.725 -9.525 90) (layer "F.SilkS") (tstamp fd1dc96c-3e6d-40fb-b5f5-ec6324b6803b)
     (effects (font (size 0.84 0.84) (thickness 0.21)) (justify right))
   )
-  (gr_text "V-CUT" (at 216.35 86.675) (layer "Edge.Cuts") (tstamp 91c88b55-e107-4b53-b88c-349c79982907)
+  (gr_text "V-CUT" (at 216.35 88.675) (layer "Edge.Cuts") (tstamp 91c88b55-e107-4b53-b88c-349c79982907)
     (effects (font (size 2 2) (thickness 0.4)) (justify left))
   )
   (dimension (type aligned) (layer "Dwgs.User") (tstamp 00000000-0000-0000-0000-000060c52748)
